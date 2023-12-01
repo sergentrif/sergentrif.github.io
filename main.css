@@ -1,7 +1,11 @@
 body {
+    padding-left: 1em;
+    padding-right: 1em;
+
+    line-height: 1.5em;
+
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1.2em;
-    line-height: 1.5em;
 }
 
 nav {
@@ -34,10 +38,12 @@ hr {
 
 h1 {
     margin-block-start: 1em;
+    line-height: normal;
 }
 
 h2 {
     margin-block-start: 2em;
+    line-height: normal;
 }
 
 .container {
