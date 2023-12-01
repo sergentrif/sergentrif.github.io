@@ -12,17 +12,17 @@ nav {
     margin-block-end: 3em;
 }
 
-nav ul {
+nav ul, footer ul {
     list-style: none;
     padding-left: 0;
     position: relative;
 }
 
-nav ul li {
+nav ul li, footer ul li {
     display: inline-block;
 }
 
-nav ul li:not(:first-child) {
+nav ul li:not(:first-child), footer ul li:not(:first-child) {
     margin-left: 0.5em;
 }
 
@@ -53,4 +53,12 @@ h2 {
 
 .profile-picture {
     border-radius: 5px;
+}
+
+.container .container-content li:not(:first-child) {
+    margin-top: 0.5em;
+}
+
+footer {
+    margin: auto;
 }
