@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+nav {
+    margin-block-end: 3em;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+nav ul li:last-child {
+    position: absolute;
+    right: 0;
+}
+
+hr {
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+}
+
+h1 {
+    margin-block-start: 1em;
+}
+
+h2 {
+    margin-block-start: 2em;
+}
+
+.container {
+    max-width: 680px;
+    margin: auto;
+}
+
+.profile-picture {
+    border-radius: 5px;
+}
