@@ -51,6 +51,15 @@ h2 {
     margin: auto;
 }
 
+.action-container {
+    background-color: lightgrey;
+    padding: 1em;
+}
+
+.action-container p {
+    margin-top: 0;
+}
+
 .profile-picture {
     border-radius: 5px;
 }
