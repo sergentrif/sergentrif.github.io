@@ -54,6 +54,7 @@ h2 {
 .action-container {
     background-color: lightgrey;
     padding: 1em;
+    margin-top: 2em;
 }
 
 .action-container p {
