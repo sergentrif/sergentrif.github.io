@@ -9,7 +9,7 @@ container_description: "Découvrez des conseils et des perspectives uniques sur 
 
 <div class="page-content">
     {% for post in site.posts %}
-        <div class="article">
+        <article class="article">
             <h2>
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </h2>
@@ -21,6 +21,6 @@ container_description: "Découvrez des conseils et des perspectives uniques sur 
             <div>
                 {{ post.date | date: "%d/%m/%Y" }}
             </div>
-        </div>
+        </article>
     {% endfor %}
 </div>

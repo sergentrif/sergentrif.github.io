@@ -1,7 +1,7 @@
 
 <!doctype html>
 
-<html lang="fr_FR">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <title>{{ page.title | strip_html  }}</title>
@@ -11,7 +11,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:locale" content="fr" />
         <meta property="og:title" content="{{ page.title | strip_html  }}" />
         <meta property="og:description" content="{{ page.excerp | strip_html t }}" />
         <meta property="og:type" content="article" />
@@ -37,10 +37,10 @@
     </head>
 
     <body>
-        <div class="container">
+        <article class="container">
             {% include navbar.html %}
 
-            <div class="flex-container-header">
+            <header class="flex-container-header">
                 <div class="profile-picture-container">
                     <img src="/assets/images/profile.jpg" width="128px" height="128px" class="profile-picture" alt="Photo de profil de Adrien Blandin">
                 </div>
@@ -54,7 +54,7 @@
                         Profitez de mes 15 ans d'expérience en technologie et en leadership : je suis là pour propulser votre entreprise vers ses objectifs avec une expertise et une vision qui font la différence.
                     </p>
                 </div>
-            </div>
+            </header>
         
             <div class="container-content">
                 <h1>{{ page.title }}</h1>
@@ -72,6 +72,6 @@
             </div>
 
             {% include footer.html %}
-        </div>
+        </article>
     </body>
 </html>
