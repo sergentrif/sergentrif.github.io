@@ -8,6 +8,10 @@ body {
     font-size: 1.2em;
 }
 
+img.profile-picture {
+    border-radius: 5px;
+}
+
 nav {
     margin-block-end: 3em;
 }
@@ -51,6 +55,23 @@ h2 {
     margin: auto;
 }
 
+.container .container-header, .flex-container .flex-container-header {
+    margin-bottom: 3em;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-header .profile-picture {
+    margin-right: 1em;
+}
+
+.container .container-content li:not(:first-child) {
+    margin-top: 0.5em;
+}
+
 .action-container {
     background-color: lightgrey;
     padding: 1em;
@@ -61,14 +82,19 @@ h2 {
     margin-top: 0;
 }
 
-.profile-picture {
-    border-radius: 5px;
-}
-
-.container .container-content li:not(:first-child) {
-    margin-top: 0.5em;
-}
-
 footer {
     margin: auto;
+}
+
+.article:not(:first-child) {
+    margin-block-start: 2em;
+}
+
+.article:not(:last-child) {
+    padding-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.article h2 {
+    margin-block-start: 0;
 }

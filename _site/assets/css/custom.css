@@ -1,0 +1,100 @@
+body {
+    padding-left: 1em;
+    padding-right: 1em;
+
+    line-height: 1.5em;
+
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2em;
+}
+
+img.profile-picture {
+    border-radius: 5px;
+}
+
+nav {
+    margin-block-end: 3em;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+}
+
+nav ul li, footer ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:first-child), footer ul li:not(:first-child) {
+    margin-left: 0.5em;
+}
+
+nav ul li:last-child {
+    position: absolute;
+    right: 0;
+}
+
+hr {
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+}
+
+h1 {
+    margin-block-start: 1em;
+    line-height: normal;
+}
+
+h2 {
+    margin-block-start: 2em;
+    line-height: normal;
+}
+
+.container {
+    max-width: 680px;
+    margin: auto;
+}
+
+.container .container-header, .flex-container .flex-container-header {
+    margin-bottom: 3em;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-header .profile-picture {
+    margin-right: 1em;
+}
+
+.container .container-content li:not(:first-child) {
+    margin-top: 0.5em;
+}
+
+.action-container {
+    background-color: lightgrey;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.action-container p {
+    margin-top: 0;
+}
+
+footer {
+    margin: auto;
+}
+
+.article:not(:first-child) {
+    margin-block-start: 2em;
+}
+
+.article:not(:last-child) {
+    padding-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.article h2 {
+    margin-block-start: 0;
+}

@@ -1,0 +1,77 @@
+
+<!doctype html>
+
+<html lang="fr_FR">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title | strip_html  }}</title>
+        
+        <meta name="description" content="{{ page.excerpt | strip_html }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:title" content="{{ page.title | strip_html  }}" />
+        <meta property="og:description" content="{{ page.excerp | strip_html t }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ page.url }}" />
+        <meta property="og:image" content="/assets/images/profile.jpg" />
+        <meta property="og:site_name" content="{{ page.title | strip_html  }}" />
+        
+        <!-- <link rel="stylesheet" href="/assets/main.css" /> -->
+        <link rel="stylesheet" href="/assets/css/custom.css" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics_id }}');
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            {% include navbar.html %}
+
+            <div class="flex-container-header">
+                <div class="profile-picture-container">
+                    <img src="/assets/images/profile.jpg" width="128px" height="128px" class="profile-picture" alt="Photo de profil de Adrien Blandin">
+                </div>
+            
+                <div>
+                    <div>
+                        <u><strong>Adrien Blandin</strong></u>, votre CTO en freelance
+                    </div>
+
+                    <p>
+                        Profitez de mes 15 ans d'expérience en technologie et en leadership : je suis là pour propulser votre entreprise vers ses objectifs avec une expertise et une vision qui font la différence.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="container-content">
+                <h1>{{ page.title }}</h1>
+                <div>{{ page.date | date: "%d/%m/%Y" }}</div>
+
+                {{ content }}
+
+                <div class="action-container">
+                    <p>
+                        <strong>Transformons ensemble votre entreprise : contactez-moi pour découvrir comment mon expertise technique peut propulser vos objectifs business vers de nouveaux sommets de réussite.</strong>
+                    </p>
+        
+                    <a role="button" target="_blank" href="https://calendly.com/adrienblandin/premier-contact?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=article_page&utm_content=end_block">Contactez-moi</a>
+                </div>
+            </div>
+
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
