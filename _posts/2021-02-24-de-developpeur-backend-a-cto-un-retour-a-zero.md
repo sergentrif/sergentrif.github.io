@@ -2,7 +2,7 @@
 layout: article
 title:  "De développeur backend à CTO : un retour à zéro"
 permalink: /articles/de-developpeur-backend-a-cto-un-retour-a-zero
-date:   2021-02-24 00:00:00 +0100
+date:   2021-02-24 00:00:00 +0000
 ---
 
 Il y a un an, suite au départ de notre CTO, la proposition d'assumer ce rôle m'a été faite. Cela faisait déjà 3 ans que je travaillais pour [lePERMISLIBRE](https://lepermislibre.fr){:target="_blank"} en tant qu'ingénieur backend principal.

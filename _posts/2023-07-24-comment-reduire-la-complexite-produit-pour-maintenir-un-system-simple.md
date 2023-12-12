@@ -2,7 +2,7 @@
 layout: article
 title:  "Comment réduire la complexité produit pour maintenir un système simple"
 permalink: /articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple
-date:   2023-07-24 00:00:00 +0100
+date:   2023-07-24 00:00:00 +0000
 ---
 
 Cet article cherche à expliquer comment [lePERMISLIBRE](https://lepermislibre.fr){:target="_blank"} veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l’exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d’équipes différentes sur plus d’une année complète. Si vous n’avez pas le temps de tout lire, vous pouvez directement vous rendre en fin d’article afin de connaitre les règles que l’on essaie de s’appliquer.

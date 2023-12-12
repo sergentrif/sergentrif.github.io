@@ -2,10 +2,8 @@
 layout: article
 title:  "L'anti dette technique : la théorie de l'effort supplémentaire"
 permalink: /articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire
-date:   2023-12-12 00:00:00 +0100
+date:   2023-12-12 00:00:00 +0000
 ---
-
-# L'anti dette technique : la théorie de l'effort supplémentaire
 
 Après une carrière de 15 ans dans le domaine du développement logiciel, d'abord en tant que développeur puis en tant que CTO, j'ai constamment entendu parler de "dette technique". C'est un terme si omniprésent qu'il semble avoir perdu une partie de sa signification initiale. 
 
