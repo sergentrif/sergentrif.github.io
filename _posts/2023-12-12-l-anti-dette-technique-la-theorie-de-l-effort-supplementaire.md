@@ -18,7 +18,7 @@ Il est essentiel, à mon avis, de clarifier les différentes situations qui cont
 
 Regrouper toutes ces situations sous une même étiquette conduit à une solution unique pour les résoudre, alors qu'ils nécessitent chacun une approche spécifique. Cette solution souvent évoquée, presque aussi célèbre que la dette technique elle-même, est le "refactoring" : la refonte, souvent totale, de la fonctionnalité ou même du projet dans son ensemble.
 
-Bien que je ne développerai pas ici le sujet des refontes techniques, ce qui me préoccupe le plus dans les différentes solutions envisageables est leur nature réactive. Nous attendons que les problèmes surviennent pour les résoudre.
+Je ne développerai pas ici le sujet des refontes techniques, que j'ai récemment abordé dans [cet article dédié]({% post_url 2023-12-20-dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte %}). Ce qui me préoccupe le plus dans les différentes solutions envisageables est leur nature réactive. Nous attendons que les problèmes surviennent pour les résoudre.
 C'est comparable à faire de la prévention routière uniquement auprès des victimes d'accidents, alors que l'éducation devrait cibler ceux qui n'ont pas encore été impliqués dans un tel événement.
 
 Depuis quelques mois, j'ai finalement réussi à théoriser et nommer une stratégie que j'applique depuis des années dans le domaine de la conception technique : l'*effort supplémentaire*. J'ai évoqué cette idée lors de ma participation à l'épisode [Anticiper les bugs : Minority Report du bug](https://open.spotify.com/episode/5QrTn83tLCFRpQPo31hY8n){:target="_blank"} du podcast [If This Then Dev](https://www.ifttd.io/){:target="_blank"}. Cette discussion m'a inspiré à écrire cet article pour explorer plus en profondeur cette approche.
