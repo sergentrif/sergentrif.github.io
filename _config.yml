@@ -31,9 +31,7 @@ github_username:  sergentrif
 linkedin_username: adrienblandin
 
 google_analytics_id: G-E0KJRNCFZ1
-
-calendly_username: adrienblandin
-calendly_slug: prendre-rendez-vous
+google_calendar_id: ts5qpiTvHWPs2n1R7
 
 # Build settings
 theme: minima
