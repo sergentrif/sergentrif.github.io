@@ -30,10 +30,24 @@
         <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            
             gtag('js', new Date());
             gtag('config', '{{ site.google_analytics_id }}');
             gtag('config', '{{ site.google_ads_id }}');
+            
+            const calendlyButtons = document.querySelectorAll(".calendly-button");
+
+            calendlyButtons.forEach(function(button) {
+                button.addEventListener("click", function() {
+                    gtag('event', 'conversion', {
+                        'send_to': '{{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD'
+                    });
+                });
+            });
         </script>
     </head>
 
