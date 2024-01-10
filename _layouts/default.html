@@ -43,6 +43,7 @@
 
             calendlyButtons.forEach(function(button) {
                 button.addEventListener("click", function() {
+                    console.log('conversion');
                     gtag('event', 'conversion', {
                         'send_to': '{{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD'
                     });
