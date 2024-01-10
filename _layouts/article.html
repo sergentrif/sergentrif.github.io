@@ -39,12 +39,14 @@
             gtag('config', '{{ site.google_analytics_id }}');
             gtag('config', '{{ site.google_ads_id }}');
 
-            const calendlyButtons = document.querySelectorAll(".calendly-button");
+            document.addEventListener("DOMContentLoaded", function(e) {
+                const calendlyButtons = document.querySelectorAll(".calendly-button");
 
-            calendlyButtons.forEach(function(button) {
-                button.addEventListener("click", function() {
-                    gtag('event', 'conversion', {
-                        'send_to': '{{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD'
+                calendlyButtons.forEach(function (calendlyButton) {
+                    calendlyButton.addEventListener("click", function() {
+                        gtag('event', 'conversion', {
+                            'send_to': '{{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD'
+                        });
                     });
                 });
             });

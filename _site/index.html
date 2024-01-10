@@ -30,9 +30,26 @@
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0KJRNCFZ1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            
             gtag('js', new Date());
             gtag('config', 'G-E0KJRNCFZ1');
+            gtag('config', 'AW-985274405');
+
+            document.addEventListener("DOMContentLoaded", function(e) {
+                const calendlyButtons = document.querySelectorAll(".calendly-button");
+
+                calendlyButtons.forEach(function (calendlyButton) {
+                    calendlyButton.addEventListener("click", function() {
+                        gtag('event', 'conversion', {
+                            'send_to': 'AW-985274405/TPfeCOK-q4cZEKWw6NUD'
+                        });
+                    });
+                });
+            });
         </script>
     </head>
 
@@ -42,7 +59,7 @@
     <ul>
         <li><a href="/">Accueil</a></li>
         <li><a href="/articles">Articles</a></li>
-        <li><a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar">Contactez-moi</a></li>
+        <li><a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar">Contactez-moi</a></li>
     </ul>
 </nav>
 
@@ -88,7 +105,7 @@
                 <strong>Laissez-moi vous montrer comment la bonne stratégie technique peut devenir votre levier de croissance.</strong>
             </p>
 
-            <a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=value_proposal">Contactez-moi</a>
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=value_proposal">Contactez-moi</a>
         </div>
     </div>
 
@@ -119,7 +136,7 @@
                 <strong>Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet.</strong>
             </p>
 
-            <a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=testimonials">Contactez-moi</a>
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=testimonials">Contactez-moi</a>
         </div>
     </div>
 
@@ -161,7 +178,7 @@
                 <strong>Planifions un rendez-vous pour discuter de la façon dont ma stratégie technique peut dynamiser votre entreprise.</strong>
             </p>
 
-            <a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=manifesto">Contactez-moi</a>
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=manifesto">Contactez-moi</a>
         </div>
     </div>
 
@@ -183,7 +200,7 @@
                 <strong>Contactez-moi pour en discuter et voir comment nous pouvons collaborer pour atteindre vos objectifs.</strong>
             </p>
 
-            <a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=interviews">Contactez-moi</a>
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=interviews">Contactez-moi</a>
         </div>
     </div>
 
@@ -203,7 +220,7 @@
                 <strong>Discutons ensemble de la manière dont je peux apporter cette énergie et cette expertise à votre entreprise pour stimuler sa croissance et son innovation.</strong>
             </p>
 
-            <a role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=professional_background">Contactez-moi</a>
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=professional_background">Contactez-moi</a>
         </div>
     </div>
 </div>
