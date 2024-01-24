@@ -35,4 +35,4 @@ Toutefois, il y a une chose qui ne change pas, peu importe le stade de développ
 
 Pour assumer ce rôle de représentation avec succès et évoluer au rythme de l’entreprise et de ses besoins, plusieurs compétences clés sont nécessaires. 
 
-Vous découvrirez la première de ces compétences en vous rendant sur l’article suivant : [se remettre en question : le syndrome de l’imposteur est un cadeau]({% post_url 2024-01-24-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau %}){:target="_blank"}.
+Vous découvrirez la première de ces compétences en vous rendant sur l’article suivant : [se remettre en question : le syndrome de l’imposteur est un cadeau]({% post_url 2024-01-24-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau %}).

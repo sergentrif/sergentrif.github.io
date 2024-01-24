@@ -2,7 +2,7 @@
 layout: article
 title: "Se remettre en question : le syndrome de l’imposteur est un cadeau"
 permalink: /articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau
-date: 2024-01-24 00:00:00 +0000
+date: 2024-01-25 00:00:00 +0000
 ---
 
 Cet article est la deuxième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le premier article, je vous encourage à le faire ici : [qu'est ce qu'un bon CTO ?]({% post_url 2024-01-24-qu-est-ce-q-un-bon-cto %}){:target="_blank"}
