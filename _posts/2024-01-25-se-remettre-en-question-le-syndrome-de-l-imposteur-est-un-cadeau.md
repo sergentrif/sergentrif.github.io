@@ -5,7 +5,7 @@ permalink: /articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-c
 date: 2024-01-25 00:00:00 +0000
 ---
 
-Cet article est la deuxième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le premier article, je vous encourage à le faire ici : [qu'est ce qu'un bon CTO ?]({% post_url 2024-01-24-qu-est-ce-q-un-bon-cto %}){:target="_blank"}
+Cet article est la deuxième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le premier article, je vous encourage à le faire ici : [qu'est ce qu'un bon CTO ?]({% post_url 2024-01-24-qu-est-ce-q-un-bon-cto %})
 
 La première des compétences qu’il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s’accompagne parfois de ce que l’on nomme le [syndrome de l’imposteur](https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur){:target="_blank"}. Un doute maladif qui nie les accomplissements personnels.
 
