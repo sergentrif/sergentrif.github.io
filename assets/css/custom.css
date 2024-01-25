@@ -20,6 +20,10 @@ img.profile-picture {
     border-radius: 5px;
 }
 
+.company-logo:not(:first-child) {
+    margin-left: 1.5em;
+}
+
 nav {
     margin-block-end: 3em;
 }
@@ -121,5 +125,9 @@ blockquote {
 }
 
 #testimonials blockquote:not(:first-child) {
+    margin-block-start: 2em;
+}
+
+#company-logoes {
     margin-block-start: 2em;
 }
