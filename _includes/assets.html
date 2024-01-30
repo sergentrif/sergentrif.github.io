@@ -29,6 +29,10 @@
 
             calendlyButtons.forEach(function (calendlyButton) {
                 calendlyButton.addEventListener("click", function() {                        
+                    console.log("send event to ganalytics")
+                    gtag('event', 'appointment_booking');
+
+                    console.log("send event to gads {{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD")
                     gtag('event', 'conversion', {
                         'send_to': '{{ site.google_ads_id }}/TPfeCOK-q4cZEKWw6NUD'
                     });
