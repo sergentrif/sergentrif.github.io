@@ -13,7 +13,7 @@ La question des compétences est primordiale. Même si le CTO est très bon, il 
 
 Trouver le bon CTO pour une entreprise est une tâche fastidieuse et chronophage. Cela peut facilement prendre plusieurs mois, voire une année complète. Se précipiter sur le premier venu pour avancer serait par contre une erreur. 
 
-Si vous êtes pressé, n’hésitez pas à passer par un CTO en freelance. Il vous permettra d’avancer rapidement tout en préparant sa propre succession chez vous. Auto-promo : je fournis ce genre de prestations que vous pourrez [découvrir ici](https://adrien.blandin.dev){:target="_blank"}.
+Si vous êtes pressé, n’hésitez pas à passer par un CTO en freelance. Il vous permettra d’avancer rapidement tout en préparant sa propre succession chez vous. Auto-promo : je fournis ce genre de prestations que vous pourrez [découvrir ici](/){:target="_blank"}.
 
 En parlant du stade de développement de l’entreprise, le sujet implicite est la taille de l’équipe technique. J’ai déjà eu l’occasion de l’aborder ainsi que ses impacts dans mon article : [de développeur backend à CTO, un retour à zéro]({% post_url 2021-02-24-de-developpeur-backend-a-cto-un-retour-a-zero %}){:target="_blank"}.
 
@@ -23,7 +23,7 @@ Voici quelques exemples basés sur mon parcours personnel :
 
 - Jusqu’à 5 développeurs, le métier de CTO ressemble surtout à un rôle de développeur principal ou d’architecte technique.
 - Entre 5 et 10, le métier évolue vers de la chefferie de projet. Nous sommes proches d’un métier d’Engineering Manager avec une dimension technique forte. Il est encore possible de mettre partiellement les mains dans le code.
-- Passé 10 développeurs, il devient difficile de continuer à contribuer soi-même. Nous sommes moins *hands-on* et plus *hands-off*. Le CTO n’appartient plus à l’équipe technique et doit collaborer activement au sein de sa “first-team”. En général, les autres C-Levels. Il prends de la hauteur pour commencer à avoir un impact en dehors de son département.
+- Passé 10 développeurs, il devient difficile de continuer à contribuer soi-même. Nous sommes moins *hands-on* et plus *hands-off*. Le CTO n’appartient plus à l’équipe technique et doit collaborer activement au sein de sa [first-team](https://www.youtube.com/watch?v=BjE_mPoZPSg){:target="_blank"}. En général, les autres C-Levels. Il prends de la hauteur pour commencer à avoir un impact en dehors de son département.
 - Au delà de 20 développeurs, le CTO rentre dans un rôle stratégique vis à vis du business. Il a un rôle d’influence auprès du management intermédiaire qui aura probablement (mais pas nécessairement) vu le jour.
 - Je n’ai jamais expérimenté au delà de 50 développeurs et suis donc incapable de faire un retour du rôle de CTO à cette étape.
 

@@ -38,3 +38,5 @@ Attention toutefois à ne pas confondre des “*NON*” de statu quo avec une fe
 La vie d’une entreprise est faite de hauts et de bas. De périodes de croissance et de décroissance. Vous souhaitez avoir à vos côtés un directeur capable de les traverser toutes avec succès. Vous ne souhaitez pas changer de CTO à chacune de ces étapes. 
 
 Pour cela, n’embauchez pas quelqu’un qui affiche une confiance aveugle en lui-même. Il sera rempli de certitudes et incapable de se remettre en question.
+
+Vous découvrirez la deuxième des compétences d'un bon CTO en vous rendant sur l’article suivant : [savoir communiquer, au cœur du rôle de CTO]({% post_url 2024-01-31-savoir-communiquer-au-coeur-du-role-de-cto %}).
