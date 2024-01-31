@@ -3,7 +3,7 @@ layout: article
 title: "Savoir communiquer, au cœur du rôle de CTO"
 permalink: /articles/savoir-communiquer-au-coeur-du-role-de-cto
 date: 2024-01-31 00:00:00 +0000
-article_image: /assets/images/articles/savoir-communiquer-au-coeur-du-role-de-cto.png
+article_image: /assets/images/articles/savoir-communiquer-au-coeur-du-role-de-cto.jpg
 ---
 
 Cet article est la troisième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le deuxième article, je vous encourage à le faire ici : [se remettre en question : le syndrome de l’imposteur est un cadeau]({% post_url 2024-01-25-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau %})

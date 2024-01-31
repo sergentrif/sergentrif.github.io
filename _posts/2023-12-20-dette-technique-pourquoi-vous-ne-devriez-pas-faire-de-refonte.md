@@ -3,6 +3,7 @@ layout: article
 title:  "Dette technique : pourquoi vous ne devriez pas faire de refonte"
 permalink: /articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte
 date:   2023-12-20 00:00:00 +0000
+article_image: /assets/images/articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte.jpg
 ---
 
 Dans ma récente exploration de la gestion de la dette technique, j'ai partagé une perspective proactive que j'ai baptisée l'[effort supplémentaire]({% post_url 2023-12-12-l-anti-dette-technique-la-theorie-de-l-effort-supplementaire %}). Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance constante. Cependant, elle ne s'attaque pas aux problèmes existants, au code déjà en ruine.

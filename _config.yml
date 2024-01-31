@@ -20,9 +20,7 @@
 
 title: Adrien Blandin, votre CTO en freelance à Lyon
 email: adrien.blandin+website@gmail.com
-description: >-
-  Après avoir développé une équipe technique de 3 à 30 personnes jusqu'à l'introduction en bourse 
-  réussie de l'entreprise, j'ai décidé de mettre mes compétences au service de nouveaux projets.
+description: Après avoir développé une équipe technique de 3 à 30 personnes jusqu'à l'introduction en bourse réussie de l'entreprise, j'ai décidé de mettre mes compétences au service de nouveaux projets.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adrien.blandin.dev" # the base hostname & protocol for your site, e.g. http://example.com
 

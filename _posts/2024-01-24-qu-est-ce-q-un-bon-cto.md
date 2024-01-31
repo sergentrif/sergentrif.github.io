@@ -3,6 +3,7 @@ layout: article
 title: "Qu'est ce qu'un bon CTO ?"
 permalink: /articles/qu-est-ce-q-un-bon-cto
 date: 2024-01-24 00:00:00 +0000
+article_image: /assets/images/articles/qu-est-ce-q-un-bon-cto.jpg
 ---
 
 Que vous soyez un dirigeant d’entreprise qui cherche à recruter son prochain CTO ou un développeur qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès rôle se pose inévitablement.
