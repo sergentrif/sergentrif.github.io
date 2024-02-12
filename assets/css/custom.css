@@ -101,6 +101,10 @@ h2 {
     margin-top: 0;
 }
 
+.content-panel:not(:last-child) {
+    margin-bottom: 3em;
+}
+
 footer {
     margin: auto;
 }
