@@ -2,7 +2,6 @@
 layout: article
 title:  "Dette technique : pourquoi vous ne devriez pas faire de refonte"
 permalink: /articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte
-date:   2023-12-20 00:00:00 +0000
 article_image: /assets/images/articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte.jpg
 ---
 

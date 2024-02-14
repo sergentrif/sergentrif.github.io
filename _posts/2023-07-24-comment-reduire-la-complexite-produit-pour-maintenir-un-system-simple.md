@@ -2,7 +2,6 @@
 layout: article
 title:  "Comment réduire la complexité produit pour maintenir un système simple"
 permalink: /articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple
-date:   2023-07-24 00:00:00 +0000
 article_image: /assets/images/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple.jpg
 ---
 

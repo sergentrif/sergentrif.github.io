@@ -2,13 +2,12 @@
 layout: article
 title: "Être CTO ou l'art de représenter plusieurs parties"
 permalink: /articles/etre-cto-ou-l-art-de-representer-plusieurs-parties
-date: 2024-02-06 00:00:00 +0000
 article_image: /assets/images/articles/etre-cto-ou-l-art-de-representer-plusieurs-parties.jpg
 ---
 
-Cet article est la quatrième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le troisième article, je vous encourage à le faire ici : [savoir communiquer, au cœur du rôle de CTO]({% post_url 2024-01-31-savoir-communiquer-au-coeur-du-role-de-cto %})
-
 En tant qu’intermédiaire, le CTO représente plusieurs interlocuteurs différents. D'abord, il représente l’équipe technique auprès des dirigeants. Ensuite, il représente les dirigeants auprès de l’équipe technique. Enfin, il représente l’entreprise auprès du monde extérieur.
+
+Cet article est la quatrième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le troisième article, je vous encourage à le faire ici : [savoir communiquer, au cœur du rôle de CTO]({% post_url 2024-01-31-savoir-communiquer-au-coeur-du-role-de-cto %})
 
 Cette position centrale vient avec son lot de difficultés que beaucoup ont du mal à endosser. Ils finissent par “choisir un camp” entre l'équipe qu'ils managent et la direction. Peu importe le choix qui est fait. Le simple fait de s'être positionné se traduira par une perte de légitimité envers l’autre partie.
 
@@ -39,3 +38,5 @@ Inversement, les échecs doivent être collectifs. Aucun individu à l’excepti
 En tant que dirigeant, ne recrutez jamais un directeur qui s’attribue à lui seul les réussites de son équipe. En cas de problème, il n’assumera pas ses responsabilités et cherchera un bouc émissaire à qui faire porter le chapeau.
 
 Représenter est un jeu d’équilibre. Il faut sortir des émotions et adopter une posture objective, une posture de neutralité. Envers son équipe mais aussi envers les dirigeants. L’objectif est toujours le même pour le CTO : faire en sorte que son équipe atteigne les objectifs de l’entreprise.
+
+Vous découvrirez la dernière des compétences d'un bon CTO en vous rendant sur l’article suivant : [être le leader dont l'équipe a besoin]({% post_url 2024-02-14-etre-le-leader-dont-l-equipe-a-besoin %}).

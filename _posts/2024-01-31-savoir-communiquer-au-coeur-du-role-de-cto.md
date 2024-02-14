@@ -2,13 +2,12 @@
 layout: article
 title: "Savoir communiquer, au cœur du rôle de CTO"
 permalink: /articles/savoir-communiquer-au-coeur-du-role-de-cto
-date: 2024-01-31 00:00:00 +0000
 article_image: /assets/images/articles/savoir-communiquer-au-coeur-du-role-de-cto.jpg
 ---
 
-Cet article est la troisième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le deuxième article, je vous encourage à le faire ici : [se remettre en question : le syndrome de l’imposteur est un cadeau]({% post_url 2024-01-25-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau %})
+Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l’équipe technique. Au yeux de l’équipe technique, il représente les dirigeants.
 
-Comme nous l’avons vu précédemment, le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l’équipe technique. Au yeux de l’équipe technique, il représente les dirigeants.
+Cet article est la troisième partie d’une série axée sur les compétences à chercher chez un CTO. Si vous n’avez pas encore lu le deuxième article, je vous encourage à le faire ici : [se remettre en question : le syndrome de l’imposteur est un cadeau]({% post_url 2024-01-25-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau %})
 
 Au sens de la [first-team](https://www.youtube.com/watch?v=BjE_mPoZPSg){:target="_blank"}, il appartient à l’équipe des directeurs. Pourtant, il se trouve dans une position d’intermédiaire la majeure partie du temps. Il doit représenter les intérêts des uns aux yeux des autres, et vice-versa. Son objectif est d’aligner tout le monde, pour la bonne efficacité de l’entreprise. Pour réussir, il faut faire se comprendre des individus qui ne parlent pas toujours le même langage. Des individus qui affrontent quotidiennement des difficultés bien différentes.
 

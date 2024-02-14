@@ -2,7 +2,6 @@
 layout: article
 title: "Qu'est ce qu'un bon CTO ?"
 permalink: /articles/qu-est-ce-q-un-bon-cto
-date: 2024-01-24 00:00:00 +0000
 article_image: /assets/images/articles/qu-est-ce-q-un-bon-cto.jpg
 ---
 

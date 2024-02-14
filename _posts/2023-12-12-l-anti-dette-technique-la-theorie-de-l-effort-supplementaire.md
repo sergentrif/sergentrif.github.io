@@ -2,7 +2,6 @@
 layout: article
 title:  "L'anti dette technique : la théorie de l'effort supplémentaire"
 permalink: /articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire
-date:   2023-12-12 00:00:00 +0000
 article_image: /assets/images/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire.jpg
 ---
 
