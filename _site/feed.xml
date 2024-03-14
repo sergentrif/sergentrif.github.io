@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-15T18:07:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adrien Blandin, votre CTO en freelance à Lyon</title><subtitle>Après avoir développé une équipe technique de 3 à 30 personnes jusqu&apos;à l&apos;introduction en bourse réussie de l&apos;entreprise, j&apos;ai décidé de mettre mes compétences au service de nouveaux projets.</subtitle><entry><title type="html">Réussir ses recrutements en impliquant son équipe</title><link href="http://localhost:4000/articles/reussir-ses-recrutements-en-impliquant-son-equipe" rel="alternate" type="text/html" title="Réussir ses recrutements en impliquant son équipe" /><published>2024-02-15T00:00:00+01:00</published><updated>2024-02-15T00:00:00+01:00</updated><id>http://localhost:4000/articles/reussir-ses-recrutments-en-impliquant-son-equipe</id><content type="html" xml:base="http://localhost:4000/articles/reussir-ses-recrutements-en-impliquant-son-equipe"><![CDATA[<p>Au cours des dernières années, j’ai conduit des centaines d’entretiens de recrutement. Cela n’a jamais été un exercice que j’apprécie particulièrement. Pourtant, je suis persuadé que c’est la tâche la plus importante à traiter. Et ce, même si l’on pense ne pas en avoir le temps.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-14T11:51:18+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adrien Blandin, votre CTO en freelance à Lyon</title><subtitle>Après avoir développé une équipe technique de 3 à 30 personnes jusqu&apos;à l&apos;introduction en bourse réussie de l&apos;entreprise, j&apos;ai décidé de mettre mes compétences au service de nouveaux projets.</subtitle><entry><title type="html">Être développeur, c’est bien plus que développer</title><link href="http://localhost:4000/articles/etre-developpeur-c-est-bien-plus-que-developper" rel="alternate" type="text/html" title="Être développeur, c’est bien plus que développer" /><published>2024-03-14T00:00:00+01:00</published><updated>2024-03-14T00:00:00+01:00</updated><id>http://localhost:4000/articles/etre-developpeur-c-est-bien-plus-que-developper</id><content type="html" xml:base="http://localhost:4000/articles/etre-developpeur-c-est-bien-plus-que-developper"><![CDATA[<p>Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que vous n’ayez aucune connaissance de ce qu’ils font au quotidien. Beaucoup pensent que développer est un métier facile. Après tout, il suffit d’écrire du code puis de le mettre en production en évitant les bugs.</p>
+
+<p>Si vous êtes dans cette situation, ce n’est pas grave. Vous n’êtes pas le seul. Être incompris est le fardeau des métiers techniques. Et en même temps, c’est normal. Ces métiers nécessitent des compétences qui ne s’acquièrent qu’avec une formation spécifique.</p>
+
+<p>C’est pourquoi, nous allons découvrir ensemble les tâches qui occupent le quotidien des développeurs. Celles dont ils doivent s’acquitter pour réussir les projets qui leur sont demandés. Vous comprendrez pourquoi il est difficile d’estimer le temps d’un projet. Et donc, pourquoi les délais sont souvent plus longs que prévus.</p>
+
+<p>J’ai divisé l’ensemble des ces tâches en six catégories distinctes.</p>
+
+<h2 id="les-pré-requis-du-développement">Les pré-requis du développement</h2>
+
+<p>Ces tâches sont un fil rouge qui suit les développeurs tout au long de leur carrière. Bien sûr, elles peuvent être ignorées. Mais cela serait au détriment de la réputation (satisfaction, bad buzz) et des finances (amendes) de l’entreprise.</p>
+
+<ul>
+  <li><strong>Ne pas créer de failles de sécurité :</strong> chaque développement induit un risque de sécurité en augmentant la surface d’exposition. Le développeur doit veiller à ce que les données confidentielles des utilisateurs ne soient pas exploitables par n’importe qui. Par ailleurs, des attaquants ne doivent pas pouvoir infiltrer les réseaux et les machines de l’entreprise.</li>
+  <li><strong>Respect les contraintes imposées par la RGPD :</strong> personne n’aime ça. Mais c’est une obligation légale qui va dans le sens de l’utilisateur. Le développeur doit respecter les règles en vigueur, à chaque nouvelle fonctionnalité.</li>
+  <li><strong>Maintenir un bon niveau de performances applicatives :</strong> il est très facile de dégrader une application. Une petite fonctionnalité peut avoir de gros impacts. Les choix techniques diffèrent en fonction du nombre d’utilisateurs et de fonctionnalités du projet. C’est pourquoi, les développeurs doivent y penser en permanence. Ils devront faire évoluer les technologies plusieurs fois durant la vie de l’entreprise.</li>
+  <li><strong>Maintenir un bon niveau de disponibilité applicative :</strong> il est très facile de rendre indisponible une application. Les développeurs doivent travailler à la sécurité du projet et ses performances. Ils doivent aussi mettre en place des mécanismes pour garantir l’accès à l’application. Certaines entreprises ont des objectifs forts à ce sujet. Votre prestataire de paiements ne doit pas être indisponible, ne serait-ce que quelques heures.</li>
+  <li><strong>Maintenir un code lisible :</strong> écrire du code, c’est raconter une histoire. Il y a une infinité de façons de l’écrire, toutes différentes. Sauf qu’ici, le livre se rédige à plusieurs. Cela veut dire que ce qu’un développeur écrit, doit être compris par les autres. Et ce, même si le développeur en question a quitté l’entreprise depuis des années. Si plus personne ne comprends comment a été conçu votre projet, alors ce dernier ne pourra plus évoluer.</li>
+  <li><strong>[Mettre à jour les données en temps réel] :</strong> plus optionnel que les autres, ce pré-requis s’applique à certaines entreprises ou certaines fonctionnalités précises. Mettre à jour des données en temps réel pour les utilisateurs n’est pas toujours simple. Si c’est un besoin fort, c’est une contrainte supplémentaire à intégrer au développement.</li>
+</ul>
+
+<h2 id="le-processus-de-développement">Le processus de développement</h2>
+
+<p>Ici, aucune obligation de réaliser l’ensemble de ces tâches. Selon l’entreprise, ses pratiques et sa culture, certaines pourraient même ne pas exister. Dans certains cas, les tâches peuvent être assignées à des personnes différentes. Selon le niveau d’expertise et d’expérience, toutes n’auront pas le même rôle. En pratique, les développeurs se retrouvent souvent à en faire la majeure partie.</p>
+
+<ul>
+  <li><strong>Collaborer avec l’équipe produit :</strong> lorsque l’entreprise dispose d’une culture produit forte, les développeurs consacrent du temps à penser les fonctionnalités avec les designers. Ils les aident à valider les faisabilités techniques, modifiant les maquettes le cas échéant.</li>
+  <li><strong>Concevoir techniquement les développements :</strong> on ne monte pas un meuble sans regarder la notice. Pour un développeur, c’est la même chose. Il ne devrait pas développer sans savoir ce qu’il doit faire au préalable. À la seule différence, qu’il est lui-même en charge de rédiger la notice.</li>
+  <li><strong>Prendre connaissances des tâches attendues :</strong> dans certains cas, ce n’est pas le développeur en charge du développement qui a rédigé les spécifications techniques. La première étape de son travail sera donc de comprendre ce qui est attendu, donc ce qu’il doit faire.</li>
+  <li><strong>Estimer le temps de travail nécessaire :</strong> toutes les entreprises et tous les projets ne requièrent pas d’estimation. Cependant, cela reste une pratique très fréquente. L’équipe qui prépare son travail à venir est souvent en charge de l’estimer temporellement. Cela permet de donner de la visibilité au reste de l’entreprise.</li>
+  <li><strong>Développer les fonctionnalités :</strong> c’est le coeur du métier de développeur. C’est là qu’il transforme des idées et des concepts, en lignes de code tangibles qui leur donneront vie.</li>
+  <li><strong>Tester son travail :</strong> certaines entreprises ont des équipes dédiées d’<a href="https://fr.wikipedia.org/wiki/Assurance_qualit%C3%A9" target="_blank">Assurance Qualité</a> pour gérer cette étape. Pour les autres, il est attendu que le développeur procède à une batterie de tests. Il doit s’assurer que son travail fonctionne correctement, sans (trop) de bugs. On trouve des tests <em>manuels</em> à réaliser, mais aussi des tests <em>automatiques</em> à rédiger (tests unitaires, tests fonctionnels, tests end to end, monkey testing…)</li>
+  <li><strong>Corriger son code :</strong> les bonnes pratiques attendent des développeurs qu’ils relisent et approuvent le code écrit par leurs collègues. Cela implique que souvent, le code n’est pas approuvé dès la première lecture. L’auteur d’une fonctionnalité devra donc ré-écrire certaines parties de son code pour valider l’étape de relecture.</li>
+  <li><strong>Corriger les conflits :</strong> lorsque de nombreux développeurs travaillent sur une base de code partagée, plusieurs d’entre eux modifient souvent la même fonctionnalité au même moment. Cela résulte en des conflits que les développeurs devront résoudre.</li>
+  <li><strong>Mettre en production sa fonctionnalité :</strong> la finalité d’un développement est sa mise en ligne. Cette étape peut être très simple en fonction du processus de déploiement ainsi que de la nature de la fonctionnalité. Un changement de wording en <a href="https://fr.wikipedia.org/wiki/D%C3%A9ploiement_continu" target="_blank">déploiement continu</a> sera simple et rapide. Une migration de base de données en déploiement manuel le sera beaucoup moins.</li>
+  <li><strong>Rédiger la documentation :</strong> pour simplifier le travail des autres développeurs, il est recommandé de documenter le code qui a été écrit. Cela les aidera à utiliser ou faire évoluer la fonctionnalité.</li>
+</ul>
+
+<h2 id="le-service-après-vente">Le Service Après-Vente</h2>
+
+<p>Le travail ne se termine pas lorsqu’une fonctionnalité est mise en production. Il débute seulement. Dès lors que quelque chose existe en production, il faut le maintenir, le corriger et le faire évoluer.</p>
+
+<ul>
+  <li><strong>Assurer le support technique :</strong> une fois les fonctionnalités mises en production, ces dernières doivent fonctionner correctement. Elles ne doivent pas avoir de bugs ou en créer dans d’autres fonctionnalités. Les développeurs doivent consacrer du temps à la surveillance automatisée des projets, que l’on appelle le <a href="https://fr.wikipedia.org/wiki/Surveillance_(informatique)" target="_blank">monitoring</a>. Ils doivent aussi participer au support technique humain des utilisateurs.</li>
+  <li><strong>Annuler les mises en production :</strong> lorsqu’un bug est détecté, une mesure de précaution consiste en un retour en arrière de l’application. Au moins, le temps de corriger le problème. Selon les outils à disposition du développeur, cette étape peut prendre du temps.</li>
+  <li><strong>Corriger les bugs :</strong> ils font partie intégrante du quotidien. Il est impossible de développer un projet sans en créer. Il faut par contre les résoudre. Corriger un bug, c’est d’abord le comprendre. Le développeur doit se mettre dans les mêmes conditions d’apparition pour le reproduire. Une fois cette tâche réussie, il pourra identifier ce qui ne marche pas et développer un correctif.</li>
+</ul>
+
+<h2 id="les-imprévus-du-quotidien">Les imprévus du quotidien</h2>
+
+<p>Nous aimerions que tout se déroule toujours comme nous le souhaitons. Mais c’est rarement le cas. Les journées sont rythmées par de nombreux imprévus qui tombent toujours au moment le moins opportun.</p>
+
+<ul>
+  <li><strong>Gérer les incidents techniques :</strong> un datacenter qui prends feu, un prestataire qui tombe, une attaque de hackers… De nombreux éléments peuvent mettre à mal vos applications. Et ce, sans que votre équipe n’en soit responsable. Nous pouvons anticiper au mieux et travailler à la résilience, mais le risque 0 n’existera jamais. Par contre, les développeurs seront toujours mobilisés pour trouver des solutions dans le feu de l’action.</li>
+  <li><strong>Répondre aux questions du <em>métier</em> :</strong> même avec la meilleure documentation, il y aura toujours quelqu’un pour solliciter un développeur et lui demander de lui expliquer le fonctionnement d’une fonctionnalité.</li>
+  <li><strong>Développer des fonctionnalités au dernier-moment :</strong> un code promotionnel unique à créer pour signer un deal, une demande <em>importante</em> du CEO à faire de toute urgence, rembourser automatiquement 1000 clients pour faire gagner du temps au service comptable… De nombreuses demandes arrivent sur le bureau des développeurs sans passer par le processus de priorisation classique.</li>
+</ul>
+
+<h2 id="aider-les-autres-développeurs">Aider les autres développeurs</h2>
+
+<p>Ils ont beau être seuls devant leur ordinateur, développer est un travail collectif. Certains des meilleurs développeurs ne consacrent d’ailleurs aucun temps à développer. Pourtant, s’ils n’étaient pas là, la productivité de toute l’équipe en souffrirait.</p>
+
+<ul>
+  <li><strong>Approuver les conceptions techniques :</strong> pour garantir la cohérence d’un système dans son ensemble, il est important que tous les développeurs respectent les mêmes façons de faire. Il est recommandé que chaque conception technique réalisée par un développeur, soit relue et validée par un autre.</li>
+  <li><strong>Approuver les développements réalisés :</strong> nous l’avons vu, il y a souvent un processus de <a href="https://fr.wikipedia.org/wiki/Revue_de_code" target="_blank">Code Review</a> en place. Cela garantit une uniformisation des développements, en réduisant le risque de bugs grâce à un regard extérieur. Chaque développeur doit donc relire le travail des autres.</li>
+  <li><strong>Accompagner les autres développeurs :</strong> de temps en temps, les développeurs n’arrivent pas à résoudre seuls, les problèmes auxquels ils font face. Ils ont besoin d’homologues, pour les écouter et les aider</li>
+  <li><strong>Former les autres développeurs :</strong> une équipe est aussi forte que son élément le plus faible. C’est pourquoi, il est important de faire progresser tout le monde. Les développeurs expérimentés doivent transmettre leur savoir aux autres. Pour cela, de nombreux formats existent tels que des ateliers collectifs ou individuels.</li>
+</ul>
+
+<h2 id="se-former-soi-même">Se former soi-même</h2>
+
+<p>L’informatique est un univers en perpétuelle évolution. Un développeur qui ne se forme pas est un développeur qui sera vite obsolète. Une carrière professionnelle dure en moyenne 40 ans. Les développeurs doivent rester à jour durant toute cette période.</p>
+
+<ul>
+  <li><strong>Faire de la <a href="https://fr.wikipedia.org/wiki/Veille_technologique" target="_blank">veille technique</a> :</strong> il est important que les développeurs soient au courant des nouveautés techniques et des évolutions des bonnes pratiques. C’est ce qui permettra à votre projet d’évoluer et de continuer à rester compétitif. Pour réussir cela, ils doivent investir du temps dans l’auto-formation.</li>
+  <li><strong>Développer des <a href="https://fr.wikipedia.org/wiki/Preuve_de_concept" target="_blank">Proof Of Concept</a> :</strong> lorsqu’une technologie semble avoir du potentiel pour votre entreprise, il est important de laisser certaines personnes le vérifier. Cela permet de ne pas s’engager tête baissée dans une évolution qui ne serait pas viable.</li>
+</ul>
+
+<p>Le développement n’est finalement qu’une petite partie de l’activité des développeurs. Toutes les autres tâches sont soi à son service, soit des obstacles à son bon déroulement.</p>
+
+<p>C’est souvent cela qui est vecteur d’incompréhension entre le <em>métier</em> et la technique. Lorsque nous souhaitons le développement d’une fonctionnalité, nous ne nous rendons pas compte du nombre de tâches annexes à celle-ci. Les développeurs aussi font souvent cette erreur. Quand ils estiment le temps nécessaire à un projet, ils n’intègrent en général que le processus de développement en lui-même.</p>
+
+<p>Et c’est d’ailleurs sur le développement que l’on aimerait qu’ils se concentrent. C’est cette tâche qui est directement génératrice de valeur pour le projet ou l’entreprise.</p>
+
+<p>Il est donc important de trouver comment réduire le temps consacré aux tâches annexes. Cela permet de maximiser le temps consacré à générer de la valeur.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que vous n’ayez aucune connaissance de ce qu’ils font au quotidien. Beaucoup pensent que développer est un métier facile. Après tout, il suffit d’écrire du code puis de le mettre en production en évitant les bugs.]]></summary></entry><entry><title type="html">Réussir ses recrutements en impliquant son équipe</title><link href="http://localhost:4000/articles/reussir-ses-recrutements-en-impliquant-son-equipe" rel="alternate" type="text/html" title="Réussir ses recrutements en impliquant son équipe" /><published>2024-02-15T00:00:00+01:00</published><updated>2024-02-15T00:00:00+01:00</updated><id>http://localhost:4000/articles/reussir-ses-recrutments-en-impliquant-son-equipe</id><content type="html" xml:base="http://localhost:4000/articles/reussir-ses-recrutements-en-impliquant-son-equipe"><![CDATA[<p>Au cours des dernières années, j’ai conduit des centaines d’entretiens de recrutement. Cela n’a jamais été un exercice que j’apprécie particulièrement. Pourtant, je suis persuadé que c’est la tâche la plus importante à traiter. Et ce, même si l’on pense ne pas en avoir le temps.</p>
 
 <p>Recruter les bonnes personnes peut conduire une entreprise vers le succès. L’inverse est tout aussi vrai. Je m’étais donc fixé pour objectif de construire la meilleure équipe technique possible.</p>
 
@@ -595,87 +679,4 @@ Nous nous retrouvons donc avec une complexification subie de nos offres de forma
   <li>Développer des fonctionnalités entièrement autonomes dans leur bon fonctionnement</li>
   <li>Créer des fonctionnalités configurables pour faciliter leur réutilisation</li>
   <li>Créer des fonctionnalités réutilisables et réutiliser les fonctionnalités existantes</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit &amp; technique à travers l’exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d’équipes différentes sur plus d’une année complète. Si vous n’avez pas le temps de tout lire, vous pouvez directement vous rendre en fin d’article afin de connaitre les règles que l’on essaie de s’appliquer.]]></summary></entry><entry><title type="html">De développeur backend à CTO, un retour à zéro</title><link href="http://localhost:4000/articles/de-developpeur-backend-a-cto-un-retour-a-zero" rel="alternate" type="text/html" title="De développeur backend à CTO, un retour à zéro" /><published>2021-02-24T00:00:00+01:00</published><updated>2021-02-24T00:00:00+01:00</updated><id>http://localhost:4000/articles/de-developpeur-backend-a-cto-un-retour-a-zero</id><content type="html" xml:base="http://localhost:4000/articles/de-developpeur-backend-a-cto-un-retour-a-zero"><![CDATA[<p>Il y a un an, suite au départ de notre CTO, la proposition d’assumer ce rôle m’a été faite. Cela faisait déjà 3 ans que je travaillais pour <a href="https://lepermislibre.fr" target="_blank">lePERMISLIBRE</a> en tant qu’ingénieur backend principal.</p>
-
-<p>J’ai rejoint l’entreprise lorsqu’il n’y avait que 5 employés, cela ressemblait donc à une évolution logique pour eux comme pour moi. Après une courte période de réflexion j’ai décidé d’accepter cette proposition, n’ayant pas grand chose à perdre dans cette tentative.</p>
-
-<p>Pour une raison inconnue, peut-être l’envie de faire un point personnel ou de partager ce que j’ai appris durant cette année, je me suis mis en tête d’écrire un bref article.</p>
-
-<p>Si je ne devais garder qu’une seule leçon, c’est qu’être CTO n’est absolument pas l’évolution du métier de développeur. Lead Dev en est une évolution, Head Of Engineering une autre mais CTO est un métier différent, plus proche du management que de la technique.</p>
-
-<p>J’ai par le passé tenté de créer une start-up (Canalmatch ndlr) où j’assumais le rôle de CTO. Naïvement, je pensais que cette fois-ci ne serait pas bien différent d’alors. Hors, être CTO parce qu’on est le seul développeur d’une entreprise de 2 personnes n’a rien à voir avec le fait de diriger une équipe technique au sein d’une entreprise plus conséquente (35 personnes aujourd’hui).</p>
-
-<p>J’ai donc attaqué ce nouveau poste en pensant que peu de choses changeraient concrètement pour moi : je continuerai à développer tout en consacrant un peu de temps à la gestion d’équipe et aux réunions stratégiques de la boite.</p>
-
-<p>Lors de ma prise de fonction, nous n’étions plus que 3 développeurs dans l’équipe. Nous devions impérativement recruter et pourtant je me sentais entièrement responsable de notre productivité et de la quantité (et la qualité) des sujets que nous pouvions traiter.</p>
-
-<p>Durant presque un an j’ai donc passé mon temps à jongler entre le management et le développement. Ce qui est bien lorsque l’on essaye de tout faire, c’est que l’on fait tout mal. Mes développements étaient bâclés car je devais gérer l’équipe et ma gestion d’équipe était bâclée car je devais développer.</p>
-
-<p>Ajoutez à ça une entreprise qui croît très vite et vous obtenez une année particulièrement stressante.</p>
-
-<p>Début 2021 j’ai donc pris la décision de ne presque plus coder, ou seulement en dépannage lorsque je suis à jour de toutes mes obligations. Ce choix a été rendu bien plus facile car les développeurs recrutés au premier semestre 2020 commençaient à être parfaitement formés et autonomes. Je n’étais donc plus nécessaire techniquement.</p>
-
-<p>C’est là que s’opère la partie difficile : accepter que l’on n’est plus développeur.</p>
-
-<p>Cela veut par conséquent dire qu’il faut déléguer une grande partie des choix et conceptions techniques. Même si vous pensez déjà connaitre la réponse à une problématique, celle-ci doit venir de votre équipe. Ils doivent y réfléchir eux-même et arriver à leur propre solution.</p>
-
-<p>Mais après tout, si vous embauchez des personnes que vous pensez talentueuses, c’est pour leur faire confiance non ? De toutes façons, rien ne vous empêche de participer à la conclusion d’une discussion et de vous exprimer à ce moment là.</p>
-
-<p>Alors si je ne développe plus, si je ne suis plus dans l’opérationnel, quel est mon rôle aujourd’hui ?
-Ma conclusion au terme de cette première année est que mon but est d’être là pour l’équipe. Tout tourne autour d’elle.</p>
-
-<p>Il faut l’agrandir (si nécessaire) : cela implique de passer des heures chaque semaine à réfléchir aux recrutements pertinents, à lire des CVs et faire passer des entretiens pour trouver les profils qui viendront l’enrichir et la faire grandir.</p>
-
-<p>Il faut la construire : une fois les profils recrutés il faut s’assurer que chacun trouve son épanouissement personnel bien sûr, mais surtout qu’il s’intègre et fonctionne en collectif. La communication et l’entraide sont la clé, les joueurs solo n’ont pas leur place. Mon rôle est donc d’impliquer tout le monde et rabâcher en permanence les règles de communication et de fonctionnement à plusieurs.</p>
-
-<p>Si la progression personnelle est une nécessité, chacun doit aussi aider les autres à s’élever.</p>
-
-<p>Pour que chacun puisse se concentrer sur lui-même, sur ses collègues et sur son travail il faut donc créer un cadre propice à cela :</p>
-<ul>
-  <li>préparer le terrain en amont des développements (workflows, maquettes, designs, wordings, conceptions techniques) pour limiter le nombre d’allers/retours lors du développement</li>
-  <li>mettre en place des process de développement stricts pour favoriser l’organisation, mais pas trop pour ne pas brider l’autonomie et l’initiative
-protéger l’équipe technique des sujets imprévus qui peuvent chambouler le travail en cours et les priorités du moment</li>
-  <li>synchroniser le travail des différentes personnes et services impliqués pour ajouter de la fluidité dans le développement</li>
-</ul>
-
-<p>Si les développeurs sont dans l’opérationnel à court et moyen terme, l’objectif du CTO doit être de penser au long terme et à la stratégie pour l’atteindre :</p>
-<ol>
-  <li>identifier les problématiques à venir</li>
-  <li>faire émerger (de l’équipe) l’infra et la stack voulues pour répondre aux problématiques identifiées</li>
-  <li>concevoir une stratégie qui permettra de mettre en oeuvre les solutions à long terme tout en continuant à produire au quotidien</li>
-  <li>s’assurer que le plan de développement se déroule correctement</li>
-</ol>
-
-<p>Au final, on prend des dizaines de micro-décisions chaque jour en espérant prendre plus souvent de bonnes décisions que de mauvaises.</p>
-
-<p>Passer de développeur à CTO n’est pas une transition aisée. Il faut prendre conscience et accepter que c’est un métier complètement nouveau pour lequel il n’existe ni formation, ni école. C’est un métier que l’on doit apprendre sur le tas et qui demande donc une remise en question permanente : sur les projets, sur l’équipe, sur l’entreprise mais sur soi avant tout.</p>
-
-<p>À titre personnel j’ai éprouvé trois grandes difficultés :</p>
-
-<ul>
-  <li><strong>Le manque de légitimité</strong></li>
-</ul>
-
-<p>Pourquoi moi ? Parce que j’étais le plus “ancien” à ce moment-là ? J’ai longtemps pensé qu’être à la tête d’une équipe technique impliquait nécessairement d’être la personne la plus compétente dans ce domaine.</p>
-
-<p>Même si la connaissance technique est un pré-requis important, “être le meilleur” n’en est pas un, puisque développer n’est pas le coeur de ce métier : on est là pour manager.</p>
-
-<p>Lorsque l’on en prend conscience, tout va mieux !</p>
-
-<ul>
-  <li><strong>Le manque de feedbacks</strong></li>
-</ul>
-
-<p>Comment savoir si l’on fait bien les choses lorsqu’il n’y a personne pour nous le dire ?</p>
-
-<ul>
-  <li><strong>Le sentiment d’improductivité</strong></li>
-</ul>
-
-<p>En tant que développeur on se sent facilement productif lorsque l’on ajoute/enlève du code. En tant que CTO, on anticipe, on organise, on fluidifie mais nous ne sommes pas dans le “concret”. Peut-on en déduire que notre boulot est bien fait tant qu’on a pas de problème majeur ?</p>
-
-<p>Cette conception du métier de CTO est très personnelle, elle est le fruit de mes réflexions après un an passé à la tête de l’équipe technique de <a href="https://lepermislibre.fr" target="_blank">lePERMISLIBRE</a>. Je n’ai pas la prétention de penser qu’elle est universelle ou simplement valable.</p>
-
-<p>Je suis persuadé que mon métier est différent de celui exercé par le CTO de Doctolib, qui a lui aussi un métier différent du CTO de Google (voici un article à ce sujet que j’ai apprécié : <a href="https://calbucci.com/the-5-stages-of-cto-career-chasm-9d7c04e2ae66" target="_blank">https://calbucci.com/the-5-stages-of-cto-career-chasm-9d7c04e2ae66</a>).</p>
-
-<p>Chaque entreprise, chaque équipe est unique et ce métier doit s’adapter aux conditions dans lesquelles il s’exerce. Je souhaitais simplement apporter mon retour sur expérience à ceux qui seraient “promus” et deviendraient à nouveau débutant dans un métier qu’ils pensaient connaitre.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Il y a un an, suite au départ de notre CTO, la proposition d’assumer ce rôle m’a été faite. Cela faisait déjà 3 ans que je travaillais pour lePERMISLIBRE en tant qu’ingénieur backend principal.]]></summary></entry></feed>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit &amp; technique à travers l’exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d’équipes différentes sur plus d’une année complète. Si vous n’avez pas le temps de tout lire, vous pouvez directement vous rendre en fin d’article afin de connaitre les règles que l’on essaie de s’appliquer.]]></summary></entry></feed>

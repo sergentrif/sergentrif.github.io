@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/articles/etre-developpeur-c-est-bien-plus-que-developper</loc>
+      
+        <lastmod>2024-03-14T00:00:00+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/articles/reussir-ses-recrutements-en-impliquant-son-equipe</loc>
       
         <lastmod>2024-02-15T00:00:00+01:00</lastmod>
@@ -159,7 +174,7 @@
     <url>
       <loc>http://localhost:4000/articles</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -174,7 +189,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -189,7 +204,7 @@
     <url>
       <loc>http://localhost:4000/prestations-pour-les-accelerateurs</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -204,7 +219,7 @@
     <url>
       <loc>http://localhost:4000/prestations-pour-les-investisseurs</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -219,7 +234,7 @@
     <url>
       <loc>http://localhost:4000/prestations-pour-les-startups</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -234,7 +249,7 @@
     <url>
       <loc>http://localhost:4000/prestations</loc>
       
-        <lastmod>2024-02-15T18:07:25+01:00</lastmod>
+        <lastmod>2024-03-14T11:51:18+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
