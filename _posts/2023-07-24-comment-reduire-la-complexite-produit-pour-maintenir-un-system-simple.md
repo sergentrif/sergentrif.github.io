@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Comment réduire la complexité produit pour maintenir un système simple"
+title:  "Comment réduire la complexité produit pour maintenir un système simple ?"
 permalink: /articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple
 article_image: /assets/images/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple.jpg
 ---
