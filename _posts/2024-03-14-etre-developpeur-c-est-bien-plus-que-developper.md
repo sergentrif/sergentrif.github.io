@@ -77,4 +77,4 @@ C'est souvent cela qui est vecteur d'incompréhension entre le *métier* et la t
 
 Et c’est d'ailleurs sur le développement que l’on aimerait qu'ils se concentrent. C’est cette tâche qui est directement génératrice de valeur pour le projet ou l’entreprise.
 
-Il est donc important de trouver comment réduire le temps consacré aux tâches annexes. Cela permet de maximiser le temps consacré à générer de la valeur.
+Pour maximiser le temps consacré à générer de la valeur, il est important de trouver comment réduire le temps consacré aux tâches annexes. Si vous souhaitez savoir comment faire, rendez-vous dans mon article suivant : [pourquoi réduire la charge mentale des développeurs à travers la Developer Experience ?]({% post_url 2024-04-03-pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience %})
