@@ -23,6 +23,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+full_name: Adrien Blandin
+catchphrase: CTO pour start-ups early stage
+
 title: Adrien Blandin, CTO pour start-ups early stage
 email: adrien.blandin+website@gmail.com
 description: Après avoir développé une équipe technique de 3 à 30 personnes jusqu'à l'introduction en bourse réussie de l'entreprise, j'ai décidé de mettre mes compétences au service de nouveaux projets.
