@@ -20,10 +20,6 @@ img.profile-picture {
     border-radius: 5px;
 }
 
-.company-logo:not(:first-child) {
-    margin-left: 1.5em;
-}
-
 nav {
     margin-block-end: 3em;
 }

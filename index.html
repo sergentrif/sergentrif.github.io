@@ -2,9 +2,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Votre CTO en freelance à Lyon
+title: CTO pour start-ups early stage
 permalink: /
-container_title: "<u>Adrien Blandin</u>, votre CTO en freelance à Lyon"
+container_title: "<u>Adrien Blandin</u>, CTO pour start-ups early stage"
 container_description: "Plongez dans un aperçu rapide de <strong>deux minutes</strong> pour explorer comment ma maîtrise de la technologie peut propulser votre entreprise vers le succès"
 ---
 
@@ -13,10 +13,11 @@ container_description: "Plongez dans un aperçu rapide de <strong>deux minutes</
         <h2>Collaborations fructueuses</h2>
 
         <div>
-            <a href="https://www.lepermislibre.fr" target="_blank" class="company-logo"><img src="/assets/images/lepermislibre.svg" height="30px"alt="Logo de l'entreprise lePERMISLIBRE"></a>
-            <a href="https://www.batch.com" target="_blank" class="company-logo"><img src="/assets/images/batch.svg" height="30px" alt="Logo de l'entreprise Batch"></a>
-            <a href="https://www.dougs.fr" target="_blank" class="company-logo"><img src="/assets/images/dougs.svg" height="30px" alt="Logo de l'entreprise Dougs"></a>
-            <a href="https://www.objow.com" target="_blank" class="company-logo"><img src="/assets/images/objow.svg" height="30px" alt="Logo de l'entreprise Objow"></a>
+            {% for client in site.clients %}
+                {% if client.display %}
+                    {% include components/company-logo.html client=client %}
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
     
@@ -47,36 +48,7 @@ container_description: "Plongez dans un aperçu rapide de <strong>deux minutes</
         </div>
     </div>
 
-    <div id="testimonials" class="content-panel">
-        <h2>Témoignages de réussite</h2>
 
-        <p>
-            Découvrez ce que mes précédents collaborateurs disent de mon apport en tant que CTO. Ces témoignages reflètent mon engagement à transformer des défis techniques en succès tangibles pour votre entreprise. Ma mission est de fournir une direction technique stratégique et adaptée, en harmonie avec vos objectifs d'affaires.
-        </p>
-
-        <!--<blockquote cite="https://www.lepermislibre.fr">
-            <p>"Cras aliquet erat ac malesuada cursus. Curabitur eu dui sodales, pharetra neque varius, accumsan ligula."</p>
-            <footer><cite>Lucas , CEO <a href="https://www.lepermislibre.fr" target="_blank">lePERMISLIBRE</a></cite></footer>
-        </blockquote>-->
-
-        <blockquote cite="https://www.manouvellepiscine.com">
-            <p>"Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés. Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société."</p>
-            <footer><cite>Christophe Quétier, Directeur Général <a href="https://www.manouvellepiscine.com" target="_blank">manouvellepiscine.com</a></cite></footer>
-        </blockquote>
-
-        <blockquote cite="https://www.echoeshq.com">
-            <p>"Adrien m'a sincèrement impressionné dans nos intéractions. Il a une vision et une sérénité dans son rôle de CTO qui je pense n'est pas commune."</p>
-            <footer><cite>Arnaud Porterie, CTO <a href="https://www.echoeshq.com" target="_blank">Echoes HQ</a></cite></footer>
-        </blockquote>
-
-        <div class="action-container">
-            <p>
-                <strong>Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet.</strong>
-            </p>
-
-            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/{{ site.calendly_username }}/{{ site.calendly_slug }}?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=testimonials">Contactez-moi</a>
-        </div>
-    </div>
 
     <div id="manifesto" class="content-panel">
         <h2>Une vision pragmatique au service de votre croissance</h2>
@@ -128,10 +100,9 @@ container_description: "Plongez dans un aperçu rapide de <strong>deux minutes</
         </p>
 
         <ul>
-            <li><a href="https://open.spotify.com/episode/6CluSWbxKNYwd8jAvzPJNU" target="_blank">Tech.Rocks - Quand la tech et le produit ne font qu'un</a></li>
-            <li><a href="https://open.spotify.com/episode/5QrTn83tLCFRpQPo31hY8n" target="_blank">If This Then Dev - Anticiper les bugs : Minority Report du bug</a></li>
-            <li><a href="https://open.spotify.com/episode/27u5dp4XxbxhOia2n6zNFG" target="_blank">CTO'z - Tout s'enchaîne bien</a></li>
-            <li><a href="https://open.spotify.com/episode/4mP3SP5o1F0aqnh8XIVO4v" target="_blank">CTO'z - Hors-série @ LyonCraft</a></li>
+            {% for podcast in site.podcasts %}
+                <li><a href="{{ podcast.link }}" target="_blank">{{ podcast.name }} - {{ podcast.title }}</a></li>
+            {% endfor %}
         </ul>
 
         <div class="action-container">

@@ -18,7 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Adrien Blandin, votre CTO en freelance à Lyon
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+title: Adrien Blandin, CTO pour start-ups early stage
 email: adrien.blandin+website@gmail.com
 description: Après avoir développé une équipe technique de 3 à 30 personnes jusqu'à l'introduction en bourse réussie de l'entreprise, j'ai décidé de mettre mes compétences au service de nouveaux projets.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,10 +39,90 @@ google_ads_id: AW-985274405
 calendly_username: adrienblandin
 calendly_slug: prendre-rendez-vous
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+clients:
+    - company_name: lePERMISLIBRE
+      company_logo: /assets/images/lepermislibre.svg
+      company_website: https://www.lepermislibre.fr
+      display: true
+
+    - company_name: Batch
+      company_logo: /assets/images/batch.svg
+      company_website: https://www.batch.com
+      display: true
+
+    - company_name: Dougs
+      company_logo: /assets/images/dougs.svg
+      company_website: https://www.dougs.fr
+      display: true
+
+    - company_name: Objow
+      company_logo: /assets/images/objow.svg
+      company_website: https://www.objow.com
+      display: true
+
+      testimonial:
+        full_name: Jonathan le Duc
+        position: CEO
+        profile_picture: /assets/images/testimonials/jonathan-le-duc.jpg
+        content: >
+          J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !
+          <br><br>
+          Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l’une des meilleures décisions que nous avons prises.
+          <br><br>
+          Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !
+
+    - company_name: Mission RGPD
+      company_logo: /assets/images/mission-rgpd.png
+      company_website: https://www.mission-rgpd.com
+      display: true
+
+      testimonial:
+        full_name: Bertrand Bucelle
+        position: CEO
+        profile_picture: /assets/images/testimonials/bertrand-bucelle.jpg
+        content: >
+          Adrien est un interlocuteur de grande qualité qui parvient rapidement à aligner les aspects techniques avec la vision business. Une qualité rare dans l'univers du développement informatique. Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.
+
+    - company_name: manouvellepiscine.com
+      company_logo:
+      company_website: https://www.manouvellepiscine.com
+      display: false
+
+      testimonial:
+        full_name: Christophe Quétier
+        position: Directeur Général
+        profile_picture: /assets/images/testimonials/christophe-quetier.jpg
+        content: >
+          Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés. Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.
+
+    - company_name: Echoes HQ
+      company_logo:
+      company_website: https://www.echoeshq.com
+      display: false
+
+      testimonial:
+        full_name: Arnaud Porterie
+        position: CTO
+        profile_picture: /assets/images/testimonials/arnaud-porterie.jpg
+        content: >
+          Adrien m'a sincèrement impressionné dans nos intéractions. Il a une vision et une sérénité dans son rôle de CTO qui je pense n'est pas commune.
+
+podcasts:
+    - name: Tech.Rocks
+      title: Quand la tech et le produit ne font qu'un
+      link: https://open.spotify.com/episode/6CluSWbxKNYwd8jAvzPJNU
+
+    - name: If This Then Dev
+      title: "Anticiper les bugs : Minority Report du bug"
+      link: https://open.spotify.com/episode/5QrTn83tLCFRpQPo31hY8n
+
+    - name: CTO'z
+      title: Tout s'enchaîne bien
+      link: https://open.spotify.com/episode/27u5dp4XxbxhOia2n6zNFG
+
+    - name: CTO'z
+      title: Hors-série @ LyonCraft
+      link: https://open.spotify.com/episode/4mP3SP5o1F0aqnh8XIVO4v
 
 # Exclude from processing.
 # The following items will not be processed, by default.

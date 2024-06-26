@@ -1,0 +1,35 @@
+---
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Témoignages
+permalink: /temoignages
+container_title: "Découvrez ce qu'ils ont pensé de notre <u>collaboration</u>"
+container_description: "Ma mission est de fournir une direction technique stratégique et adaptée, en harmonie avec vos objectifs d'affaires."
+---
+
+<div class="page-content">
+    <div id="testimonials" class="content-panel">
+        <h2>Témoignages clients</h2>
+
+        <p>
+            Découvrez ce que mes précédents collaborateurs disent de mon apport en tant que CTO. Ces témoignages reflètent mon engagement à transformer des défis techniques en succès tangibles pour votre entreprise.
+        </p>
+
+        <div class="mt-5">
+            {% for client in site.clients %}
+                {% if client.testimonial != nil %}
+                    {% include components/testimonial.html client=client %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="action-container">
+            <p>
+                <strong>Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet.</strong>
+            </p>
+
+            <a class="calendly-button" role="button" target="_blank" href="https://calendly.com/{{ site.calendly_username }}/{{ site.calendly_slug }}?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=testimonials">Contactez-moi</a>
+        </div>
+    </div>
+</div>
