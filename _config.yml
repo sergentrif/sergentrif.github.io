@@ -74,6 +74,11 @@ clients:
           <br><br>
           Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !
 
+    - company_name: Aaticka
+      company_logo: /assets/images/aaticka.png
+      company_website: https://www.aaticka.com
+      display: true
+
     - company_name: Mission RGPD
       company_logo: /assets/images/mission-rgpd.png
       company_website: https://www.mission-rgpd.com
@@ -85,6 +90,11 @@ clients:
         profile_picture: /assets/images/testimonials/bertrand-bucelle.jpg
         content: >
           Adrien est un interlocuteur de grande qualité qui parvient rapidement à aligner les aspects techniques avec la vision business. Une qualité rare dans l'univers du développement informatique. Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.
+
+    - company_name: Jami
+      company_logo: /assets/images/jami.svg
+      company_website: https://www.jamiaap.com
+      display: true
 
     - company_name: manouvellepiscine.com
       company_logo:
@@ -126,6 +136,10 @@ podcasts:
     - name: CTO Décrypte
       title: Quelles frontières entre Tech et Produit dans une startup ?
       link: https://www.youtube.com/watch?v=18k2mgwhNhA
+
+    - name: Tech your Dream
+      title: La dette technique est un choix volontaire
+      link: https://open.spotify.com/episode/4G5R3pbkd7CTkHwscDqQs6
 
     - name: CTO'z
       title: Hors-série @ LyonCraft
