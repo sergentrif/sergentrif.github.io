@@ -74,6 +74,18 @@ clients:
           <br><br>
           Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !
 
+    - company_name: Omen-data
+      company_logo:
+      company_website:
+      display: false
+
+      testimonial:
+        full_name: René le Caignec
+        position: CEO
+        profile_picture: /assets/images/testimonials/rene-le-caignec.jpg
+        content: >
+          Adrien est réellement efficace autant dans la définition des besoins que dans la planification et le suivi des projets. Disponible et réactif, un vrai plaisir de travailler avec lui.
+
     - company_name: Aaticka
       company_logo: /assets/images/aaticka.png
       company_website: https://www.aaticka.com
