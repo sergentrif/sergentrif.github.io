@@ -11,3 +11,7 @@ bun dev
 Déploiement sur github pages
 ```
 Site prévue 100% Static
+
+```
+npm install to install dependencies
+```
