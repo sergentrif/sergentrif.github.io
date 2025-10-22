@@ -40,32 +40,9 @@
     --brand-silver: 60, 4%, 69%;
 
     /* Linear Gradient */
-    --border-linear-gradient: linear-gradient(
-        97.35deg,
-        #c8c6fa 19.5%,
-        #aaeafe 80.53%,
-        #eef36b 94.87%
-    );
-    --card-border-linear-gradient: linear-gradient(
-        180deg,
-        #c8c6fa 0%,
-        #aaeafe 50%,
-        #eef36b 97.5%
-    );
-    --border-bottom-linear-gradient: linear-gradient(
-        91.3deg,
-        #c8c6fa 34.32%,
-        #aaeafe 69.28%,
-        #eef36b 102.5%
-    );
-
-    --border-bottom-linear-gradient: linear-gradient(
-        89.9deg,
-        #c8c6fa 5.18%,
-        #aaeafe 47.08%,
-        #eef36b 82.12%,
-        #f46036 116.47%
-    );
+    --border-linear-gradient: linear-gradient(97.35deg, #c8c6fa 19.5%, #aaeafe 80.53%, #eef36b 94.87%);
+    --card-border-linear-gradient: linear-gradient(180deg, #c8c6fa 0%, #aaeafe 50%, #eef36b 97.5%);
+    --border-bottom-linear-gradient: linear-gradient(91.3deg, #c8c6fa 34.32%, #aaeafe 69.28%, #eef36b 102.5%);
 }
 
 body {
@@ -76,8 +53,7 @@ body {
 /* Custom component styles */
 .button-border-linear-gradient {
     background:
-        linear-gradient(hsl(var(--brand-midnight)), hsl(var(--brand-midnight)))
-            padding-box,
+        linear-gradient(hsl(var(--brand-midnight)), hsl(var(--brand-midnight))) padding-box,
         var(--border-linear-gradient) border-box;
     border: 2px solid transparent;
 }
