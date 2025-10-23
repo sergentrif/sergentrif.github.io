@@ -26,8 +26,8 @@ export function HeaderBurger() {
                     <Burger />
                 </PopoverTrigger>
                 {isMobileMenuOpen && <div className="w-full flex inset-0" onClick={handleMobileLinkClick} />}
-                <PopoverContent className="rounded-lg border-brand-beige/25 border-b-1 border-r-1 ">
-                    <nav className="flex items-start tracking-[0.32px] flex-col w-full gap-4 p-4 text-base font-medium rounded-b-lg uppercase bg-brand-powder/80 backdrop-blur-lg">
+                <PopoverContent className="rounded-lg border-brand-beige/25 border-b-1 border-r-1">
+                    <nav className="flex items-start tracking-[0.32px] flex-col w-full gap-4 p-4 text-base font-medium rounded-b-lg uppercase bg-brand-powder/94 backdrop-blur-xl">
                         {navLinks.map(({ href, label }) => (
                             <Link key={href} href={href} onClick={handleMobileLinkClick}>
                                 {label}

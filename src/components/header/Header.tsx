@@ -31,7 +31,7 @@ export function Header() {
 
     return (
         <header className="flex top-0 left-0 fixed w-full z-50">
-            <nav className="md:flex hidden items-center justify-evenly text-base bg-brand-powder/80 backdrop-blur-lg py-4 font-medium max-w-[1920px] w-full mx-auto">
+            <nav className="md:flex hidden items-center justify-evenly text-base bg-brand-powder/94 backdrop-blur-xl py-4 font-medium max-w-[1920px] w-full mx-auto">
                 <Link href="/">
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
@@ -55,7 +55,7 @@ export function Header() {
                     </button>
                 </div>
             </nav>
-            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/80 backdrop-blur-lg p-4 pt-4 w-full">
+            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl backdrop-blur-lg p-4 pt-4 w-full">
                 <HeaderBurger />
                 <Link href="/">
                     <HeaderLogo className="w-10 h-8" />
