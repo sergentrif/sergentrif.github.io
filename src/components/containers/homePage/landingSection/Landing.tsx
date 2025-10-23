@@ -73,7 +73,7 @@ export function Landing() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center gap-8 lg:px-32 md:px-16 py-0 ml-24 w-screen">
+            <div className="flex items-center justify-center gap-8 lg:px-32 px-16 py-0 ml-8 w-screen">
                 <div className="flex flex-col shrink-0 font-brico-gro font-normal">
                     <p>Ils me font confiance</p>
                     <p>et c’est réciproque</p>
