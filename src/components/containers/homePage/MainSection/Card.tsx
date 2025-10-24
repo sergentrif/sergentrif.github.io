@@ -79,7 +79,7 @@ function Design({ className, ...props }: React.ComponentProps<"div">) {
             data-slot="card-design"
             className={cn(
                 "flex",
-                "absolute inset-0 items-center justify-center opacity-15",
+                "absolute inset-0 items-center justify-center opacity-5 scale-150",
                 "md:relative md:opacity-100 scale-90",
                 "lg:relative",
                 className,
