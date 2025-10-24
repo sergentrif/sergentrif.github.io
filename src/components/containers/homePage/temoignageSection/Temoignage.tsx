@@ -67,6 +67,68 @@ const content = [
     },
 ];
 
+const content_mobile = [
+    {
+        id: 1,
+        logo: (
+            <Link
+                href="https://www.datacomplyone.com/"
+                className="flex justify-between w-full text-2xl uppercase text-brand-fine-blue font-medium"
+            >
+                Data Comply One
+                <span className="font-brico-gro tracking-widest text-base self-end">#RGPD</span>
+            </Link>
+        ),
+        description: [
+            "Adrien est un interlocuteur de grande qualité qui parvient rapidement à aligner les aspects techniques avec la vision business, une qualité rare dans l'univers du développement informatique.",
+            "Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.",
+        ],
+        author: (
+            <div className="uppercase text-brand-fine-blue font-medium">
+                <p>Bertrand Bucelle</p>
+                <p>CEO - Data Comply One</p>
+            </div>
+        ),
+    },
+    {
+        id: 2,
+        logo: <ObjowIcon className="max-w-45 max-h-11 w-full h-full self-start" />,
+        description: [
+            "J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
+            "Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l'une des meilleures décisions que nous avons prises.",
+            "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !",
+        ],
+        author: (
+            <div className="uppercase text-brand-fine-blue font-medium">
+                <p>Jonathan le Duc</p>
+                <Link href="https://www.objow.com/" className="flex items-center gap-2">
+                    <span className="font-brico-gro tracking-widest">CEO - Objow</span>
+                </Link>
+            </div>
+        ),
+    },
+    {
+        id: 3,
+        logo: (
+            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
+                <p className="text-2xl">CERTIXIO</p>
+                <span className="font-brico-gro tracking-widest self-end">#IA</span>
+            </div>
+        ),
+        description: [
+            "Adrien dispose d'une qualité particulièrement appréciable : une vraie capacité à allier vision business et vision tech pour concevoir et développer un produit avec efficience.",
+            "En collaborant avec Adrien, vous saurez très vite apprécier la pertinence de son questionnement, son honnêteté, son son sens de l'efficacité et son organisation sans faille. Et votre confiance ne sera pas déçue.",
+            "Sur mon projet, il a su très vite trouver la bonne approche, tenir ses engagements tout en étant clair sur sa contribution et sa valeur ajoutée.",
+        ],
+        author: (
+            <div className="uppercase text-brand-fine-blue font-medium">
+                <p>Marion Breuleux</p>
+                <p>CEO - CERTIXIO</p>
+            </div>
+        ),
+    },
+];
+
 export const TemoignageSection = () => {
     return (
         <section className="flex flex-col items-center gap-2 pb-16 px-4 md:px-16 lg:px-32">
@@ -81,6 +143,27 @@ export const TemoignageSection = () => {
             </div>
             <div className="w-full py-4 hidden md:flex">
                 <StickyScroll content={content} />
+            </div>
+            <div className="flex flex-col gap-16 md:hidden w-full">
+                {content_mobile.map((item) => (
+                    <div
+                        key={item.id}
+                        className="flex flex-col rounded-2xl bg-brand-surface sticky top-25 h-full w-full"
+                    >
+                        <div className="flex flex-col gap-4 p-4">
+                            <div className="flex flex-row">{item.logo}</div>
+                            <div className="border-linear-gradient" />
+                            <div className="flex flex-col gap-4 text-brand-fine-blue">
+                                {item.description.map((paragraph, index) => (
+                                    <p key={index} className="text-base leading-relaxed">
+                                        {paragraph}
+                                    </p>
+                                ))}
+                            </div>
+                            <div className="flex flex-col">{item.author}</div>
+                        </div>
+                    </div>
+                ))}
             </div>
         </section>
     );
