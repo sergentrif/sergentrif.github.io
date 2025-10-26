@@ -131,7 +131,7 @@ const content_mobile = [
 
 export const TemoignageSection = () => {
     return (
-        <section className="flex flex-col items-center gap-2 pb-16 px-4 md:px-16 lg:px-32">
+        <section className="flex flex-col items-center py-6 gap-2 pb-24 px-4 md:px-16 lg:px-32">
             <h2 className="max-w-7xl font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 transformer des défis techniques en succès tangibles pour votre entreprise
             </h2>
@@ -144,7 +144,7 @@ export const TemoignageSection = () => {
             <div className="w-full py-4 hidden md:flex">
                 <StickyScroll content={content} />
             </div>
-            <div className="flex flex-col gap-16 md:hidden w-full">
+            <div className="flex flex-col gap-24 md:hidden w-full">
                 {content_mobile.map((item) => (
                     <div
                         key={item.id}
