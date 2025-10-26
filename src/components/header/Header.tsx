@@ -79,7 +79,7 @@ export function Header() {
             {isContactModalOpen && (
                 <ReactLenis root={false}>
                     <RemoveScroll>
-                        <div className="fixed w-screen h-screen min-h-60 top-0 left-0 md:p-18 p-8 border-bottom-linear-gradient bg-brand-light-beige/34 backdrop-blur-lg z-50">
+                        <div className="fixed w-screen h-screen min-h-60 top-0 left-0 md:p-18 p-8 border-bottom-linear-gradient bg-brand-light-beige/64 backdrop-blur-lg z-50 overflow-y-auto">
                             <ModalContact onClose={handleCloseModal} />
                         </div>
                     </RemoveScroll>
