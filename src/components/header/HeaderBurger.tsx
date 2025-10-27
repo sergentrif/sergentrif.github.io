@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Burger } from "../ui/icons/Burger";
 import { Popover, PopoverContent, PopoverTrigger } from "./BurgerPop";
 import { useState } from "react";
-import { Route } from "next";
+import { navLinks } from "@/libs/constants";
 
 export function HeaderBurger() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,14 +10,6 @@ export function HeaderBurger() {
     const handleMobileLinkClick = () => {
         setIsMobileMenuOpen(false);
     };
-
-    const navLinks: { href: Route; label: string }[] = [
-        { href: "/articles", label: "Articles" },
-        { href: "/parcours", label: "Parcours" },
-        { href: "/podcasts", label: "Podcasts" },
-        { href: "/prestations", label: "Prestations" },
-        { href: "/temoignages", label: "Témoignages" },
-    ];
 
     return (
         <div className="md:hidden">

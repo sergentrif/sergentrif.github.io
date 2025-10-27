@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Route } from "next";
 import { HeaderLogo } from "../ui/icons/HeaderLogo";
 import { HeaderBurger } from "./HeaderBurger";
 import { RemoveScroll } from "react-remove-scroll";
@@ -9,6 +8,7 @@ import { useState } from "react";
 import { ModalContact } from "@/components/containers/ModalContact";
 import ReactLenis from "lenis/react";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
+import { navLinks } from "@/libs/constants";
 
 export function Header() {
     const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -20,14 +20,6 @@ export function Header() {
     const handleCloseModal = () => {
         setIsContactModalOpen(false);
     };
-
-    const navLinks: { href: Route; label: string }[] = [
-        { href: "/articles", label: "Articles" },
-        { href: "/parcours", label: "Parcours" },
-        { href: "/podcasts", label: "Podcasts" },
-        { href: "/prestations", label: "Prestations" },
-        { href: "/temoignages", label: "Témoignages" },
-    ];
 
     return (
         <header className="flex top-0 left-0 fixed w-full z-50">

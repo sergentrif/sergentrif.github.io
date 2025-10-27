@@ -57,9 +57,9 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         )}
                     >
                         <p>
-                            {
-                                "Mon approche est pragmatique, commencer petit pour prouver ma valeur. Entant que CTO à temps partagé, j'interviens sur des missions courtes à fort impact pour vous redonner de la visibilité et de la"
-                            }
+                            Mon approche est pragmatique, commencer petit pour prouver ma valeur. Entant que CTO à temps
+                            partagé, j&apos;interviens sur des missions courtes à fort impact pour vous redonner de la
+                            visibilité et de la
                             <span className="whitespace-nowrap">&nbsp;traction :</span>
                         </p>
                         <ul className="list-disc list-outside pl-5">
