@@ -15,7 +15,7 @@ interface ModalContactProps {
 export function ModalContact({ onClose }: ModalContactProps) {
     return (
         <div>
-            <div className={cn("max-w-[1520px] mx-auto flex flex-col px-2 gap-6", "md:-mt-8 md:px-8")}>
+            <div className={cn("max-w-[1520px] mx-auto flex flex-col gap-3 mt-6", "md:-mt-8 md:px-8 md:gap-6")}>
                 <div className="flex self-end -mt-4">
                     <button
                         onClick={onClose}
@@ -33,8 +33,29 @@ export function ModalContact({ onClose }: ModalContactProps) {
                 <h1 className={cn("text-[22px] uppercase font-brico-gro font-bold max-w-4xl", "md:text-[2.5rem]")}>
                     {"Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet"}
                 </h1>
+                <div className="flex md:hidden relative self-center pt-8">
+                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
+                        <TopRightSquare
+                            stroke="hsl(13 90% 58%)"
+                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
+                        />
+                    </div>
+                    <Link
+                        href={links.calendly_adrien}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative overflow-hidden"
+                    >
+                        Prendre rendez-vous
+                    </Link>
+                </div>
                 <div className="flex justify-between">
-                    <div className="flex flex-1 flex-col gap-6 max-w-2xl font-medium text-brand-fine-blue text-sm md:text-base">
+                    <div
+                        className={cn(
+                            "flex flex-1 flex-col gap-4 max-w-3xl font-medium text-brand-fine-blue text-sm",
+                            "md:gap-6 md:text-base",
+                        )}
+                    >
                         <p>
                             {
                                 "Mon approche est pragmatique, commencer petit pour prouver ma valeur. Entant que CTO à temps partagé, j'interviens sur des missions courtes à fort impact pour vous redonner de la visibilité et de la"
@@ -58,9 +79,10 @@ export function ModalContact({ onClose }: ModalContactProps) {
                             vous vendre un projet.
                         </p>
                     </div>
+
                     <ContactModalArrowIcon className="shrink-0 flex absolute right-20 opacity-60 md:opacity-100" />
                 </div>
-                <div className="flex relative self-center pt-16 bottom-5">
+                <div className="md:flex hidden relative self-center pt-16 bottom-5">
                     <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                         <TopRightSquare
                             stroke="hsl(13 90% 58%)"

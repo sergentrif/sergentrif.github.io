@@ -55,7 +55,7 @@ export function Header() {
                     </button>
                 </div>
             </nav>
-            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl backdrop-blur-lg p-4 pt-4 w-full">
+            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl p-4 pt-4 w-full">
                 <HeaderBurger />
                 <Link href="/">
                     <HeaderLogo className="w-10 h-8" />
@@ -79,7 +79,7 @@ export function Header() {
             {isContactModalOpen && (
                 <ReactLenis root={false}>
                     <RemoveScroll>
-                        <div className="fixed w-screen h-screen min-h-60 top-0 left-0 md:p-18 p-8 border-bottom-linear-gradient bg-brand-light-beige/64 backdrop-blur-lg z-50 overflow-y-auto">
+                        <div className="fixed w-screen h-screen min-h-60 top-0 left-0 md:p-18 p-2 border-bottom-linear-gradient bg-brand-light-beige/64 backdrop-blur-lg z-50 overflow-y-auto">
                             <ModalContact onClose={handleCloseModal} />
                         </div>
                     </RemoveScroll>
