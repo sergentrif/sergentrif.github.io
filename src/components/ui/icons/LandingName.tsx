@@ -5,7 +5,7 @@ export const LandingName: React.FC<IconProps> = () => (
         viewBox="0 0 855 355"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="flex flex-1 justify-center max-w-[53.5rem] max-h-89"
+        className="w-full md:max-w-[48rem] lg:max-w-[53.5rem] h-auto"
     >
         <path
             d="M729.267 142.063V8.78528H767.707L825.569 103.493H827.188L825.974 8.78528H854.5V142.063H819.095L758.198 43.5182H756.58L757.794 142.063H729.267Z"
