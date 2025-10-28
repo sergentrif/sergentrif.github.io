@@ -8,21 +8,10 @@ export function Footer() {
         <footer>
             <FooterBanner />
             <FooterBannerCarousel />
-            <div className="flex justify-between lg:px-24 md:px-8 py-16 max-w-[1920px] w-full mx-auto font-brico-gro">
-                <div className="md:flex hidden text-[22px] font-extrabold tracking-[0.03]">
-                    <div className="flex flex-col gap-2 justify-center">
-                        <Link href={links.linkedin} target="_blank" rel="noopener noreferrer">
-                            <span className="text-brand-glacier">##</span>LINKEDIN
-                        </Link>
-                        <Link href={links.github} target="_blank" rel="noopener noreferrer">
-                            <span className="text-brand-glacier">##</span>GITHUB
-                        </Link>
-                    </div>
-                </div>
-
-                <div className="flex md:flex-row flex-col w-full gap-6">
-                    <div className="flex md:hidden flex-col gap-4 items-center self-start font-extrabold tracking-[0.03] px-2">
-                        <div className="flex flex-col text-lg gap-1">
+            <div className="flex lg:px-24 md:px-8 py-16 max-w-[1920px] w-full mx-auto font-brico-gro">
+                <div className="flex md:flex-row flex-col justify-between w-full gap-6">
+                    <div className="flex flex-col items-center self-start font-extrabold tracking-[0.03] px-2 text-lg md:text-[22px]">
+                        <div className="flex flex-col md:gap-2">
                             <Link href={links.linkedin} target="_blank" rel="noopener noreferrer">
                                 <span className="text-brand-glacier">##</span>LINKEDIN
                             </Link>
