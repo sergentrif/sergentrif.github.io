@@ -1,34 +1,15 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import profil_pic from "@/assets/images/profile_portrait_adrien.png";
-import { cn } from "@/libs/utils";
-import { links } from "@/libs/constants";
-import { TopRightSquare } from "@/components/ui/icons/TopRightSquare";
 
-export function ArticlesPageFirstArticle() {
-    function InfoBox({ className, ...props }: React.ComponentProps<"div">) {
-        return (
-            <div
-                data-slot="card-info"
-                className={cn(
-                    "flex self-start rounded-lg infobox-border-linear-gradient p-2 text-brand-fine-blue mr-8",
-                    className,
-                )}
-                {...props}
-            />
-        );
-    }
+import Link from "next/link";
+import { links } from "@/libs/constants";
+import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
+import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
+import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
+
+export default function ArticlesPageFirstArticle() {
     return (
         <section className="flex flex-col justify-center items-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
-            <div className="flex gap-12 pb-6">
-                <Image src={profil_pic} alt="Photo de profil de Adrien Blandin" className="w-40 h-48" />
-                <p className="text-brand-fine-blue flex max-w-4xl md:px-4 px-0 items-end w-full">
-                    Adrien Blandin, CTO pour start-ups early stage Profitez de mes 15 ans d&apos;expérience en
-                    technologie et en leadership : je suis là pour propulser votre entreprise vers ses objectifs avec
-                    une expertise et une vision qui font la différence.
-                </p>
-            </div>
+            <TopArticleSection />
             <div>
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
@@ -37,20 +18,20 @@ export function ArticlesPageFirstArticle() {
                 <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
                     Articles
                 </Link>
-                /Pourquoi réduire la charge mentale des développeurs à travers la
+                /Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
             <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </h2>
-            <InfoBox className="-mt-8">03/04/2024, ~8 minutes de lecture</InfoBox>
+            <InfoBoxArticle className="self-start -mt-8">03/04/2024, ~8 minutes de lecture</InfoBoxArticle>
             <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
                 <p>
                     J’ai récemment abordé la diversité des tâches que doivent traiter les développeurs au travers d’un
                     article nommé&nbsp;
                     <Link
-                        href="etre-developpeur-c-est-bien-plus-que-developper"
+                        href="/articles/etre-developpeur-c-est-bien-plus-que-developper"
                         className="font-bold hover:scale-105 underline whitespace-nowrap"
                     >
                         Être développeur, c’est bien plus que développer
@@ -154,10 +135,10 @@ export function ArticlesPageFirstArticle() {
                         l’intérêt de la&nbsp;<span className="italic">Developer Experience</span>. Et ce, à travers deux
                         questions fondamentales :
                     </p>
-                    <li className="pl-2">
+                    <li className="pl-1 ml-4">
                         Quelles sont les tâches sans valeur ajoutée, qui font perdre du temps aux développeurs ?
                     </li>
-                    <li className="pl-2">
+                    <li className="pl-1 ml-4">
                         Comment pouvons-nous faire pour qu’ils perdent moins de temps sur ces tâches ?
                     </li>
                 </ul>
@@ -200,7 +181,7 @@ export function ArticlesPageFirstArticle() {
                         href={links.computer_org}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-bold hover:scale-105 underline whitespace-nowrap"
+                        className="font-bold hover:scale-105 underline"
                     >
                         Build Latency, Predictability, and Developer Productivity
                     </Link>
@@ -246,28 +227,7 @@ export function ArticlesPageFirstArticle() {
                     travaillent dans de bonnes conditions. Investir dans le moral de vos collaborateurs, c’est réduire
                     votre taux de turnover.
                 </p>
-                <div className="flex flex-col self-center gap-10 px-8 py-8 rounded-2xl infobox-border-linear-gradient shadow-lg max-w-3xl">
-                    <p>
-                        Transformons ensemble votre entreprise : contactez-moi pour découvrir comment mon expertise
-                        technique peut propulser vos objectifs business vers de nouveaux sommets de réussite.
-                    </p>
-                    <div className="flex relative self-center hover:scale-105">
-                        <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                            <TopRightSquare
-                                stroke="hsl(13 90% 58%)"
-                                className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                            />
-                        </div>
-                        <Link
-                            href={links.calendly_adrien}
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            className="flex border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 relative overflow-hidden"
-                        >
-                            Contactez-moi
-                        </Link>
-                    </div>
-                </div>
+                <BottomContactBox />
             </div>
         </section>
     );

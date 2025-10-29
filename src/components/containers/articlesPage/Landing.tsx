@@ -1,32 +1,14 @@
+"use client";
+
 import Link from "next/link";
-import Image from "next/image";
-import { cn } from "@/libs/utils";
 import { links } from "@/libs/constants";
-import profil_pic from "@/assets/images/profile_portrait_adrien.png";
+import { InfoBoxArticle } from "./InfoBoxArticle";
+import { TopArticleSection } from "./TopArticleSection";
 
 export const LandingArticlePage = () => {
-    function InfoBox({ className, ...props }: React.ComponentProps<"div">) {
-        return (
-            <div
-                data-slot="card-info"
-                className={cn(
-                    "flex self-end rounded-lg infobox-border-linear-gradient p-2 text-brand-fine-blue mr-8",
-                    className,
-                )}
-                {...props}
-            />
-        );
-    }
     return (
         <section className="flex flex-col justify-center items-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
-            <div className="flex gap-12 pb-6">
-                <Image src={profil_pic} alt="Photo de profil de Adrien Blandin" className="w-40 h-48" />
-                <p className="text-brand-fine-blue flex max-w-4xl md:px-4 px-0 items-end w-full">
-                    Découvrez des conseils et des perspectives uniques sur le rôle de CTO, directement issus de mon
-                    parcours professionnel.
-                </p>
-            </div>
-
+            <TopArticleSection />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link
                     href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience"
@@ -48,10 +30,10 @@ export const LandingArticlePage = () => {
                 . Il est important d&apos;avoir conscience de cette diversité de tâches, car elle est génératrice de
                 temps perdu. Et perdre du temps, c&apos;est quelque chose que l&apos;on veut éviter à tout prix.
             </p>
-            <InfoBox>03/04/2024</InfoBox>
+            <InfoBoxArticle className="self-end">03/04/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
+                <Link href="/articles/etre-developpeur-c-est-bien-plus-que-developper" className="">
                     Être développeur, c&apos;est bien plus que développer
                 </Link>
             </h2>
@@ -61,10 +43,10 @@ export const LandingArticlePage = () => {
                 un métier facile. Après tout, il suffit d&apos;écrire du code puis de le mettre en production en évitant
                 les bugs.
             </p>
-            <InfoBox> 14/03/2024</InfoBox>
+            <InfoBoxArticle className="self-end"> 14/03/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
+                <Link href="/articles/reussir-ses-recrutements-en-impliquant-son-equipe" className="">
                     Réussir ses recrutements en impliquant son équipe
                 </Link>
             </h2>
@@ -74,7 +56,7 @@ export const LandingArticlePage = () => {
                 c&apos;est la tâche la plus importante à traiter. Et ce, même si l&apos;on pense ne pas en avoir le
                 temps.
             </p>
-            <InfoBox> 15/02/2024</InfoBox>
+            <InfoBoxArticle className="self-end"> 15/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -87,7 +69,7 @@ export const LandingArticlePage = () => {
                 différentes pour chacun. Cependant, nous pouvons dire qu&apos;un leader doit savoir montrer le chemin à
                 suivre. Il doit savoir convaincre son équipe de l&apos;y accompagner.
             </p>
-            <InfoBox>14/02/2024</InfoBox>
+            <InfoBoxArticle className="self-end">14/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -99,7 +81,7 @@ export const LandingArticlePage = () => {
                 représente l&apos;équipe technique auprès des dirigeants. Ensuite, il représente les dirigeants auprès
                 de l&apos;équipe technique. Enfin, il représente l&apos;entreprise auprès du monde extérieur.
             </p>
-            <InfoBox>06/02/2024</InfoBox>
+            <InfoBoxArticle className="self-end">06/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -110,7 +92,7 @@ export const LandingArticlePage = () => {
                 Le CTO a une position particulière au sein de l&apos;entreprise. Au yeux des dirigeants, il représente
                 l&apos;équipe technique. Au yeux de l&apos;équipe technique, il représente les dirigeants.
             </p>
-            <InfoBox>31/01/2024</InfoBox>
+            <InfoBoxArticle className="self-end">31/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -131,7 +113,7 @@ export const LandingArticlePage = () => {
                 </Link>
                 . Un doute maladif qui nie les accomplissements personnels.
             </p>
-            <InfoBox> 25/01/2024</InfoBox>
+            <InfoBoxArticle className="self-end"> 25/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -143,7 +125,7 @@ export const LandingArticlePage = () => {
                 qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès rôle se
                 pose inévitablement.
             </p>
-            <InfoBox> 24/01/2024</InfoBox>
+            <InfoBoxArticle className="self-end"> 24/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -159,7 +141,7 @@ export const LandingArticlePage = () => {
                 . Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance
                 constante. Cependant, elle ne s&apos;attaque pas aux problèmes existants, au code déjà en ruine.
             </p>
-            <InfoBox>20/12/2023</InfoBox>
+            <InfoBoxArticle className="self-end">20/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -172,7 +154,7 @@ export const LandingArticlePage = () => {
                 C&apos;est un terme si omniprésent qu&apos;il semble avoir perdu une partie de sa signification
                 initiale.
             </p>
-            <InfoBox>12/12/2023</InfoBox>
+            <InfoBoxArticle className="self-end">12/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -195,7 +177,7 @@ export const LandingArticlePage = () => {
                 temps de tout lire, vous pouvez directement vous rendre en fin d&apos;article afin de connaitre les
                 règles que l&apos;on essaie de s&apos;appliquer.
             </p>
-            <InfoBox> 24/07/2023</InfoBox>
+            <InfoBoxArticle className="self-end"> 24/07/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
                 <Link href="" className="">
@@ -215,7 +197,7 @@ export const LandingArticlePage = () => {
                 </Link>
                 &nbsp;en tant qu&apos;ingénieur backend principal.
             </p>
-            <InfoBox> 24/02/2021</InfoBox>
+            <InfoBoxArticle className="self-end"> 24/02/2021</InfoBoxArticle>
         </section>
     );
 };

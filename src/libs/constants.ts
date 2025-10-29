@@ -10,6 +10,12 @@ export const links = {
     flow_state: "https://fr.wikipedia.org/wiki/Flow_(psychologie)",
     musk_algo: "https://world.hey.com/dhh/the-musk-algorithm-977bf312",
     computer_org: "https://www.computer.org/csdl/magazine/so/2023/04/10176199/1OAJyfknInm",
+    assur_quality: "https://fr.wikipedia.org/wiki/Assurance_qualit%C3%A9",
+    deployment_continuity: "https://fr.wikipedia.org/wiki/D%C3%A9ploiement_continu",
+    monitoring: "https://fr.wikipedia.org/wiki/Surveillance_(informatique)",
+    code_review: "https://fr.wikipedia.org/wiki/Revue_de_code",
+    veille_tech: "https://fr.wikipedia.org/wiki/Veille_technologique",
+    concept_proof: "Proof Of Concept",
     calendly_adrien:
         "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
 };
