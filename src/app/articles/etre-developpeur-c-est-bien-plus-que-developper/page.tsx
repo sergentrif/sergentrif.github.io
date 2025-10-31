@@ -18,11 +18,11 @@ export default function ArticlesPageSecondArticle() {
                 <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
                     Articles
                 </Link>
-                /Être développeur, c&apos;est bien plus que développer
+                /Être développeur, c’est bien plus que développer
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
             <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                Être développeur, c&apos;est bien plus que développer
+                Être développeur, c’est bien plus que développer
             </h2>
             <InfoBoxArticle className="self-start -mt-8">14/03/2024, ~12 minutes de lecture</InfoBoxArticle>
             <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
@@ -64,38 +64,37 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Respect les contraintes imposées par la RGPD</span> : personne
-                        n&apos;aime ça. Mais c&apos;est une obligation légale qui va dans le sens de l&apos;utilisateur.
-                        Le développeur doit respecter les règles en vigueur, à chaque nouvelle fonctionnalité.
+                        n’aime ça. Mais c’est une obligation légale qui va dans le sens de l’utilisateur. Le développeur
+                        doit respecter les règles en vigueur, à chaque nouvelle fonctionnalité.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Maintenir un bon niveau de performances applicatives</span> : il est
                         très facile de dégrader une application. Une petite fonctionnalité peut avoir de gros impacts.
-                        Les choix techniques diffèrent en fonction du nombre d&apos;utilisateurs et de fonctionnalités
-                        du projet. C&apos;est pourquoi, les développeurs doivent y penser en permanence. Ils devront
-                        faire évoluer les technologies plusieurs fois durant la vie de l&apos;entreprise.
+                        Les choix techniques diffèrent en fonction du nombre d’utilisateurs et de fonctionnalités du
+                        projet. C’est pourquoi, les développeurs doivent y penser en permanence. Ils devront faire
+                        évoluer les technologies plusieurs fois durant la vie de l’entreprise.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Maintenir un bon niveau de disponibilité applicative</span> : il est
                         très facile de rendre indisponible une application. Les développeurs doivent travailler à la
                         sécurité du projet et ses performances. Ils doivent aussi mettre en place des mécanismes pour
-                        garantir l&apos;accès à l&apos;application. Certaines entreprises ont des objectifs forts à ce
-                        sujet. Votre prestataire de paiements ne doit pas être indisponible, ne serait-ce que quelques
-                        heures.
+                        garantir l’accès à l’application. Certaines entreprises ont des objectifs forts à ce sujet.
+                        Votre prestataire de paiements ne doit pas être indisponible, ne serait-ce que quelques heures.
                     </li>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Maintenir un code lisible</span> : écrire du code, c&apos;est
-                        raconter une histoire. Il y a une infinité de façons de l&apos;écrire, toutes différentes. Sauf
-                        qu&apos;ici, le livre se rédige à plusieurs. Cela veut dire que ce qu&apos;un développeur écrit,
-                        doit être compris par les autres. Et ce, même si le développeur en question a quitté
-                        l&apos;entreprise depuis des années. Si plus personne ne comprends comment a été conçu votre
-                        projet, alors ce dernier ne pourra plus évoluer.
+                        <span className="font-bold">Maintenir un code lisible</span> : écrire du code, c’est raconter
+                        une histoire. Il y a une infinité de façons de l’écrire, toutes différentes. Sauf qu’ici, le
+                        livre se rédige à plusieurs. Cela veut dire que ce qu’un développeur écrit, doit être compris
+                        par les autres. Et ce, même si le développeur en question a quitté l’entreprise depuis des
+                        années. Si plus personne ne comprends comment a été conçu votre projet, alors ce dernier ne
+                        pourra plus évoluer.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">[Mettre à jour les données en temps réel]</span> : plus optionnel
-                        que les autres, ce pré-requis s&apos;applique à certaines entreprises ou certaines
-                        fonctionnalités précises. Mettre à jour des données en temps réel pour les utilisateurs
-                        n&apos;est pas toujours simple. Si c&apos;est un besoin fort, c&apos;est une contrainte
-                        supplémentaire à intégrer au développement.
+                        que les autres, ce pré-requis s’applique à certaines entreprises ou certaines fonctionnalités
+                        précises. Mettre à jour des données en temps réel pour les utilisateurs n’est pas toujours
+                        simple. Si c’est un besoin fort, c’est une contrainte supplémentaire à intégrer au
+                        développement.
                     </li>
                 </ul>
             </div>
@@ -112,39 +111,38 @@ export default function ArticlesPageSecondArticle() {
                         majeure partie.
                     </p>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Collaborer avec l&apos;équipe produit</span> : lorsque
-                        l&apos;entreprise dispose d&apos;une culture produit forte, les développeurs consacrent du temps
-                        à penser les fonctionnalités avec les designers. Ils les aident à valider les faisabilités
-                        techniques, modifiant les maquettes le cas échéant.
+                        <span className="font-bold">Collaborer avec l’équipe produit</span> : lorsque l’entreprise
+                        dispose d’une culture produit forte, les développeurs consacrent du temps à penser les
+                        fonctionnalités avec les designers. Ils les aident à valider les faisabilités techniques,
+                        modifiant les maquettes le cas échéant.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Concevoir techniquement les développements</span> : on ne monte pas
-                        un meuble sans regarder la notice. Pour un développeur, c&apos;est la même chose. Il ne devrait
-                        pas développer sans savoir ce qu&apos;il doit faire au préalable. À la seule différence,
-                        qu&apos;il est lui-même en charge de rédiger la notice.
+                        un meuble sans regarder la notice. Pour un développeur, c’est la même chose. Il ne devrait pas
+                        développer sans savoir ce qu’il doit faire au préalable. À la seule différence, qu’il est
+                        lui-même en charge de rédiger la notice.
                     </li>
 
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Prendre connaissances des tâches attendues</span> : dans certains
-                        cas, ce n&apos;est pas le développeur en charge du développement qui a rédigé les spécifications
+                        cas, ce n’est pas le développeur en charge du développement qui a rédigé les spécifications
                         techniques. La première étape de son travail sera donc de comprendre ce qui est attendu, donc ce
-                        qu&apos;il doit faire.
+                        qu’il doit faire.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Estimer le temps de travail nécessaire</span> : toutes les
-                        entreprises et tous les projets ne requièrent pas d&apos;estimation. Cependant, cela reste une
-                        pratique très fréquente. L&apos;équipe qui prépare son travail à venir est souvent en charge de
-                        l&apos;estimer temporellement. Cela permet de donner de la visibilité au reste de
-                        l&apos;entreprise.
+                        entreprises et tous les projets ne requièrent pas d’estimation. Cependant, cela reste une
+                        pratique très fréquente. L’équipe qui prépare son travail à venir est souvent en charge de
+                        l’estimer temporellement. Cela permet de donner de la visibilité au reste de l’entreprise.
                     </li>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Développer les fonctionnalités</span> : c&apos;est le coeur du
-                        métier de développeur. C&apos;est là qu&apos;il transforme des idées et des concepts, en lignes
-                        de code tangibles qui leur donneront vie.
+                        <span className="font-bold">Développer les fonctionnalités</span> : c’est le coeur du métier de
+                        développeur. C’est là qu’il transforme des idées et des concepts, en lignes de code tangibles
+                        qui leur donneront vie.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Tester son travail</span> : certaines entreprises ont des équipes
-                        dédiées d&apos;
+                        dédiées d’
                         <Link
                             href={links.assur_quality}
                             target="_blank"
@@ -154,30 +152,28 @@ export default function ArticlesPageSecondArticle() {
                             Assurance Qualité
                         </Link>
                         &nbsp;pour gérer cette étape. Pour les autres, il est attendu que le développeur procède à une
-                        batterie de tests. Il doit s&apos;assurer que son travail fonctionne correctement, sans (trop)
-                        de bugs. On trouve des tests&nbsp;<span className="italic">manuels</span>&nbsp;à réaliser, mais
+                        batterie de tests. Il doit s’assurer que son travail fonctionne correctement, sans (trop) de
+                        bugs. On trouve des tests&nbsp;<span className="italic">manuels</span>&nbsp;à réaliser, mais
                         aussi des tests&nbsp;
                         <span className="italic">automatiques</span>&nbsp;à rédiger (tests unitaires, tests
                         fonctionnels, tests end to end, monkey testing…)
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Corriger son code</span> : les bonnes pratiques attendent des
-                        développeurs qu&apos;ils relisent et approuvent le code écrit par leurs collègues. Cela implique
-                        que souvent, le code n&apos;est pas approuvé dès la première lecture. L&apos;auteur d&apos;une
-                        fonctionnalité devra donc ré-écrire certaines parties de son code pour valider l&apos;étape de
-                        relecture.
+                        développeurs qu’ils relisent et approuvent le code écrit par leurs collègues. Cela implique que
+                        souvent, le code n’est pas approuvé dès la première lecture. L’auteur d’une fonctionnalité devra
+                        donc ré-écrire certaines parties de son code pour valider l’étape de relecture.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Corriger les conflits</span> : lorsque de nombreux développeurs
-                        travaillent sur une base de code partagée, plusieurs d&apos;entre eux modifient souvent la même
+                        travaillent sur une base de code partagée, plusieurs d’entre eux modifient souvent la même
                         fonctionnalité au même moment. Cela résulte en des conflits que les développeurs devront
                         résoudre.
                     </li>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Mettre en production sa fonctionnalité</span> : la finalité
-                        d&apos;un développement est sa mise en ligne. Cette étape peut être très simple en fonction du
-                        processus de déploiement ainsi que de la nature de la fonctionnalité. Un changement de wording
-                        en&nbsp;
+                        <span className="font-bold">Mettre en production sa fonctionnalité</span> : la finalité d’un
+                        développement est sa mise en ligne. Cette étape peut être très simple en fonction du processus
+                        de déploiement ainsi que de la nature de la fonctionnalité. Un changement de wording en&nbsp;
                         <Link
                             href={links.deployment_continuity}
                             target="_blank"
@@ -210,8 +206,8 @@ export default function ArticlesPageSecondArticle() {
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Assurer le support technique</span> : une fois les fonctionnalités
                         mises en production, ces dernières doivent fonctionner correctement. Elles ne doivent pas avoir
-                        de bugs ou en créer dans d&apos;autres fonctionnalités. Les développeurs doivent consacrer du
-                        temps à la surveillance automatisée des projets, que l&apos;on appelle le&nbps;
+                        de bugs ou en créer dans d’autres fonctionnalités. Les développeurs doivent consacrer du temps à
+                        la surveillance automatisée des projets, que l’on appelle le&nbps;
                         <Link
                             href={links.monitoring}
                             target="_blank"
@@ -223,17 +219,17 @@ export default function ArticlesPageSecondArticle() {
                         &nbps;. Ils doivent aussi participer au support technique humain des utilisateurs.
                     </li>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Annuler les mises en production</span> : lorsqu&apos;un bug est
-                        détecté, une mesure de précaution consiste en un retour en arrière de l&apos;application. Au
-                        moins, le temps de corriger le problème. Selon les outils à disposition du développeur, cette
-                        étape peut prendre du temps.
+                        <span className="font-bold">Annuler les mises en production</span> : lorsqu’un bug est détecté,
+                        une mesure de précaution consiste en un retour en arrière de l’application. Au moins, le temps
+                        de corriger le problème. Selon les outils à disposition du développeur, cette étape peut prendre
+                        du temps.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Corriger les bugs</span> : ils font partie intégrante du quotidien.
                         Il est impossible de développer un projet sans en créer. Il faut par contre les résoudre.
-                        Corriger un bug, c&apos;est d&apos;abord le comprendre. Le développeur doit se mettre dans les
-                        mêmes conditions d&apos;apparition pour le reproduire. Une fois cette tâche réussie, il pourra
-                        identifier ce qui ne marche pas et développer un correctif.
+                        Corriger un bug, c’est d’abord le comprendre. Le développeur doit se mettre dans les mêmes
+                        conditions d’apparition pour le reproduire. Une fois cette tâche réussie, il pourra identifier
+                        ce qui ne marche pas et développer un correctif.
                     </li>
                 </ul>
             </div>
@@ -250,15 +246,14 @@ export default function ArticlesPageSecondArticle() {
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Gérer les incidents techniques</span> : un datacenter qui prends
                         feu, un prestataire qui tombe, une attaque de hackers… De nombreux éléments peuvent mettre à mal
-                        vos applications. Et ce, sans que votre équipe n&apos;en soit responsable. Nous pouvons
-                        anticiper au mieux et travailler à la résilience, mais le risque 0 n&apos;existera jamais. Par
-                        contre, les développeurs seront toujours mobilisés pour trouver des solutions dans le feu de
-                        l&apos;action.
+                        vos applications. Et ce, sans que votre équipe n’en soit responsable. Nous pouvons anticiper au
+                        mieux et travailler à la résilience, mais le risque 0 n’existera jamais. Par contre, les
+                        développeurs seront toujours mobilisés pour trouver des solutions dans le feu de l’action.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Répondre aux questions du métier</span> : même avec la meilleure
-                        documentation, il y aura toujours quelqu&apos;un pour solliciter un développeur et lui demander
-                        de lui expliquer le fonctionnement d&apos;une fonctionnalité.
+                        documentation, il y aura toujours quelqu’un pour solliciter un développeur et lui demander de
+                        lui expliquer le fonctionnement d’une fonctionnalité.
                     </li>
 
                     <li className="pl-1 ml-4">
@@ -282,13 +277,13 @@ export default function ArticlesPageSecondArticle() {
                     </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Approuver les conceptions techniques</span> : pour garantir la
-                        cohérence d&apos;un système dans son ensemble, il est important que tous les développeurs
-                        respectent les mêmes façons de faire. Il est recommandé que chaque conception technique réalisée
-                        par un développeur, soit relue et validée par un autre.
+                        cohérence d’un système dans son ensemble, il est important que tous les développeurs respectent
+                        les mêmes façons de faire. Il est recommandé que chaque conception technique réalisée par un
+                        développeur, soit relue et validée par un autre.
                     </li>
                     <li className="pl-1 ml-4">
-                        <span className="font-bold">Approuver les développements réalisés</span> : nous l&apos;avons vu,
-                        il y a souvent un processus de&nbsp;
+                        <span className="font-bold">Approuver les développements réalisés</span> : nous l’avons vu, il y
+                        a souvent un processus de&nbsp;
                         <Link
                             href={links.code_review}
                             target="_blank"
@@ -302,14 +297,14 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Accompagner les autres développeurs</span> : de temps en temps, les
-                        développeurs n&apos;arrivent pas à résoudre seuls, les problèmes auxquels ils font face. Ils ont
-                        besoin d&apos;homologues, pour les écouter et les aider
+                        développeurs n’arrivent pas à résoudre seuls, les problèmes auxquels ils font face. Ils ont
+                        besoin d’homologues, pour les écouter et les aider
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Former les autres développeurs</span> : une équipe est aussi forte
-                        que son élément le plus faible. C&apos;est pourquoi, il est important de faire progresser tout
-                        le monde. Les développeurs expérimentés doivent transmettre leur savoir aux autres. Pour cela,
-                        de nombreux formats existent tels que des ateliers collectifs ou individuels.
+                        que son élément le plus faible. C’est pourquoi, il est important de faire progresser tout le
+                        monde. Les développeurs expérimentés doivent transmettre leur savoir aux autres. Pour cela, de
+                        nombreux formats existent tels que des ateliers collectifs ou individuels.
                     </li>
                 </ul>
             </div>
@@ -336,9 +331,8 @@ export default function ArticlesPageSecondArticle() {
                             </Link>
                         </span>{" "}
                         : il est important que les développeurs soient au courant des nouveautés techniques et des
-                        évolutions des bonnes pratiques. C&apos;est ce qui permettra à votre projet d&apos;évoluer et de
-                        continuer à rester compétitif. Pour réussir cela, ils doivent investir du temps dans
-                        l&apos;auto-formation.
+                        évolutions des bonnes pratiques. C’est ce qui permettra à votre projet d’évoluer et de continuer
+                        à rester compétitif. Pour réussir cela, ils doivent investir du temps dans l’auto-formation.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">
@@ -352,9 +346,9 @@ export default function ArticlesPageSecondArticle() {
                                 Proof Of Concept
                             </Link>
                         </span>{" "}
-                        : lorsqu&apos;une technologie semble avoir du potentiel pour votre entreprise, il est important
-                        de laisser certaines personnes le vérifier. Cela permet de ne pas s&apos;engager tête baissée
-                        dans une évolution qui ne serait pas viable.
+                        : lorsqu’une technologie semble avoir du potentiel pour votre entreprise, il est important de
+                        laisser certaines personnes le vérifier. Cela permet de ne pas s’engager tête baissée dans une
+                        évolution qui ne serait pas viable.
                     </li>
                 </ul>
                 <p>
