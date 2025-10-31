@@ -10,10 +10,7 @@ export const LandingArticlePage = () => {
         <section className="flex flex-col justify-center items-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link
-                    href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience"
-                    className=""
-                >
+                <Link href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience">
                     Pourquoi réduire la charge mentale des développeurs à travers la Developer
                     <span className="whitespace-nowrap">Experience ?</span>
                 </Link>
@@ -33,7 +30,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">03/04/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="/articles/etre-developpeur-c-est-bien-plus-que-developper" className="">
+                <Link href="/articles/etre-developpeur-c-est-bien-plus-que-developper">
                     Être développeur, c&apos;est bien plus que développer
                 </Link>
             </h2>
@@ -46,7 +43,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end"> 14/03/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="/articles/reussir-ses-recrutements-en-impliquant-son-equipe" className="">
+                <Link href="/articles/reussir-ses-recrutements-en-impliquant-son-equipe">
                     Réussir ses recrutements en impliquant son équipe
                 </Link>
             </h2>
@@ -59,7 +56,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end"> 15/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
+                <Link href="/articles/etre-le-leader-dont-l-equipe-a-besoin">
                     Être le leader dont l&apos;équipe a besoin
                 </Link>
             </h2>
@@ -72,7 +69,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">14/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
+                <Link href="/articles/etre-cto-ou-l-art-de-representer-plusieurs-parties">
                     Être CTO ou l&apos;art de représenter plusieurs parties
                 </Link>
             </h2>
@@ -84,9 +81,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">06/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    Savoir communiquer, au cœur du rôle de CTO
-                </Link>
+                <Link href="">Savoir communiquer, au cœur du rôle de CTO</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Le CTO a une position particulière au sein de l&apos;entreprise. Au yeux des dirigeants, il représente
@@ -95,9 +90,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">31/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    Se remettre en question : le syndrome de l&apos;imposteur est un cadeau
-                </Link>
+                <Link href="">Se remettre en question : le syndrome de l&apos;imposteur est un cadeau</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 La première des compétences qu&apos;il me semble nécessaire de trouver chez un CTO est sa capacité à se
@@ -116,9 +109,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end"> 25/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    Qu&apos;est ce qu&apos;un bon CTO ?
-                </Link>
+                <Link href="">Qu&apos;est ce qu&apos;un bon CTO ?</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Que vous soyez un dirigeant d&apos;entreprise qui cherche à recruter son prochain CTO ou un développeur
@@ -128,9 +119,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end"> 24/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    Dette technique : pourquoi vous ne devriez pas faire de refonte
-                </Link>
+                <Link href="">Dette technique : pourquoi vous ne devriez pas faire de refonte</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Dans ma récente exploration de la gestion de la dette technique, j&apos;ai partagé une perspective
@@ -144,9 +133,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">20/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    L&apos;anti dette technique : la théorie de l&apos;effort supplémentaire
-                </Link>
+                <Link href="">L&apos;anti dette technique : la théorie de l&apos;effort supplémentaire</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Après une carrière de 15 ans dans le domaine du développement logiciel, d&apos;abord en tant que
@@ -157,9 +144,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end">12/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    Comment réduire la complexité produit pour maintenir un système simple ?
-                </Link>
+                <Link href="">Comment réduire la complexité produit pour maintenir un système simple ?</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Cet article cherche à expliquer comment&nbsp;
@@ -180,9 +165,7 @@ export const LandingArticlePage = () => {
             <InfoBoxArticle className="self-end"> 24/07/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="" className="">
-                    De développeur backend à CTO, un retour à zéro
-                </Link>
+                <Link href="">De développeur backend à CTO, un retour à zéro</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Il y a un an, suite au départ de notre CTO, la proposition d&apos;assumer ce rôle m&apos;a été faite.

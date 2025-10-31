@@ -4,7 +4,6 @@ import { TopArticleSection } from "@/components/containers/articlesPage/TopArtic
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
-import { links } from "@/libs/constants";
 
 export default function ArticleThirdPage() {
     return (
@@ -72,7 +71,6 @@ export default function ArticleThirdPage() {
             </div>
 
             <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                {" "}
                 Vendre un projet
             </h2>
             <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">

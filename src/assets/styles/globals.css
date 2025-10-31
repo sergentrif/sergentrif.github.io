@@ -67,7 +67,7 @@ body {
 
 .infobox-border-linear-gradient {
     background:
-        linear-gradient(hsl(var(--brand-surface))) padding-box,
+        linear-gradient(hsl(var(--brand-powder))) padding-box,
         var(--card-border-linear-gradient) border-box;
     border: 1px solid transparent;
 }
