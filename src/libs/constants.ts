@@ -20,6 +20,7 @@ export const links = {
     acm_queue: "https://queue.acm.org/detail.cfm?id=3454124",
     atlassian_site: "https://www.atlassian.com/devops/frameworks/dora-metrics",
     syndrome_imposteur_wiki: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
+    SolvingEngineeringStrategyCrisis: "https://lethain.com/solving-the-engineering-strategy-crisis/",
     calendly_adrien:
         "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
 };

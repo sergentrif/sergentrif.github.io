@@ -90,7 +90,9 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end">31/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">Se remettre en question : le syndrome de l’imposteur est un cadeau</Link>
+                <Link href="/articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau">
+                    Se remettre en question : le syndrome de l’imposteur est un cadeau
+                </Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 La première des compétences qu’il me semble nécessaire de trouver chez un CTO est sa capacité à se
@@ -108,7 +110,7 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end"> 25/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">Qu’est ce qu’un bon CTO ?</Link>
+                <Link href="/articles/qu-est-ce-q-un-bon-cto">Qu’est ce qu’un bon CTO ?</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Que vous soyez un dirigeant d’entreprise qui cherche à recruter son prochain CTO ou un développeur qui
@@ -118,11 +120,13 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end"> 24/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">Dette technique : pourquoi vous ne devriez pas faire de refonte</Link>
+                <Link href="/articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte">
+                    Dette technique : pourquoi vous ne devriez pas faire de refonte
+                </Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Dans ma récente exploration de la gestion de la dette technique, j’ai partagé une perspective proactive
-                que j’ai baptisée{" "}
+                que j’ai baptisée&nbsp;
                 <Link href="" className="hover:underline italic font-bold whitespace-nowrap">
                     l’effort supplémentaire
                 </Link>

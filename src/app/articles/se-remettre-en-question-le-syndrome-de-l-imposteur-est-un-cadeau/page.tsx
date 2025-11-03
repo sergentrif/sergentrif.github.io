@@ -113,10 +113,11 @@ export default function ArticleSixthPage() {
                 </p>
 
                 <p>
-                    Attention toutefois à ne pas confondre des “NON” de statu quo avec une fermeture d’esprit. Un
-                    directeur capable de revenir quelques heures plus tard en disant “J’ai bien réfléchi” ou “Je me suis
-                    trompé” avait juste besoin de temps pour douter. Il se forgeait une opinion solide sur la demande
-                    initiale.
+                    Attention toutefois à ne pas confondre des <span className="italic">“NON”</span> de statu quo avec
+                    une fermeture d’esprit. Un directeur capable de revenir quelques heures plus tard en disant&nbsp;
+                    <span className="italic">“J’ai bien réfléchi”</span>&nbsp;ou&nbsp;
+                    <span className="italic">“Je me suis trompé”</span>&nbsp;avait juste besoin de temps pour douter. Il
+                    se forgeait une opinion solide sur la demande initiale.
                 </p>
 
                 <p>
