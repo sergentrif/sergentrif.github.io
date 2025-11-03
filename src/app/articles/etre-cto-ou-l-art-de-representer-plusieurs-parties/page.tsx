@@ -141,6 +141,7 @@ export default function ArticleFithPage() {
 
                 <p>
                     Vous découvrirez la dernière des compétences d’un bon CTO en vous rendant sur l’article suivant :
+                    &nbsp;
                     <Link href="/articles/etre-le-leader-dont-l-equipe-a-besoin" className="font-bold underline">
                         être le leader dont l’équipe a besoin.
                     </Link>

@@ -16,6 +16,10 @@ export const links = {
     code_review: "https://fr.wikipedia.org/wiki/Revue_de_code",
     veille_tech: "https://fr.wikipedia.org/wiki/Veille_technologique",
     concept_proof: "Proof Of Concept",
+    youtube_first_team: "https://www.youtube.com/watch?v=BjE_mPoZPSg",
+    acm_queue: "https://queue.acm.org/detail.cfm?id=3454124",
+    atlassian_site: "https://www.atlassian.com/devops/frameworks/dora-metrics",
+    syndrome_imposteur_wiki: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
     calendly_adrien:
         "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
 };

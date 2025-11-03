@@ -1,0 +1,145 @@
+"use client";
+
+import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
+import Link from "next/link";
+import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
+import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
+import { links } from "@/libs/constants";
+
+export default function ArticleSixthPage() {
+    return (
+        <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+            <TopArticleSection />
+            <div>
+                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
+                    Accueil
+                </Link>
+                /
+                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
+                    Articles
+                </Link>
+                /Se remettre en question : le syndrome de l’imposteur est un cadeau
+            </div>
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+                Se remettre en question : le syndrome de l’imposteur est un cadeau
+            </h2>
+            <InfoBoxArticle className="self-start -mt-8">25/01/2024, ~4 minutes de lecture</InfoBoxArticle>
+            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+                <p>
+                    La première des compétences qu’il me semble nécessaire de trouver chez un CTO est sa capacité à se
+                    remettre en question. De mon expérience, celle-ci s’accompagne parfois de ce que l’on nomme le&nbsp;
+                    <Link
+                        href={links.syndrome_imposteur_wiki}
+                        className="font-bold underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        syndrome de l’imposteur
+                    </Link>
+                    . Un doute maladif qui nie les accomplissements personnels.
+                </p>
+                <p>
+                    Cet article est la deuxième partie d’une série axée sur les compétences à chercher chez un CTO. Si
+                    vous n’avez pas encore lu le premier article, je vous encourage à le faire ici :&nbsp;
+                    <Link href="/articles/qu-est-ce-q-un-bon-cto" className="underline font-bold">
+                        qu’est ce qu’un bon CTO ?
+                    </Link>
+                </p>
+                <p>
+                    La remise en question est bien plus qu’une compétence, c’est une qualité et c’est ce qui en fait sa
+                    force. Les compétences peuvent s’apprendre et se maitriser. Il serait donc regrettable de refuser
+                    quelqu’un à un poste parce qu’il lui en manque une. Par contre, les qualités et les défauts
+                    constituent notre personnalité. Ils évoluent peu (ou très lentement) au fil des ans et sont donc
+                    difficile à acquérir.
+                </p>
+
+                <p>
+                    Le CTO, comme chacun des autres dirigeants est la seule personne de l’entreprise à avoir ce titre et
+                    ce poste. Il n’a pas d’homologues avec qui échanger sur sa fiche de poste et ses problématiques. Il
+                    peut échanger avec les autres directeurs sur des sujets communs comme le recrutement, mais aucun ne
+                    comprendra entièrement ses problématiques. Face à cela, le CTO doit cultiver un réseau de pairs en
+                    dehors de l’entreprise mais il doit surtout cultiver le doute.
+                </p>
+
+                <p>
+                    Le doute est un état personnel particulièrement désagréable. Psychologiquement, c’est lourd à
+                    porter. Il dénigre toutes félicitations reçues et peut conduire à un état d’insatisfaction
+                    permanent. À la clé ? Des difficultés à célébrer la moindre victoire.
+                </p>
+
+                <p>
+                    Pourtant, c’est un pré-requis primordial pour se remettre en question. Avec la remise en question
+                    vient l’apprentissage et donc la progression. Le doute crée un contexte favorable à l’ouverture
+                    d’esprit et à la recherche de connaissances.
+                </p>
+
+                <p>J’aime beaucoup cette citation qui résume avec plus de style ce que j’essaie de dire :</p>
+                <div className="py-2 flex flex-col">
+                    <p>
+                        “Le doute est à la base même du savoir, puisqu’il est la condition essentielle de la recherche
+                        de la vérité. On ne court jamais après ce qu’on croit posséder avec certitude.”
+                    </p>
+
+                    <p className="pr-6 pt-2 italic font-bold self-end">Jean-Charles Harvey</p>
+                </div>
+                <p>
+                    Comment répondre au doute lorsqu’il y a peu d’homologues pour partager ses interrogations ? Nous
+                    avons la chance de vivre à une époque où les informations n’ont jamais été aussi abondantes et
+                    faciles d’accès : articles, podcasts, vidéos, livres, e-books… Un bon CTO consacrera du temps à sa
+                    propre formation.
+                </p>
+
+                <p>
+                    Si l’entreprise peut investir dans du coaching individuel, c’est un bon investissement. Surtout à ce
+                    niveau de responsabilité.
+                </p>
+
+                <p>
+                    Douter peut faire passer une personne pour quelqu’un qui manque de convictions ou d’expérience.
+                    Quelqu’un qui n’est pas taillé pour le poste et la posture que cela demande. Au contraire, il faut
+                    être fort pour se remettre en question chaque jour et progresser.
+                </p>
+
+                <p>
+                    Attention à ce que le CTO ne sombre pas dans l’immobilisme. Douter ne doit pas devenir un obstacle à
+                    la prise de décision et donc, à la prise de risques. Aucune situation ne sera jamais maitrisée à
+                    100%. Il convient d’être capable de se lancer sans avoir toutes les cartes en main.
+                </p>
+
+                <p>
+                    Si cela peut paraitre effrayant, il faut apprendre à relativiser. Beaucoup d’hommes se trouvent à
+                    des postes haut placés tout en étant particulièrement incompétents. Le pire, c’est qu’ils le vivent
+                    très bien.
+                </p>
+
+                <p>
+                    Attention toutefois à ne pas confondre des “NON” de statu quo avec une fermeture d’esprit. Un
+                    directeur capable de revenir quelques heures plus tard en disant “J’ai bien réfléchi” ou “Je me suis
+                    trompé” avait juste besoin de temps pour douter. Il se forgeait une opinion solide sur la demande
+                    initiale.
+                </p>
+
+                <p>
+                    La vie d’une entreprise est faite de hauts et de bas. De périodes de croissance et de décroissance.
+                    Vous souhaitez avoir à vos côtés un directeur capable de les traverser toutes avec succès. Vous ne
+                    souhaitez pas changer de CTO à chacune de ces étapes.
+                </p>
+
+                <p>
+                    Pour cela, n’embauchez pas quelqu’un qui affiche une confiance aveugle en lui-même. Il sera rempli
+                    de certitudes et incapable de se remettre en question.
+                </p>
+
+                <p>
+                    Vous découvrirez la deuxième des compétences d’un bon CTO en vous rendant sur l’article&nbsp;
+                    <span className="whitespace-nowrap">suivant :</span>&nbsp;
+                    <Link href="/articles/savoir-communiquer-au-coeur-du-role-de-cto" className="underline font-bold">
+                        savoir communiquer, au cœur du rôle de CTO
+                    </Link>
+                    .
+                </p>
+            </div>
+            <BottomContactBox />
+        </section>
+    );
+}
