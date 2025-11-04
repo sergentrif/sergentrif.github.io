@@ -21,6 +21,15 @@ export const links = {
     atlassian_site: "https://www.atlassian.com/devops/frameworks/dora-metrics",
     syndrome_imposteur_wiki: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
     SolvingEngineeringStrategyCrisis: "https://lethain.com/solving-the-engineering-strategy-crisis/",
+    adrien_spotify_podcast: "https://open.spotify.com/episode/5QrTn83tLCFRpQPo31hY8n",
+    if_this_then_dev_podcast: "https://www.ifttd.io/",
+    yagni: "https://fr.wikipedia.org/wiki/YAGNI",
+    kiss: "https://fr.wikipedia.org/wiki/Principe_KISS",
+    tresore_colbert_wiki:
+        "https://www.lemonde.fr/idees/article/2011/04/27/les-chenes-francais-le-tresor-de-colbert_1512747_3232.html",
+    technical_debt: "https://martinfowler.com/bliki/TechnicalDebt.html",
+    from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
+    stages_of_CTO_career: "https://calbucci.com/the-5-stages-of-cto-career-chasm-9d7c04e2ae66",
     calendly_adrien:
         "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
 };

@@ -127,7 +127,10 @@ export default function LandingArticlesPage() {
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Dans ma récente exploration de la gestion de la dette technique, j’ai partagé une perspective proactive
                 que j’ai baptisée&nbsp;
-                <Link href="" className="hover:underline italic font-bold whitespace-nowrap">
+                <Link
+                    href="/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire"
+                    className="hover:underline italic font-bold whitespace-nowrap"
+                >
                     l’effort supplémentaire
                 </Link>
                 . Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance
@@ -136,7 +139,9 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end">20/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">L’anti dette technique : la théorie de l’effort supplémentaire</Link>
+                <Link href="/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire">
+                    L’anti dette technique : la théorie de l’effort supplémentaire
+                </Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Après une carrière de 15 ans dans le domaine du développement logiciel, d’abord en tant que développeur
@@ -146,7 +151,9 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end">12/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">Comment réduire la complexité produit pour maintenir un système simple ?</Link>
+                <Link href="/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple">
+                    Comment réduire la complexité produit pour maintenir un système simple ?
+                </Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Cet article cherche à expliquer comment&nbsp;
@@ -167,7 +174,9 @@ export default function LandingArticlesPage() {
             <InfoBoxArticle className="self-end"> 24/07/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
             <h2 className="self-start font-brico-gro hover:underline hover:scale-101 lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
-                <Link href="">De développeur backend à CTO, un retour à zéro</Link>
+                <Link href="/articles/de-developpeur-backend-a-cto-un-retour-a-zero">
+                    De développeur backend à CTO, un retour à zéro
+                </Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0">
                 Il y a un an, suite au départ de notre CTO, la proposition d’assumer ce rôle m’a été faite. Cela faisait

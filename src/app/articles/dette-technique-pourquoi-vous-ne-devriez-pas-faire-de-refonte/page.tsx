@@ -28,7 +28,10 @@ export default function ArticleSixthPage() {
                 <p>
                     Dans ma récente exploration de la gestion de la dette technique, j’ai partagé une perspective
                     proactive que j’ai baptisée{" "}
-                    <Link href="/articles/" className="underline font-bold">
+                    <Link
+                        href="/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire"
+                        className="underline font-bold"
+                    >
                         l’effort supplémentaire
                     </Link>
                     . Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance
