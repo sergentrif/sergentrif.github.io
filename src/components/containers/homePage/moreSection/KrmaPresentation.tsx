@@ -17,11 +17,11 @@ export const KrmaPresentation = () => {
                         "text-[22px] w-full",
                     )}
                 >
-                    Une équipe d&apos;experts...
+                    Une équipe d’experts...
                     <span>sans les soucis du recrutement</span>
                 </h2>
                 <p className="font-medium text-brand-silver p-2">
-                    Besoin de construire ou&nbsp;<span className="whitespace-nowrap">d&apos;accélérer ?</span>
+                    Besoin de construire ou&nbsp;<span className="whitespace-nowrap">d’accélérer ?</span>
                 </p>
             </div>
 

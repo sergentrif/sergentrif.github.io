@@ -1,0 +1,25 @@
+import Image from "next/image";
+import profil_pic from "@/assets/images/profile_portrait_adrien.png";
+
+export function TopArticleSection() {
+    return (
+        <div className="flex flex-col pb-16">
+            <div className="flex gap-6 md:gap-12 mb-4 md:mb-0">
+                <Image src={profil_pic} alt="Photo de profil de Adrien Blandin" className="sm:w-40 sm:h-48 w-32 h38" />
+                <div className="flex flex-col items-center justify-center md:justify-between md:mt-8">
+                    <h2 className="font-bold font-brico-gro uppercase tracking-widest md:text-[2.5rem] text-3xl max-w-[47rem]">
+                        TITRE provisoire
+                    </h2>
+                    <p className="text-brand-fine-blue hidden md:flex max-w-4xl md:px-4 px-0 items-end w-full md:text-base text-sm">
+                        Découvrez des conseils et des perspectives uniques sur le rôle de CTO, directement issus de mon
+                        parcours professionnel.
+                    </p>
+                </div>
+            </div>
+            <p className="text-brand-fine-blue md:hidden max-w-4xl px-0 w-full text-sm">
+                Découvrez des conseils et des perspectives uniques sur le rôle de CTO, directement issus de mon parcours
+                professionnel.
+            </p>
+        </div>
+    );
+}
