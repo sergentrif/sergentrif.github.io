@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSixthPage() {
+export default function ArticleSixPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />

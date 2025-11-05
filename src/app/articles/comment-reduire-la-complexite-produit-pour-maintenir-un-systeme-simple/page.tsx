@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSixthPage() {
+export default function ArticleElevenPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
@@ -33,7 +33,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>{" "}
@@ -49,7 +49,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>{" "}
@@ -111,11 +111,11 @@ export default function ArticleSixthPage() {
                     Comprendre cette distinction est fondamental, c’est elle qui nous permettra de penser un produit
                     sans complexité et donc maintenable sur du long terme.
                 </p>
+                <p>
+                    Lorsque l’on a réalisé que notre problématique était la réduction des délais et non la création
+                    d’une nouvelle offre, les différentes étapes du projet ont commencé à être visibles :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Lorsque l’on a réalisé que notre problématique était la réduction des délais et non la création
-                        d’une nouvelle offre, les différentes étapes du projet ont commencé à être visibles :
-                    </p>
                     <li>Réduire le délai de validation des démarches administratives</li>
                     <li>Réduire le délai d’apprentissage et d’obtention du code de la route</li>
                     <li>Réduire le délai de formation à la conduite</li>
@@ -128,7 +128,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>{" "}
@@ -157,19 +157,19 @@ export default function ArticleSixthPage() {
                     l’intégralité du produit et non pas seulement pour quelques scénarios bien définis à l’avance. Faire
                     simple à long terme s’avère donc complexe à court terme.
                 </p>
+                <p>
+                    Dans notre objectif de réduire les délais de formation dans un cadre de formation accélérée tout en
+                    restant compatibles avec l’ensemble de notre produit, nous en sommes donc arrivés à la création de 4
+                    fonctionnalités majeures :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Dans notre objectif de réduire les délais de formation dans un cadre de formation accélérée tout
-                        en restant compatibles avec l’ensemble de notre produit, nous en sommes donc arrivés à la
-                        création de 4 fonctionnalités majeures :
-                    </p>
                     <li>
                         La création d’une nouvelle offre commerciale où{" "}
                         <Link
                             href={links.le_permislibre}
                             className="font-bold underline"
                             target="_blank"
-                            rel="nooponer noreferrer"
+                            rel="noopener noreferrer"
                         >
                             lePERMISLIBRE
                         </Link>{" "}
@@ -212,13 +212,13 @@ export default function ArticleSixthPage() {
                     un soutien pédagogique et opérationnel de nos équipes, la promesse initiale sera tenue pour
                     l’obtention du précieux sésame.
                 </p>
+                <p>
+                    L’histoire pourrait s’arrêter là mais ce serait trop simple. À ce stade, nous serions en mesure de
+                    rendre notre offre publique (nous l’avons d’ailleurs sortie en MVP privé pour obtenir des premiers
+                    retours terrains) mais cela aurait des effets secondaires assez néfastes pour la compréhension
+                    client et le service opérationnel qui en découle :
+                </p>
                 <ul className="flex flex-col gap-5 list-disc list-outside px-4">
-                    <p className="-ml-4">
-                        L’histoire pourrait s’arrêter là mais ce serait trop simple. À ce stade, nous serions en mesure
-                        de rendre notre offre publique (nous l’avons d’ailleurs sortie en MVP privé pour obtenir des
-                        premiers retours terrains) mais cela aurait des effets secondaires assez néfastes pour la
-                        compréhension client et le service opérationnel qui en découle :
-                    </p>
                     <li>
                         son déploiement dépend de notre capacité à trouver des enseignants volontaires pour accompagner
                         plus rapidement les élèves
@@ -242,8 +242,8 @@ export default function ArticleSixthPage() {
                     formations, 2 types de boite différentes et 2 modes de financements soit 16 combinaisons différentes
                     dans des centaines de villes en France ?
                 </p>
+                <p>Nous avons donc du mettre 3 nouvelles fonctionnalités en place :</p>
                 <ul className="flex flex-col gap-5 list-disc list-outside px-4">
-                    <p className="-ml-4">Nous avons donc du mettre 3 nouvelles fonctionnalités en place :</p>
                     <li>
                         L’ajout de filtres dans notre boutique que l’on pré-remplit avec les informations connues sur un
                         utilisateur pour ne lui proposer que ce qui l’intéresse réellement en terme de formation
@@ -291,11 +291,11 @@ export default function ArticleSixthPage() {
                     B n’aura probablement pas connaissance qu’en changeant quelques règles métier, elle aura des impacts
                     néfastes à des endroits inconnus (pour elle) de l’application.
                 </p>
+                <p>
+                    Il faut à tout prix prévenir ce genre d’effets indésirables car ils sont vecteurs de frustration et
+                    de perte de temps, donc d’efficacité :
+                </p>
                 <ul className="flex flex-col gap-5 list-disc list-outside px-4">
-                    <p className="-ml-4">
-                        Il faut à tout prix prévenir ce genre d’effets indésirables car ils sont vecteurs de frustration
-                        et de perte de temps, donc d’efficacité :
-                    </p>
                     <li>L’utilisateur va être mécontent et prendre contact avec notre service client</li>
                     <li>
                         Notre service client n’aura pas de réponse immédiate à donner et va prendre contact avec
@@ -346,11 +346,11 @@ export default function ArticleSixthPage() {
                     sur la fonctionnalité parfaite pour ré-utiliser au maximum ce qui a déjà été créé et s’intégrer dans
                     une vision d’ensemble plus simple à maintenir, donc à faire évoluer.
                 </p>
+                <p>
+                    Si vous avez décidé de sauter tout le texte précédent pour arriver directement aux règles à
+                    respecter dans le maintien d’un système simple, les voici :
+                </p>
                 <ul className="flex flex-col gap-5 list-disc list-outside px-4">
-                    <p className="font-bold -ml-4">
-                        Si vous avez décidé de sauter tout le texte précédent pour arriver directement aux règles à
-                        respecter dans le maintien d’un système simple, les voici :
-                    </p>
                     <li>Trouver derrière les demandes de fonctionnalité, le problème de fond à résoudre</li>
                     <li>Simplifier le problème de fond en évitant (au maximum) la gestion de cas particuliers</li>
                     <li>Avoir une vision à moyen et long terme pour anticiper maintenant, les problèmes de demain</li>

@@ -43,11 +43,6 @@ export default function ArticleFourthPage() {
                     </Link>
                 </p>
                 <p>
-                    Cet article est la dernière partie d’une série axée sur les compétences à chercher chez un CTO. Si
-                    vous n’avez pas encore lu le quatrième article, je vous encourage à le faire ici : être CTO ou l’art
-                    de représenter plusieurs parties
-                </p>
-                <p>
                     Pour montrer le chemin à suivre, il faut être en première ligne. Il y a une différence entre un chef
                     et un leader. Être l’un n’implique pas être l’autre. Pour être un bon CTO, mieux vaut savoir être
                     les deux.

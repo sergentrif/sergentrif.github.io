@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSixthPage() {
+export default function ArticleTwelvePage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
@@ -34,7 +34,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>{" "}
@@ -115,11 +115,11 @@ export default function ArticleSixthPage() {
                     à plusieurs.
                 </p>
                 <p>Si la progression personnelle est une nécessité, chacun doit aussi aider les autres à s’élever.</p>
+                <p>
+                    Pour que chacun puisse se concentrer sur lui-même, sur ses collègues et sur son travail il faut donc
+                    créer un cadre propice à cela :
+                </p>
                 <ul>
-                    <p>
-                        Pour que chacun puisse se concentrer sur lui-même, sur ses collègues et sur son travail il faut
-                        donc créer un cadre propice à cela :
-                    </p>
                     <li>
                         préparer le terrain en amont des développements (workflows, maquettes, designs, wordings,
                         conceptions techniques) pour limiter le nombre d’allers/retours lors du développement
@@ -134,12 +134,11 @@ export default function ArticleSixthPage() {
                         fluidité dans le développement
                     </li>
                 </ul>
+                <p>
+                    Si les développeurs sont dans l’opérationnel à court et moyen terme, l’objectif du CTO doit être de
+                    penser au long terme et à la stratégie pour l’atteindre :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Si les développeurs sont dans l’opérationnel à court et moyen terme, l’objectif du CTO doit être
-                        de penser au long terme et à la stratégie pour l’atteindre :
-                    </p>
-
                     <li>identifier les problématiques à venir</li>
                     <li>
                         faire émerger (de l’équipe) l’infra et la stack voulues pour répondre aux problématiques
@@ -159,8 +158,8 @@ export default function ArticleSixthPage() {
                 c’est un métier complètement nouveau pour lequel il n’existe ni formation, ni école. C’est un métier que
                 l’on doit apprendre sur le tas et qui demande donc une remise en question permanente : sur les projets,
                 sur l’équipe, sur l’entreprise mais sur soi avant tout.
+                <p>À titre personnel j’ai éprouvé trois grandes difficultés :</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">À titre personnel j’ai éprouvé trois grandes difficultés :</p>
                     <li className="font-bold">Le manque de légitimité</li>
                 </ul>
                 <p>
@@ -169,18 +168,15 @@ export default function ArticleSixthPage() {
                     domaine.
                 </p>
                 <p>
-                    Même si la connaissance technique est un pré-requis important, “être le meilleur” n’en est pas un,
+                    Même si la connaissance technique est un pré-requis important, ”être le meilleur” n’en est pas un,
                     puisque développer n’est pas le coeur de ce métier : on est là pour manager.
                 </p>
+                <p>Lorsque l’on en prend conscience, tout va mieux !</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">Lorsque l’on en prend conscience, tout va mieux !</p>
                     <li className="font-bold">Le manque de feedbacks</li>
                 </ul>
+                <p>Comment savoir si l’on fait bien les choses lorsqu’il n’y a personne pour nous le dire ?</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Comment savoir si l’on fait bien les choses lorsqu’il n’y a personne pour nous le dire ?
-                    </p>
-
                     <li className="font-bold">Le sentiment d’improductivité</li>
                 </ul>
                 <p>
@@ -195,7 +191,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>
@@ -208,7 +204,7 @@ export default function ArticleSixthPage() {
                         href={links.stages_of_CTO_career}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         5 stages of CTO career
                     </Link>

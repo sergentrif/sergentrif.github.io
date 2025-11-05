@@ -51,12 +51,12 @@ export default function ArticlesPageSecondArticle() {
                 Les pré-requis du développement
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    Ces tâches sont un fil rouge qui suit les développeurs tout au long de leur carrière. Bien sûr,
+                    elles peuvent être ignorées. Mais cela serait au détriment de la réputation (satisfaction, bad buzz)
+                    et des finances (amendes) de l’entreprise.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        Ces tâches sont un fil rouge qui suit les développeurs tout au long de leur carrière. Bien sûr,
-                        elles peuvent être ignorées. Mais cela serait au détriment de la réputation (satisfaction, bad
-                        buzz) et des finances (amendes) de l’entreprise.
-                    </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Ne pas créer de failles de sécurité</span> : chaque développement
                         induit un risque de sécurité en augmentant la surface d’exposition. Le développeur doit veiller
@@ -104,14 +104,13 @@ export default function ArticlesPageSecondArticle() {
                 Le processus de développement
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    Ici, aucune obligation de réaliser l’ensemble de ces tâches. Selon l’entreprise, ses pratiques et sa
+                    culture, certaines pourraient même ne pas exister. Dans certains cas, les tâches peuvent être
+                    assignées à des personnes différentes. Selon le niveau d’expertise et d’expérience, toutes n’auront
+                    pas le même rôle. En pratique, les développeurs se retrouvent souvent à en faire la majeure partie.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        Ici, aucune obligation de réaliser l’ensemble de ces tâches. Selon l’entreprise, ses pratiques
-                        et sa culture, certaines pourraient même ne pas exister. Dans certains cas, les tâches peuvent
-                        être assignées à des personnes différentes. Selon le niveau d’expertise et d’expérience, toutes
-                        n’auront pas le même rôle. En pratique, les développeurs se retrouvent souvent à en faire la
-                        majeure partie.
-                    </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Collaborer avec l’équipe produit</span> : lorsque l’entreprise
                         dispose d’une culture produit forte, les développeurs consacrent du temps à penser les
@@ -198,13 +197,12 @@ export default function ArticlesPageSecondArticle() {
                 Le Service Après-Vente
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    Le travail ne se termine pas lorsqu’une fonctionnalité est mise en production. Il débute seulement.
+                    Dès lors que quelque chose existe en production, il faut le maintenir, le corriger et le faire
+                    évoluer.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        Le travail ne se termine pas lorsqu’une fonctionnalité est mise en production. Il débute
-                        seulement. Dès lors que quelque chose existe en production, il faut le maintenir, le corriger et
-                        le faire évoluer.
-                    </p>
-
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Assurer le support technique</span> : une fois les fonctionnalités
                         mises en production, ces dernières doivent fonctionner correctement. Elles ne doivent pas avoir
@@ -239,12 +237,12 @@ export default function ArticlesPageSecondArticle() {
                 Les imprévus du quotidien
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    Nous aimerions que tout se déroule toujours comme nous le souhaitons. Mais c’est rarement le cas.
+                    Les journées sont rythmées par de nombreux imprévus qui tombent toujours au moment le moins
+                    opportun.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        Nous aimerions que tout se déroule toujours comme nous le souhaitons. Mais c’est rarement le
-                        cas. Les journées sont rythmées par de nombreux imprévus qui tombent toujours au moment le moins
-                        opportun.
-                    </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Gérer les incidents techniques</span> : un datacenter qui prends
                         feu, un prestataire qui tombe, une attaque de hackers… De nombreux éléments peuvent mettre à mal
@@ -271,12 +269,12 @@ export default function ArticlesPageSecondArticle() {
                 Aider les autres développeurs
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    Ils ont beau être seuls devant leur ordinateur, développer est un travail collectif. Certains des
+                    meilleurs développeurs ne consacrent d’ailleurs aucun temps à développer. Pourtant, s’ils n’étaient
+                    pas là, la productivité de toute l’équipe en souffrirait.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        Ils ont beau être seuls devant leur ordinateur, développer est un travail collectif. Certains
-                        des meilleurs développeurs ne consacrent d’ailleurs aucun temps à développer. Pourtant, s’ils
-                        n’étaient pas là, la productivité de toute l’équipe en souffrirait.
-                    </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Approuver les conceptions techniques</span> : pour garantir la
                         cohérence d’un système dans son ensemble, il est important que tous les développeurs respectent
@@ -314,12 +312,12 @@ export default function ArticlesPageSecondArticle() {
                 Se former soi-même
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
+                <p>
+                    L’informatique est un univers en perpétuelle évolution. Un développeur qui ne se forme pas est un
+                    développeur qui sera vite obsolète. Une carrière professionnelle dure en moyenne 40 ans. Les
+                    développeurs doivent rester à jour durant toute cette période.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5">
-                    <p>
-                        L’informatique est un univers en perpétuelle évolution. Un développeur qui ne se forme pas est
-                        un développeur qui sera vite obsolète. Une carrière professionnelle dure en moyenne 40 ans. Les
-                        développeurs doivent rester à jour durant toute cette période.
-                    </p>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">
                             Faire de la{" "}

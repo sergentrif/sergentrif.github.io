@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSixthPage() {
+export default function ArticleTenPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
@@ -167,22 +167,22 @@ export default function ArticleSixthPage() {
                     actions dont les effets ne se manifesteraient qu’après sa mort. Aujourd’hui, notre code forestier
                     est encore influencé par ces décisions, et certains chênes plantés à cette époque existent toujours.
                 </p>
+                <p>
+                    En tirant un parallèle avec le développement logiciel, nous pouvons observer que dans les deux cas,
+                    le succès de la démarche repose sur deux aspects :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        En tirant un parallèle avec le développement logiciel, nous pouvons observer que dans les deux
-                        cas, le succès de la démarche repose sur deux aspects :
-                    </p>
                     <li>Une vision claire des objectifs, même lointains.</li>
                     <li>
                         Une appréciation claire de ce qu’il faut préserver : pour Colbert, c’était les forêts; pour
                         nous, c’est notre base de code.
                     </li>
                 </ul>
+                <p>
+                    L’objectif devient alors de progresser vers nos buts, à un rythme soutenu, sans dégrader notre base
+                    de code. Nous devons définir quatre échelles de temps pour y parvenir :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        L’objectif devient alors de progresser vers nos buts, à un rythme soutenu, sans dégrader notre
-                        base de code. Nous devons définir quatre échelles de temps pour y parvenir :
-                    </p>
                     <li>
                         <span className="font-bold">Le long terme</span> : sur plusieurs années, établit la direction
                         générale.
@@ -237,7 +237,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>
@@ -256,21 +256,21 @@ export default function ArticleSixthPage() {
                     maintenant ainsi un haut niveau de qualité dans notre base de code.
                 </p>
                 <p>C’est pour cette raison que je parle de “temps investi” plutôt que de “temps perdu”.</p>
+                <p>
+                    Un autre exemple est la rémunération des enseignants avec lesquels{" "}
+                    <Link
+                        href={links.le_permislibre}
+                        className="font-bold underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        lePERMISLIBRE
+                    </Link>{" "}
+                    collabore. Lors de la mise en place de ce système, l’objectif principal était de rémunérer chaque
+                    enseignant pour ses services et la location de son véhicule. Nous aurions pu nous arrêter là avec
+                    une solution simple, mais nous nous sommes demandé :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Un autre exemple est la rémunération des enseignants avec lesquels{" "}
-                        <Link
-                            href={links.le_permislibre}
-                            className="font-bold underline"
-                            target="_blank"
-                            rel="nooponer noreferrer"
-                        >
-                            lePERMISLIBRE
-                        </Link>{" "}
-                        collabore. Lors de la mise en place de ce système, l’objectif principal était de rémunérer
-                        chaque enseignant pour ses services et la location de son véhicule. Nous aurions pu nous arrêter
-                        là avec une solution simple, mais nous nous sommes demandé :
-                    </p>
                     <li>Les enseignants pourraient-ils être rémunérés pour d’autres services ?</li>
                     <li>La rémunération pourrait-elle varier dans le temps ?</li>
                 </ul>
@@ -295,7 +295,7 @@ export default function ArticleSixthPage() {
                         href={links.le_permislibre}
                         className="font-bold underline"
                         target="_blank"
-                        rel="nooponer noreferrer"
+                        rel="noopener noreferrer"
                     >
                         lePERMISLIBRE
                     </Link>{" "}
@@ -318,11 +318,10 @@ export default function ArticleSixthPage() {
                     surmontable, la base de code ayant déjà anticipé ou prévu de l’espace pour sa résolution. Investir
                     10% d’effort aujourd’hui peut signifier une économie de 30% ou plus demain.
                 </p>
+                <p>
+                    Je ne vois pas cette méthode en contradiction avec les principes établis de développement logiciel :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Je ne vois pas cette méthode en contradiction avec les principes établis de développement
-                        logiciel :
-                    </p>
                     <li>
                         <span className="font-bold">Le YAGNI</span> : disposer d’une gamme étendue d’outils nous prépare
                         à de nouvelles tâches. Finalement, ces outils trouvent souvent leur utilité.
@@ -336,8 +335,8 @@ export default function ArticleSixthPage() {
                         conception reste pertinente. Rien n’est superflu, tout au plus, cela apporte de la qualité.
                     </li>
                 </ul>
+                <p>En reprenant les quatre temporalités :</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">En reprenant les quatre temporalités :</p>
                     <li>
                         Le <span className="font-bold">long terme</span> fixe la direction et guide l’équipe dans ses
                         décisions structurales ou philosophiques.
@@ -380,17 +379,17 @@ export default function ArticleSixthPage() {
                     difficultés financières…). Mais dès que vous avez le choix, il est préférable de rembourser ces
                     dettes, d’investir tôt et de récolter les bénéfices.
                 </p>
+                <p>
+                    Pour ceux qui souhaitent approfondir leur compréhension de la dette technique, voici quelques
+                    lectures recommandées :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Pour ceux qui souhaitent approfondir leur compréhension de la dette technique, voici quelques
-                        lectures recommandées :
-                    </p>
                     <li>
                         <Link
                             href={links.technical_debt}
                             className="font-bold underline"
                             target="_blank"
-                            rel="nooponer noreferrer"
+                            rel="noopener noreferrer"
                         >
                             Technical Debt
                         </Link>{" "}
@@ -401,7 +400,7 @@ export default function ArticleSixthPage() {
                             href={links.from_tech_debt_to_design_int}
                             className="font-bold underline"
                             target="_blank"
-                            rel="nooponer noreferrer"
+                            rel="noopener noreferrer"
                         >
                             From Technical Debt to Design Integrity
                         </Link>{" "}

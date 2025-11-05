@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSeventhPage() {
+export default function ArticleHeightPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
@@ -77,9 +77,8 @@ export default function ArticleSeventhPage() {
                     Pour faire (très) simple, des équipes de 5, 10, 25, 50… développeurs ne demanderont pas les mêmes
                     compétences de la part du directeur technique.
                 </p>
-
+                <p>Voici quelques exemples basés sur mon parcours personnel :</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">Voici quelques exemples basés sur mon parcours personnel :</p>
                     <li>
                         Jusqu’à 5 développeurs, le métier de CTO ressemble surtout à un rôle de développeur principal ou
                         d’architecte technique.

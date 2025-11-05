@@ -15,7 +15,7 @@ export const links = {
     monitoring: "https://fr.wikipedia.org/wiki/Surveillance_(informatique)",
     code_review: "https://fr.wikipedia.org/wiki/Revue_de_code",
     veille_tech: "https://fr.wikipedia.org/wiki/Veille_technologique",
-    concept_proof: "Proof Of Concept",
+    concept_proof: "https://fr.wikipedia.org/wiki/Preuve_de_concept",
     youtube_first_team: "https://www.youtube.com/watch?v=BjE_mPoZPSg",
     acm_queue: "https://queue.acm.org/detail.cfm?id=3454124",
     atlassian_site: "https://www.atlassian.com/devops/frameworks/dora-metrics",

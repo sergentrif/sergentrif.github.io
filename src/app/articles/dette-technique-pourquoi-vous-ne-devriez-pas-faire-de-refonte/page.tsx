@@ -6,7 +6,7 @@ import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArti
 import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
 import { links } from "@/libs/constants";
 
-export default function ArticleSixthPage() {
+export default function ArticleNinePage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
@@ -169,12 +169,12 @@ export default function ArticleSixthPage() {
                     pas judicieux, sauf pour des correctifs urgents. Quant aux nouvelles fonctionnalités, il est souvent
                     préférable d’attendre la mise en place de la nouvelle version pour éviter un travail redondant.
                 </p>
+                <p>
+                    Cette concentration des ressources sur la refonte signifie moins de nouveautés développées en
+                    parallèle. Selon le secteur d’activité et la position sur le marché, cela peut entrainer des
+                    conséquences notables :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Cette concentration des ressources sur la refonte signifie moins de nouveautés développées en
-                        parallèle. Selon le secteur d’activité et la position sur le marché, cela peut entrainer des
-                        conséquences notables :
-                    </p>
                     <li>
                         Incapacité pour l’équipe commerciale de proposer de nouvelles fonctionnalités, potentiellement
                         cruciales pour conclure des contrats.
@@ -225,11 +225,11 @@ export default function ArticleSixthPage() {
                     Bien sûr, le terme refonte peut être pertinent, mais seulement lorsqu’il est appliqué à un périmètre
                     bien défini et maîtrisé, afin de limiter les risques en cas d’éventuels problèmes.
                 </p>
+                <p>
+                    La réussite d’une évolution technique n’est pas le fruit du hasard. Elle nécessite une approche
+                    stratégique rigoureuse, fondée sur des principes clairs.
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        La réussite d’une évolution technique n’est pas le fruit du hasard. Elle nécessite une approche
-                        stratégique rigoureuse, fondée sur des principes clairs.
-                    </p>
                     <li>
                         <span className="font-bold">Diagnostic Honnête</span> : La première étape consiste à identifier
                         tous les problèmes existants et à comprendre pourquoi ils sont problématiques. J’apprécie
@@ -252,10 +252,8 @@ export default function ArticleSixthPage() {
                         erreurs passées.
                     </li>
                 </ul>
+                <p>Le processus d’évolution implique de naviguer entre trois dimensions temporelles :</p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        Le processus d’évolution implique de naviguer entre trois dimensions temporelles :
-                    </p>
                     <li>
                         <span className="font-bold">Le Présent</span> : Source de frustration, il crée le désir et la
                         nécessité de changer.
@@ -328,13 +326,12 @@ export default function ArticleSixthPage() {
                     les activités commerciales, tout en contribuant à la réalisation d’un objectif technique majeur à
                     long terme.
                 </p>
-
+                <p>
+                    La stratégie des ”20% de temps technique” est populaire mais présente des défis. Elle implique que
+                    chaque membre de l’équipe consacre un jour par semaine à l’évolution technique. Cependant, cette
+                    méthode peut se heurter à deux écueils majeurs :
+                </p>
                 <ul className="list-disc list-outside flex flex-col gap-5 px-4">
-                    <p className="-ml-4">
-                        La stratégie des “20% de temps technique” est populaire mais présente des défis. Elle implique
-                        que chaque membre de l’équipe consacre un jour par semaine à l’évolution technique. Cependant,
-                        cette méthode peut se heurter à deux écueils majeurs :
-                    </p>
                     <li>Les urgences commerciales tendent à éroder le temps dédié à l’évolution technique.</li>
                     <li>
                         La fragmentation hebdomadaire du travail rend difficile la gestion de tâches longues ou

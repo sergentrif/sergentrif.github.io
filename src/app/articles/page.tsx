@@ -145,7 +145,7 @@ export default function LandingArticlesPage() {
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0 md:text-base text-sm">
                 Après une carrière de 15 ans dans le domaine du développement logiciel, d’abord en tant que développeur
-                puis en tant que CTO, j’ai constamment entendu parler de &quot;dette technique&quot;. C’est un terme si
+                puis en tant que CTO, j’ai constamment entendu parler de ”dette technique”. C’est un terme si
                 omniprésent qu’il semble avoir perdu une partie de sa signification initiale.
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">12/12/2023</InfoBoxArticle>

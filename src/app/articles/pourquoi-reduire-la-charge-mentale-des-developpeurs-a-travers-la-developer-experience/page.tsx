@@ -131,12 +131,12 @@ export default function ArticlesPageFirstArticle() {
                     développer tout et n’importe quoi, à n’importe quel prix. L’idée est de leur faire gagner du temps
                     et de l’énergie pour des fonctionnalités qui ont un impact positif sur le business.
                 </p>
+                <p>
+                    C’est dans cette quête de réduction de la charge mentale, que réside à mes yeux le concept et
+                    l’intérêt de la&nbsp;<span className="italic">Developer Experience</span>. Et ce, à travers deux
+                    questions fondamentales :
+                </p>
                 <ul className="list-decimal list-inside flex flex-col gap-1">
-                    <p className="pb-2">
-                        C’est dans cette quête de réduction de la charge mentale, que réside à mes yeux le concept et
-                        l’intérêt de la&nbsp;<span className="italic">Developer Experience</span>. Et ce, à travers deux
-                        questions fondamentales :
-                    </p>
                     <li className="pl-1 ml-4">
                         Quelles sont les tâches sans valeur ajoutée, qui font perdre du temps aux développeurs ?
                     </li>
