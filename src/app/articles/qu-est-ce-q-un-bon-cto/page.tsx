@@ -10,7 +10,7 @@ export default function ArticleSeventhPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -20,11 +20,13 @@ export default function ArticleSeventhPage() {
                 </Link>
                 /Qu’est ce qu’un bon CTO ?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Qu’est ce qu’un bon CTO ?
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">24/01/2024, ~4 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                24/01/2024, ~4 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Que vous soyez un dirigeant d’entreprise qui cherche à recruter son prochain CTO ou un développeur
                     qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès rôle

@@ -10,7 +10,7 @@ export default function ArticleSixthPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -20,11 +20,13 @@ export default function ArticleSixthPage() {
                 </Link>
                 /Dette technique : pourquoi vous ne devriez pas faire de refonte
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Dette technique : pourquoi vous ne devriez pas faire de refonte{" "}
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">20/12/2023, ~16 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                20/12/2023, ~16 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Dans ma récente exploration de la gestion de la dette technique, j’ai partagé une perspective
                     proactive que j’ai baptisée{" "}

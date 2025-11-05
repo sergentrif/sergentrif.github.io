@@ -10,7 +10,7 @@ export default function ArticleSixthPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -20,11 +20,13 @@ export default function ArticleSixthPage() {
                 </Link>
                 /Savoir communiquer, au cœur du rôle de CTO
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Savoir communiquer, au cœur du rôle de CTO
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">31/01/2024, ~5 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                31/01/2024, ~5 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Le CTO a une position particulière au sein de l’entreprise. Au yeux des dirigeants, il représente
                     l’équipe technique. Au yeux de l’équipe technique, il représente les dirigeants.

@@ -9,7 +9,7 @@ export default function ArticleFourthPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -19,11 +19,13 @@ export default function ArticleFourthPage() {
                 </Link>
                 /Être le leader dont l’équipe a besoin
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Être le leader dont l’équipe a besoin
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">14/02/2024, ~6 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                14/02/2024, ~6 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Être à un poste de dirigeant implique directement de savoir décider. Mais indirectement, cela
                     implique d’être un leader et de savoir faire preuve de leadership. Ces deux notions ont des

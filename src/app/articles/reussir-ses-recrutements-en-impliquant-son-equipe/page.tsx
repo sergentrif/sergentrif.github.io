@@ -9,7 +9,7 @@ export default function ArticleThirdPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -19,11 +19,13 @@ export default function ArticleThirdPage() {
                 </Link>
                 /Réussir ses recrutements en impliquant son équipe
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Réussir ses recrutements en impliquant son équipe
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">15/02/2024, ~10 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                15/02/2024, ~10 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Au cours des dernières années, j’ai conduit des centaines d’entretiens de recrutement. Cela n’a
                     jamais été un exercice que j’apprécie particulièrement. Pourtant, je suis persuadé que c’est la
@@ -70,10 +72,10 @@ export default function ArticleThirdPage() {
                 <p> Et entre ces deux entretiens RH, nous avons mis en place 3 entretiens techniques.</p>
             </div>
 
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Vendre un projet
             </h2>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Le premier entretien doit être conduit par le CTO ou un responsable technique. C’est un entretien
                     commercial. Il faut donner envie aux candidats de rejoindre l’entreprise. Ce n’est pas la stack
@@ -101,10 +103,10 @@ export default function ArticleThirdPage() {
                     litigieuses. Les modalités de télétravail en font souvent partie.
                 </p>
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Valider les compétences techniques
             </h2>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Le deuxième entretien est un exercice technique. En général, j’ai pour habitude de faire des
                     exercices de conception ou de modélisation (base de données, API, UML). Maitriser des technologies
@@ -129,10 +131,10 @@ export default function ArticleThirdPage() {
                 </p>
             </div>
 
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Valider le fit humain
             </h2>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Si l’entretien technique s’est bien passé, alors démarre le dernier entretien. Son objectif est de
                     faire rencontrer au candidat, des personnes avec qui il travaillera. 3 personnes me semble être le
@@ -161,10 +163,10 @@ export default function ArticleThirdPage() {
                     les sujets abordés dans les entretiens préalables.
                 </p>
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Oui ou non, il faut faire un choix
             </h2>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     À ce stade, le candidat a donc vu 6 personnes sans compter les RH. Il est temps de décider s’il
                     pourra rejoindre l’équipe.

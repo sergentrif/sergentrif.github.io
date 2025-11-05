@@ -10,7 +10,7 @@ export default function ArticleSixthPage() {
     return (
         <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -20,11 +20,13 @@ export default function ArticleSixthPage() {
                 </Link>
                 /L’anti dette technique : la théorie de l’effort supplémentaire
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 L’anti dette technique : la théorie de l’effort supplémentaire
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">12/12/2023, ~14 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                12/12/2023, ~14 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Après une carrière de 15 ans dans le domaine du développement logiciel, d’abord en tant que
                     développeur puis en tant que CTO, j’ai constamment entendu parler de “dette technique”. C’est un

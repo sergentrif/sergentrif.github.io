@@ -8,9 +8,9 @@ import { TopArticleSection } from "@/components/containers/articlesPage/TopArtic
 
 export default function ArticlesPageSecondArticle() {
     return (
-        <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -21,11 +21,13 @@ export default function ArticlesPageSecondArticle() {
                 /Être développeur, c’est bien plus que développer
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase pb-5 md:pb-0">
                 Être développeur, c’est bien plus que développer
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">14/03/2024, ~12 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                14/03/2024, ~12 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que
                     vous n’ayez aucune connaissance de ce qu’ils font au quotidien. Beaucoup pensent que développer est
@@ -45,10 +47,10 @@ export default function ArticlesPageSecondArticle() {
                 </p>
                 <p> J’ai divisé l’ensemble des ces tâches en six catégories distinctes.</p>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Les pré-requis du développement
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         Ces tâches sont un fil rouge qui suit les développeurs tout au long de leur carrière. Bien sûr,
@@ -98,10 +100,10 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Le processus de développement
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         Ici, aucune obligation de réaliser l’ensemble de ces tâches. Selon l’entreprise, ses pratiques
@@ -192,10 +194,10 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Le Service Après-Vente
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         Le travail ne se termine pas lorsqu’une fonctionnalité est mise en production. Il débute
@@ -207,7 +209,7 @@ export default function ArticlesPageSecondArticle() {
                         <span className="font-bold">Assurer le support technique</span> : une fois les fonctionnalités
                         mises en production, ces dernières doivent fonctionner correctement. Elles ne doivent pas avoir
                         de bugs ou en créer dans d’autres fonctionnalités. Les développeurs doivent consacrer du temps à
-                        la surveillance automatisée des projets, que l’on appelle le&nbps;
+                        la surveillance automatisée des projets, que l’on appelle le&nbsp;
                         <Link
                             href={links.monitoring}
                             target="_blank"
@@ -216,7 +218,7 @@ export default function ArticlesPageSecondArticle() {
                         >
                             monitoring
                         </Link>
-                        &nbps;. Ils doivent aussi participer au support technique humain des utilisateurs.
+                        . Ils doivent aussi participer au support technique humain des utilisateurs.
                     </li>
                     <li className="pl-1 ml-4">
                         <span className="font-bold">Annuler les mises en production</span> : lorsqu’un bug est détecté,
@@ -233,10 +235,10 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Les imprévus du quotidien
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         Nous aimerions que tout se déroule toujours comme nous le souhaitons. Mais c’est rarement le
@@ -265,10 +267,10 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Aider les autres développeurs
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         Ils ont beau être seuls devant leur ordinateur, développer est un travail collectif. Certains
@@ -308,10 +310,10 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-[2rem] md:text-3xl text-lg font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
                 Se former soi-même
             </h3>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <ul className="list-disc list-outside flex flex-col gap-5">
                     <p>
                         L’informatique est un univers en perpétuelle évolution. Un développeur qui ne se forme pas est

@@ -10,7 +10,7 @@ export default function ArticlesPageFirstArticle() {
     return (
         <section className="flex flex-col justify-center items-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div>
+            <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
                 </Link>
@@ -21,18 +21,20 @@ export default function ArticlesPageFirstArticle() {
                 /Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
                 Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </h2>
-            <InfoBoxArticle className="self-start -mt-8">03/04/2024, ~8 minutes de lecture</InfoBoxArticle>
-            <div className="flex flex-col gap-10 px-4 text-brand-fine-blue">
+            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
+                03/04/2024, ~8 minutes de lecture
+            </InfoBoxArticle>
+            <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     J’ai récemment abordé la diversité des tâches que doivent traiter les développeurs au travers d’un
                     article nommé&nbsp;
                     <Link
                         href="/articles/etre-developpeur-c-est-bien-plus-que-developper"
-                        className="font-bold hover:scale-105 underline whitespace-nowrap"
+                        className="font-bold hover:scale-105 underline md:whitespace-nowrap"
                     >
                         Être développeur, c’est bien plus que développer
                     </Link>
