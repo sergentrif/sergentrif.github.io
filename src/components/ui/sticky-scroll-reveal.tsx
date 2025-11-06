@@ -43,7 +43,7 @@ export const StickyScroll = ({
                 <div className="max-w-5xl flex flex-col gap-16">
                     {content.map((item, index) => (
                         <div
-                            key={item.id + index}
+                            key={index}
                             className={cn(
                                 "md:p-10",
                                 "overflow-y-hidden flex self-center bg-brand-surface rounded-2xl p-4 min-h-90",

@@ -7,7 +7,7 @@ import { TopArticleSection } from "@/components/containers/articlesPage/TopArtic
 
 export default function LandingArticlesPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
             <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience">
