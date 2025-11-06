@@ -18,7 +18,7 @@ const content = [
                 <div className="uppercase text-brand-fine-blue font-medium">
                     <p>Jonathan le Duc</p>
                     <Link href="https://www.objow.com/" className="flex items-center gap-2">
-                        <span className="font-brico-gro tracking-widest">CEO - Objow</span>
+                        <span className="font-brico-gro tracking-wide">CEO - Objow</span>
                     </Link>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const content = [
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href="https://www.datacomplyone.com/" className="flex flex-col gap-1 text-3xl">
                     Data Comply One
-                    <span className="font-brico-gro tracking-widest text-base">#RGPD</span>
+                    <span className="font-brico-gro tracking-wide text-base">#RGPD</span>
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -55,7 +55,7 @@ const content = [
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <div>
                     <p className="text-3xl">CERTIXIO</p>
-                    <span className="font-brico-gro tracking-widest">#IA</span>
+                    <span className="font-brico-gro tracking-wide">#IA</span>
                 </div>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -76,7 +76,7 @@ const content_mobile = [
                 className="flex justify-between w-full text-2xl uppercase text-brand-fine-blue font-medium"
             >
                 Data Comply One
-                <span className="font-brico-gro tracking-widest text-base self-end">#RGPD</span>
+                <span className="font-brico-gro tracking-wide text-base self-end">#RGPD</span>
             </Link>
         ),
         description: [
@@ -102,7 +102,7 @@ const content_mobile = [
             <div className="uppercase text-brand-fine-blue font-medium">
                 <p>Jonathan le Duc</p>
                 <Link href="https://www.objow.com/" className="flex items-center gap-2">
-                    <span className="font-brico-gro tracking-widest">CEO - Objow</span>
+                    <span className="font-brico-gro tracking-wide">CEO - Objow</span>
                 </Link>
             </div>
         ),
@@ -112,7 +112,7 @@ const content_mobile = [
         logo: (
             <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
                 <p className="text-2xl">CERTIXIO</p>
-                <span className="font-brico-gro tracking-widest self-end">#IA</span>
+                <span className="font-brico-gro tracking-wide self-end">#IA</span>
             </div>
         ),
         description: [
@@ -132,7 +132,7 @@ const content_mobile = [
 export const TemoignageSection = () => {
     return (
         <section className="flex flex-col items-center py-6 gap-2 pb-24 px-4 md:px-16 lg:px-32">
-            <h2 className="max-w-7xl font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-widest uppercase">
+            <h2 className="max-w-7xl font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-wide uppercase">
                 transformer des défis techniques en succès tangibles pour votre entreprise
             </h2>
             <div className="lg:text-lg text-sm font-normal lg:px-1 px-0 flex self-start pb-8">

@@ -7,7 +7,7 @@ import { BottomContactBox } from "@/components/containers/articlesPage/BottomCon
 
 export default function ArticleThirdPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
             <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
@@ -19,7 +19,7 @@ export default function ArticleThirdPage() {
                 </Link>
                 /Réussir ses recrutements en impliquant son équipe
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 Réussir ses recrutements en impliquant son équipe
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
@@ -72,7 +72,7 @@ export default function ArticleThirdPage() {
                 <p> Et entre ces deux entretiens RH, nous avons mis en place 3 entretiens techniques.</p>
             </div>
 
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 Vendre un projet
             </h2>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -103,7 +103,7 @@ export default function ArticleThirdPage() {
                     litigieuses. Les modalités de télétravail en font souvent partie.
                 </p>
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 Valider les compétences techniques
             </h2>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -131,7 +131,7 @@ export default function ArticleThirdPage() {
                 </p>
             </div>
 
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 Valider le fit humain
             </h2>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -163,7 +163,7 @@ export default function ArticleThirdPage() {
                     les sujets abordés dans les entretiens préalables.
                 </p>
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 Oui ou non, il faut faire un choix
             </h2>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">

@@ -13,7 +13,7 @@ export const KrmaPresentation = () => {
             <div className="flex flex-col justify-center text-center">
                 <h2
                     className={cn(
-                        "flex flex-col md:text-[2.5rem] font-brico-gro font-bold uppercase tracking-widest",
+                        "flex flex-col md:text-[2.5rem] font-brico-gro font-bold uppercase tracking-wide",
                         "text-[22px] w-full",
                     )}
                 >

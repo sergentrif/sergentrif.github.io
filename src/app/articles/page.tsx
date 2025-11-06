@@ -7,9 +7,9 @@ import { TopArticleSection } from "@/components/containers/articlesPage/TopArtic
 
 export default function LandingArticlesPage() {
     return (
-        <section className="flex flex-col justify-center items-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience">
                     Pourquoi réduire la charge mentale des développeurs à travers la Developer&nbsp;
                     <span className="whitespace-nowrap">Experience ?</span>
@@ -29,7 +29,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">03/04/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/etre-developpeur-c-est-bien-plus-que-developper">
                     Être développeur, c’est bien plus que développer
                 </Link>
@@ -41,7 +41,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base"> 14/03/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/reussir-ses-recrutements-en-impliquant-son-equipe">
                     Réussir ses recrutements en impliquant son équipe
                 </Link>
@@ -53,7 +53,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base"> 15/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/etre-le-leader-dont-l-equipe-a-besoin">
                     Être le leader dont l’équipe a besoin
                 </Link>
@@ -66,7 +66,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">14/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/etre-cto-ou-l-art-de-representer-plusieurs-parties">
                     Être CTO ou l’art de représenter plusieurs parties
                 </Link>
@@ -78,7 +78,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">06/02/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/savoir-communiquer-au-coeur-du-role-de-cto">
                     Savoir communiquer, au cœur du rôle de CTO
                 </Link>
@@ -89,7 +89,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">31/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau">
                     Se remettre en question : le syndrome de l’imposteur est un cadeau
                 </Link>
@@ -109,7 +109,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base"> 25/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/qu-est-ce-q-un-bon-cto">Qu’est ce qu’un bon CTO ?</Link>
             </h2>
             <p className="text-brand-fine-blue  max-w-5xl md:px-4 px-0 md:text-base text-sm">
@@ -119,7 +119,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base"> 24/01/2024</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte">
                     Dette technique : pourquoi vous ne devriez pas faire de refonte
                 </Link>
@@ -138,7 +138,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">20/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire">
                     L’anti dette technique : la théorie de l’effort supplémentaire
                 </Link>
@@ -150,7 +150,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base">12/12/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple">
                     Comment réduire la complexité produit pour maintenir un système simple ?
                 </Link>
@@ -173,7 +173,7 @@ export default function LandingArticlesPage() {
             </p>
             <InfoBoxArticle className="self-end text-sm md:text-base"> 24/07/2023</InfoBoxArticle>
             <div className="border-linear-gradient w-full mb-6" />
-            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/de-developpeur-backend-a-cto-un-retour-a-zero">
                     De développeur backend à CTO, un retour à zéro
                 </Link>

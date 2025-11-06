@@ -3,20 +3,20 @@ import portrait from "@/assets/images/profile_portrait_adrien.png";
 import { LandingName } from "@/components/ui/icons/LandingName";
 import { AgrementBadge } from "@/components/ui/icons/AgrementBadge";
 import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown";
-import { LandingHomePageArrowIcon } from "@/components/ui/icons/RightArrowYellow";
+import { LandingHomePageArrowIconDesk, LandingHomePageArrowIconMobile } from "@/components/ui/icons/RightArrowYellow";
 import { LandingBannerCarousel } from "./LandingCarousel";
 
 export function Landing() {
     return (
         <section className="flex flex-col gap-16 pt-32 md:px-16 px-4 w-full">
             <div className="flex md:flex-row flex-col justify-center gap-4 relative">
-                <div className="flex flex-col md:items-end font-brico-gro tracking-widest text-xs sm:text-sm md:text-base relative lg:left-12 md:left-9 lg:top-22 md:top-12">
+                <div className="flex flex-col md:items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative lg:left-12 md:left-9 lg:top-22 md:top-12">
                     <p>CTO &</p>
                     <p>architecte</p>
                     <p>technique</p>
                 </div>
                 <LandingName />
-                <div className="flex flex-col md:justify-end md:items-start items-end font-brico-gro tracking-widest text-xs sm:text-sm md:text-base relative -bottom-1.5">
+                <div className="flex flex-col md:justify-end md:items-start items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative -bottom-1.5">
                     <p>Startups early stage</p>
                     <p>SaaS</p>
                     <p>Web & apps</p>
@@ -34,7 +34,7 @@ export function Landing() {
                     />
                 </div>
                 <div className="flex flex-col pl-14 relative">
-                    <h2 className="font-bold font-brico-gro uppercase tracking-widest lg:text-[2.5rem] md:text-2xl max-w-[47rem]">
+                    <h2 className="font-bold font-brico-gro uppercase tracking-wide lg:text-[2.5rem] md:text-2xl max-w-[47rem]">
                         {" J'aide les CEOs à transformer leur tech en accélérateur de croissance "}
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
@@ -44,8 +44,8 @@ export function Landing() {
                             <li>aider votre startup à scaler efficacement</li>
                             <li>accompagner votre équipe technique</li>
                         </ul>
+                        <LandingHomePageArrowIconDesk />
                     </div>
-                    <LandingHomePageArrowIcon className="absolute -z-10 lg:-right-34 lg:-top-14 -right-24 -top-20 lg:w-71 lg:h-103 w-67 h-98" />
                 </div>
             </div>
 
@@ -55,11 +55,11 @@ export function Landing() {
                         <AgrementBadge className="absolute -top-10 -right-10 w-26 h-26" />
                         <Image src={portrait} alt="Portrait of Adrien Blandin" className="w-42 h-56 " />
                     </div>
-                    <LandingHomePageArrowIcon className="absolute -z-10 -top-22 right-8 w-75 h-102" />
+                    <LandingHomePageArrowIconMobile />
                     <CircleArrowUpAndDown />
                 </div>
                 <div className="flex flex-col flex-1 relative">
-                    <h2 className="font-bold font-brico-gro uppercase tracking-widest text-[22px]">
+                    <h2 className="font-bold font-brico-gro uppercase tracking-wide text-[22px]">
                         {"J'aide les CEOs à transformer leur tech en accélérateur de croissance"}
                     </h2>
                     <div className="text-brand-fine-blue pt-4">

@@ -8,7 +8,7 @@ import { TopArticleSection } from "@/components/containers/articlesPage/TopArtic
 
 export default function ArticlesPageSecondArticle() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
             <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
@@ -21,7 +21,7 @@ export default function ArticlesPageSecondArticle() {
                 /Être développeur, c’est bien plus que développer
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase pb-5 md:pb-0">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Être développeur, c’est bien plus que développer
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
@@ -47,7 +47,7 @@ export default function ArticlesPageSecondArticle() {
                 </p>
                 <p> J’ai divisé l’ensemble des ces tâches en six catégories distinctes.</p>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Les pré-requis du développement
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -100,7 +100,7 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Le processus de développement
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -193,7 +193,7 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Le Service Après-Vente
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -233,7 +233,7 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Les imprévus du quotidien
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -265,7 +265,7 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Aider les autres développeurs
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
@@ -308,7 +308,7 @@ export default function ArticlesPageSecondArticle() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-widest uppercase">
+            <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
                 Se former soi-même
             </h3>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">

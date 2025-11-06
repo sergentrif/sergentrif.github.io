@@ -8,7 +8,7 @@ import { links } from "@/libs/constants";
 
 export default function ArticleTenPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto gap-12 pt-32 pb-16 md:px-16 px-4 w-full max-w-6xl">
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
             <div className="text-sm md:text-sm">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
@@ -20,7 +20,7 @@ export default function ArticleTenPage() {
                 </Link>
                 /L’anti dette technique : la théorie de l’effort supplémentaire
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-widest uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 L’anti dette technique : la théorie de l’effort supplémentaire
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
