@@ -1,8 +1,8 @@
 "use client";
 
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
-import { TopTemoignageSection } from "@/components/containers/temoignage/TopTemoignageSection";
-import { LandingTemoignage } from "@/components/containers/temoignage/LandingTemoignage";
+import { TopTemoignageSection } from "@/components/containers/temoignagePage/TopTemoignageSection";
+import { LandingTemoignage } from "@/components/containers/temoignagePage/LandingTemoignage";
 
 export default function TemoignagesPage() {
     return (

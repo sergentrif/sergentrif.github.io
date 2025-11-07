@@ -3,6 +3,11 @@
 import Link from "next/link";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
+import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
+import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
+import Image from "next/image";
+import DCOIcon from "@/components/ui/icons/brandLogo/DCOIcon.webp";
+import { cn } from "@/libs/utils";
 
 const content = [
     {
@@ -14,7 +19,14 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center gap-8 px-4">
-                <ObjowIcon className="max-w-49 max-h-12.25 w-full h-full" />
+                <Link href="https://www.objow.com/" target="_blank" rel="noopener noreferrer">
+                    <ObjowIcon
+                        className={cn(
+                            "max-w-49 max-h-12.25 w-full h-full relative bottom-2 left-2",
+                            "lg:bottom-2 lg:left-10",
+                        )}
+                    />
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div className="uppercase text-brand-fine-blue font-medium">
                     <p>Jonathan le Duc</p>
@@ -38,9 +50,12 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <Link href="https://www.datacomplyone.com/" className="flex flex-col gap-1 text-3xl">
-                    Data Comply One
-                    <span className="font-brico-gro text-base">#RGPD</span>
+                <Link href="https://www.datacomplyone.eu/" target="_blank" rel="noopener noreferrer">
+                    <Image
+                        src={DCOIcon}
+                        alt="Data Comply One Logo"
+                        className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11"
+                    />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -67,7 +82,6 @@ const content = [
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <div>
                     <p className="text-3xl">Omen-data</p>
-                    <span className="font-brico-gro">#</span>
                 </div>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -86,10 +100,9 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <div>
+                <Link href="https://www.certixio.fr/" target="_blank" rel="noopener noreferrer">
                     <p className="text-3xl">CERTIXIO</p>
-                    <span className="font-brico-gro">#IA</span>
-                </div>
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Marion Breuleux</p>
@@ -114,10 +127,9 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <div>
+                <Link href="https://www.olset.io/" target="_blank" rel="noopener noreferrer">
                     <p className="text-3xl">Olset</p>
-                    <span className="font-brico-gro">#</span>
-                </div>
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Rémi Chappoz</p>
@@ -141,10 +153,9 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <div>
-                    <p className="text-3xl">Ma nouvelle piscine</p>
-                    <span className="font-brico-gro">#</span>
-                </div>
+                <Link href="manouvellepiscine.com" target="_blank" rel="noopener noreferrer">
+                    <MNPIcon />
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Christophe Quétier</p>
@@ -168,10 +179,18 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <div>
-                    <p className="text-3xl">EM LYON</p>
-                    <span className="font-brico-gro">#</span>
-                </div>
+                <Link
+                    href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <EmLyonSchoolIcon
+                        className={cn(
+                            "max-w-18 max-h-16 relative top-2 left-14 flex self-center w-full h-full text-[#ed1c24]",
+                            "lg:max-h-24 lg:max-w-22 lg:-top-2 lg:left-23",
+                        )}
+                    />
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Christel Huber</p>
@@ -193,12 +212,8 @@ const content_mobile = [
     {
         id: 8,
         logo: (
-            <Link
-                href="https://www.datacomplyone.com/"
-                className="flex justify-between w-full text-2xl uppercase text-brand-fine-blue font-medium"
-            >
-                Data Comply One
-                <span className="font-brico-gro text-base self-end">#RGPD</span>
+            <Link href="https://www.datacomplyone.eu/" target="_blank" rel="noopener noreferrer">
+                <Image src={DCOIcon} alt="Data Comply One Logo" className="max-w-28 max-h-18 w-full h-full" />
             </Link>
         ),
         description: [
@@ -221,7 +236,11 @@ const content_mobile = [
     },
     {
         id: 9,
-        logo: <ObjowIcon className="max-w-45 max-h-11 w-full h-full self-start" />,
+        logo: (
+            <Link href="https://www.objow.com/" target="_blank" rel="noopener noreferrer">
+                <ObjowIcon className="max-w-45 max-h-11 w-full h-full self-start" />
+            </Link>
+        ),
         description: [
             "”J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
             "Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l'une des meilleures décisions que nous avons prises.",
@@ -294,7 +313,7 @@ const content_mobile = [
             "Adrien combine excellentes compétences techniques et sens du management — un vrai atout pour n’importe quelle équipe tech.",
         ],
         author: (
-            <div>
+            <div className="font-medium text-brand-fine-blue uppercase">
                 <p>Rémi Chappoz</p>
                 <Link
                     href="https://www.olset.io/"
@@ -309,18 +328,13 @@ const content_mobile = [
     },
     {
         id: 13,
-        logo: (
-            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl">Ma nouvelle piscine</p>
-                <span className="font-brico-gro self-end">#</span>
-            </div>
-        ),
+        logo: <MNPIcon />,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
             "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
         ],
         author: (
-            <div>
+            <div className="font-medium text-brand-fine-blue uppercase">
                 <p>Christophe Quétier</p>
                 <Link
                     href="manouvellepiscine.com"
@@ -335,18 +349,13 @@ const content_mobile = [
     },
     {
         id: 14,
-        logo: (
-            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl">EM LYON</p>
-                <span className="font-brico-gro self-end">#</span>
-            </div>
-        ),
+        logo: <EmLyonSchoolIcon className={cn("max-w-18 max-h-16  flex self-center w-full h-full text-[#ed1c24]")} />,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
             "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
         ],
         author: (
-            <div>
+            <div className="font-medium text-brand-fine-blue uppercase">
                 <p>Christel Huber</p>
                 <Link
                     href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
@@ -354,7 +363,7 @@ const content_mobile = [
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 underline"
                 >
-                    <span>Operating Manager chez emlyon venture labs</span>
+                    <span>Operating Manager - emlyon venture labs</span>
                 </Link>
             </div>
         ),
