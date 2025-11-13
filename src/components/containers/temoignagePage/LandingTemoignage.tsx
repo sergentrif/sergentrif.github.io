@@ -7,6 +7,8 @@ import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
 import Image from "next/image";
 import DCOIcon from "@/components/ui/icons/brandLogo/DCOIcon.webp";
+import certixioIcon from "@/components/ui/icons/brandLogo/certixioLogo.png";
+
 import { cn } from "@/libs/utils";
 
 const content = [
@@ -23,21 +25,26 @@ const content = [
                     <ObjowIcon
                         className={cn(
                             "max-w-49 max-h-12.25 w-full h-full relative bottom-2 left-2",
-                            "lg:bottom-2 lg:left-10",
+                            "lg:bottom-2 lg:left-10 md:bottom-0",
                         )}
                     />
                 </Link>
+
                 <div className="w-13 border-linear-gradient" />
                 <div className="uppercase text-brand-fine-blue font-medium">
                     <p>Jonathan le Duc</p>
-                    <Link
-                        href="https://www.objow.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>CEO - Objow</span>
-                    </Link>
+
+                    <div className="flex gap-2.5">
+                        CEO -{" "}
+                        <Link
+                            href="https://www.objow.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 underline"
+                        >
+                            Objow
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -60,14 +67,17 @@ const content = [
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Bertrand Bucelle</p>
-                    <Link
-                        href="https://www.datacomplyone.eu/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>CEO - Data Comply One</span>
-                    </Link>
+                    <div className="flex gap-2 ">
+                        CEO -{" "}
+                        <Link
+                            href="https://www.datacomplyone.eu/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline"
+                        >
+                            Data Comply One
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -80,9 +90,7 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <div>
-                    <p className="text-3xl">Omen-data</p>
-                </div>
+                <p className="text-3xl relative lg:left-13 lg:bottom-4 md:left-4">Omen-data</p>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>René le Caignec</p>
@@ -101,19 +109,26 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href="https://www.certixio.fr/" target="_blank" rel="noopener noreferrer">
-                    <p className="text-3xl">CERTIXIO</p>
+                    <Image
+                        src={certixioIcon}
+                        alt="Certixio Logo"
+                        className="lg:max-w-48 max-h-28 max-w-40 w-full h-full relative lg:bottom-5 lg:left-10 left-4"
+                    />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Marion Breuleux</p>
-                    <Link
-                        href="https://www.certixio.fr/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>CEO - CERTIXIO</span>
-                    </Link>
+                    <div className="flex gap-2.5">
+                        CEO -{" "}
+                        <Link
+                            href="https://www.certixio.fr/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline"
+                        >
+                            CERTIXIO
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -128,19 +143,24 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href="https://www.olset.io/" target="_blank" rel="noopener noreferrer">
-                    <p className="text-3xl">Olset</p>
+                    <p className="text-3xl relative lg:left-22 lg:bottom-4 md:left-13">Olset</p>
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>Rémi Chappoz</p>
-                    <Link
-                        href="https://www.olset.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>Cofondateur - Olset</span>
-                    </Link>
+
+                    <div className="flex items-center gap-2">
+                        Cofondateur -{" "}
+                        <Link
+                            href="https://www.olset.io/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline"
+                        >
+                            {" "}
+                            Olset
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -157,16 +177,20 @@ const content = [
                     <MNPIcon />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
-                <div>
+                <div className="flex flex-col gap-2">
                     <p>Christophe Quétier</p>
-                    <Link
-                        href="manouvellepiscine.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>Directeur Général - Ma nouvelle piscine</span>
-                    </Link>
+
+                    <div className="flex flex-col">
+                        Directeur Général
+                        <Link
+                            href="manouvellepiscine.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline"
+                        >
+                            Ma nouvelle piscine
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -192,16 +216,20 @@ const content = [
                     />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
-                <div>
+                <div className="flex flex-col gap-2">
                     <p>Christel Huber</p>
-                    <Link
-                        href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 underline"
-                    >
-                        <span>Operating Manager - emlyon venture labs</span>
-                    </Link>
+
+                    <div className="flex flex-col">
+                        Operating Manager
+                        <Link
+                            href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=" underline"
+                        >
+                            emlyon venture labs
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -213,7 +241,11 @@ const content_mobile = [
         id: 8,
         logo: (
             <Link href="https://www.datacomplyone.eu/" target="_blank" rel="noopener noreferrer">
-                <Image src={DCOIcon} alt="Data Comply One Logo" className="max-w-28 max-h-18 w-full h-full" />
+                <Image
+                    src={DCOIcon}
+                    alt="Data Comply One Logo"
+                    className="md:max-w-28 md:max-h-18 max-w-20 max-h-18 w-full h-full relative top-1 md:top-0"
+                />
             </Link>
         ),
         description: [
@@ -223,14 +255,18 @@ const content_mobile = [
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
                 <p>Bertrand Bucelle</p>
-                <Link
-                    href="https://www.datacomplyone.eu/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 underline"
-                >
-                    <span>CEO - Data Comply One</span>
-                </Link>
+
+                <div className="flex gap-2">
+                    CEO -{" "}
+                    <Link
+                        href="https://www.datacomplyone.eu/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 underline"
+                    >
+                        Data Comply One
+                    </Link>
+                </div>
             </div>
         ),
     },
@@ -238,35 +274,42 @@ const content_mobile = [
         id: 9,
         logo: (
             <Link href="https://www.objow.com/" target="_blank" rel="noopener noreferrer">
-                <ObjowIcon className="max-w-45 max-h-11 w-full h-full self-start" />
+                <ObjowIcon className="md:max-w-45 md:max-h-11 max-w-30 max-h-8 w-full h-full self-start relative top-1 md:top-0" />
             </Link>
         ),
         description: [
-            "”J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
+            "J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
             "Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l'une des meilleures décisions que nous avons prises.",
             "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !",
         ],
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
                 <p>Jonathan le Duc</p>
-                <Link
-                    href="https://www.objow.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 underline"
-                >
-                    <span>CEO - Objow</span>
-                </Link>
+
+                <div className="flex gap-2.5">
+                    CEO -{" "}
+                    <Link
+                        href="https://www.objow.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 underline"
+                    >
+                        Objow
+                    </Link>
+                </div>
             </div>
         ),
     },
     {
         id: 10,
         logo: (
-            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl">CERTIXIO</p>
-                <span className="font-brico-gro self-end">#IA</span>
-            </div>
+            <Link href="https://www.certixio.fr/" target="_blank" rel="noopener noreferrer">
+                <Image
+                    src={certixioIcon}
+                    alt="Certixio Logo"
+                    className="md:max-h-28 md:max-w-40 max-h-20 max-w-30 w-full h-full"
+                />
+            </Link>
         ),
         description: [
             "“Adrien dispose d'une qualité particulièrement appréciable : une vraie capacité à allier vision business et vision tech pour concevoir et développer un produit avec efficience.",
@@ -276,7 +319,17 @@ const content_mobile = [
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
                 <p>Marion Breuleux</p>
-                <p>CEO - CERTIXIO</p>
+                <div className="flex gap-2">
+                    CEO -
+                    <Link
+                        href="https://www.certixio.fr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline"
+                    >
+                        CERTIXIO
+                    </Link>
+                </div>
             </div>
         ),
     },
@@ -284,8 +337,7 @@ const content_mobile = [
         id: 11,
         logo: (
             <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl">Omen-data</p>
-                <span className="font-brico-gro self-end">#</span>
+                <p className="text-2xl top-1 relative">Omen-data</p>
             </div>
         ),
         description: [
@@ -303,8 +355,7 @@ const content_mobile = [
         id: 12,
         logo: (
             <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl">Olset</p>
-                <span className="font-brico-gro self-end">#</span>
+                <p className="text-2xl top-1 relative">Olset</p>
             </div>
         ),
         description: [
@@ -315,14 +366,18 @@ const content_mobile = [
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
                 <p>Rémi Chappoz</p>
-                <Link
-                    href="https://www.olset.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 underline"
-                >
-                    <span>Cofondateur - Olset</span>
-                </Link>
+
+                <div className="flex gap-2">
+                    Cofondateur -{" "}
+                    <Link
+                        href="https://www.olset.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 underline"
+                    >
+                        Olset
+                    </Link>
+                </div>
             </div>
         ),
     },
@@ -335,36 +390,45 @@ const content_mobile = [
         ],
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
-                <p>Christophe Quétier</p>
-                <Link
-                    href="manouvellepiscine.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 underline"
-                >
-                    <span>Directeur Général - Ma nouvelle piscine</span>
-                </Link>
+                <p className="pb-1">Christophe Quétier</p>
+
+                <div className="flex flex-col">
+                    Directeur Général
+                    <Link
+                        href="manouvellepiscine.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 underline"
+                    >
+                        {" "}
+                        Ma nouvelle piscine
+                    </Link>
+                </div>
             </div>
         ),
     },
     {
         id: 14,
-        logo: <EmLyonSchoolIcon className={cn("max-w-18 max-h-16  flex self-center w-full h-full text-[#ed1c24]")} />,
+        logo: <EmLyonSchoolIcon className={cn("max-w-14 max-h-12  flex self-center w-full h-full text-[#ed1c24]")} />,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
             "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
         ],
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
-                <p>Christel Huber</p>
-                <Link
-                    href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 underline"
-                >
-                    <span>Operating Manager - emlyon venture labs</span>
-                </Link>
+                <p className="pb-1">Christel Huber</p>
+
+                <div className="flex flex-col">
+                    Operating Manager
+                    <Link
+                        href="https://em-lyon.com/fr/faculte-recherche/recherche/institute-impactful-innovation-entrepreneurship/venture-labs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 underline"
+                    >
+                        emlyon venture labs
+                    </Link>
+                </div>
             </div>
         ),
     },
