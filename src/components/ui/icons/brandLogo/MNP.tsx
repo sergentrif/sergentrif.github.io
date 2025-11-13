@@ -5,8 +5,8 @@ export const MNPIcon: React.FC<IconProps> = ({
     stroke = "currentColor",
     strokeWidth = 0.5,
     className = cn(
-        "w-full h-full max-w-20 max-h-16 relative left-14",
-        "lg:max-w-28 lg:max-h-22 lg:left-18 lg:bottom-2",
+        "w-full h-full max-w-18 max-h-14 relative",
+        "lg:max-w-28 lg:max-h-22 lg:left-18 lg:bottom-4 md:left-13 md:top-2 lg:top-0",
     ),
 }) => {
     return (
