@@ -3,22 +3,22 @@
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
-import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
+import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 
 export default function ArticleTwelvePage() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div className="text-sm md:text-sm">
+            <div className="text-sm md:text-base">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
-                </Link>
-                /
+                </Link>{" "}
+                /{" "}
                 <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
                     Articles
-                </Link>
-                /De développeur backend à CTO, un retour à zéro
+                </Link>{" "}
+                / De développeur backend à CTO, un retour à zéro
             </div>
             <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
                 De développeur backend à CTO, un retour à zéro
@@ -159,7 +159,7 @@ export default function ArticleTwelvePage() {
                 l’on doit apprendre sur le tas et qui demande donc une remise en question permanente : sur les projets,
                 sur l’équipe, sur l’entreprise mais sur soi avant tout.
                 <p>À titre personnel j’ai éprouvé trois grandes difficultés :</p>
-                <ul className="list-disc list-outside flex flex-col gap-5 px-4">
+                <ul className="list-disc list-outside flex flex-col -mt-7 px-4">
                     <li className="font-bold">Le manque de légitimité</li>
                 </ul>
                 <p>
@@ -172,11 +172,14 @@ export default function ArticleTwelvePage() {
                     puisque développer n’est pas le coeur de ce métier : on est là pour manager.
                 </p>
                 <p>Lorsque l’on en prend conscience, tout va mieux !</p>
-                <ul className="list-disc list-outside flex flex-col gap-5 px-4">
+                <ul className="list-disc list-outside flex flex-col -mt-7 px-4">
                     <li className="font-bold">Le manque de feedbacks</li>
                 </ul>
-                <p>Comment savoir si l’on fait bien les choses lorsqu’il n’y a personne pour nous le dire ?</p>
-                <ul className="list-disc list-outside flex flex-col gap-5 px-4">
+                <p>
+                    Comment savoir si l’on fait bien les choses lorsqu’il n’y a personne pour nous le{" "}
+                    <span className="whitespace-nowrap">dire ?</span>
+                </p>
+                <ul className="list-disc list-outside flex flex-col -mt-7 px-4">
                     <li className="font-bold">Le sentiment d’improductivité</li>
                 </ul>
                 <p>
@@ -199,16 +202,7 @@ export default function ArticleTwelvePage() {
                 </p>
                 <p>
                     Je suis persuadé que mon métier est différent de celui exercé par le CTO de Doctolib, qui a lui
-                    aussi un métier différent du CTO de Google (voici un article à ce sujet que j’ai apprécié :{" "}
-                    <Link
-                        href={links.stages_of_CTO_career}
-                        className="font-bold underline"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        5 stages of CTO career
-                    </Link>
-                    .
+                    aussi un métier différent du CTO de Google.
                 </p>
                 <p>
                     Chaque entreprise, chaque équipe est unique et ce métier doit s’adapter aux conditions dans

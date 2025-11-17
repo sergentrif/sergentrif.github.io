@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
-import { BottomContactBox } from "@/components/containers/articlesPage/BottomContactBox";
+import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 
@@ -10,15 +10,15 @@ export default function ArticlesPageSecondArticle() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
             <TopArticleSection />
-            <div className="text-sm md:text-sm">
+            <div className="text-sm md:text-base">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
                     Accueil
-                </Link>
-                /
+                </Link>{" "}
+                /{" "}
                 <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
                     Articles
-                </Link>
-                /Être développeur, c’est bien plus que développer
+                </Link>{" "}
+                / Être développeur, c’est bien plus que développer
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
             <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">

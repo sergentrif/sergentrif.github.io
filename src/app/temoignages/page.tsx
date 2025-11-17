@@ -1,20 +1,15 @@
 "use client";
 
-import { ComingSoon } from "@/components/containers/ComingSoon";
-import Link from "next/link";
+import { BottomContactBox } from "@/components/containers/BottomContactBox";
+import { TopTemoignageSection } from "@/components/containers/temoignagePage/TopTemoignageSection";
+import { LandingTemoignage } from "@/components/containers/temoignagePage/LandingTemoignage";
 
 export default function TemoignagesPage() {
-  return (
-    <section className="w-full flex flex-col">
-      <ComingSoon />
-      <div className="pb-16 self-center flex">
-        <Link
-          href="/"
-          className="flex border-brand-giants border-2 rounded-3xl md:px-6 md:py-2 px-4 py-1.5 self-center md:text-xl text-base"
-        >
-          {"Retour à l'accueil"}
-        </Link>
-      </div>
-    </section>
-  );
+    return (
+        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
+            <TopTemoignageSection />
+            <LandingTemoignage />
+            <BottomContactBox />
+        </section>
+    );
 }
