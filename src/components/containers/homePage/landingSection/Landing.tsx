@@ -25,7 +25,7 @@ export function Landing() {
 
             <div className="md:flex hidden md:pt-32 pt-8 pb-8 relative -translate-x-1/20 items-center justify-center lg:px-16 md:px-8">
                 <div className="flex relative shrink-0 gap-5">
-                    <CircleArrowUpAndDown />
+                    <CircleArrowUpAndDown className="w-16 pt-15" />
                     <AgrementBadge className="absolute lg:-top-17 md:-top-14 -top-10 lg:-right-13 md:-right-11 -right-9 lg:w-32 lg:h-32 md:w-26 md:h-26 w-24 h-24" />
                     <Image
                         src={portrait}
@@ -56,7 +56,7 @@ export function Landing() {
                         <Image src={portrait} alt="Portrait of Adrien Blandin" className="w-42 h-56 " />
                     </div>
                     <LandingHomePageArrowIconMobile />
-                    <CircleArrowUpAndDown />
+                    <CircleArrowUpAndDown className="w-16 pt-15" />
                 </div>
                 <div className="flex flex-col flex-1 relative">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide text-[22px]">

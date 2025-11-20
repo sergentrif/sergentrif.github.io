@@ -1,8 +1,8 @@
 import React from "react";
 import { IconProps } from "./types";
 
-export const CircleArrowUpAndDown: React.FC<IconProps> = () => (
-    <svg viewBox="0 0 61 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-16 pt-15">
+export const CircleArrowUpAndDown: React.FC<IconProps> = ({ className }) => (
+    <svg viewBox="0 0 61 130" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
         <path
             d="M13.0001 79.9489L18.7736 69.9489L7.22662 69.9489L13.0001 79.9489ZM13.0001 0L12.0001 4.37114e-08L12.0001 70.9489L13.0001 70.9489L14.0001 70.9489L14.0001 -4.37114e-08L13.0001 0Z"
             fill="#000F1A"
