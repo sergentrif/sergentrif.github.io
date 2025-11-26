@@ -24,19 +24,24 @@ export const LandingSection = () => {
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] max-w-46 max-h-66 pt-6" />
             </div>
             <div className="flex flex-col gap-22">
-                <div className="lg:px-56 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-between relative">
-                    <div className="flex flex-col gap-6 items-start max-w-[500px] text-brand-fine-blue">
+                <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
-                                Sparring partner
+                                Sparing partner
                             </h2>
                             <InfoBox className="flex mx-auto">Conseil-mentorat</InfoBox>
                         </div>
                         <p>
-                            En tant que sparing partner, je mentor les CTO et futurs CTO qui souhaitent gagner en
-                            hauteur de vue, structurer leur organisation et affirmer leur leadership.
+                            J’accompagne les CTO et futurs CTO qui veulent gagner en hauteur de vue, structurer leur
+                            organisation et affirmer leur leadership technique. Je suis passé par là : de développeur à
+                            CTO. J’ai fait les erreurs, j’ai appris, et aujourd’hui je partage cette expérience pour
+                            vous faire gagner plusieurs années d’apprentissage.
                         </p>
-                        <p>Nous travaillons ensemble sur vos enjeux concrets :</p>
+                        <p>
+                            Nous travaillons directement sur vos enjeux{" "}
+                            <span className="whitespace-nowrap">concrets :</span>
+                        </p>
                         <ul className="list-disc list-outside -mt-4 pl-4">
                             <li>priorisation stratégique</li>
                             <li>structuration de la roadmap</li>
@@ -46,31 +51,44 @@ export const LandingSection = () => {
                             <li>relation avec les fondateurs ou les équipes produit. </li>
                         </ul>
                         <p>
-                            Mon accompagnement vous offre un espace neutre pour challenger vos décisions, débloquer des
-                            situations complexes et consolider votre posture de leader technique. L’objectif : vous
-                            aider à monter en puissance plus rapidement et plus sereinement.
+                            Je vous offre un espace neutre pour challenger vos décisions, débloquer des situations
+                            complexes et consolider votre posture de leader technique.
+                        </p>
+                        <p>
+                            J’interviens également auprès des CEO : pour leur apporter un regard objectif sur leur CTO
+                            ou leur équipe technique, ou simplement les conseiller lorsqu’ils n’ont pas encore de
+                            leadership tech en place.
+                        </p>
+                        <p>
+                            <span className="font-bold">L’objectif</span> : vous aider à monter en puissance plus
+                            rapidement, plus sereinement… et éviter les erreurs que j’ai déjà commises pour vous.
                         </p>
                     </div>
-                    <DesignA className="max-w-153 w-full h-full absolute top-0 left-125 opacity-50 mix-blend-plus-lighter" />
-                    <Image src={img1} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
+                    <DesignA className="lg:max-w-153 md:max-w-120 lg:top-0 lg:right-100 md:right-48 md:-top-68 w-full h-full absolute opacity-50 mix-blend-plus-lighter" />
+                    <Image
+                        src={img1}
+                        alt=""
+                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                        priority
+                    />
                 </div>
 
-                <div className="lg:px-56 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-between relative">
-                    <div className="flex flex-col gap-6 self-center max-w-[500px] text-brand-fine-blue">
+                <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 CTO Part-time
                             </h2>
-                            <InfoBox className="flex mx-auto">Régie</InfoBox>
+                            <InfoBox className="flex mx-auto">intégration à vos équipes tech</InfoBox>
                         </div>
                         <p>
                             En tant que CTO part-time, j’accompagne les startups et PME qui ont besoin d’une direction
-                            technique expérimentée sans recruter en interne.{" "}
+                            technique expérimentée sans recruter un profil full-time en interne.
                         </p>
                         <p>
                             J’interviens quelques jours par semaine pour structurer la roadmap produit, sécuriser les
                             choix technologiques, mettre en place les bonnes pratiques d’ingénierie, encadrer les
-                            équipes et fluidifier la collaboration entre métier et technique.{" "}
+                            équipes et fluidifier la collaboration entre métier et technique.
                         </p>
                         <p>
                             Mon approche combine vision stratégique et action opérationnelle, afin d’aider l’entreprise
@@ -78,21 +96,40 @@ export const LandingSection = () => {
                             scalable.
                         </p>
                     </div>
-
-                    <CircleArrowUpAndDown className="w-16 absolute left-30 -top-37" />
-                    <DesignB className="max-w-153 w-full h-full absolute top-13 left-82 opacity-50 mix-blend-plus-lighter" />
-                    <Image src={img2} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
+                    <CircleArrowUpAndDown className="w-16 absolute right-30 -top-37" />
+                    <DesignB className="lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-13 md:-top-10 lg:left-82 md:left-50 opacity-50 mix-blend-plus-lighter" />
+                    <Image
+                        src={img2}
+                        alt=""
+                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                    />
                 </div>
             </div>
-            <div className="flex overflow-x-hidden py-16">
-                <Image src={img3} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
-                <Image src={img4} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
-                <Image src={img5} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
-                <Image src={img6} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
+            <div className="flex overflow-x-hidden py-16 justify-center">
+                <Image
+                    src={img3}
+                    alt=""
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                />
+                <Image
+                    src={img4}
+                    alt=""
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                />
+                <Image
+                    src={img5}
+                    alt=""
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                />
+                <Image
+                    src={img6}
+                    alt=""
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                />
             </div>
             <div className="flex flex-col gap-22">
-                <div className="lg:px-56 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-between relative">
-                    <div className="flex flex-col gap-6 items-start max-w-[500px] text-brand-fine-blue">
+                <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Définition du MVP
@@ -102,30 +139,33 @@ export const LandingSection = () => {
 
                         <p>
                             Je vous accompagne dans la définition d’un MVP clair, priorisé et techniquement réaliste,
-                            sous forme d’un livrable complet.{" "}
+                            sous forme d’un livrable complet.
                         </p>
                         <p>
                             À partir de votre idée, nous identifions ensemble la proposition de valeur, les parcours
                             utilisateurs essentiels et les fonctionnalités réellement nécessaires pour tester votre
                             marché.
                         </p>
-                        <p>J’analyse également les implications techniques : </p>
+                        <p>J’analyse également les implications techniques :</p>
                         <ul className="list-disc list-outside -mt-4 pl-4">
                             <li>choix d’architecture</li>
                             <li>contraintes de scalabilité</li>
-                            <li>dette acceptable. </li>
+                            <li>dette acceptable</li>
                         </ul>
                         <p>
                             À l’issue de la mission, vous repartez avec un document structuré, conçu pour être
-                            directement utilisé par une équipe technique et pour lancer le développement en toute
-                            sérénité.{" "}
+                            directement utilisé par une équipe technique ou pour réaliser vos demandes de subvention.
                         </p>
                     </div>
-                    <DesignC className="max-w-134 w-full h-full absolute top-0 right-56 opacity-50 mix-blend-plus-lighter" />
-                    <Image src={img7} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
+                    <DesignC className="lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-56 md:-top-15 md:right-27 opacity-50 mix-blend-plus-lighter" />
+                    <Image
+                        src={img7}
+                        alt=""
+                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                    />
                 </div>
-                <div className="lg:px-56 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-between relative">
-                    <div className="flex flex-col gap-6 self-center max-w-[500px] text-brand-fine-blue">
+                <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Conférencier
@@ -133,22 +173,26 @@ export const LandingSection = () => {
                             <InfoBox className="flex mx-auto">Écoles et accélérateurs</InfoBox>
                         </div>
                         <p>
-                            En tant que CTO part-time, j’accompagne les startups et PME qui ont besoin d’une direction
-                            technique expérimentée sans recruter en interne.
+                            En tant que CTO freelance, j’interviens régulièrement auprès d’écoles et d’accélérateurs
+                            pour partager une vision concrète, décomplexée et opérationnelle de la tech.
                         </p>
                         <p>
-                            J’interviens quelques jours par semaine pour structurer la roadmap produit, sécuriser les
-                            choix technologiques, mettre en place les bonnes pratiques d’ingénierie, encadrer les
-                            équipes et fluidifier la collaboration entre métier et technique.{" "}
+                            Mes conférences couvrent des sujets clés pour les futurs entrepreneurs et professionnels :
+                            passer du rôle de développeur à celui de CTO, construire un MVP rapidement et efficacement,
+                            rédiger un cahier des charges solide, réussir une due diligence technique ou encore recruter
+                            et structurer une équipe.
                         </p>
                         <p>
-                            Mon approche combine vision stratégique et action opérationnelle, afin d’aider l’entreprise
-                            à avancer vite, réduire les risques et atteindre ses objectifs avec une tech maîtrisée et
-                            scalable.
+                            Mon approche est pragmatique, orientée terrain, et pensée pour offrir des clés immédiatement
+                            actionnables.
                         </p>
                     </div>
-                    <DesignA className="max-w-153 w-full h-full absolute top-20 left-44 opacity-50 mix-blend-plus-lighter" />
-                    <Image src={img8} alt="" className="max-h-[600px] max-w-[400px] h-full w-full" />
+                    <DesignA className="lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-20 lg:left-44 md:-top-25 md:left-38 opacity-50 mix-blend-plus-lighter" />
+                    <Image
+                        src={img8}
+                        alt=""
+                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                    />
                 </div>
             </div>
         </section>
