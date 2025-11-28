@@ -197,7 +197,7 @@ export const LandingSection = () => {
                     <DesignA className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-0 lg:left-60 md:-top-15 md:left-38 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img8}
-                        alt="Ardien conference speech"
+                        alt="Adrien conference speech"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
