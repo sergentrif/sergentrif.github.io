@@ -69,7 +69,7 @@ export const LandingSection = () => {
                     <DesignA className="hidden md:block lg:max-w-153 md:max-w-120 lg:top-0 lg:right-100 md:right-48 md:-top-68 w-full h-full absolute opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img1}
-                        alt=""
+                        alt="Krma team working together"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                         priority
                     />
@@ -102,7 +102,7 @@ export const LandingSection = () => {
                     <DesignB className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-13 md:top-4 lg:left-82 md:left-50 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img2}
-                        alt=""
+                        alt="Krma team working together"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
@@ -113,22 +113,22 @@ export const LandingSection = () => {
             <div className="hidden md:flex overflow-x-hidden py-16 justify-center">
                 <Image
                     src={img3}
-                    alt=""
+                    alt="Krma team working together"
                     className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
                 />
                 <Image
                     src={img4}
-                    alt=""
+                    alt="Adrien conference speech"
                     className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
                 />
                 <Image
                     src={img5}
-                    alt=""
+                    alt="Adrien work advising"
                     className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
                 />
                 <Image
                     src={img6}
-                    alt=""
+                    alt="Public listening Adrien's conference"
                     className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
                 />
             </div>
@@ -166,7 +166,7 @@ export const LandingSection = () => {
                     <DesignC className="hidden md:block lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-56 md:-top-5 md:right-27 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img7}
-                        alt=""
+                        alt="Adrien wearing Krma's clothes"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
@@ -197,7 +197,7 @@ export const LandingSection = () => {
                     <DesignA className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-0 lg:left-60 md:-top-15 md:left-38 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img8}
-                        alt=""
+                        alt="Ardien conference speech"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
