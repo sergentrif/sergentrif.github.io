@@ -5,6 +5,7 @@ import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown
 import { DesignA } from "@/components/ui/icons/cardsDesign/DesignA";
 import { DesignB } from "@/components/ui/icons/cardsDesign/DesignB";
 import { DesignC } from "@/components/ui/icons/cardsDesign/DesignC";
+import { InfiniteSlider } from "./InfiniteSlider";
 
 import img1 from "@/assets/images/krma_prestation_1.png";
 import img2 from "@/assets/images/krma_prestation_2.png";
@@ -18,14 +19,14 @@ import img8 from "@/assets/images/krma_prestation_8.png";
 export const LandingSection = () => {
     return (
         <section className="flex flex-col pt-12 pb-16">
-            <div className="flex w-full h-full gap-2 items-center justify-start relative right-19 overflow-x-hidden">
-                <ContactModalArrowIcon className="max-w-46 max-h-66 pt-6" />
-                <h2 className="uppercase text-[40px] font-brico-gro font-bold">Prestations</h2>
-                <ContactModalArrowIcon className="rotate-180 scale-y-[-1] max-w-46 max-h-66 pt-6" />
+            <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
+                <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
+                <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Prestations</h2>
+                <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
             <div className="flex flex-col gap-22">
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
-                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Sparing partner
@@ -63,18 +64,18 @@ export const LandingSection = () => {
                             <span className="font-bold">L’objectif</span> : vous aider à monter en puissance plus
                             rapidement, plus sereinement… et éviter les erreurs que j’ai déjà commises pour vous.
                         </p>
+                        <DesignA className="max-w-153 w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <DesignA className="lg:max-w-153 md:max-w-120 lg:top-0 lg:right-100 md:right-48 md:-top-68 w-full h-full absolute opacity-50 mix-blend-plus-lighter" />
+                    <DesignA className="hidden md:block lg:max-w-153 md:max-w-120 lg:top-0 lg:right-100 md:right-48 md:-top-68 w-full h-full absolute opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img1}
                         alt=""
-                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                        className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                         priority
                     />
                 </div>
-
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
-                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 CTO Part-time
@@ -95,17 +96,21 @@ export const LandingSection = () => {
                             à avancer vite, réduire les risques et atteindre ses objectifs avec une tech maîtrisée et
                             scalable.
                         </p>
+                        <DesignB className="max-w-153 w-full h-full absolute top-12 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <CircleArrowUpAndDown className="w-16 absolute right-30 -top-37" />
-                    <DesignB className="lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-13 md:-top-10 lg:left-82 md:left-50 opacity-50 mix-blend-plus-lighter" />
+                    <CircleArrowUpAndDown className="w-16 absolute right-30 -top-37 hidden md:block" />
+                    <DesignB className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-13 md:top-4 lg:left-82 md:left-50 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img2}
                         alt=""
-                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                        className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
             </div>
-            <div className="flex overflow-x-hidden py-16 justify-center">
+            <div className="md:hidden py-16">
+                <InfiniteSlider images={[img1, img3, img4, img5, img6, img8]} />
+            </div>
+            <div className="hidden md:flex overflow-x-hidden py-16 justify-center">
                 <Image
                     src={img3}
                     alt=""
@@ -129,7 +134,7 @@ export const LandingSection = () => {
             </div>
             <div className="flex flex-col gap-22">
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
-                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Définition du MVP
@@ -156,16 +161,17 @@ export const LandingSection = () => {
                             À l’issue de la mission, vous repartez avec un document structuré, conçu pour être
                             directement utilisé par une équipe technique ou pour réaliser vos demandes de subvention.
                         </p>
+                        <DesignC className="max-w-134 w-full h-full absolute top-13 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <DesignC className="lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-56 md:-top-15 md:right-27 opacity-50 mix-blend-plus-lighter" />
+                    <DesignC className="hidden md:block lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-56 md:-top-5 md:right-27 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img7}
                         alt=""
-                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                        className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
-                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue">
+                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
                         <div className="flex flex-col justify-center gap-4 w-full ">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Conférencier
@@ -186,12 +192,13 @@ export const LandingSection = () => {
                             Mon approche est pragmatique, orientée terrain, et pensée pour offrir des clés immédiatement
                             actionnables.
                         </p>
+                        <DesignA className="max-w-153 w-full h-full absolute top-12 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <DesignA className="lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-20 lg:left-44 md:-top-25 md:left-38 opacity-50 mix-blend-plus-lighter" />
+                    <DesignA className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-0 lg:left-60 md:-top-15 md:left-38 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img8}
                         alt=""
-                        className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
+                        className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
                 </div>
             </div>
