@@ -19,24 +19,32 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
 
     useEffect(() => {
         if (sliderRef.current) {
-            // Centrer sur le deuxième set d'images au démarrage
             sliderRef.current.scrollLeft = sliderRef.current.scrollWidth / 3;
         }
     }, []);
 
     useEffect(() => {
-        if (!isAutoScrolling || !sliderRef.current) return;
+        if (!isAutoScrolling || isDragging) return;
 
-        const scrollSpeed = 1;
-        const intervalTime = 50;
+        let animationFrameId: number;
+        const scrollSpeed = 0.2;
+        let accumulatedScroll = 0;
 
-        const autoScroll = setInterval(() => {
-            if (sliderRef.current && !isDragging) {
-                sliderRef.current.scrollLeft += scrollSpeed;
+        const autoScroll = () => {
+            if (sliderRef.current) {
+                accumulatedScroll += scrollSpeed;
+                if (accumulatedScroll >= 1) {
+                    const scrollAmount = Math.floor(accumulatedScroll);
+                    sliderRef.current.scrollLeft += scrollAmount;
+                    accumulatedScroll -= scrollAmount;
+                }
             }
-        }, intervalTime);
+            animationFrameId = requestAnimationFrame(autoScroll);
+        };
 
-        return () => clearInterval(autoScroll);
+        animationFrameId = requestAnimationFrame(autoScroll);
+
+        return () => cancelAnimationFrame(animationFrameId);
     }, [isAutoScrolling, isDragging]);
 
     const handleMouseDown = (e: React.MouseEvent) => {
