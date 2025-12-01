@@ -30,7 +30,7 @@ export const cardsData: cardDataProps[] = [
                 href: "https://zcal.co/adrienblandin/conseil-coaching",
             },
         ],
-        design: <DesignA />,
+        design: <DesignA className="max-w-80 w-full h-full" />,
         layout: "regular",
     },
     {
@@ -50,7 +50,7 @@ export const cardsData: cardDataProps[] = [
                 href: "https://zcal.co/adrienblandin/decouverte-cto",
             },
         ],
-        design: <DesignC />,
+        design: <DesignC className="relative bottom-12 left-0 -mb-12 max-w-81 min-h-102 w-full h-full" />,
         layout: "reverse",
     },
     {
@@ -72,7 +72,7 @@ export const cardsData: cardDataProps[] = [
                 href: "https://zcal.co/adrienblandin/decouverte-projet",
             },
         ],
-        design: <DesignB />,
+        design: <DesignB className="max-w-80 w-full h-full" />,
         layout: "regular",
     },
 ];

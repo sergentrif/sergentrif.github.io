@@ -3,7 +3,7 @@ import portrait from "@/assets/images/profile_portrait_adrien.png";
 import { LandingName } from "@/components/ui/icons/LandingName";
 import { AgrementBadge } from "@/components/ui/icons/AgrementBadge";
 import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown";
-import { LandingHomePageArrowIconDesk, LandingHomePageArrowIconMobile } from "@/components/ui/icons/RightArrowYellow";
+import { LandingHomePageArrow } from "@/components/ui/icons/RightArrowYellow";
 import { LandingBannerCarousel } from "./LandingCarousel";
 
 export function Landing() {
@@ -25,7 +25,7 @@ export function Landing() {
 
             <div className="md:flex hidden md:pt-32 pt-8 pb-8 relative -translate-x-1/20 items-center justify-center lg:px-16 md:px-8">
                 <div className="flex relative shrink-0 gap-5">
-                    <CircleArrowUpAndDown />
+                    <CircleArrowUpAndDown className="w-16 pt-15" />
                     <AgrementBadge className="absolute lg:-top-17 md:-top-14 -top-10 lg:-right-13 md:-right-11 -right-9 lg:w-32 lg:h-32 md:w-26 md:h-26 w-24 h-24" />
                     <Image
                         src={portrait}
@@ -44,7 +44,7 @@ export function Landing() {
                             <li>aider votre startup à scaler efficacement</li>
                             <li>accompagner votre équipe technique</li>
                         </ul>
-                        <LandingHomePageArrowIconDesk />
+                        <LandingHomePageArrow className="absolute -z-10 lg:-right-34 lg:-top-14 md:-right-24 md:-top-20 lg:w-71 lg:h-103 md:w-67 md:h-98 opacity-20" />
                     </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@ export function Landing() {
                         <AgrementBadge className="absolute -top-10 -right-10 w-26 h-26" />
                         <Image src={portrait} alt="Portrait of Adrien Blandin" className="w-42 h-56 " />
                     </div>
-                    <LandingHomePageArrowIconMobile />
-                    <CircleArrowUpAndDown />
+                    <LandingHomePageArrow className="absolute -z-10 -top-22 right-8 w-75 h-102 opacity-20" />
+                    <CircleArrowUpAndDown className="w-16 pt-15" />
                 </div>
                 <div className="flex flex-col flex-1 relative">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide text-[22px]">

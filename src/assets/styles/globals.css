@@ -81,3 +81,13 @@ body {
     border: 1px solid;
     border-image: var(--border-linear-gradient) 1;
 }
+
+/* Hide scrollbar for infinite slider */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
