@@ -1,8 +1,8 @@
 import { Route } from "next";
 
 export const links = {
-    linkedin: "https://www.linkedin.com/company/krma-team/",
-    github: "https://github.com/krma-team",
+    linkedin: "https://www.linkedin.com/in/adrienblandin",
+    github: "https://github.com/sergentrif",
     email: "your-email@example.com",
     le_permislibre: "https://www.lepermislibre.fr/",
     wiki_imposteur: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
