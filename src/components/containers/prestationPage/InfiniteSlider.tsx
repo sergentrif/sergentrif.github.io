@@ -3,8 +3,13 @@
 import Image, { StaticImageData } from "next/image";
 import { useRef, useState, useEffect } from "react";
 
+interface SliderImage {
+    src: StaticImageData;
+    alt: string;
+}
+
 interface InfiniteSliderProps {
-    images: StaticImageData[];
+    images: SliderImage[];
     className?: string;
 }
 
@@ -114,8 +119,8 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
             {duplicatedImages.map((img, index) => (
                 <div key={index} className="flex-shrink-0">
                     <Image
-                        src={img}
-                        alt=""
+                        src={img.src}
+                        alt={img.alt}
                         className="max-h-[400px] max-w-[280px] h-full w-full select-none pointer-events-none"
                         draggable={false}
                     />

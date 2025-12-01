@@ -108,7 +108,16 @@ export const LandingSection = () => {
                 </div>
             </div>
             <div className="md:hidden py-16">
-                <InfiniteSlider images={[img1, img3, img4, img5, img6, img8]} />
+                <InfiniteSlider
+                    images={[
+                        { src: img1, alt: "Krma team working together" },
+                        { src: img3, alt: "Krma team working together" },
+                        { src: img4, alt: "Adrien conference speech" },
+                        { src: img5, alt: "Adrien work advising" },
+                        { src: img6, alt: "Public listening Adrien's conference" },
+                        { src: img8, alt: "Adrien conference speech" },
+                    ]}
+                />
             </div>
             <div className="hidden md:flex overflow-x-hidden py-16 justify-center">
                 <Image
