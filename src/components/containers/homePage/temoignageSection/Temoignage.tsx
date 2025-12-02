@@ -2,6 +2,7 @@ import { RightArrowLinearLink } from "@/components/ui/icons/RightArrowLinearLink
 import Link from "next/link";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { content, content_mobile } from "./CardsContent";
+import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
 
 export const TemoignageSection = () => {
     return (
@@ -10,8 +11,8 @@ export const TemoignageSection = () => {
                 transformer des défis techniques en succès tangibles pour votre entreprise
             </h2>
             <div className="lg:text-lg text-sm font-normal flex self-start pb-8">
-                <Link className="flex gap-1 items-center" href="/temoignages">
-                    Voir tous les témoignages
+                <Link className="flex gap-1 items-center group" href="/temoignages">
+                    <HoverUnderlineWrapper>Voir tous les témoignages</HoverUnderlineWrapper>
                     <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />
                 </Link>
             </div>
