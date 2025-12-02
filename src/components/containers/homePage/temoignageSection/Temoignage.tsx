@@ -12,7 +12,7 @@ export const TemoignageSection = () => {
             <div className="lg:text-lg text-sm font-normal flex self-start pb-8">
                 <Link className="flex gap-1 items-center" href="/temoignages">
                     Voir tous les témoignages
-                    <RightArrowLinearLink className="w-2 h-4 pt-0.5" />
+                    <RightArrowLinearLink className="w-3 h-5.5 pt-0.5" />
                 </Link>
             </div>
             <div className="w-full py-4 hidden md:flex">

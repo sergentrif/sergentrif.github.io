@@ -45,7 +45,7 @@ export const KrmaPresentation = () => {
                         className="flex items-center gap-2 pt-4"
                     >
                         <span>Découvrir Krma</span>
-                        <RightArrowLinearLink className="w-2 h-4 pt-0.5" />
+                        <RightArrowLinearLink className="w-3 h-5.5 pt-0.5" />
                     </Link>
                 </div>
                 <KdesignIcon />
