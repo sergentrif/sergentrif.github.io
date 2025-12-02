@@ -9,6 +9,7 @@ import { ModalContact } from "@/components/containers/ModalContact";
 import ReactLenis from "lenis/react";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { navLinks } from "@/libs/constants";
+import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
 
 export function Header() {
     const [isContactModalOpen, setIsContactModalOpen] = useState(false);
@@ -28,8 +29,8 @@ export function Header() {
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
                 {navLinks.map((link) => (
-                    <Link key={link.href} className="flex" href={link.href}>
-                        {link.label}
+                    <Link key={link.href} className="flex group" href={link.href}>
+                        <HoverUnderlineWrapper>{link.label}</HoverUnderlineWrapper>
                     </Link>
                 ))}
                 <div className="flex relative">

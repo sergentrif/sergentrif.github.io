@@ -36,10 +36,10 @@ export const links = {
 export const legal = {
     raison_sociale: "Abventure",
     adresse_siege_social: "2 rue des varennes 69660 Collonges au mont d’or",
-    nom_hebergeur: "AWS",
-    adresse_hebergeur: "Paris France.",
+    nom_hebergeur: "Github France",
+    adresse_hebergeur: "92130 Issy-les-Moulineaux.",
     email: "adrien.blandin@gmail.com",
-    date_mise_a_jour: "25/08/2025",
+    date_mise_a_jour: "*/*/*",
 };
 
 export const navLinks: { href: Route; label: string }[] = [

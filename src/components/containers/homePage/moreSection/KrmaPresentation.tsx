@@ -3,6 +3,7 @@ import { RightArrowLinearLink } from "@/components/ui/icons/RightArrowLinearLink
 import { StrikeThrewGiants } from "@/components/ui/icons/StrikeThrewGiants";
 import Link from "next/link";
 import { cn } from "@/libs/utils";
+import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
 
 export const KrmaPresentation = () => {
     return (
@@ -42,9 +43,9 @@ export const KrmaPresentation = () => {
                         href="https://www.krma.fr/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="flex items-center gap-2 pt-4"
+                        className="flex items-center gap-2 pt-4 group"
                     >
-                        <span>Découvrir Krma</span>
+                        <HoverUnderlineWrapper>Découvrir Krma</HoverUnderlineWrapper>
                         <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />
                     </Link>
                 </div>
