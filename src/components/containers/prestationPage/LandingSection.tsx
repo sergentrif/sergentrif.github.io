@@ -172,7 +172,7 @@ export const LandingSection = () => {
                         </p>
                         <DesignC className="max-w-134 w-full h-full absolute top-13 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <DesignC className="hidden md:block lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-56 md:-top-5 md:right-27 opacity-50 mix-blend-plus-lighter" />
+                    <DesignC className="hidden md:block lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-57 md:-top-5 md:right-27 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img7}
                         alt="Adrien wearing Krma's clothes"
