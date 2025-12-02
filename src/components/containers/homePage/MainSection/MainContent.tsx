@@ -40,7 +40,7 @@ export const MainCardSection = () => {
                                                 className="flex items-center gap-1"
                                             >
                                                 {link.label}
-                                                <RightArrowLinearLink className="w-3 h-5.5 pt-0.5" />
+                                                <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />
                                             </Link>
                                         </div>
                                     ))}
