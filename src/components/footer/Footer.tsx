@@ -23,22 +23,12 @@ export function Footer() {
                                     <span className="text-brand-glacier">##</span>GITHUB
                                 </HoverUnderlineWrapper>
                             </Link>
-                            <Link
-                                href={links.presentation}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group uppercase"
-                            >
+                            <Link href={links.presentation} target="_blank" rel="noopener noreferrer" className="group">
                                 <HoverUnderlineWrapper>
-                                    <span className="text-brand-glacier">##</span>Présentation
+                                    <span className="text-brand-glacier">##</span>PRÉSENTATION
                                 </HoverUnderlineWrapper>
                             </Link>
-                            <Link
-                                href={links.adrien_cv}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group uppercase"
-                            >
+                            <Link href={links.adrien_cv} target="_blank" rel="noopener noreferrer" className="group">
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>CV
                                 </HoverUnderlineWrapper>
