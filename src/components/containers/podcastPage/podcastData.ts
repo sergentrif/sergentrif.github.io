@@ -1,3 +1,5 @@
+import { podcastLinks } from "@/libs/constants";
+
 export interface PodcastEpisode {
     id: number; // Identifiant unique de l'épisode
     title: string; // Titre de l'épisode affiché en grand
@@ -21,11 +23,7 @@ export const podcastEpisodes: PodcastEpisode[] = [
         detailedDescription:
             "Adrien nous partage son parcours, ses expériences et nous éclaire sur des concepts clés comme la définition de la dette technique, les impacts du code et les méthodes pour bien refactoriser du code.",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            apple: "https://podcasts.apple.com/...",
-            spotify: "https://open.spotify.com/...",
-            youtube: "https://youtube.com/...",
-        },
+        podcastLinks: podcastLinks.episode1,
         imagePosition: "right",
     },
     {
@@ -36,11 +34,7 @@ export const podcastEpisodes: PodcastEpisode[] = [
         detailedDescription:
             "Passionné par l'entrepreneuriat depuis toujours, Adrien, se lance dans l'aventure dès sa sortie d'école d'ingénieur.",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            apple: "https://podcasts.apple.com/...",
-            spotify: "https://open.spotify.com/...",
-            youtube: "https://youtube.com/...",
-        },
+        podcastLinks: podcastLinks.episode2,
         imagePosition: "left",
     },
     {
@@ -51,11 +45,7 @@ export const podcastEpisodes: PodcastEpisode[] = [
         detailedDescription:
             "Il crée une entreprise qui va réussir et qui se terminera et qui commencera et … Tout s'enchaîne bien ! Dès la sortie de l'école, Adrien se lance dans l'entrepreneuriat, cette expérience va solder par un échec dont il analyse les raisons.",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            apple: "https://podcasts.apple.com/...",
-            spotify: "https://open.spotify.com/...",
-            youtube: "https://youtube.com/...",
-        },
+        podcastLinks: podcastLinks.episode3,
         imagePosition: "right",
     },
     {
@@ -66,11 +56,7 @@ export const podcastEpisodes: PodcastEpisode[] = [
         detailedDescription:
             "Adrien vient nous partager les pratiques qu'il a mises en place pour obtenir un meilleur feedback client et",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            apple: "https://podcasts.apple.com/...",
-            spotify: "https://open.spotify.com/...",
-            youtube: "https://youtube.com/...",
-        },
+        podcastLinks: podcastLinks.episode4,
         imagePosition: "left",
     },
     {
@@ -80,20 +66,16 @@ export const podcastEpisodes: PodcastEpisode[] = [
             "Dans ce live organisé par CO-CTO, David Dhenaux et Adrien Blandin, CTO / CPTO expérimentés, viennent nous partager leur regard sur la frontière entre Tech et Produit.",
         detailedDescription: "Quels sont les enjeux de ces deux équipes ? Qui porte la responsabilité de quoi ?",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            youtube: "https://youtube.com/...",
-        },
+        podcastLinks: podcastLinks.episode5,
         imagePosition: "right",
     },
     {
         id: 6,
         title: "Dev bas niveau: Voyage au centre de l'application",
-        description: "",
+        description: "Pour l'épisode #204 je recevais Christophe Le Douarec. On en débrief avec Adrien.",
         detailedDescription: "",
         embedUrl: "EMBED_YT",
-        podcastLinks: {
-            apple: "https://podcasts.apple.com/...",
-        },
+        podcastLinks: podcastLinks.episode6,
         imagePosition: "left",
     },
 ];

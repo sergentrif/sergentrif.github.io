@@ -51,3 +51,32 @@ export const navLinks: { href: Route; label: string }[] = [
     { href: "/prestations", label: "Prestations" },
     { href: "/temoignages", label: "Témoignages" },
 ];
+
+export const podcastLinks = {
+    episode1: {
+        apple: "https://podcasts.apple.com/fr/podcast/itw9-adrien-blandin-la-dette-technique-est-un-choix/id1705061318?i=1000668120836",
+        spotify: "https://open.spotify.com/episode/4G5R3pbkd7CTkHwscDqQs6?si=I3m-rkpBSeWvHTBV4Mkg9A",
+        youtube: "https://www.youtube.com/watch?v=gayO92jY2js",
+    },
+    episode2: {
+        apple: "https://podcasts.apple.com/fr/podcast/quand-la-tech-et-le-produit-ne-font-quun-adrien-blandin/id1478926482?i=1000632184575",
+        spotify: "https://open.spotify.com/episode/6CluSWbxKNYwd8jAvzPJNU",
+        youtube: "https://www.youtube.com/watch?v=hgfdy4G-Mik",
+    },
+    episode3: {
+        apple: "https://podcasts.apple.com/fr/podcast/ctoz-47-adrien-blandin-lepermislibre-tout-sencha%C3%AEne-bien/id1596257295?i=1000567460554",
+        spotify: "https://open.spotify.com/episode/27u5dp4XxbxhOia2n6zNFG",
+        youtube: "https://www.youtube.com/watch?v=JwuQgm9hJWQ",
+    },
+    episode4: {
+        apple: "https://podcasts.apple.com/fr/podcast/234-src-anticiper-les-bugs-minority-report-du-bug-avec/id1471506605?i=1000628201526",
+        spotify: "https://open.spotify.com/episode/5QrTn83tLCFRpQPo31hY8n",
+        youtube: "https://www.youtube.com/watch?v=F0pNodJ5VCU",
+    },
+    episode5: {
+        youtube: "https://www.youtube.com/watch?v=18k2mgwhNhA",
+    },
+    episode6: {
+        apple: "https://podcasts.apple.com/fr/podcast/204-exe-par-adrien-blandin-dev-bas-niveau-voyage-au/id1471506605?i=1000627151343",
+    },
+};
