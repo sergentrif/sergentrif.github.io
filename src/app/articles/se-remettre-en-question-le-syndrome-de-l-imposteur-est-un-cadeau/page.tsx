@@ -20,7 +20,7 @@ export default function ArticleSevenPage() {
                 </Link>{" "}
                 / Se remettre en question : le syndrome de l’imposteur est un cadeau
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Se remettre en question : le syndrome de l’imposteur est un cadeau
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">

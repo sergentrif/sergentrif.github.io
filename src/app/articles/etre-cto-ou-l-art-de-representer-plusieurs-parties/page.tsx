@@ -19,7 +19,7 @@ export default function ArticleFithPage() {
                 </Link>{" "}
                 / Être CTO ou l’art de représenter plusieurs parties
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Être CTO ou l’art de représenter plusieurs parties
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
