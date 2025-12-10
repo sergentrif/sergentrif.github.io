@@ -19,7 +19,7 @@ export default function ArticleFourthPage() {
                 </Link>{" "}
                 / Être le leader dont l’équipe a besoin
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Être le leader dont l’équipe a besoin
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">

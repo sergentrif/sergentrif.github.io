@@ -21,7 +21,7 @@ export default function ArticlesPageFirstArticle() {
                 / Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Pourquoi réduire la charge mentale des développeurs à travers la&nbsp;
                 <span className="italic">Developer Experience</span>&nbsp;?
             </h2>

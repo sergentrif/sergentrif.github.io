@@ -9,8 +9,8 @@ import { LandingBannerCarousel } from "./LandingCarousel";
 export function Landing() {
     return (
         <section className="flex flex-col gap-16 pt-32 md:px-16 px-4 w-full">
-            <div className="flex md:flex-row flex-col justify-center gap-4 relative">
-                <div className="flex flex-col md:items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative lg:left-12 md:left-9 lg:top-22 md:top-12">
+            <div className="flex md:flex-row flex-col justify-center gap-12 relative">
+                <div className="flex flex-col md:items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative lg:left-12 md:left-9 lg:top-14 md:top-12">
                     <p>CTO &</p>
                     <p>architecte</p>
                     <p>technique</p>

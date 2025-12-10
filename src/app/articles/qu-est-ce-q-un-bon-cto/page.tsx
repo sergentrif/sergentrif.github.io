@@ -20,7 +20,7 @@ export default function ArticleHeightPage() {
                 </Link>{" "}
                 / Qu’est ce qu’un bon CTO ?
             </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
                 Qu’est ce qu’un bon CTO ?
             </h2>
             <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">

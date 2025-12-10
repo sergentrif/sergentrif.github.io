@@ -19,11 +19,14 @@ import img8 from "@/assets/images/krma_prestation_8.png";
 export const LandingSection = () => {
     return (
         <section className="flex flex-col pt-12 pb-16">
+            {/*CIBLE*/}
             <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
                 <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
                 <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Prestations</h2>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
+            {/*CIBLE*/}
+
             <div className="flex flex-col gap-22">
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
                     <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
