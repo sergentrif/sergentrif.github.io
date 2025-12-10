@@ -3,11 +3,11 @@ import ITTD_img from "@/assets/images/ITTD.png";
 import { StaticImageData } from "next/image";
 
 export interface PodcastEpisode {
-    id: number; // Identifiant unique de l'épisode
-    title: string; // Titre de l'épisode affiché en grand
-    description: string; // Description courte (premier paragraphe)
-    detailedDescription: string; // Description détaillée (deuxième paragraphe, optionnel)
-    moreDescription?: string; // Description supplémentaire affichée dans l'accordéon "Lire plus"
+    id: number;
+    title: string;
+    description: string;
+    detailedDescription: string;
+    moreDescription?: string;
     thumbnailUrl?: string | StaticImageData;
     podcastLinks: {
         apple?: string;
