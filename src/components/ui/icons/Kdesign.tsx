@@ -2,7 +2,13 @@ import { IconProps } from "./types";
 
 export const KdesignIcon: React.FC<IconProps> = () => {
     return (
-        <svg viewBox="0 0 499 389" fill="none" xmlns="http://www.w3.org/2000/svg" className="md:max-w-125 w-full">
+        <svg
+            viewBox="0 0 499 389"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            className="md:max-w-125 w-full"
+        >
             <path
                 d="M151.498 80.8774V239.759C151.498 240.348 151.976 240.825 152.566 240.825H169.662C170.252 240.825 170.731 240.348 170.731 239.759V80.8774C170.731 80.2885 170.252 79.8111 169.662 79.8111H152.566C151.976 79.8111 151.498 80.2885 151.498 80.8774Z"
                 fill="#F7F7F2"

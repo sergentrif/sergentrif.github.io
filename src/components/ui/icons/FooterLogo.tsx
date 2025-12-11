@@ -7,6 +7,7 @@ export const FooterLogo: React.FC<IconProps> = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="md:w-133 h-12 w-88 flex-1 flex md:-mr-3"
+            aria-hidden="true"
         >
             <path
                 d="M206.115 43.8751V2.71324H217.957L235.782 31.9631H236.28L235.906 2.71324H244.694V43.8751H233.787L215.028 13.4403H214.529L214.903 43.8751H206.115Z"

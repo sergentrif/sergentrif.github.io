@@ -9,6 +9,7 @@ export const DesignC: React.FC<IconProps> = ({ className }) => {
             height="571"
             viewBox="0 0 535 571"
             fill="none"
+            aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
         >
