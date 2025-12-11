@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { HeaderLogo } from "../ui/icons/HeaderLogo";
 import { HeaderBurger } from "./HeaderBurger";
 import { RemoveScroll } from "react-remove-scroll";
@@ -13,6 +14,13 @@ import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
 
 export function Header() {
     const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+    const pathname = usePathname();
+
+    const isLinkActive = (href: string) => {
+        if (!pathname) return false;
+        if (href === "/") return pathname === "/";
+        return pathname === href || pathname.startsWith(href + "/");
+    };
 
     const handleContactClick = () => {
         setIsContactModalOpen(true);
@@ -25,16 +33,21 @@ export function Header() {
     return (
         <header className="flex top-0 left-0 fixed w-full z-50">
             <nav className="md:flex hidden items-center justify-evenly text-base bg-brand-powder/94 backdrop-blur-xl py-4 font-medium max-w-[1920px] w-full mx-auto">
-                <Link href="/">
+                <Link href="/" className="hover:scale-105">
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
-                {navLinks.map((link) => (
-                    <Link key={link.href} className="flex group" href={link.href}>
-                        <HoverUnderlineWrapper>{link.label}</HoverUnderlineWrapper>
-                    </Link>
-                ))}
-                <div className="flex relative">
-                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
+                {navLinks.map((link) => {
+                    const active = isLinkActive(link.href);
+
+                    return (
+                        <Link key={link.href} href={link.href} className="flex group">
+                            <HoverUnderlineWrapper isActive={active}>{link.label}</HoverUnderlineWrapper>
+                        </Link>
+                    );
+                })}
+
+                <div className="flex relative hover:scale-105">
+                    <div className="hover:scale-105 border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                         <TopRightSquare
                             stroke="hsl(13 90% 58%)"
                             className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
@@ -53,7 +66,7 @@ export function Header() {
                 <Link href="/">
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
-                <div className="flex relative">
+                <div className="flex relative hover:scale-105">
                     <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                         <TopRightSquare
                             stroke="hsl(13 90% 58%)"

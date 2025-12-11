@@ -1,9 +1,28 @@
 import React from "react";
 import { cn } from "@/libs/utils";
 
-export const HoverUnderlineWrapper = ({ children, className }: { children: React.ReactNode; className?: string }) => (
+export const HoverUnderlineWrapper = ({
+    children,
+    className,
+    isActive,
+}: {
+    children: React.ReactNode;
+    className?: string;
+    isActive?: boolean;
+}) => (
     <span className={cn("relative inline-block", className)}>
         {children}
-        <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-brand-giants transition-all duration-800 group-hover:w-full" />
+        <span
+            className={cn(
+                "absolute -bottom-0 -left-[3px] h-[2px] w-0 transition-all duration-700 ease-in-out group-hover:w-[calc(100%+6px)]",
+                isActive && "!w-[calc(100%+10px)]",
+            )}
+            style={{
+                backgroundImage:
+                    "repeating-linear-gradient(to right, black 0px, black 6px, transparent 4px, transparent 8px)",
+                backgroundSize: "10px 2px",
+                backgroundRepeat: "repeat-x",
+            }}
+        />
     </span>
 );

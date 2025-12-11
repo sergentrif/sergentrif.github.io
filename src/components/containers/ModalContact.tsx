@@ -16,7 +16,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
     return (
         <div>
             <div className={cn("max-w-[1520px] mx-auto flex flex-col gap-3 mt-6", "md:-mt-8 md:px-8 md:gap-6")}>
-                <div className="flex self-end -mt-4">
+                <div className="flex self-end -mt-4 hover:scale-105">
                     <button
                         onClick={onClose}
                         className="flex relative border-brand-giants border-2 rounded-[18px] text-brand-midnight cursor-pointer p-2.5 px-5 font-medium"
@@ -33,7 +33,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
                 <h1 className={cn("text-[22px] uppercase font-brico-gro font-bold max-w-4xl", "md:text-[2.5rem]")}>
                     {"Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet"}
                 </h1>
-                <div className="flex md:hidden relative self-center pt-8">
+                <div className="flex md:hidden relative self-center pt-8 hover:scale-105">
                     <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                         <TopRightSquare
                             stroke="hsl(13 90% 58%)"
@@ -82,7 +82,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
 
                     <ContactModalArrowIcon className="shrink-0 flex absolute right-20 opacity-60 md:opacity-100" />
                 </div>
-                <div className="md:flex hidden relative self-center pt-16 bottom-5">
+                <div className="md:flex hidden relative self-center pt-16 bottom-5 hover:scale-105">
                     <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                         <TopRightSquare
                             stroke="hsl(13 90% 58%)"
