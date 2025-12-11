@@ -10,7 +10,7 @@ export const Cards = ({ episodes }: CardsProps) => {
         <div className="flex flex-col gap-16 md:gap-24 w-full -mt-0.25">
             {episodes.map((episode) => (
                 <article key={episode.id} className="w-full">
-                    <div className="flex flex-col gap-8">
+                    <div className="flex flex-col md:gap-8 gap-2">
                         <h2 className="text-2xl md:text-[26px] font-bold font-brico-gro p-4 flex justify-center bg-brand-surface w-full rounded-2xl">
                             {episode.title}
                         </h2>

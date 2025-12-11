@@ -25,7 +25,7 @@ export const CardContent = ({ episode }: CardContentProps) => {
     const contentSection = (
         <div className="flex flex-col justify-center md:px-8 h-full">
             <div className="flex flex-col gap-3 flex-1">
-                <div className="text-sm md:text-base leading-relaxed text-brand-fine-blue transition-all duration-300">
+                <div className="md:text-lg text-base leading-relaxed text-brand-fine-blue transition-all duration-300">
                     {isExpanded ? (
                         <>
                             <p className="mb-3">{description}</p>
@@ -43,9 +43,9 @@ export const CardContent = ({ episode }: CardContentProps) => {
             {hasMoreContent && (
                 <button
                     onClick={() => setIsExpanded(!isExpanded)}
-                    className="text-sm md:text-base font-medium self-start group cursor-pointer mb-2"
+                    className="md:text-lg text-base font-medium self-start group cursor-pointer mb-2"
                 >
-                    <HoverUnderlineWrapper className="flex flex-row items-center gap-2">
+                    <HoverUnderlineWrapper className="flex flex-row items-center gap-2 pt-2">
                         <span>{isExpanded ? "Lire moins" : "Lire plus"}</span>
                         <RightArrowLinearLink
                             className={`md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5 transition-transform duration-300 ${
@@ -97,15 +97,15 @@ export const CardContent = ({ episode }: CardContentProps) => {
     );
 
     const embedSection = (
-        <div className="flex items-center justify-center rounded-xl py-8 md:py-0 h-full">
+        <div className="flex items-center justify-center rounded-xl h-full">
             {thumbnailUrl && primaryLink ? (
                 <Link
                     href={primaryLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full h-full cursor-pointer"
+                    className="block w-full h-full cursor-pointer relative group"
                 >
-                    <div className="w-full h-[300px] md:h-[300px] overflow-hidden">
+                    <div className="w-full h-[300px] md:h-[330px] overflow-hidden relative">
                         <Image
                             width={0}
                             height={0}
@@ -113,6 +113,19 @@ export const CardContent = ({ episode }: CardContentProps) => {
                             alt="Podcast Episode Thumbnail"
                             className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-all duration-300"></div>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="70"
+                                height="70"
+                                viewBox="0 0 24 24"
+                                fill="white"
+                                className="opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                            >
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
                     </div>
                 </Link>
             ) : (
