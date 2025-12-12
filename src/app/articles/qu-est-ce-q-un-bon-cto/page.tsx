@@ -55,7 +55,7 @@ export default function ArticleHeightPage() {
                     Si vous êtes pressé, n’hésitez pas à passer par un CTO en freelance. Il vous permettra d’avancer
                     rapidement tout en préparant sa propre succession chez vous. Auto-promo : je fournis ce genre de
                     prestations que vous pourrez&nbsp;
-                    <Link href="/" className="font-bold underline whitespace-nowrap">
+                    <Link href="/prestations" className="font-bold underline whitespace-nowrap">
                         découvrir ici
                     </Link>
                     .
