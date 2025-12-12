@@ -4,10 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { HeaderLogo } from "../ui/icons/HeaderLogo";
 import { HeaderBurger } from "./HeaderBurger";
-import { RemoveScroll } from "react-remove-scroll";
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
 import { ModalContact } from "@/components/containers/ModalContact";
-import ReactLenis from "lenis/react";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { navLinks } from "@/libs/constants";
 import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
@@ -29,6 +28,55 @@ export function Header() {
     const handleCloseModal = () => {
         setIsContactModalOpen(false);
     };
+
+    useEffect(() => {
+        if (isContactModalOpen) {
+            const scrollY = window.scrollY;
+
+            const htmlElement = document.documentElement;
+            const bodyElement = document.body;
+
+            htmlElement.style.overflow = "hidden";
+            bodyElement.style.overflow = "hidden";
+            bodyElement.style.position = "fixed";
+            bodyElement.style.width = "100%";
+            bodyElement.style.top = `-${scrollY}px`;
+
+            const preventTouchMove = (e: TouchEvent) => {
+                const target = e.target as HTMLElement;
+                const modalContent = target.closest("[data-modal-content]");
+
+                if (!modalContent) {
+                    e.preventDefault();
+                }
+            };
+
+            const preventWheel = (e: WheelEvent) => {
+                const target = e.target as HTMLElement;
+                const modalContent = target.closest("[data-modal-content]");
+
+                if (!modalContent) {
+                    e.preventDefault();
+                }
+            };
+
+            document.addEventListener("touchmove", preventTouchMove, { passive: false });
+            document.addEventListener("wheel", preventWheel, { passive: false });
+
+            return () => {
+                htmlElement.style.overflow = "";
+                bodyElement.style.overflow = "";
+                bodyElement.style.position = "";
+                bodyElement.style.width = "";
+                bodyElement.style.top = "";
+
+                document.removeEventListener("touchmove", preventTouchMove);
+                document.removeEventListener("wheel", preventWheel);
+
+                window.scrollTo(0, scrollY);
+            };
+        }
+    }, [isContactModalOpen]);
 
     return (
         <header className="flex top-0 left-0 fixed w-full z-50">
@@ -83,13 +131,19 @@ export function Header() {
             </nav>
 
             {isContactModalOpen && (
-                <ReactLenis root={false}>
-                    <RemoveScroll>
-                        <div className="fixed w-screen h-screen min-h-60 top-0 left-0 md:p-18 p-2 border-bottom-linear-gradient bg-brand-light-beige/64 backdrop-blur-lg z-50 overflow-y-auto">
-                            <ModalContact onClose={handleCloseModal} />
-                        </div>
-                    </RemoveScroll>
-                </ReactLenis>
+                <div
+                    className="fixed inset-0 w-full h-full top-0 left-0 z-50 flex items-start justify-center overflow-hidden"
+                    onClick={handleCloseModal}
+                >
+                    <div
+                        data-modal-content
+                        className="w-full h-full md:p-18 p-4 border-bottom-linear-gradient bg-brand-light-beige/64 backdrop-blur-lg overflow-y-auto overflow-x-hidden overscroll-contain"
+                        style={{ WebkitOverflowScrolling: "touch" }}
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <ModalContact onClose={handleCloseModal} />
+                    </div>
+                </div>
             )}
         </header>
     );

@@ -45,9 +45,12 @@
     --border-bottom-linear-gradient: linear-gradient(91.3deg, #c8c6fa 34.32%, #aaeafe 69.28%, #eef36b 102.5%);
 }
 
+html,
 body {
     color: hsl(var(--brand-midnight));
     background: hsl(var(--brand-powder));
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 /* Custom component styles */
@@ -82,7 +85,6 @@ body {
     border-image: var(--border-linear-gradient) 1;
 }
 
-/* Hide scrollbar for infinite slider */
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -90,4 +92,10 @@ body {
 
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
+}
+
+[data-modal-content] {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
+    overscroll-behavior-x: none;
 }
