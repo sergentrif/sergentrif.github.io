@@ -5,10 +5,12 @@ export const HoverUnderlineWrapper = ({
     children,
     className,
     isActive,
+    underlineStyle,
 }: {
     children: React.ReactNode;
     className?: string;
     isActive?: boolean;
+    underlineStyle?: React.CSSProperties;
 }) => (
     <span className={cn("relative inline-block", className)}>
         {children}
@@ -17,12 +19,14 @@ export const HoverUnderlineWrapper = ({
                 "absolute -bottom-0 -left-[3px] h-[2px] w-0 transition-all duration-700 ease-in-out group-hover:w-[calc(100%+6px)]",
                 isActive && "!w-[calc(100%+10px)]",
             )}
-            style={{
-                backgroundImage:
-                    "repeating-linear-gradient(to right, black 0px, black 6px, transparent 4px, transparent 8px)",
-                backgroundSize: "10px 2px",
-                backgroundRepeat: "repeat-x",
-            }}
+            style={
+                underlineStyle || {
+                    backgroundImage:
+                        "repeating-linear-gradient(to right, black 0px, black 6px, transparent 4px, transparent 8px)",
+                    backgroundSize: "10px 2px",
+                    backgroundRepeat: "repeat-x",
+                }
+            }
         />
     </span>
 );
