@@ -49,8 +49,6 @@ html,
 body {
     color: hsl(var(--brand-midnight));
     background: hsl(var(--brand-powder));
-    overflow-x: hidden;
-    max-width: 100vw;
 }
 
 /* Custom component styles */
@@ -92,10 +90,4 @@ body {
 
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
-}
-
-[data-modal-content] {
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior-y: contain;
-    overscroll-behavior-x: none;
 }
