@@ -17,11 +17,11 @@ export function ModalContact({ onClose }: ModalContactProps) {
         <div className="w-full min-h-full overflow-x-hidden relative">
             <div
                 className={cn(
-                    "max-w-[1520px] mx-auto flex flex-col gap-3 mt-6 px-4 pb-20",
-                    "md:-mt-8 md:px-8 md:gap-6 md:pb-24",
+                    "max-w-[1220px] mx-auto flex flex-col gap-3 mt-6 px-4 pb-20",
+                    "md:mt-6 md:px-8 md:gap-6 md:pb-24",
                 )}
             >
-                <div className="flex self-end -mt-4 hover:scale-105">
+                <div className="flex self-end -mt-4 md:mt-0 hover:scale-105">
                     <button
                         onClick={onClose}
                         className="flex relative border-brand-giants border-2 rounded-[18px] text-brand-midnight cursor-pointer p-2.5 px-5 font-medium"
