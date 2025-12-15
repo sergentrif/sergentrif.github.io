@@ -109,9 +109,9 @@ export function Header() {
                     </button>
                 </div>
             </nav>
-            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl p-4 pt-4 w-full">
+            <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl p-4 pt-4 w-full relative">
                 <HeaderBurger />
-                <Link href="/">
+                <Link href="/" className="absolute left-1/2 -translate-x-1/2">
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
                 <div className="flex relative hover:scale-105">
