@@ -1,5 +1,5 @@
 import { podcastLinks } from "@/libs/constants";
-import ITTD_img from "@/assets/images/ITTD.png";
+
 import { StaticImageData } from "next/image";
 
 export interface PodcastEpisode {
