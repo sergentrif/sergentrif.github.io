@@ -76,7 +76,7 @@ export const CardContent = ({ episode }: CardContentProps) => {
                     </HoverUnderlineWrapper>
                 </button>
             )}
-            <InfoBox className="flex flex-col gap-4 text-black w-full py-4 mt-2">
+            <InfoBox className="flex flex-col gap-4 text-black w-full py-4 mt-2 md:mt-0">
                 <p className="text-sm italic text-brand-fine-blue">{`// Écouter l'épisode ?`}</p>
                 <div className="flex gap-4 items-center">
                     {podcastLinks.apple && (
