@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { PodcastEpisode } from "./podcastData";
 import { ApplePodcastIcon } from "../../ui/icons/ApplePodcastIcon";
 import { SpotifyIcon } from "../../ui/icons/SpotifyIcon";
@@ -18,9 +18,30 @@ interface CardContentProps {
 export const CardContent = ({ episode }: CardContentProps) => {
     const { description, detailedDescription, moreDescription, thumbnailUrl, podcastLinks, imagePosition } = episode;
     const [isExpanded, setIsExpanded] = useState(false);
+    const cardRef = useRef<HTMLDivElement>(null);
 
     const primaryLink = podcastLinks.youtube || podcastLinks.spotify || podcastLinks.apple;
     const hasMoreContent = moreDescription && moreDescription.length > 0;
+
+    const handleToggleExpand = () => {
+        if (isExpanded && cardRef.current) {
+            // Sauvegarder la position avant de réduire
+            const rect = cardRef.current.getBoundingClientRect();
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const elementTop = rect.top + scrollTop;
+
+            setIsExpanded(false);
+
+            setTimeout(() => {
+                window.scrollTo({
+                    top: elementTop - 100,
+                    behavior: "smooth",
+                });
+            }, 0);
+        } else {
+            setIsExpanded(true);
+        }
+    };
 
     const contentSection = (
         <div className="flex flex-col justify-center md:px-8 h-full">
@@ -42,7 +63,7 @@ export const CardContent = ({ episode }: CardContentProps) => {
             </div>
             {hasMoreContent && (
                 <button
-                    onClick={() => setIsExpanded(!isExpanded)}
+                    onClick={handleToggleExpand}
                     className="md:text-lg text-base font-medium self-start group cursor-pointer mb-2"
                 >
                     <HoverUnderlineWrapper className="flex flex-row items-center gap-2 pt-2">
@@ -137,7 +158,7 @@ export const CardContent = ({ episode }: CardContentProps) => {
     );
 
     return (
-        <div className="w-full bg-brand-smoke/30">
+        <div ref={cardRef} className="w-full bg-brand-smoke/30">
             <div className="flex flex-col md:grid md:grid-cols-2 md:gap-0 gap-6 py-6 md:py-0">
                 {imagePosition === "left" ? (
                     <>
