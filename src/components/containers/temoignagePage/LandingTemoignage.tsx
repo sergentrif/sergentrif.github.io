@@ -10,7 +10,7 @@ export function LandingTemoignage() {
                 <h2 className="font-bold font-brico-gro uppercase tracking-wide md:text-3xl text-xl max-w-[47rem] md:justify-center">
                     Témoignages clients
                 </h2>
-                <p className="text-brand-fine-blue flex max-w-4xl w-full md:text-base text-sm">
+                <p className="text-brand-fine-blue flex max-w-4xl w-full md:text-lg text-base">
                     Découvrez ce que mes précédents collaborateurs disent de mon apport en tant que CTO. Ces témoignages
                     reflètent mon engagement à transformer des défis techniques en succès tangibles pour votre
                     entreprise.
