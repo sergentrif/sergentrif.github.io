@@ -14,7 +14,7 @@ const content = [
         description: [
             "”J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
             "Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l’une des meilleures décisions que nous avons prises.",
-            "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !",
+            "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !“",
         ],
         content: (
             <div className="flex flex-col self-center gap-8 px-4">
@@ -50,7 +50,7 @@ const content = [
         id: 2,
         description: [
             "”Adrien est un interlocuteur de grande qualité qui parvient rapidement à aligner les aspects techniques avec la vision business, une qualité rare dans l'univers du développement informatique.",
-            "Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.",
+            "Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -84,7 +84,7 @@ const content = [
         description: [
             "”Adrien dispose d'une qualité particulièrement appréciable : une vraie capacité à allier vision business et vision tech pour concevoir et développer un produit avec efficience.",
             "En collaborant avec Adrien, vous saurez très vite apprécier la pertinence de son questionnement, son honnêteté, son sens de l'efficacité et son organisation sans faille. Et votre confiance ne sera pas déçue.",
-            "Sur mon projet, il a su très vite trouver la bonne approche, tenir ses engagements tout en étant clair sur sa contribution et sa valeur ajoutée.",
+            "Sur mon projet, il a su très vite trouver la bonne approche, tenir ses engagements tout en étant clair sur sa contribution et sa valeur ajoutée.“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -117,7 +117,7 @@ const content = [
         id: 4,
         description: [
             "“Adrien est réellement efficace autant dans la définition des besoins que dans la planification et le suivi des projets.",
-            "Disponible et réactif, un vrai plaisir de travailler avec lui.",
+            "Disponible et réactif, un vrai plaisir de travailler avec lui.“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -135,7 +135,7 @@ const content = [
         description: [
             "”Nous avons la chance de travailler avec Adrien, notre CTO, qui a joué un rôle clé dans la structuration et l’organisation de notre roadmap technique.",
             "Grâce à sa vision, sa rigueur et sa capacité à rendre les choses claires et concrètes, l’équipe a gagné en efficacité et en cohérence.",
-            "Adrien combine excellentes compétences techniques et sens du management — un vrai atout pour n’importe quelle équipe tech.",
+            "Adrien combine excellentes compétences techniques et sens du management — un vrai atout pour n’importe quelle équipe tech.“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -166,7 +166,7 @@ const content = [
         id: 6,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
-            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
+            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -196,7 +196,7 @@ const content = [
         id: 7,
         description: [
             "”Adrien est intervenu dans le cadre de Masterclass que nous organisons pour nos incubés, avec une approche pragmatique, il a su partager son expertise technique.",
-            "Très à l'écoute, il apporte son regard éclairé pour allier la vision business et le développement tech : une aide précieuse pour les entrepreneurs !!",
+            "Très à l'écoute, il apporte son regard éclairé pour allier la vision business et le développement tech : une aide précieuse pour les entrepreneurs !!“",
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
@@ -247,7 +247,7 @@ const content_mobile = [
         ),
         description: [
             "”Adrien est un interlocuteur de grande qualité qui parvient rapidement à aligner les aspects techniques avec la vision business, une qualité rare dans l'univers du développement informatique.",
-            "Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.",
+            "Il sait transmettre les informations de manière claire et concise, sans compliquer les choses, tout en préparant soigneusement l'avenir de vos évolutions produit.“",
         ],
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
@@ -275,9 +275,9 @@ const content_mobile = [
             </Link>
         ),
         description: [
-            "J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
+            "“J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement !",
             "Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l'une des meilleures décisions que nous avons prises.",
-            "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !",
+            "Adrien est un CTO talentueux, expérimenté et leader. Il y aura clairement dans l'histoire de notre société un avant et un après l'arrivée d'Adrien !“",
         ],
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
@@ -311,7 +311,7 @@ const content_mobile = [
         description: [
             "“Adrien dispose d'une qualité particulièrement appréciable : une vraie capacité à allier vision business et vision tech pour concevoir et développer un produit avec efficience.",
             "En collaborant avec Adrien, vous saurez très vite apprécier la pertinence de son questionnement, son honnêteté, son son sens de l'efficacité et son organisation sans faille. Et votre confiance ne sera pas déçue.",
-            "Sur mon projet, il a su très vite trouver la bonne approche, tenir ses engagements tout en étant clair sur sa contribution et sa valeur ajoutée.",
+            "Sur mon projet, il a su très vite trouver la bonne approche, tenir ses engagements tout en étant clair sur sa contribution et sa valeur ajoutée.“",
         ],
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
@@ -339,7 +339,7 @@ const content_mobile = [
         ),
         description: [
             "“Adrien est réellement efficace autant dans la définition des besoins que dans la planification et le suivi des projets.",
-            "Disponible et réactif, un vrai plaisir de travailler avec lui.",
+            "Disponible et réactif, un vrai plaisir de travailler avec lui.“",
         ],
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
@@ -358,7 +358,7 @@ const content_mobile = [
         description: [
             "”Nous avons la chance de travailler avec Adrien, notre CTO, qui a joué un rôle clé dans la structuration et l’organisation de notre roadmap technique.",
             "Grâce à sa vision, sa rigueur et sa capacité à rendre les choses claires et concrètes, l’équipe a gagné en efficacité et en cohérence.",
-            "Adrien combine excellentes compétences techniques et sens du management — un vrai atout pour n’importe quelle équipe tech.",
+            "Adrien combine excellentes compétences techniques et sens du management — un vrai atout pour n’importe quelle équipe tech.“",
         ],
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
@@ -383,7 +383,7 @@ const content_mobile = [
         logo: <MNPIcon />,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
-            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
+            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.“",
         ],
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
@@ -409,7 +409,7 @@ const content_mobile = [
         logo: <EmLyonSchoolIcon className={cn("max-w-14 max-h-12  flex self-center w-full h-full text-[#ed1c24]")} />,
         description: [
             "”Adrien a pris en compte nos enjeux business pour proposer des choix technologiques adaptés.",
-            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.",
+            "Son expertise, la pertinence de ses analyses et sa vision stratégique sont des atouts pour votre société.“",
         ],
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">

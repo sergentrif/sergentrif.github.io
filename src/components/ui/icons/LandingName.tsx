@@ -6,6 +6,7 @@ export const LandingName: React.FC<IconProps> = () => (
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="w-full max-w-[36rem] lg:max-w-[42rem] h-auto"
+        aria-hidden="true"
     >
         <path
             d="M729.267 142.063V8.78528H767.707L825.569 103.493H827.188L825.974 8.78528H854.5V142.063H819.095L758.198 43.5182H756.58L757.794 142.063H729.267Z"

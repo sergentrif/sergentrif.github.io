@@ -10,7 +10,7 @@ export const TemoignageSection = () => {
             <h2 className="max-w-7xl font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-wide uppercase">
                 transformer des défis techniques en succès tangibles pour votre entreprise
             </h2>
-            <div className="lg:text-lg text-sm font-normal flex self-start pb-8">
+            <div className="lg:text-lg text-sm font-normal flex self-start">
                 <Link className="flex gap-1 items-center group" href="/temoignages">
                     <HoverUnderlineWrapper>Voir tous les témoignages</HoverUnderlineWrapper>
                     <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />

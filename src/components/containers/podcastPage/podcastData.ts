@@ -1,5 +1,5 @@
 import { podcastLinks } from "@/libs/constants";
-import ITTD_img from "@/assets/images/ITTD.png";
+
 import { StaticImageData } from "next/image";
 
 export interface PodcastEpisode {
@@ -86,7 +86,8 @@ export const podcastEpisodes: PodcastEpisode[] = [
         title: "Dev bas niveau: Voyage au centre de l'application",
         description: "Pour l'épisode #204 je recevais Christophe Le Douarec. On en débrief avec Adrien.",
         detailedDescription: "",
-        thumbnailUrl: ITTD_img,
+        thumbnailUrl:
+            "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ee/ae/99/eeae9913-4d29-03ad-950c-c2d8dc82b22d/mza_11049797362884423349.jpg/600x600bb.webp",
         podcastLinks: podcastLinks.episode6,
         imagePosition: "left",
     },

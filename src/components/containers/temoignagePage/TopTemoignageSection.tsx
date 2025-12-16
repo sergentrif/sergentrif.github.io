@@ -10,13 +10,13 @@ export function TopTemoignageSection() {
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide md:text-3xl text-xl max-w-[47rem] md:justify-center">
                         Découvrez ce qu’ils ont pensé de notre collaboration
                     </h2>
-                    <p className="text-brand-fine-blue hidden md:flex max-w-4xl w-full md:text-base text-sm">
+                    <p className="text-brand-fine-blue hidden md:flex max-w-4xl w-full md:text-lg text-base">
                         Ma mission est de fournir une direction technique stratégique et adaptée, en harmonie avec vos
                         objectifs d’affaires.
                     </p>
                 </div>
             </div>
-            <p className="text-brand-fine-blue md:hidden max-w-4xl w-full text-sm">
+            <p className="text-brand-fine-blue md:hidden max-w-4xl w-full text-base">
                 Ma mission est de fournir une direction technique stratégique et adaptée, en harmonie avec vos objectifs
                 d’affaires.
             </p>

@@ -45,7 +45,16 @@ export const KrmaPresentation = () => {
                         target="_blank"
                         className="flex items-center gap-2 pt-4 group"
                     >
-                        <HoverUnderlineWrapper>Découvrir Krma</HoverUnderlineWrapper>
+                        <HoverUnderlineWrapper
+                            underlineStyle={{
+                                backgroundImage:
+                                    "repeating-linear-gradient(to right, white 0px, white 6px, transparent 4px, transparent 8px)",
+                                backgroundSize: "10px 2px",
+                                backgroundRepeat: "repeat-x",
+                            }}
+                        >
+                            Découvrir Krma
+                        </HoverUnderlineWrapper>
                         <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />
                     </Link>
                 </div>

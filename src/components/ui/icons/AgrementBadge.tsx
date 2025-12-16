@@ -1,7 +1,7 @@
 import { IconProps } from "./types";
 
 export const AgrementBadge: React.FC<IconProps> = ({ className }) => (
-    <svg viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+    <svg viewBox="0 0 129 129" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
         <path d="M101.136 25.6845L94.7591 33.052L92.5785 31.1646L98.9554 23.7971L101.136 25.6845Z" fill="#000F1A" />
         <path d="M96.407 21.8775L90.8287 29.8668L88.4641 28.2157L94.0424 20.2265L96.407 21.8775Z" fill="#000F1A" />
         <path

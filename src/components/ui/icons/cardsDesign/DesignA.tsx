@@ -4,7 +4,13 @@ import { IconProps } from "../types";
 
 export const DesignA: React.FC<IconProps> = ({ className }) => {
     return (
-        <svg viewBox="0 0 323 299" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <svg
+            viewBox="0 0 323 299"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            className={className}
+        >
             <path
                 d="M318.702 8L321.696 4.85882V4.78824L318.702 1.67059H319.983L323 4.82353L319.983 8H318.702Z"
                 fill="#EEF36B"

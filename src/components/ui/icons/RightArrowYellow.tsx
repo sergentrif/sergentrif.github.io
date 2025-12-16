@@ -3,6 +3,7 @@ import { IconProps } from "./types";
 
 export const ContactModalArrowIcon: React.FC<IconProps> = ({ width = 283, height = 413, className }) => (
     <svg
+        aria-hidden="true"
         width={width}
         height={height}
         viewBox="0 0 283 413"
