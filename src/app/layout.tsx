@@ -17,11 +17,12 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-    title: "Adrien Blandin Portfolio",
-    description: "",
+    title: "Adrien Blandin, CTO pour start-ups early stage",
+    description:
+        "Après avoir développé une équipe technique de 3 à 30 personnes jusqu'à l'introduction en bourse réussie de l'entreprise, j'ai décidé de mettre mes compétences au service de nouveaux projets.",
     robots: {
-        index: false,
-        follow: false,
+        index: true,
+        follow: true,
     },
     icons: {
         icon: "/favicon.svg",
