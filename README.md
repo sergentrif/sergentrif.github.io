@@ -14,7 +14,9 @@ npm run dev
 
 Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
-## 📦 Build
+## 📦 Build et Test Local
+
+### Build de production
 
 ```bash
 # Créer un build de production
@@ -22,6 +24,55 @@ npm run build
 ```
 
 Le site statique sera généré dans le dossier `dist/`.
+
+### Tester le build statique localement
+
+Pour vérifier que votre build statique fonctionne correctement avant de le déployer :
+
+```bash
+# 1. Créer le build
+npm run build
+
+# 2. Vérifier le build (optionnel mais recommandé)
+./verify-build.sh
+
+# 3. Prévisualiser le site statique
+npm run preview
+```
+
+Le site sera accessible sur [http://localhost:8080](http://localhost:8080)
+
+**Alternative avec npx :**
+
+```bash
+# Avec serve (recommandé)
+npx serve dist
+
+# Avec http-server
+npx http-server dist -p 8080
+```
+
+### Script de vérification automatique
+
+Le script `verify-build.sh` vérifie automatiquement :
+- ✅ Présence du dossier `dist/`
+- ✅ Fichier `index.html` généré
+- ✅ Fichier `.nojekyll` présent
+- ✅ Dossier `_next/` avec les assets
+- ✅ Toutes les pages principales
+- 📊 Statistiques du build (nombre de fichiers, taille)
+
+### Vérifications manuelles à effectuer
+
+Après avoir lancé le serveur local, vérifiez :
+
+- ✅ Toutes les pages se chargent correctement
+- ✅ Les images et assets sont bien chargés
+- ✅ La navigation fonctionne (liens internes)
+- ✅ Les animations et interactions fonctionnent
+- ✅ Le scroll smooth (Lenis) fonctionne
+- ✅ Les composants 3D (Three.js) se chargent
+- ✅ Pas d'erreurs dans la console du navigateur
 
 ## 🌐 Déploiement sur GitHub Pages
 
