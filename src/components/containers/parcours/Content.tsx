@@ -11,17 +11,17 @@ export default function ParcoursContent() {
                 <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Mon Parcours</h2>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
-            <div className="relative flex flex-col justify-center mx-auto w-full lg:px-36 md:px-16 sm:px-12 md:gap-12 gap-6 max-w-6xl ">
-                <div className="absolute top-20 -right-32 opacity-20 pointer-events-none">
-                    <DesignA aria-hidden="true" className="w-80 h-80 md:w-[500px] md:h-[500px]" />
+            <div className="overflow-x-hidden relative flex flex-col justify-center mx-auto w-full lg:px-36 md:px-16 sm:px-12 md:gap-12 gap-6 max-w-6xl ">
+                <div className="absolute top-20 sm:-right-32 right-8 opacity-20 pointer-events-none">
+                    <DesignA aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
-                <div className="absolute top-[40%] -left-32 opacity-20 pointer-events-none">
-                    <DesignB aria-hidden="true" className="w-80 h-80 md:w-[500px] md:h-[500px]" />
+                <div className="absolute sm:top-[40%] top-[38.8%] sm:-left-32 left-10 opacity-20 pointer-events-none">
+                    <DesignB aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
-                <div className="absolute bottom-32 -right-32 opacity-20 pointer-events-none">
-                    <DesignC aria-hidden="true" className="w-80 h-80 md:w-[500px] md:h-[500px]" />
+                <div className="absolute sm:bottom-32 bottom-113 sm:-right-32 right-6 opacity-20 pointer-events-none">
+                    <DesignC aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
                 <div className="pb-12 flex flex-col md:gap-8 gap-6 self-start md:px-16 px-4 relative z-10">
@@ -42,7 +42,7 @@ export default function ParcoursContent() {
                         </p>
                     </div>
 
-                    <blockquote className="border-l-4 border-brand-giants pl-6 py-4 my-4 italic md:text-lg text-base text-brand-fine-blue bg-gray-50/50 rounded-r-lg">
+                    <blockquote className="border-l-4 border-brand-giants sm:pl-6 pl-2 py-4 my-4 italic md:text-lg text-base text-brand-fine-blue bg-gray-50/50 rounded-r-lg">
                         « Si vous êtes charpentier et que vous fabriquez une magnifique commode, vous n’allez pas
                         utiliser un morceau de contre-plaqué pour l’arrière du meuble, même s’il est contre le mur et
                         que personne ne le verra. Vous saurez qu’il est là. Donc, vous allez utiliser une magnifique
@@ -136,7 +136,7 @@ export default function ParcoursContent() {
                             Développeurs Seniors) pour exécuter la vision avec la vélocité d’une start-up.
                         </p>
                     </div>
-                    <div className="md:text-xl text-lg font-semibold mt-8 p-6 border-l-4 border-brand-giants text-brand-fine-blue">
+                    <div className="md:text-xl text-lg font-semibold mt-8 p-6 border-l-4 sm:pl-6 pl-2 border-brand-giants text-brand-fine-blue">
                         Mon but est <span className="whitespace-nowrap">simple :</span> faire en sorte que votre tech ne
                         soit plus un centre de coûts opaque, mais le moteur de votre réussite business.
                     </div>
