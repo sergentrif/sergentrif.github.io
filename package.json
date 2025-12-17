@@ -7,7 +7,7 @@
         "build": "next build --turbopack",
         "build:static": "next build --turbopack",
         "start": "next start",
-        "preview": "python3 -m http.server 8080 --directory dist",
+        "preview": "npx serve dist -p 8080",
         "lint": "eslint"
     },
     "dependencies": {
