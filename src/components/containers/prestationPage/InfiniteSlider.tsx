@@ -2,6 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 import { useRef, useState, useEffect } from "react";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 interface SliderImage {
     src: StaticImageData;
@@ -19,6 +20,7 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
     const [startX, setStartX] = useState(0);
     const [scrollLeft, setScrollLeft] = useState(0);
     const [isAutoScrolling, setIsAutoScrolling] = useState(true);
+    const isTabletOrAbove = useMediaQuery("(min-width: 640px)");
 
     const duplicatedImages = [...images, ...images, ...images];
 
@@ -32,7 +34,7 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
         if (!isAutoScrolling || isDragging) return;
 
         let animationFrameId: number;
-        const scrollSpeed = 0.2;
+        const scrollSpeed = isTabletOrAbove ? 1 / 3 : 1;
         let accumulatedScroll = 0;
 
         const autoScroll = () => {
@@ -50,7 +52,7 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
         animationFrameId = requestAnimationFrame(autoScroll);
 
         return () => cancelAnimationFrame(animationFrameId);
-    }, [isAutoScrolling, isDragging]);
+    }, [isAutoScrolling, isDragging, isTabletOrAbove]);
 
     const handleMouseDown = (e: React.MouseEvent) => {
         if (!sliderRef.current) return;
@@ -121,7 +123,7 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
                     <Image
                         src={img.src}
                         alt={img.alt}
-                        className="max-h-[400px] max-w-[280px] h-full w-full select-none pointer-events-none"
+                        className="h-[240px] w-[180px] sm:h-[280px] sm:w-[210px] md:h-[320px] md:w-[240px] lg:h-[400px] lg:w-[280px] object-cover select-none pointer-events-none"
                         draggable={false}
                     />
                 </div>
