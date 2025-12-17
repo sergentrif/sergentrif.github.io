@@ -73,10 +73,11 @@ export function Landing() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center gap-8 lg:px-32 px-16 py-0 ml-8 w-screen">
+            <div className="flex items-center justify-center sm:gap-8 gap-2 lg:px-32 py-0 sm:ml-8 pl-16 sm:w-screen overflow-x-hidden">
                 <div className="flex flex-col shrink-0 font-brico-gro font-normal">
-                    <p>Ils me font confiance</p>
-                    <p>et c’est réciproque</p>
+                    <p>Ils me font</p>
+                    <p>confiance et </p>
+                    <p>c’est réciproque</p>
                 </div>
                 <LandingBannerCarousel />
             </div>

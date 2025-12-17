@@ -6,15 +6,15 @@ import { KrmaPresentation } from "@/components/containers/homePage/moreSection/K
 import { CiiPresentation } from "@/components/containers/homePage/moreSection/CiiPresentation";
 
 export default function Home() {
-  return (
-    <ReactLenis root>
-      <main className="max-w-[1920px] w-full mx-auto">
-        <Landing />
-        <MainCardSection />
-        <TemoignageSection />
-        <KrmaPresentation />
-        <CiiPresentation />
-      </main>
-    </ReactLenis>
-  );
+    return (
+        <ReactLenis root>
+            <main className="max-w-[1920px] w-full mx-auto">
+                <Landing />
+                <MainCardSection />
+                <TemoignageSection />
+                <KrmaPresentation />
+                <CiiPresentation />
+            </main>
+        </ReactLenis>
+    );
 }
