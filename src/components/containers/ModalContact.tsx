@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import bg from "@/assets/images/card_bg.webp";
-import { links } from "@/libs/constants";
+import { links, legal } from "@/libs/constants";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { ContactModalArrowIcon } from "../ui/icons/RightArrowYellow";
 import Link from "next/link";
 import { cn } from "@/libs/utils";
+import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
 
 interface ModalContactProps {
     onClose: () => void;
@@ -14,14 +15,9 @@ interface ModalContactProps {
 
 export function ModalContact({ onClose }: ModalContactProps) {
     return (
-        <div className="w-full min-h-full overflow-x-hidden relative">
-            <div
-                className={cn(
-                    "max-w-[1220px] mx-auto flex flex-col gap-3 mt-6 px-4 pb-20",
-                    "md:mt-6 md:px-8 md:gap-6 md:pb-24",
-                )}
-            >
-                <div className="flex self-end -mt-4 md:mt-0 hover:scale-105">
+        <div className="w-full min-h-full relative pt-12 md:pt-0">
+            <div className={cn("max-w-[1520px] mx-auto flex flex-col gap-3 px-4", "lg:px-28 md:16 md:gap-6")}>
+                <div className="flex self-end -mt-4 md:mt-0 hover:scale-105 pl-44">
                     <button
                         onClick={onClose}
                         className="flex relative border-brand-giants border-2 rounded-[18px] text-brand-midnight cursor-pointer p-2.5 px-5 font-medium"
@@ -49,7 +45,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         href={links.calendly_adrien}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative overflow-hidden"
+                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
                     >
                         Prendre rendez-vous
                     </Link>
@@ -83,9 +79,15 @@ export function ModalContact({ onClose }: ModalContactProps) {
                             <span className="whitespace-nowrap">&nbsp;Objectif :</span> vous donner de la clarté, pas
                             vous vendre un projet.
                         </p>
+                        <p>
+                            Vous pouvez me contacter par <span className="whitespace-nowrap">mail à : </span>
+                            <Link href={`mailto:${legal.email_krma}`} className="group" target="_blank">
+                                <HoverUnderlineWrapper>{legal.email_krma}</HoverUnderlineWrapper>
+                            </Link>
+                        </p>
                     </div>
 
-                    <ContactModalArrowIcon className="shrink-0 hidden md:flex absolute right-20 opacity-60 md:opacity-100" />
+                    <ContactModalArrowIcon className="shrink-0 hidden md:flex absolute lg:right-30 md:right-5 opacity-60 md:opacity-100" />
                 </div>
                 <div className="md:flex hidden relative self-center pt-16 bottom-5 hover:scale-105">
                     <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
@@ -98,17 +100,17 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         href={links.calendly_adrien}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative overflow-hidden"
+                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
                     >
                         Prendre rendez-vous
                     </Link>
                 </div>
             </div>
-            <Image
+            {/*<Image
                 src={bg}
                 alt="Background"
                 className="-z-10 opacity-20 fixed top-0 left-0 w-screen h-screen object-cover"
-            />
+            />*/}
         </div>
     );
 }

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { HeaderLogo } from "../ui/icons/HeaderLogo";
 import { HeaderBurger } from "./HeaderBurger";
-
 import { useState, useEffect } from "react";
 import { ModalContact } from "@/components/containers/ModalContact";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
@@ -28,7 +27,6 @@ export function Header() {
     const handleCloseModal = () => {
         setIsContactModalOpen(false);
     };
-
     useEffect(() => {
         if (isContactModalOpen) {
             const scrollY = window.scrollY;
@@ -77,7 +75,6 @@ export function Header() {
             };
         }
     }, [isContactModalOpen]);
-
     return (
         <header className="flex top-0 left-0 fixed w-full z-50">
             <nav className="md:flex hidden items-center justify-evenly text-base bg-brand-powder/94 backdrop-blur-xl py-4 font-medium max-w-[1920px] w-full mx-auto">
@@ -129,7 +126,6 @@ export function Header() {
                     </button>
                 </div>
             </nav>
-
             {isContactModalOpen && (
                 <div
                     className="fixed inset-0 w-full h-full top-0 left-0 z-50 flex items-start justify-center overflow-hidden"

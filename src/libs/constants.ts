@@ -5,7 +5,6 @@ export const links = {
     github: "https://github.com/sergentrif",
     presentation: "https://adrien.blandin.dev/assets/files/presentation-adrien-blandin-cto-freelance.pdf",
     adrien_cv: "https://adrien.blandin.dev/assets/files/cv-adrien-blandin-cto-freelance.pdf",
-    email: "your-email@example.com",
     le_permislibre: "https://www.lepermislibre.fr/",
     wiki_imposteur: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
     etude_pdf: "https://ics.uci.edu/~gmark/CHI2005.pdf",
@@ -41,7 +40,8 @@ export const legal = {
     nom_hebergeur: "Github France",
     adresse_hebergeur: "92130 Issy-les-Moulineaux.",
     email: "adrien.blandin@gmail.com",
-    date_mise_a_jour: "*/*/*",
+    email_krma: "adrien.blandin@krma.fr",
+    date_mise_a_jour: "19/12/2025",
 };
 
 export const navLinks: { href: Route; label: string }[] = [
