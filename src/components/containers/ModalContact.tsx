@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
-import bg from "@/assets/images/card_bg.webp";
+// import Image from "next/image";
+// import bg from "@/assets/images/card_bg.webp";
 import { links, legal } from "@/libs/constants";
 import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { ContactModalArrowIcon } from "../ui/icons/RightArrowYellow";
