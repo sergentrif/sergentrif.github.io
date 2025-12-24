@@ -1,0 +1,58 @@
+{
+    "pageTitle": "Mentions légales :",
+    "sections": {
+        "editeur": {
+            "title": "1. Editeur",
+            "content": {
+                "websiteLabel": "Adrien Blandin :",
+                "websiteUrl": "https://adrien.blandin.dev/",
+                "websiteDisplay": "https://adrien.blandin.dev/",
+                "directeurPublication": "Directeur de publication : Adrien Blandin"
+            }
+        },
+        "hebergement": {
+            "title": "2. Hébergement",
+            "content": {}
+        },
+        "proprieteIntellectuelle": {
+            "title": "3. Propriété intellectuelle",
+            "content": "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques. La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du directeur de la publication."
+        },
+        "responsabilite": {
+            "title": "4. Responsabilité",
+            "content": "Les informations contenues sur ce site sont fournies à titre indicatif et peuvent comporter des erreurs ou omissions. Krma ne pourra être tenu responsable des dommages directs ou indirects résultant de l'utilisation du site."
+        },
+        "liensHypertextes": {
+            "title": "5. Liens hypertextes",
+            "content": "Des liens hypertextes peuvent être présents sur le site. Krma n'a pas de contrôle sur les pages web sur lesquelles aboutissent ces liens et ne saurait être responsable de leur contenu."
+        },
+        "collecteInformations": {
+            "title": "6. Collecte d'informations",
+            "content": {
+                "description": "Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004, vous bénéficiez d'un droit d'accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant à :",
+                "droitsMotifs": "Vous pouvez également, pour des motifs légitimes, vous opposer au traitement des données vous concernant."
+            }
+        },
+        "cookies": {
+            "title": "7. Cookies",
+            "content": "Le site peut être amené à vous demander l'acceptation des cookies pour des besoins de statistiques et d'affichage. Un cookie est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations. Certaines parties de ce site ne peuvent être fonctionnelles sans l'acceptation de cookies."
+        },
+        "protectionDonnees": {
+            "title": "8. Protection des données personnelles",
+            "content": {
+                "rgpdDescription": "En application du Règlement Général sur la Protection des Données (RGPD) et de la loi informatique et libertés, vous disposez des droits d'accès, de rectification, d'effacement, de portabilité, de limitation du traitement et d'opposition aux traitements de données personnelles vous concernant.",
+                "contactDescription": "Pour exercer ces droits, vous pouvez nous contacter à l'adresse :"
+            }
+        },
+        "droitApplicable": {
+            "title": "9. Droit applicable et juridiction compétente",
+            "content": {
+                "juridiction": "Tout litige en relation avec l'utilisation du site Krma est soumis au droit français. En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents.",
+                "miseAJourLabel": "Dernière mise à jour :"
+            }
+        }
+    },
+    "navigation": {
+        "retourAccueil": "Retour à l'accueil"
+    }
+}

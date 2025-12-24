@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@theme {
+    /* Couleurs de marque */
+    --color-brand-midnight: hsl(205 100% 5%);
+    --color-brand-lime: hsl(62 85% 69%);
+    --color-brand-lavender: hsl(242 85% 88%);
+    --color-brand-beige: hsl(63 41% 83%);
+    --color-brand-powder: hsl(60 24% 96%);
+    --color-brand-giants: hsl(13 90% 58%);
+    --color-brand-glacier: hsl(194 97% 83%);
+    --color-brand-fine-blue: hsl(204, 26%, 39%);
+    --color-brand-light-beige: hsl(60, 14%, 93%);
+    --color-brand-surface: hsl(60, 14%, 93%);
+    --color-brand-silver: hsl(60, 4%, 69%);
+
+    /* Font families */
+    --font-brico-gro: var(--font-brico-gro), sans-serif;
+    --font-dm-mono: var(--font-dm-mono), monospace;
+
+    /*Custom breakpoints*/
+    --breakpoint-break-970: 970px;
+}
+
+:root {
+    /* CSS custom properties for legacy support */
+    --text: 0 0% 100%;
+
+    /* Couleurs de marque - legacy format */
+    --brand-midnight: 205 100% 5%;
+    --brand-lime: 62 85% 69%;
+    --brand-lavender: 242 85% 88%;
+    --brand-beige: 63 41% 83%;
+    --brand-powder: 60 24% 96%;
+    --brand-giants: 13 90% 58%;
+    --brand-glacier: 194 97% 83%;
+    --brand-fine-blue: 204, 26%, 39%;
+    --brand-light-beige: 60, 14%, 93%;
+    --brand-surface: 60, 14%, 93%;
+    --brand-silver: 60, 4%, 69%;
+
+    /* Linear Gradient */
+    --border-linear-gradient: linear-gradient(97.35deg, #c8c6fa 19.5%, #aaeafe 80.53%, #eef36b 94.87%);
+    --card-border-linear-gradient: linear-gradient(180deg, #c8c6fa 0%, #aaeafe 50%, #eef36b 97.5%);
+    --border-bottom-linear-gradient: linear-gradient(91.3deg, #c8c6fa 34.32%, #aaeafe 69.28%, #eef36b 102.5%);
+}
+
+html,
+body {
+    color: hsl(var(--brand-midnight));
+    background: hsl(var(--brand-powder));
+}
+
+/* Custom component styles */
+.button-border-linear-gradient {
+    background:
+        linear-gradient(hsl(var(--brand-midnight)), hsl(var(--brand-midnight))) padding-box,
+        var(--border-linear-gradient) border-box;
+    border: 2px solid transparent;
+}
+
+.card-border-linear-gradient {
+    background:
+        linear-gradient(hsl(var(--brand-powder))) padding-box,
+        var(--card-border-linear-gradient) border-box;
+    border: 2px solid transparent;
+}
+
+.infobox-border-linear-gradient {
+    background:
+        linear-gradient(hsl(var(--brand-powder))) padding-box,
+        var(--card-border-linear-gradient) border-box;
+    border: 1px solid transparent;
+}
+
+.border-bottom-linear-gradient {
+    border-bottom: 4px solid;
+    border-image: var(--border-bottom-linear-gradient) 1;
+}
+
+.border-linear-gradient {
+    border: 1px solid;
+    border-image: var(--border-linear-gradient) 1;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
