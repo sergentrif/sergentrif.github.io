@@ -35,7 +35,7 @@ export const cardsData: cardDataProps[] = [
     },
     {
         title: "Votre CTO à temps partagé pour scaler sereinement",
-        infoBox: "À partir de 9 000€/mois",
+        infoBox: "Tarif selon projet",
         description: "Libérez-vous de la gestion technique pour vous concentrer sur votre business.",
         secondaryDescription:
             "Je m'intègre à votre équipe comme un véritable bras droit : présent au quotidien, je pilote les projets, je manage les développeurs et je porte la vision technique à vos côtés pour assurer une croissance maîtrisée.",
