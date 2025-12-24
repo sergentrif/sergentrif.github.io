@@ -1,0 +1,44 @@
+name: pull-request
+
+on:
+    pull_request:
+        branches:
+            - "**"
+
+permissions:
+    pull-requests: write
+    contents: read
+
+concurrency:
+    group: pull-request-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    check_tests:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
+
+            - name: Setup Node
+              uses: actions/setup-node@v6
+              with:
+                  node-version: "25"
+                  cache: "npm"
+                  cache-dependency-path: package-lock.json
+
+            - name: Install dependencies
+              run: npm install
+
+            # Vérification TypeScript
+            - name: Run TSC
+              run: npm run ts-check
+
+            # Vérification ESLint
+            - name: Run ESLint
+              run: npm run lint
+
+            # Vérification Prettier
+            - name: Run Prettier
+              run: npm run format:check
