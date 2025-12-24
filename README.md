@@ -55,6 +55,7 @@ npx http-server dist -p 8080
 ### Script de vérification automatique
 
 Le script `verify-build.sh` vérifie automatiquement :
+
 - ✅ Présence du dossier `dist/`
 - ✅ Fichier `index.html` généré
 - ✅ Fichier `.nojekyll` présent
@@ -87,10 +88,10 @@ Le site est automatiquement déployé sur GitHub Pages via GitHub Actions à cha
 ### Fonctionnement du déploiement
 
 1. À chaque push sur `main`, GitHub Actions :
-   - Installe les dépendances Node.js
-   - Build le site Next.js en mode statique
-   - Copie le fichier `CNAME` dans le dossier de distribution
-   - Déploie le contenu du dossier `dist/` sur GitHub Pages
+    - Installe les dépendances Node.js
+    - Build le site Next.js en mode statique
+    - Copie le fichier `CNAME` dans le dossier de distribution
+    - Déploie le contenu du dossier `dist/` sur GitHub Pages
 
 2. Le site est accessible à l'adresse : https://adrien.blandin.dev
 

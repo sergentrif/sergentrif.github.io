@@ -20,7 +20,7 @@ type cardDataProps = {
 export const cardsData: cardDataProps[] = [
     {
         title: "Un diagnostic clair sur votre situation tech",
-        infoBox: "250€/h",
+        infoBox: "290€/h",
         description:
             "Vous sentez que la technique vous freine mais vous ne savez pas par où commencer ? En 1h, nous faisons le point sur vos urgences.",
         bulletPoints: ["Un état des lieux honnête", "Pistes d'action concrètes pour reprendre le contrôle"],

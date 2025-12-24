@@ -5,29 +5,28 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
+    - package-ecosystem: "npm"
+      directory: "/"
 
-    schedule:
-      interval: "weekly"
-    
-    groups:
-      production-dependencies:
-        dependency-type: "production"
-      development-dependencies:
-        dependency-type: "development"
+      ignore:
+          - dependency-name: "*"
+            update-types: ["version-update:semver-major"]
 
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    
-    schedule:
-      interval: "weekly"
+      schedule:
+          interval: "weekly"
 
-    groups:
-      actions:
-        patterns:
-          - "*"
+      groups:
+          dependencies:
+              patterns:
+                  - "*"
+
+    - package-ecosystem: "github-actions"
+      directory: "/"
+
+      schedule:
+          interval: "weekly"
+
+      groups:
+          actions:
+              patterns:
+                  - "*"
