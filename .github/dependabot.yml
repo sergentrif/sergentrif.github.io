@@ -5,12 +5,29 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gem" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/"
+    
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
     schedule:
       interval: "weekly"
+    
     groups:
       production-dependencies:
         dependency-type: "production"
       development-dependencies:
         dependency-type: "development"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    
+    schedule:
+      interval: "weekly"
+
+    groups:
+      actions:
+        patterns:
+          - "*"
