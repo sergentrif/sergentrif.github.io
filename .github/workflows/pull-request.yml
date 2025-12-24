@@ -33,7 +33,7 @@ jobs:
 
             # Vérification TypeScript
             - name: Run TSC
-              run: npm run ts-check
+              run: npm run ts:check
 
             # Vérification ESLint
             - name: Run ESLint
