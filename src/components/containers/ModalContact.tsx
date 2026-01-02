@@ -41,7 +41,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         />
                     </div>
                     <Link
-                        href={links.calendly_adrien}
+                        href={links.zcal}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
@@ -134,7 +134,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
                             />
                         </div>
                         <Link
-                            href={links.calendly_adrien}
+                            href={links.zcal}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"

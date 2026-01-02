@@ -32,6 +32,7 @@ export const links = {
     from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
     calendly_adrien:
         "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
+    zcal: "https://zcal.co/adrienblandin/decouverte-cto",
 };
 
 export const legal = {
