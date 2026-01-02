@@ -35,8 +35,8 @@ export default function MentionsLegales() {
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8">{t.sections.collecteInformations.title}</h2>
                 <div className="md:text-lg text-base flex flex-col gap-2">
                     {t.sections.collecteInformations.content.description}
-                    <a href={`mailto:${legal.email_krma}`} className="hover:underline hover:scale-105 w-24">
-                        {legal.email_krma}
+                    <a href={`mailto:${legal.email}`} className="hover:underline hover:scale-105 w-24">
+                        {legal.email}
                     </a>
                 </div>
                 <p className="md:text-lg text-base">{t.sections.collecteInformations.content.droitsMotifs}</p>
@@ -46,8 +46,8 @@ export default function MentionsLegales() {
                 <div className="flex flex-col gap-2 md:text-lg text-base">
                     <p>{t.sections.protectionDonnees.content.rgpdDescription}</p>
                     <p>{t.sections.protectionDonnees.content.contactDescription}</p>
-                    <a href={`mailto:${legal.email_krma}`} className="hover:underline hover:scale-105 w-24">
-                        {legal.email_krma}
+                    <a href={`mailto:${legal.email}`} className="hover:underline hover:scale-105 w-24">
+                        {legal.email}
                     </a>
                 </div>
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8">{t.sections.droitApplicable.title}</h2>

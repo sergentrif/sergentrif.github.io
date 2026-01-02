@@ -81,8 +81,8 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         </p>
                         <p>
                             Vous pouvez me contacter par <span className="whitespace-nowrap">mail à : </span>
-                            <Link href={`mailto:${legal.email_krma}`} className="group" target="_blank">
-                                <HoverUnderlineWrapper>{legal.email_krma}</HoverUnderlineWrapper>
+                            <Link href={`mailto:${legal.email}`} className="group" target="_blank">
+                                <HoverUnderlineWrapper>{legal.email}</HoverUnderlineWrapper>
                             </Link>
                         </p>
                     </div>
