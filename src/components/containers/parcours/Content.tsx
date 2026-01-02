@@ -12,15 +12,15 @@ export default function ParcoursContent() {
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
             <div className="relative flex flex-col justify-center mx-auto w-full lg:px-36 md:px-16 sm:px-12 md:gap-12 gap-6 max-w-6xl ">
-                <div className="absolute top-20 sm:right-6 right-8 opacity-20 pointer-events-none">
+                <div className="absolute top-20 sm:right-6 right-8 opacity-10 pointer-events-none">
                     <DesignA aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
-                <div className="absolute sm:top-[40%] top-[38.8%] sm:left-6 left-10 opacity-20 pointer-events-none">
+                <div className="absolute sm:top-[40%] top-[38.8%] sm:left-6 left-10 opacity-10 pointer-events-none">
                     <DesignB aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
-                <div className="absolute sm:bottom-50 bottom-113 sm:right-4 right-6 opacity-20 pointer-events-none">
+                <div className="absolute sm:bottom-50 bottom-113 sm:right-4 right-6 opacity-10 pointer-events-none">
                     <DesignC aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
@@ -42,7 +42,7 @@ export default function ParcoursContent() {
                         </p>
                     </div>
 
-                    <blockquote className="border-l-4 border-brand-giants sm:pl-6 pl-2 py-4 my-4 italic md:text-lg text-base text-brand-fine-blue bg-gray-50/50 rounded-r-lg">
+                    <blockquote className="border-l-4 border-brand-giants sm:pl-6 pl-2 py-4 my-4 italic md:text-lg text-base text-brand-fine-blue rounded-r-lg">
                         « Si vous êtes charpentier et que vous fabriquez une magnifique commode, vous n’allez pas
                         utiliser un morceau de contre-plaqué pour l’arrière du meuble, même s’il est contre le mur et
                         que personne ne le verra. Vous saurez qu’il est là. Donc, vous allez utiliser une magnifique
