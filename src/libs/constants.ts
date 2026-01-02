@@ -3,8 +3,8 @@ import { Route } from "next";
 export const links = {
     linkedin: "https://www.linkedin.com/in/adrienblandin",
     github: "https://github.com/sergentrif",
-    presentation: "https://adrien.blandin.dev/assets/files/presentation-adrien-blandin-cto-freelance.pdf",
-    adrien_cv: "https://adrien.blandin.dev/assets/files/cv-adrien-blandin-cto-freelance.pdf",
+    presentation: "/pdfs/presentation.pdf",
+    adrien_cv: "/pdfs/cv.pdf",
     le_permislibre: "https://www.lepermislibre.fr/",
     wiki_imposteur: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
     etude_pdf: "https://ics.uci.edu/~gmark/CHI2005.pdf",
