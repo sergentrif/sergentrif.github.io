@@ -7,7 +7,6 @@ import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { ContactModalArrowIcon } from "../ui/icons/RightArrowYellow";
 import Link from "next/link";
 import { cn } from "@/libs/utils";
-import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
 
 interface ModalContactProps {
     onClose: () => void;
@@ -17,7 +16,7 @@ export function ModalContact({ onClose }: ModalContactProps) {
     return (
         <div className="w-full min-h-full relative pt-12 md:pt-0">
             <div className={cn("max-w-[1520px] mx-auto flex flex-col gap-3 px-4", "lg:px-28 md:16 md:gap-6")}>
-                <div className="flex self-end -mt-4 md:mt-0 hover:scale-105 pl-44">
+                <div className="flex self-end -mt-4 md:mt-0 pl-44">
                     <button
                         onClick={onClose}
                         className="flex relative border-brand-giants border-2 rounded-[18px] text-brand-midnight cursor-pointer p-2.5 px-5 font-medium"
@@ -50,7 +49,23 @@ export function ModalContact({ onClose }: ModalContactProps) {
                         Prendre rendez-vous
                     </Link>
                 </div>
-                <div className="flex justify-between">
+                <div className="md:hidden flex relative self-center pt-16 bottom-5 hover:scale-105">
+                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
+                        <TopRightSquare
+                            stroke="hsl(13 90% 58%)"
+                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
+                        />
+                    </div>
+                    <Link
+                        href={`mailto:${legal.email}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
+                    >
+                        Gmail
+                    </Link>
+                </div>
+                <div className="flex justify-between -mt-2">
                     <div
                         className={cn(
                             "flex flex-1 flex-col gap-4 max-w-3xl font-medium text-brand-fine-blue text-sm",
@@ -79,31 +94,54 @@ export function ModalContact({ onClose }: ModalContactProps) {
                             <span className="whitespace-nowrap">&nbsp;Objectif :</span> vous donner de la clarté, pas
                             vous vendre un projet.
                         </p>
-                        <p>
+                        <p className="md:inline-block hidden">
+                            Vous pouvez me contacter par{" "}
+                            <span className="whitespace-nowrap">mail où directement planifiée un rendez-vous.</span>
+                        </p>
+                        {/*<p>
                             Vous pouvez me contacter par <span className="whitespace-nowrap">mail à : </span>
                             <Link href={`mailto:${legal.email}`} className="group" target="_blank">
                                 <HoverUnderlineWrapper>{legal.email}</HoverUnderlineWrapper>
                             </Link>
-                        </p>
+                        </p>*/}
                     </div>
 
                     <ContactModalArrowIcon className="shrink-0 hidden md:flex absolute lg:right-30 md:right-5 opacity-60 md:opacity-100" />
                 </div>
-                <div className="md:flex hidden relative self-center pt-16 bottom-5 hover:scale-105">
-                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                        <TopRightSquare
-                            stroke="hsl(13 90% 58%)"
-                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                        />
+
+                <div className="flex self-center items-center gap-8">
+                    <div className="md:flex hidden relative self-center pt-16 bottom-5 hover:scale-105">
+                        <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
+                            <TopRightSquare
+                                stroke="hsl(13 90% 58%)"
+                                className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
+                            />
+                        </div>
+                        <Link
+                            href={`mailto:${legal.email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
+                        >
+                            Gmail
+                        </Link>
                     </div>
-                    <Link
-                        href={links.calendly_adrien}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
-                    >
-                        Prendre rendez-vous
-                    </Link>
+                    <div className="md:flex hidden relative pt-16 bottom-5 hover:scale-105">
+                        <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
+                            <TopRightSquare
+                                stroke="hsl(13 90% 58%)"
+                                className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
+                            />
+                        </div>
+                        <Link
+                            href={links.calendly_adrien}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
+                        >
+                            Prendre rendez-vous
+                        </Link>
+                    </div>
                 </div>
             </div>
             {/*<Image
