@@ -26,8 +26,8 @@ export const KrmaPresentation = () => {
                 </p>
             </div>
 
-            <div className="flex md:flex-row flex-col items-center gap-12 md:gap-6">
-                <div className="max-w-[44.9rem] px-4">
+            <div className="flex md:flex-row flex-col items-center justify-center gap-12 md:gap-16">
+                <div className="max-w-[44.9rem] px-4 md:px-0">
                     <p className="text-brand-silver">
                         {`Je mets à votre disposition l'équipe que j'ai constituée et dirigée: des développeurs, product managers et designers qui travaillent en parfaite synergie.`}
                     </p>
