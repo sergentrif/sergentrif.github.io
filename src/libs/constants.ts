@@ -45,11 +45,11 @@ export const legal = {
 };
 
 export const navLinks: { href: Route; label: string }[] = [
-    { href: "/articles", label: "Articles" },
     { href: "/parcours", label: "Parcours" },
-    { href: "/podcasts", label: "Podcasts" },
     { href: "/prestations", label: "Prestations" },
     { href: "/temoignages", label: "Témoignages" },
+    { href: "/podcasts", label: "Podcasts" },
+    { href: "/articles", label: "Articles" },
 ];
 
 export const podcastLinks = {
