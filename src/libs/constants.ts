@@ -1,6 +1,7 @@
 import { Route } from "next";
 
 export const links = {
+    krma_site: "https://krma.fr",
     linkedin: "https://www.linkedin.com/in/adrienblandin",
     github: "https://github.com/sergentrif",
     presentation: "/pdfs/presentation.pdf",

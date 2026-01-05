@@ -2,6 +2,9 @@ import { DesignA } from "@/components/ui/icons/cardsDesign/DesignA";
 import { DesignB } from "@/components/ui/icons/cardsDesign/DesignB";
 import { DesignC } from "@/components/ui/icons/cardsDesign/DesignC";
 import { ContactModalArrowIcon } from "@/components/ui/icons/RightArrowYellow";
+import { links } from "@/libs/constants";
+import Link from "next/link";
+import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
 
 export default function ParcoursContent() {
     return (
@@ -120,7 +123,8 @@ export default function ParcoursContent() {
                         </p>
                         <p>
                             J’interviens personnellement pour auditer, structurer et piloter. C’est ce que je réalise
-                            par exemple avec Objow depuis près de <span className="whitespace-nowrap">2 ans :</span>
+                            par exemple avec <span className="font-bold">Objow</span> depuis près de{" "}
+                            <span className="whitespace-nowrap">2 ans :</span>
                         </p>
                         <ul className="list-disc list-outside space-y-2 pl-4">
                             <li>Structuration de l’équipe et recrutement des talents clés.</li>
@@ -132,8 +136,12 @@ export default function ParcoursContent() {
                             </li>
                         </ul>
                         <p>
-                            Une fois la direction fixée, je peux mobiliser Krma, mon équipe (PMs, Designers,
-                            Développeurs Seniors) pour exécuter la vision avec la vélocité d’une start-up.
+                            Une fois la direction fixée, je peux mobiliser{" "}
+                            <Link target="_blank" href={links.krma_site} className="font-bold group">
+                                <HoverUnderlineWrapper>Krma</HoverUnderlineWrapper>
+                            </Link>
+                            , mon équipe (PMs, Designers, Développeurs Seniors) pour exécuter la vision avec la vélocité
+                            d’une start-up.
                         </p>
                     </div>
                     <div className="md:text-xl text-lg font-semibold mt-8 p-6 border-l-4 sm:pl-6 pl-2 border-brand-giants text-brand-fine-blue">
