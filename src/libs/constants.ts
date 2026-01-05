@@ -31,8 +31,6 @@ export const links = {
         "https://www.lemonde.fr/idees/article/2011/04/27/les-chenes-francais-le-tresor-de-colbert_1512747_3232.html",
     technical_debt: "https://martinfowler.com/bliki/TechnicalDebt.html",
     from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
-    calendly_adrien:
-        "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
     zcal: "https://zcal.co/adrienblandin/decouverte-cto",
 };
 
