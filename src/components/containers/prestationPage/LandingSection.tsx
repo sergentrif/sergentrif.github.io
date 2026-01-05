@@ -81,7 +81,7 @@ export const LandingSection = () => {
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 CTO Part-time
                             </h2>
-                            <InfoBox className="flex mx-auto">intégration à vos équipes tech</InfoBox>
+                            <InfoBox className="flex mx-auto">Intégration à vos équipes tech</InfoBox>
                         </div>
                         <p>
                             En tant que CTO part-time, j’accompagne les startups et PME qui ont besoin d’une direction
