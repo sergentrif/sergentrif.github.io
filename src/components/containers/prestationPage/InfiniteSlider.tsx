@@ -34,7 +34,7 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
         if (!isAutoScrolling || isDragging) return;
 
         let animationFrameId: number;
-        const scrollSpeed = isTabletOrAbove ? 1 / 3 : 1;
+        const scrollSpeed = isTabletOrAbove ? 1 / 3 : 0.2;
         let accumulatedScroll = 0;
 
         const autoScroll = () => {
