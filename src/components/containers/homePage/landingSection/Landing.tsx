@@ -35,7 +35,7 @@ export function Landing() {
                 </div>
                 <div className="flex flex-col pl-14 relative">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide lg:text-[2.5rem] md:text-2xl max-w-[47rem]">
-                        {" J'aide les CEOs à transformer leur tech en accélérateur de croissance "}
+                        {" J'aide les CEO à transformer leur tech en accélérateur de croissance "}
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
                         <p className="mb-2">{"J'interviens comme CTO à temps partagé pour :"}</p>
