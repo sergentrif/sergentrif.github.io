@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer/Footer";
 import { Fira_Code, Bricolage_Grotesque } from "next/font/google";
 import "@/assets/styles/globals.css";
 import { cn } from "@/libs/utils";
-// import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 const firaCode = Fira_Code({
     weight: ["300", "400", "500"],
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="fr">
             <body className={cn(firaCode.className, bricolageGrotesque.variable, "overflow-x-hidden")}>
-                {/*<GoogleAnalytics />*/}
+                <GoogleAnalytics />
                 <Header />
                 {children}
                 <Footer />

@@ -43,6 +43,11 @@ export const legal = {
     date_mise_a_jour: "19/12/2025",
 };
 
+export const googleAnalyticsData = {
+    GA_TRACKING_ID: "G-E0KJRNCFZ1",
+    GOOGLE_ADS_ID: "AW-985274405",
+};
+
 export const navLinks: { href: Route; label: string }[] = [
     { href: "/parcours", label: "Parcours" },
     { href: "/prestations", label: "Prestations" },
