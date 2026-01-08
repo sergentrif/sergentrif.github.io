@@ -33,39 +33,8 @@ export function ModalContact({ onClose }: ModalContactProps) {
                 <h1 className={cn("text-[22px] uppercase font-brico-gro font-bold max-w-4xl", "md:text-[2.5rem]")}>
                     {"Contactez-moi pour discuter de l'impact que je pourrais avoir sur votre projet"}
                 </h1>
-                <div className="flex md:hidden relative self-center pt-8 hover:scale-105">
-                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                        <TopRightSquare
-                            stroke="hsl(13 90% 58%)"
-                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                        />
-                    </div>
-                    <Link
-                        href={links.zcal}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
-                    >
-                        Prendre rendez-vous
-                    </Link>
-                </div>
-                <div className="md:hidden flex relative self-center pt-16 bottom-5 hover:scale-105">
-                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                        <TopRightSquare
-                            stroke="hsl(13 90% 58%)"
-                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                        />
-                    </div>
-                    <Link
-                        href={`mailto:${legal.email}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
-                    >
-                        Gmail
-                    </Link>
-                </div>
-                <div className="flex justify-between -mt-2">
+
+                <div className="flex justify-between">
                     <div
                         className={cn(
                             "flex flex-1 flex-col gap-4 max-w-3xl font-medium text-brand-fine-blue text-sm",
@@ -94,39 +63,39 @@ export function ModalContact({ onClose }: ModalContactProps) {
                             <span className="whitespace-nowrap">&nbsp;Objectif :</span> vous donner de la clarté, pas
                             vous vendre un projet.
                         </p>
-                        <p className="md:inline-block hidden">
-                            Vous pouvez me contacter par{" "}
-                            <span className="whitespace-nowrap">mail où directement planifiée un rendez-vous.</span>
-                        </p>
-                        {/*<p>
-                            Vous pouvez me contacter par <span className="whitespace-nowrap">mail à : </span>
-                            <Link href={`mailto:${legal.email}`} className="group" target="_blank">
-                                <HoverUnderlineWrapper>{legal.email}</HoverUnderlineWrapper>
+                        <div className="md:flex hidden gap-2">
+                            Vous pouvez{" "}
+                            <Link
+                                href={`mailto:${legal.email}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex cursor-pointer underline"
+                            >
+                                me contacter par mail
                             </Link>
-                        </p>*/}
+                            <span className="whitespace-nowrap">où directement planifier un rendez-vous.</span>
+                        </div>
+                        <div className="md:hidden flex flex-col">
+                            <div className="flex gap-2 whitespace-nowrap">
+                                Vous pouvez{" "}
+                                <Link
+                                    href={`mailto:${legal.email}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex cursor-pointer underline"
+                                >
+                                    me contacter par mail
+                                </Link>
+                            </div>
+                            <p>où directement planifier un rendez-vous.</p>
+                        </div>
                     </div>
 
                     <ContactModalArrowIcon className="shrink-0 hidden md:flex absolute lg:right-30 md:right-5 opacity-60 md:opacity-100" />
                 </div>
 
-                <div className="flex self-center items-center gap-8">
-                    <div className="md:flex hidden relative self-center pt-16 bottom-5 hover:scale-105">
-                        <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                            <TopRightSquare
-                                stroke="hsl(13 90% 58%)"
-                                className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                            />
-                        </div>
-                        <Link
-                            href={`mailto:${legal.email}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex text-brand-midnight border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 -mt-8 relative"
-                        >
-                            Gmail
-                        </Link>
-                    </div>
-                    <div className="md:flex hidden relative pt-16 bottom-5 hover:scale-105">
+                <div className="flex flex-col self-center items-center">
+                    <div className="flex relative pt-16 bottom-2 hover:scale-105">
                         <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
                             <TopRightSquare
                                 stroke="hsl(13 90% 58%)"
