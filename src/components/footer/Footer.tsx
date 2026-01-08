@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { links } from "@/libs/constants";
+
 import { FooterLogo } from "@/components/ui/icons/FooterLogo";
 import { FooterBanner, FooterBannerCarousel } from "./FooterBanner";
 import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
