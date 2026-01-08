@@ -9,10 +9,10 @@ import { InfiniteSlider } from "./InfiniteSlider";
 
 import img1 from "@/assets/images/krma_prestation_1.png";
 import img2 from "@/assets/images/krma_prestation_2.png";
-import img3 from "@/assets/images/krma_prestation_3.png";
+import img3 from "@/assets/images/krma_prestation_3.jpg";
 import img4 from "@/assets/images/krma_prestation_4.png";
 import img5 from "@/assets/images/krma_prestation_5.png";
-import img6 from "@/assets/images/krma_prestation_6.png";
+import img6 from "@/assets/images/krma_prestation_6.jpg";
 import img7 from "@/assets/images/krma_prestation_7.png";
 import img8 from "@/assets/images/krma_prestation_8.png";
 
