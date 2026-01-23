@@ -7,7 +7,7 @@ declare global {
         gtag: (
             command: "config" | "event" | "js" | "set",
             targetId: string | Date,
-            config?: Record<string, any>,
+            config?: Record<string, unknown>,
         ) => void;
     }
 }
@@ -20,7 +20,7 @@ export const useGoogleAnalytics = () => {
                 event_category?: string;
                 event_label?: string;
                 value?: number;
-                custom_parameters?: Record<string, any>;
+                custom_parameters?: Record<string, unknown>;
             },
         ) => {
             if (typeof window !== "undefined" && window.gtag) {
