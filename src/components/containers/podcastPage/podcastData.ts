@@ -35,7 +35,7 @@ export const podcastEpisodes: PodcastEpisode[] = [
         id: 2,
         title: "Quand la tech et le produit ne font qu'un",
         description:
-            "🎤 Cette semaine, nous avons le plaisir de partager un nouvel épisode avec Adrien BLANDIN, CTO chez lePERMISLIBRE au micro de Hervé LOKROU, CTO chez Batch.",
+            "🎤 Cette semaine, nous avons le plaisir de partager un nouvel épisode avec Adrien BLANDIN, CTO chez lePERMISLIBRE au micro de Hervé Lourdain, CTO chez Batch.",
         detailedDescription:
             "Passionné par l'entrepreneuriat depuis toujours, Adrien, se lance dans l'aventure dès sa sortie d'école d'ingénieur,  puis fera quelques années chez Batch avant de remonter une société.",
         moreDescription:

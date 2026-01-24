@@ -16,7 +16,7 @@ export function BottomContactBox() {
                     <TopRightSquare stroke="hsl(13 90% 58%)" className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10" />
                 </div>
                 <Link
-                    href={links.calendly_adrien}
+                    href={links.zcal}
                     rel="noopener noreferrer"
                     target="_blank"
                     className="flex border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 relative overflow-hidden md:text-base text-sm"
