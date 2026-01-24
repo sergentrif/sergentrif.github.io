@@ -1,10 +1,11 @@
 import { Route } from "next";
 
 export const links = {
+    krma_site: "https://krma.fr",
     linkedin: "https://www.linkedin.com/in/adrienblandin",
     github: "https://github.com/sergentrif",
-    presentation: "https://adrien.blandin.dev/assets/files/presentation-adrien-blandin-cto-freelance.pdf",
-    adrien_cv: "https://adrien.blandin.dev/assets/files/cv-adrien-blandin-cto-freelance.pdf",
+    presentation: "/pdfs/presentation.pdf",
+    adrien_cv: "/pdfs/cv.pdf",
     le_permislibre: "https://www.lepermislibre.fr/",
     wiki_imposteur: "https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur",
     etude_pdf: "https://ics.uci.edu/~gmark/CHI2005.pdf",
@@ -30,8 +31,7 @@ export const links = {
         "https://www.lemonde.fr/idees/article/2011/04/27/les-chenes-francais-le-tresor-de-colbert_1512747_3232.html",
     technical_debt: "https://martinfowler.com/bliki/TechnicalDebt.html",
     from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
-    calendly_adrien:
-        "https://calendly.com/adrienblandin/prendre-rendez-vous?utm_medium=organic&utm_source=adrien.blandin.dev&utm_campaign=homepage&utm_content=navbar&month=2025-08",
+    zcal: "https://zcal.co/adrienblandin/decouverte-cto",
 };
 
 export const legal = {
@@ -39,17 +39,21 @@ export const legal = {
     adresse_siege_social: "2 rue des varennes 69660 Collonges au mont d’or",
     nom_hebergeur: "Github France",
     adresse_hebergeur: "92130 Issy-les-Moulineaux.",
-    email: "adrien.blandin@gmail.com",
-    email_krma: "adrien.blandin@krma.fr",
+    email: "adrien.blandin@krma.fr",
     date_mise_a_jour: "19/12/2025",
 };
 
+export const googleAnalyticsData = {
+    GA_TRACKING_ID: "G-E0KJRNCFZ1",
+    GOOGLE_ADS_ID: "AW-985274405",
+};
+
 export const navLinks: { href: Route; label: string }[] = [
-    { href: "/articles", label: "Articles" },
     { href: "/parcours", label: "Parcours" },
-    { href: "/podcasts", label: "Podcasts" },
     { href: "/prestations", label: "Prestations" },
     { href: "/temoignages", label: "Témoignages" },
+    { href: "/podcasts", label: "Podcasts" },
+    { href: "/articles", label: "Articles" },
 ];
 
 export const podcastLinks = {
