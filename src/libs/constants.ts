@@ -35,7 +35,7 @@ export const links = {
 };
 
 export const legal = {
-    raison_sociale: "Abventure",
+    raison_sociale: "abventure",
     adresse_siege_social: "2 rue des varennes 69660 Collonges au mont d’or",
     nom_hebergeur: "Github France",
     adresse_hebergeur: "92130 Issy-les-Moulineaux.",
