@@ -81,7 +81,7 @@ Le site est automatiquement déployé sur GitHub Pages via GitHub Actions à cha
 
 ### Configuration
 
-- **Domaine personnalisé** : `adrien.blandin.dev` (configuré via le fichier `CNAME`)
+- **Domaine personnalisé** : `adrien.blandin.me` (configuré via le fichier `CNAME`)
 - **Workflow** : `.github/workflows/nextjs-gh-pages.yml`
 - **Output** : Site 100% statique (SSG - Static Site Generation)
 
@@ -93,7 +93,7 @@ Le site est automatiquement déployé sur GitHub Pages via GitHub Actions à cha
     - Copie le fichier `CNAME` dans le dossier de distribution
     - Déploie le contenu du dossier `dist/` sur GitHub Pages
 
-2. Le site est accessible à l'adresse : https://adrien.blandin.dev
+2. Le site est accessible à l'adresse : https://adrien.blandin.me
 
 ### Configuration Next.js pour GitHub Pages
 

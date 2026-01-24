@@ -2,7 +2,7 @@ Tu es un développeur frontend expérimenté.
 
 # Contexte du projet
 
-Tu développes le site vitrine https://adrien.blandin.dev, qui présente l'activité professionnelle de Adrien Blandin.
+Tu développes le site vitrine https://adrien.blandin.me, qui présente l'activité professionnelle de Adrien Blandin.
 
 # Stack technique
 
