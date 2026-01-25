@@ -39,7 +39,7 @@ export const legal = {
     adresse_siege_social: "2 rue des varennes 69660 Collonges au mont d’or",
     nom_hebergeur: "Github France",
     adresse_hebergeur: "92130 Issy-les-Moulineaux.",
-    email: "adrien.blandin@krma.fr",
+    email: "contact@blandin.me",
     date_mise_a_jour: "19/12/2025",
 };
 
