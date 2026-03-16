@@ -1,56 +1,22 @@
 import Link from "next/link";
-import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
-import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 
-import type { Metadata } from "next";
-import { buildArticleSchema } from "@/libs/articleSchema";
+import { buildArticleMetadata, buildArticleSchema } from "@/libs/articleSchema";
+import { getArticle } from "@/libs/articles";
+import { ArticleLayout } from "@/components/containers/articlesPage/ArticleLayout";
 
-const SLUG = "etre-developpeur-c-est-bien-plus-que-developper";
-const TITLE = "Être développeur, c'est bien plus que développer";
-const DATE = "2024-03-14";
-const DESCRIPTION =
-    "Au-delà du code : la diversité réelle des tâches d'un développeur au quotidien. Pour les dirigeants qui collaborent avec des équipes techniques.";
+const { slug, title, date, description, displayDate, readTime } = getArticle(
+    "etre-developpeur-c-est-bien-plus-que-developper",
+);
 
-export const metadata: Metadata = {
-    title: `${TITLE} | Adrien Blandin`,
-    description: DESCRIPTION,
-    alternates: { canonical: `/articles/${SLUG}` },
-    openGraph: {
-        type: "article",
-        title: TITLE,
-        description: DESCRIPTION,
-        url: `https://adrien.blandin.me/articles/${SLUG}`,
-        publishedTime: DATE,
-        authors: ["Adrien Blandin"],
-    },
-};
+export const metadata = buildArticleMetadata(slug, title, date, description);
 
-const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+const articleSchema = buildArticleSchema(slug, title, date, description);
 
 export default function ArticlesPageSecondArticle() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <TopArticleSection />
-            <div className="text-sm md:text-base">
-                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
-                    Accueil
-                </Link>{" "}
-                /{" "}
-                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
-                    Articles
-                </Link>{" "}
-                / Être développeur, c’est bien plus que développer
-                <span className="italic">Developer Experience</span>&nbsp;?
-            </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
-                Être développeur, c’est bien plus que développer
-            </h2>
-            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
-                14/03/2024, ~12 minutes de lecture
-            </InfoBoxArticle>
+        <ArticleLayout schema={articleSchema} title={title} date={date} displayDate={displayDate} readTime={readTime}>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que
@@ -404,6 +370,6 @@ export default function ArticlesPageSecondArticle() {
                 </p>
             </div>
             <BottomContactBox />
-        </section>
+        </ArticleLayout>
     );
 }

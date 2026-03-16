@@ -1,54 +1,20 @@
-import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
-import Link from "next/link";
-import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 
-import type { Metadata } from "next";
-import { buildArticleSchema } from "@/libs/articleSchema";
+import { buildArticleMetadata, buildArticleSchema } from "@/libs/articleSchema";
+import { getArticle } from "@/libs/articles";
+import { ArticleLayout } from "@/components/containers/articlesPage/ArticleLayout";
 
-const SLUG = "reussir-ses-recrutements-en-impliquant-son-equipe";
-const TITLE = "Réussir ses recrutements en impliquant son équipe";
-const DATE = "2024-02-15";
-const DESCRIPTION =
-    "Impliquer son équipe dans le recrutement : méthode concrète pour recruter de meilleurs profils techniques avec l'adhésion de l'équipe.";
+const { slug, title, date, description, displayDate, readTime } = getArticle(
+    "reussir-ses-recrutements-en-impliquant-son-equipe",
+);
 
-export const metadata: Metadata = {
-    title: `${TITLE} | Adrien Blandin`,
-    description: DESCRIPTION,
-    alternates: { canonical: `/articles/${SLUG}` },
-    openGraph: {
-        type: "article",
-        title: TITLE,
-        description: DESCRIPTION,
-        url: `https://adrien.blandin.me/articles/${SLUG}`,
-        publishedTime: DATE,
-        authors: ["Adrien Blandin"],
-    },
-};
+export const metadata = buildArticleMetadata(slug, title, date, description);
 
-const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+const articleSchema = buildArticleSchema(slug, title, date, description);
 
 export default function ArticleThirdPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <TopArticleSection />
-            <div className="text-sm md:text-base">
-                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
-                    Accueil
-                </Link>{" "}
-                /{" "}
-                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
-                    Articles
-                </Link>{" "}
-                / Réussir ses recrutements en impliquant son équipe
-            </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
-                Réussir ses recrutements en impliquant son équipe
-            </h2>
-            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
-                15/02/2024, ~10 minutes de lecture
-            </InfoBoxArticle>
+        <ArticleLayout schema={articleSchema} title={title} date={date} displayDate={displayDate} readTime={readTime}>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Au cours des dernières années, j’ai conduit des centaines d’entretiens de recrutement. Cela n’a
@@ -270,6 +236,6 @@ export default function ArticleThirdPage() {
                 <p> C’est quand même plus sympa que 8 heures de questions / réponses à faire seul chez soi.</p>
             </div>
             <BottomContactBox />
-        </section>
+        </ArticleLayout>
     );
 }

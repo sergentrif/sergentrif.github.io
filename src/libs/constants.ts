@@ -1,5 +1,13 @@
 import { Route } from "next";
 
+export const site = {
+    url: "https://adrien.blandin.me",
+    name: "Adrien Blandin",
+    title: "Adrien Blandin — CTO Freelance",
+    personId: "https://adrien.blandin.me/#person",
+    serviceId: "https://adrien.blandin.me/#service",
+};
+
 export const links = {
     krma_site: "https://krma.fr",
     linkedin: "https://www.linkedin.com/in/adrienblandin",

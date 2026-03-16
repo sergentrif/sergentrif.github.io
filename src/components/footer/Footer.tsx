@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { links } from "@/libs/constants";
+import { links, legal } from "@/libs/constants";
 
 import { FooterLogo } from "@/components/ui/icons/FooterLogo";
 import { FooterBanner, FooterBannerCarousel } from "./FooterBanner";
@@ -34,6 +34,11 @@ export function Footer() {
                                     <span className="text-brand-glacier">##</span>CV
                                 </HoverUnderlineWrapper>
                             </Link>
+                            <a href={`mailto:${legal.email}`} className="group">
+                                <HoverUnderlineWrapper>
+                                    <span className="text-brand-glacier">##</span>EMAIL
+                                </HoverUnderlineWrapper>
+                            </a>
                         </div>
                     </div>
 

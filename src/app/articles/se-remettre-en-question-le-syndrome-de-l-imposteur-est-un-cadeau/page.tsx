@@ -1,55 +1,22 @@
-import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
-import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 
-import type { Metadata } from "next";
-import { buildArticleSchema } from "@/libs/articleSchema";
+import { buildArticleMetadata, buildArticleSchema } from "@/libs/articleSchema";
+import { getArticle } from "@/libs/articles";
+import { ArticleLayout } from "@/components/containers/articlesPage/ArticleLayout";
 
-const SLUG = "se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau";
-const TITLE = "Se remettre en question : le syndrome de l'imposteur est un cadeau";
-const DATE = "2024-01-25";
-const DESCRIPTION =
-    "Pourquoi le syndrome de l'imposteur est une force pour un CTO : comment la remise en question permanente devient un avantage compétitif durable.";
+const { slug, title, date, description, displayDate, readTime } = getArticle(
+    "se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau",
+);
 
-export const metadata: Metadata = {
-    title: `${TITLE} | Adrien Blandin`,
-    description: DESCRIPTION,
-    alternates: { canonical: `/articles/${SLUG}` },
-    openGraph: {
-        type: "article",
-        title: TITLE,
-        description: DESCRIPTION,
-        url: `https://adrien.blandin.me/articles/${SLUG}`,
-        publishedTime: DATE,
-        authors: ["Adrien Blandin"],
-    },
-};
+export const metadata = buildArticleMetadata(slug, title, date, description);
 
-const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+const articleSchema = buildArticleSchema(slug, title, date, description);
 
 export default function ArticleSevenPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <TopArticleSection />
-            <div className="text-sm md:text-base">
-                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
-                    Accueil
-                </Link>{" "}
-                /{" "}
-                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
-                    Articles
-                </Link>{" "}
-                / Se remettre en question : le syndrome de l’imposteur est un cadeau
-            </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
-                Se remettre en question : le syndrome de l’imposteur est un cadeau
-            </h2>
-            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
-                25/01/2024, ~4 minutes de lecture
-            </InfoBoxArticle>
+        <ArticleLayout schema={articleSchema} title={title} date={date} displayDate={displayDate} readTime={readTime}>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     La première des compétences qu’il me semble nécessaire de trouver chez un CTO est sa capacité à se
@@ -167,6 +134,6 @@ export default function ArticleSevenPage() {
                 </p>
             </div>
             <BottomContactBox />
-        </section>
+        </ArticleLayout>
     );
 }

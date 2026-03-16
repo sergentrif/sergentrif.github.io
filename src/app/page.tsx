@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { ReactLenis } from "lenis/react";
+import { site } from "@/libs/constants";
+import { JsonLd } from "@/components/ui/JsonLd";
 import { Landing } from "@/components/containers/homePage/landingSection/Landing";
 import { MainCardSection } from "@/components/containers/homePage/MainSection/MainContent";
 import { TemoignageSection } from "@/components/containers/homePage/temoignageSection/Temoignage";
@@ -16,7 +18,7 @@ export const metadata: Metadata = {
         title: "Adrien Blandin — CTO à temps partagé pour start-ups early stage",
         description:
             "J'aide les CEO à transformer leur tech en accélérateur de croissance. CTO à temps partagé, sparing partner, définition de MVP.",
-        url: "https://adrien.blandin.me",
+        url: site.url,
     },
 };
 
@@ -25,9 +27,9 @@ const personSchema = {
     "@graph": [
         {
             "@type": "Person",
-            "@id": "https://adrien.blandin.me/#person",
-            name: "Adrien Blandin",
-            url: "https://adrien.blandin.me",
+            "@id": site.personId,
+            name: site.name,
+            url: site.url,
             jobTitle: "CTO Freelance",
             description:
                 "CTO à temps partagé pour start-ups early stage et PME. 7 ans CTO chez lePERMISLIBRE, équipe de 3 à 30 personnes, introduction en bourse réussie.",
@@ -43,18 +45,18 @@ const personSchema = {
         },
         {
             "@type": "ProfessionalService",
-            "@id": "https://adrien.blandin.me/#service",
-            name: "Adrien Blandin — CTO Freelance",
-            url: "https://adrien.blandin.me",
+            "@id": site.serviceId,
+            name: site.title,
+            url: site.url,
             description:
                 "CTO à temps partagé pour start-ups early stage et PME. Sparing partner pour CTOs, définition de MVP, conférences pour écoles et accélérateurs.",
-            founder: { "@id": "https://adrien.blandin.me/#person" },
+            founder: { "@id": site.personId },
             serviceType: ["CTO Part-time", "Sparing partner", "Définition de MVP", "Conférencier tech"],
             areaServed: { "@type": "Country", name: "France" },
             hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "Prestations",
-                url: "https://adrien.blandin.me/prestations",
+                url: `${site.url}/prestations`,
             },
         },
     ],
@@ -63,7 +65,7 @@ const personSchema = {
 export default function Home() {
     return (
         <ReactLenis root>
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+            <JsonLd schema={personSchema} />
             <main className="max-w-[1920px] w-full mx-auto">
                 <Landing />
                 <MainCardSection />

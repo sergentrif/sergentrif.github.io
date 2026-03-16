@@ -1,55 +1,22 @@
-import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
-import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 
-import type { Metadata } from "next";
-import { buildArticleSchema } from "@/libs/articleSchema";
+import { buildArticleMetadata, buildArticleSchema } from "@/libs/articleSchema";
+import { getArticle } from "@/libs/articles";
+import { ArticleLayout } from "@/components/containers/articlesPage/ArticleLayout";
 
-const SLUG = "de-developpeur-backend-a-cto-un-retour-a-zero";
-const TITLE = "De développeur backend à CTO, un retour à zéro";
-const DATE = "2021-02-24";
-const DESCRIPTION =
-    "Récit personnel de transition de développeur backend à CTO : légitimité, absence de feedbacks et sentiment d'improductivité dans un nouveau rôle.";
+const { slug, title, date, description, displayDate, readTime } = getArticle(
+    "de-developpeur-backend-a-cto-un-retour-a-zero",
+);
 
-export const metadata: Metadata = {
-    title: `${TITLE} | Adrien Blandin`,
-    description: DESCRIPTION,
-    alternates: { canonical: `/articles/${SLUG}` },
-    openGraph: {
-        type: "article",
-        title: TITLE,
-        description: DESCRIPTION,
-        url: `https://adrien.blandin.me/articles/${SLUG}`,
-        publishedTime: DATE,
-        authors: ["Adrien Blandin"],
-    },
-};
+export const metadata = buildArticleMetadata(slug, title, date, description);
 
-const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+const articleSchema = buildArticleSchema(slug, title, date, description);
 
 export default function ArticleTwelvePage() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <TopArticleSection />
-            <div className="text-sm md:text-base">
-                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
-                    Accueil
-                </Link>{" "}
-                /{" "}
-                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
-                    Articles
-                </Link>{" "}
-                / De développeur backend à CTO, un retour à zéro
-            </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
-                De développeur backend à CTO, un retour à zéro
-            </h2>
-            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
-                24/02/2021, ~7 minutes de lecture
-            </InfoBoxArticle>
+        <ArticleLayout schema={articleSchema} title={title} date={date} displayDate={displayDate} readTime={readTime}>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Il y a un an, suite au départ de notre CTO, la proposition d’assumer ce rôle m’a été faite. Cela
@@ -235,6 +202,6 @@ export default function ArticleTwelvePage() {
                 </p>
             </div>
             <BottomContactBox />
-        </section>
+        </ArticleLayout>
     );
 }
