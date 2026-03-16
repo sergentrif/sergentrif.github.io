@@ -170,7 +170,7 @@ const content = [
         ],
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <Link href="manouvellepiscine.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.manouvellepiscine.com/" target="_blank" rel="noopener noreferrer">
                     <MNPIcon />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
@@ -180,7 +180,7 @@ const content = [
                     <div className="flex flex-col">
                         Directeur Général
                         <Link
-                            href="manouvellepiscine.com"
+                            href="https://www.manouvellepiscine.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="underline"
@@ -392,7 +392,7 @@ const content_mobile = [
                 <div className="flex flex-col">
                     Directeur Général
                     <Link
-                        href="manouvellepiscine.com"
+                        href="https://www.manouvellepiscine.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 underline"

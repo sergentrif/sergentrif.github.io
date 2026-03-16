@@ -1,13 +1,37 @@
-"use client";
-
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 
+import type { Metadata } from "next";
+import { buildArticleSchema } from "@/libs/articleSchema";
+
+const SLUG = "etre-cto-ou-l-art-de-representer-plusieurs-parties";
+const TITLE = "Être CTO ou l'art de représenter plusieurs parties";
+const DATE = "2024-02-06";
+const DESCRIPTION =
+    "Le CTO comme intermédiaire stratégique : comment représenter simultanément l'équipe technique, les dirigeants et les partenaires externes.";
+
+export const metadata: Metadata = {
+    title: `${TITLE} | Adrien Blandin`,
+    description: DESCRIPTION,
+    alternates: { canonical: `/articles/${SLUG}` },
+    openGraph: {
+        type: "article",
+        title: TITLE,
+        description: DESCRIPTION,
+        url: `https://adrien.blandin.me/articles/${SLUG}`,
+        publishedTime: DATE,
+        authors: ["Adrien Blandin"],
+    },
+};
+
+const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+
 export default function ArticleFithPage() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <TopArticleSection />
             <div className="text-sm md:text-base">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">

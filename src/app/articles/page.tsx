@@ -1,9 +1,21 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import { links } from "@/libs/constants";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
+
+export const metadata: Metadata = {
+    title: "Articles sur le rôle de CTO | Adrien Blandin",
+    description:
+        "Retours d'expérience et réflexions sur le management tech, la dette technique, le recrutement et le leadership — par Adrien Blandin, CTO freelance.",
+    alternates: { canonical: "/articles" },
+    openGraph: {
+        title: "Articles sur le rôle de CTO | Adrien Blandin",
+        description:
+            "Retours d'expérience et réflexions sur le management tech, la dette technique, le recrutement et le leadership par un CTO freelance.",
+        url: "https://adrien.blandin.me/articles",
+    },
+};
 
 export default function LandingArticlesPage() {
     return (

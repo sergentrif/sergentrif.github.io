@@ -1,13 +1,37 @@
-"use client";
-
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 
+import type { Metadata } from "next";
+import { buildArticleSchema } from "@/libs/articleSchema";
+
+const SLUG = "etre-le-leader-dont-l-equipe-a-besoin";
+const TITLE = "Être le leader dont l'équipe a besoin";
+const DATE = "2024-02-14";
+const DESCRIPTION =
+    "Comment adopter la posture de leader dont votre équipe technique a besoin, selon le contexte et le stade de développement de l'entreprise.";
+
+export const metadata: Metadata = {
+    title: `${TITLE} | Adrien Blandin`,
+    description: DESCRIPTION,
+    alternates: { canonical: `/articles/${SLUG}` },
+    openGraph: {
+        type: "article",
+        title: TITLE,
+        description: DESCRIPTION,
+        url: `https://adrien.blandin.me/articles/${SLUG}`,
+        publishedTime: DATE,
+        authors: ["Adrien Blandin"],
+    },
+};
+
+const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+
 export default function ArticleFourthPage() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <TopArticleSection />
             <div className="text-sm md:text-base">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
