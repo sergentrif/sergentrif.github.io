@@ -118,23 +118,39 @@ export default function ParcoursContent() {
                     <div className="md:text-lg text-base flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             Depuis 2024, j’apporte cette expertise à un plus grand nombre d’entreprises (une dizaine de
-                            startups accompagnées en 2 ans). Je suis l’un des rares partenaires capables de proposer la
-                            vision d’un ex-CTO de scale-up, couplée à une capacité de production immédiate.
+                            startups accompagnées en 2 ans). Basé à Lyon, j’interviens en France entière, en présentiel
+                            ou à distance. Je suis l’un des rares partenaires capables de proposer la vision d’un ex-CTO
+                            de scale-up, couplée à une capacité de production immédiate.
+                        </p>
+                        <p className="font-semibold">
+                            <span className="font-bold">Objow</span> — 2 ans de mission CTO à mi-temps
                         </p>
                         <p>
-                            J’interviens personnellement pour auditer, structurer et piloter. C’est ce que je réalise
-                            par exemple avec <span className="font-bold">Objow</span> depuis près de{" "}
-                            <span className="whitespace-nowrap">2 ans :</span>
+                            Arrivé pour réduire la dette technique, j’ai rapidement pris en charge l’ensemble de la
+                            direction technique. En deux ans, nous avons notamment :
                         </p>
                         <ul className="list-disc list-outside space-y-2 pl-4">
-                            <li>Structuration de l’équipe et recrutement des talents clés.</li>
-                            <li>Pilotage de la refonte architecturale pour réduire la dette technique.</li>
                             <li>
-                                Direction technique du partenariat stratégique avec{" "}
-                                <span className="font-semibold">Edenred</span>, de la conception à la mise en prod de
-                                leur application.
+                                Migré l’infrastructure d’un serveur dédié vers le cloud Microsoft Azure, avec mise en
+                                place du monitoring, de l’alerting et d’un pipeline CI/CD — passant de{" "}
+                                <span className="font-semibold">1 mise en production par semaine à 10 par jour</span>.
+                            </li>
+                            <li>Divisé par 2 les coûts d’infrastructure (FinOps).</li>
+                            <li>Recruté deux lead developers et un CTO pour me succéder.</li>
+                            <li>
+                                Supervisé le développement complet de{" "}
+                                <span className="font-semibold">Kadeos Incentive</span>, l’application issue du
+                                partenariat stratégique avec <span className="font-semibold">Edenred</span> — deux ans
+                                de projet, avec validation de l’architecture et de la sécurité par le groupe.
                             </li>
                         </ul>
+                        <p className="font-semibold pt-2">
+                            <span className="font-bold">Certixio</span> — Définition de MVP & automatisation
+                        </p>
+                        <p>
+                            Accompagnement dans la rédaction du cahier des charges, refonte du process de travail avec
+                            l’IA, puis développement d’un POC pour automatiser le traitement des demandes entrantes.
+                        </p>
                         <p>
                             Une fois la direction fixée, je peux mobiliser{" "}
                             <Link target="_blank" href={links.krma_site} className="font-bold group">

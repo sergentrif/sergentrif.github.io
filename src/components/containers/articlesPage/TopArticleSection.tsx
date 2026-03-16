@@ -6,7 +6,7 @@ export function TopArticleSection() {
     return (
         <div className="flex flex-col pb-16">
             <div className="flex gap-6 md:gap-12 mb-4 md:mb-0">
-                <Image src={profil_pic} alt={`Photo de profil de ${site.name}`} className="sm:w-40 sm:h-48 w-32 h38" />
+                <Image src={profil_pic} alt={`Photo de profil de ${site.name}`} className="sm:w-40 sm:h-48 w-32 h-38" />
                 <div className="flex flex-col justify-center md:justify-between md:mt-8">
                     <h2 className="flex self-center md:self-start font-bold font-brico-gro uppercase tracking-wide md:text-[2.5rem] text-3xl max-w-[47rem]">
                         Mes articles

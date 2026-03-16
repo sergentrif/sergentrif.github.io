@@ -6,7 +6,7 @@ export function TopTemoignageSection() {
     return (
         <div className="flex flex-col pb-16">
             <div className="flex gap-6 md:gap-12 mb-8 md:mb-0">
-                <Image src={profil_pic} alt={`Photo de profil de ${site.name}`} className="sm:w-40 sm:h-48 w-32 h38" />
+                <Image src={profil_pic} alt={`Photo de profil de ${site.name}`} className="sm:w-40 sm:h-48 w-32 h-38" />
                 <div className="flex flex-col md:justify-around justify-center">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide md:text-3xl text-xl max-w-[47rem] md:justify-center">
                         Découvrez ce qu’ils ont pensé de notre collaboration
