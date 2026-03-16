@@ -1,4 +1,21 @@
-const BASE = "https://adrien.blandin.me";
+import type { Metadata } from "next";
+import { site } from "@/libs/constants";
+
+export function buildArticleMetadata(slug: string, title: string, date: string, description: string): Metadata {
+    return {
+        title: `${title} | ${site.name}`,
+        description,
+        alternates: { canonical: `/articles/${slug}` },
+        openGraph: {
+            type: "article",
+            title,
+            description,
+            url: `${site.url}/articles/${slug}`,
+            publishedTime: date,
+            authors: [site.name],
+        },
+    };
+}
 
 export function buildArticleSchema(slug: string, title: string, date: string, description: string) {
     return {
@@ -7,21 +24,21 @@ export function buildArticleSchema(slug: string, title: string, date: string, de
             {
                 "@type": "BlogPosting",
                 headline: title,
-                url: `${BASE}/articles/${slug}`,
+                url: `${site.url}/articles/${slug}`,
                 datePublished: date,
                 dateModified: date,
                 inLanguage: "fr-FR",
                 description,
-                author: { "@type": "Person", "@id": `${BASE}/#person`, name: "Adrien Blandin" },
-                publisher: { "@type": "Person", "@id": `${BASE}/#person` },
-                mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}/articles/${slug}` },
+                author: { "@type": "Person", "@id": site.personId, name: site.name },
+                publisher: { "@type": "Person", "@id": site.personId },
+                mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/articles/${slug}` },
             },
             {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                    { "@type": "ListItem", position: 1, name: "Accueil", item: BASE },
-                    { "@type": "ListItem", position: 2, name: "Articles", item: `${BASE}/articles` },
-                    { "@type": "ListItem", position: 3, name: title, item: `${BASE}/articles/${slug}` },
+                    { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
+                    { "@type": "ListItem", position: 2, name: "Articles", item: `${site.url}/articles` },
+                    { "@type": "ListItem", position: 3, name: title, item: `${site.url}/articles/${slug}` },
                 ],
             },
         ],

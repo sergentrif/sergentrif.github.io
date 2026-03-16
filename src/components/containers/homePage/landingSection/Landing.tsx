@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { site } from "@/libs/constants";
 import portrait from "@/assets/images/profile_portrait_adrien.png";
 import { LandingName } from "@/components/ui/icons/LandingName";
 import { AgrementBadge } from "@/components/ui/icons/AgrementBadge";
@@ -29,7 +30,7 @@ export function Landing() {
                     <AgrementBadge className="absolute lg:-top-17 md:-top-14 -top-10 lg:-right-13 md:-right-11 -right-9 lg:w-32 lg:h-32 md:w-26 md:h-26 w-24 h-24" />
                     <Image
                         src={portrait}
-                        alt="Portrait d'Adrien Blandin"
+                        alt={`Portrait de ${site.name}`}
                         className="lg:w-58 lg:h-77 md:w-50 md:h-68 w-42 h-52"
                         priority
                     />
@@ -54,7 +55,7 @@ export function Landing() {
                 <div className="flex relative justify-between sm:justify-around shrink-0 pb-8 w-full">
                     <div className="relative">
                         <AgrementBadge className="absolute -top-10 -right-10 w-26 h-26" />
-                        <Image src={portrait} alt="Portrait d'Adrien Blandin" className="w-42 h-56 " />
+                        <Image src={portrait} alt={`Portrait de ${site.name}`} className="w-42 h-56 " />
                     </div>
                     <LandingHomePageArrow className="absolute -z-10 -top-22 right-8 w-75 h-102 opacity-20" />
                     <CircleArrowUpAndDown className="w-16 pt-15" />

@@ -1,77 +1,19 @@
-import type { Metadata } from "next";
-import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
+import { buildArticleMetadata, buildArticleSchema } from "@/libs/articleSchema";
+import { getArticle } from "@/libs/articles";
+import { ArticleLayout } from "@/components/containers/articlesPage/ArticleLayout";
 import Link from "next/link";
-import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 
-const SLUG = "qu-est-ce-q-un-bon-cto";
-const TITLE = "Qu'est-ce qu'un bon CTO ?";
-const DATE = "2024-01-24";
-const DESCRIPTION =
-    "Qu'est-ce qu'un bon CTO ? Les compétences varient selon la taille d'équipe (5, 10, 20+ développeurs). Guide pratique pour recruter son CTO ou évoluer vers ce rôle.";
+const { slug, title, date, description, displayDate, readTime } = getArticle("qu-est-ce-q-un-bon-cto");
 
-export const metadata: Metadata = {
-    title: `${TITLE} | Adrien Blandin`,
-    description: DESCRIPTION,
-    alternates: { canonical: `/articles/${SLUG}` },
-    openGraph: {
-        type: "article",
-        title: TITLE,
-        description: DESCRIPTION,
-        url: `https://adrien.blandin.me/articles/${SLUG}`,
-        publishedTime: DATE,
-        authors: ["Adrien Blandin"],
-    },
-};
+export const metadata = buildArticleMetadata(slug, title, date, description);
 
-const articleSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "BlogPosting",
-            headline: TITLE,
-            url: `https://adrien.blandin.me/articles/${SLUG}`,
-            datePublished: DATE,
-            dateModified: DATE,
-            inLanguage: "fr-FR",
-            description: DESCRIPTION,
-            author: { "@type": "Person", "@id": "https://adrien.blandin.me/#person", name: "Adrien Blandin" },
-            publisher: { "@type": "Person", "@id": "https://adrien.blandin.me/#person" },
-            mainEntityOfPage: { "@type": "WebPage", "@id": `https://adrien.blandin.me/articles/${SLUG}` },
-        },
-        {
-            "@type": "BreadcrumbList",
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Accueil", item: "https://adrien.blandin.me" },
-                { "@type": "ListItem", position: 2, name: "Articles", item: "https://adrien.blandin.me/articles" },
-                { "@type": "ListItem", position: 3, name: TITLE, item: `https://adrien.blandin.me/articles/${SLUG}` },
-            ],
-        },
-    ],
-};
+const articleSchema = buildArticleSchema(slug, title, date, description);
 
 export default function ArticleHeightPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <TopArticleSection />
-            <div className="text-sm md:text-base">
-                <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">
-                    Accueil
-                </Link>{" "}
-                /{" "}
-                <Link href="/articles" className="hover:underline italic font-bold whitespace-nowrap">
-                    Articles
-                </Link>{" "}
-                / Qu’est ce qu’un bon CTO ?
-            </div>
-            <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase pb-5 md:pb-0">
-                Qu’est ce qu’un bon CTO ?
-            </h2>
-            <InfoBoxArticle className="self-start -mt-8 md:text-base text-sm">
-                24/01/2024, ~4 minutes de lecture
-            </InfoBoxArticle>
+        <ArticleLayout schema={articleSchema} title={title} date={date} displayDate={displayDate} readTime={readTime}>
             <div className="flex flex-col md:text-base text-sm gap-10 sm:px-4 px-0 text-brand-fine-blue">
                 <p>
                     Que vous soyez un dirigeant d’entreprise qui cherche à recruter son prochain CTO ou un développeur
@@ -197,6 +139,6 @@ export default function ArticleHeightPage() {
                 </p>
             </div>
             <BottomContactBox />
-        </section>
+        </ArticleLayout>
     );
 }
