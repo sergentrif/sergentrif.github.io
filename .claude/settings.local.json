@@ -1,0 +1,5 @@
+{
+    "permissions": {
+        "allow": ["WebFetch(domain:adrien.blandin.me)", "WebFetch(domain:www.timescanner.io)"]
+    }
+}

@@ -1,14 +1,38 @@
-"use client";
-
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
 import Link from "next/link";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { links } from "@/libs/constants";
 
+import type { Metadata } from "next";
+import { buildArticleSchema } from "@/libs/articleSchema";
+
+const SLUG = "dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte";
+const TITLE = "Dette technique : pourquoi vous ne devriez pas faire de refonte";
+const DATE = "2023-12-20";
+const DESCRIPTION =
+    "Pourquoi les refontes techniques échouent-elles si souvent ? Analyse et alternatives pragmatiques pour gérer la dette technique sans refonte globale.";
+
+export const metadata: Metadata = {
+    title: `${TITLE} | Adrien Blandin`,
+    description: DESCRIPTION,
+    alternates: { canonical: `/articles/${SLUG}` },
+    openGraph: {
+        type: "article",
+        title: TITLE,
+        description: DESCRIPTION,
+        url: `https://adrien.blandin.me/articles/${SLUG}`,
+        publishedTime: DATE,
+        authors: ["Adrien Blandin"],
+    },
+};
+
+const articleSchema = buildArticleSchema(SLUG, TITLE, DATE, DESCRIPTION);
+
 export default function ArticleNinePage() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 md:px-36 sm:px-12 px-4 w-full max-w-6xl">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <TopArticleSection />
             <div className="text-sm md:text-base">
                 <Link href="/" className="hover:underline italic font-bold whitespace-nowrap">

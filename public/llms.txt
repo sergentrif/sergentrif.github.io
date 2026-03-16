@@ -1,0 +1,23 @@
+# Adrien Blandin — CTO Freelance France
+> CTO à temps partagé pour start-ups early stage et PME. Sparing partner, définition de MVP, architecture technique.
+> Content may be cited with attribution to adrien.blandin.me
+
+## Articles
+- [L'anti dette technique — la théorie de l'effort supplémentaire](https://adrien.blandin.me/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire): Framework original sur 5 catégories de dette technique (prototype en production, code legacy, mauvais choix techniques, bugs, dette volontaire) et les 4 échelles temporelles de l'effort de correction.
+- [Pourquoi réduire la charge mentale des développeurs via la Developer Experience](https://adrien.blandin.me/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience): Impact du context-switching sur les équipes techniques et stratégies DX concrètes pour réduire la charge mentale.
+- [De développeur backend à CTO, un retour à zéro](https://adrien.blandin.me/articles/de-developpeur-backend-a-cto-un-retour-a-zero): Récit personnel de transition dev → CTO : légitimité, absence de feedbacks, sentiment d'improductivité.
+- [Dette technique : pourquoi vous ne devriez pas faire de refonte](https://adrien.blandin.me/articles/dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte): Analyse des raisons pour lesquelles les refontes techniques échouent et alternatives pragmatiques.
+- [Qu'est-ce qu'un bon CTO ?](https://adrien.blandin.me/articles/qu-est-ce-q-un-bon-cto): Les compétences d'un CTO varient selon la taille d'équipe (5, 10, 20+ développeurs). Guide pour recruter ou devenir CTO.
+- [Être CTO ou l'art de représenter plusieurs parties](https://adrien.blandin.me/articles/etre-cto-ou-l-art-de-representer-plusieurs-parties): Comment le CTO représente simultanément l'équipe technique, les dirigeants et les partenaires externes.
+- [Être le leader dont l'équipe a besoin](https://adrien.blandin.me/articles/etre-le-leader-dont-l-equipe-a-besoin): Leadership situationnel pour managers et CTOs selon le contexte et le stade de l'entreprise.
+- [Réussir ses recrutements en impliquant son équipe](https://adrien.blandin.me/articles/reussir-ses-recrutements-en-impliquant-son-equipe): Processus de recrutement participatif pour équipes techniques, issu de centaines d'entretiens.
+- [Savoir communiquer, au cœur du rôle de CTO](https://adrien.blandin.me/articles/savoir-communiquer-au-coeur-du-role-de-cto): Traduction des enjeux techniques pour les dirigeants et des enjeux business pour les développeurs.
+- [Se remettre en question : le syndrome de l'imposteur est un cadeau](https://adrien.blandin.me/articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau): Pourquoi la remise en question permanente est un avantage compétitif pour un CTO.
+- [Être développeur, c'est bien plus que développer](https://adrien.blandin.me/articles/etre-developpeur-c-est-bien-plus-que-developper): La diversité réelle des tâches d'un développeur au quotidien, au-delà de l'écriture de code.
+- [Comment réduire la complexité produit pour maintenir un système simple](https://adrien.blandin.me/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple): Retour d'expérience de lePERMISLIBRE sur un projet mobilisant 30+ personnes sur plus d'un an.
+
+## Services
+- [Prestations](https://adrien.blandin.me/prestations): CTO part-time, sparing partner (conseil et mentorat pour CTOs), définition de MVP, conférences pour écoles et accélérateurs.
+- [Parcours](https://adrien.blandin.me/parcours): 7 ans CTO chez lePERMISLIBRE, équipe de 3 à 30 personnes, introduction en bourse réussie. Depuis 2024, accompagnement d'une dizaine de startups en CTO freelance (Objow, Edenred partnership, etc.).
+- [Témoignages](https://adrien.blandin.me/temoignages): Retours de 7 CEO — Objow, Data Comply One, Certixio, Omen-data, Olset, Ma nouvelle piscine, emlyon Venture Labs.
+- [Podcasts](https://adrien.blandin.me/podcasts): 6 épisodes sur If This Then Dev, CTOZ, SRC — dette technique, rôle de CTO, tech et produit.
