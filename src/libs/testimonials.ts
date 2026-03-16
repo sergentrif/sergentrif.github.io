@@ -88,4 +88,14 @@ export const testimonials: Testimonial[] = [
             "Très à l'écoute, il apporte son regard éclairé pour allier la vision business et le développement tech : une aide précieuse pour les entrepreneurs !!",
         ],
     },
+    {
+        id: 8,
+        author: "Baptiste Brejon",
+        jobTitle: "CEO",
+        company: "Glaaster",
+        paragraphs: [
+            "Adrien est intervenu pour un audit de 'hand-off' entre nos équipes technique et produit. Son analyse nous a permis de dégager des observations cruciales et d'aboutir à un plan d'action actionnable, structuré en plusieurs étapes et options.",
+            "Son intervention est arrivée au moment clé de notre début de 'scale', alors que nous structurions l'entreprise pour soutenir la croissance. Je recommande vivement Adrien pour son expertise et sa finesse d'analyse. Les membres de l'équipe ayant collaboré avec lui sont, eux aussi, pleinement satisfaits de son travail.",
+        ],
+    },
 ];
