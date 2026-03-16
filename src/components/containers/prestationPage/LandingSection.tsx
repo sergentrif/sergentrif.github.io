@@ -97,6 +97,7 @@ export const LandingSection = () => {
                             à avancer vite, réduire les risques et atteindre ses objectifs avec une tech maîtrisée et
                             scalable.
                         </p>
+                        <p>Basé à Lyon, j’interviens en France entière, en présentiel ou à distance.</p>
                         <DesignB className="max-w-153 w-full h-full absolute top-12 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
                     <CircleArrowUpAndDown className="w-16 absolute right-30 -top-37 hidden md:block" />
@@ -210,6 +211,37 @@ export const LandingSection = () => {
                         alt="Adrien conference speech"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
+                </div>
+            </div>
+
+            <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto mt-22 max-w-6xl">
+                <div className="border-l-4 border-brand-giants sm:pl-6 pl-4 py-4">
+                    <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider mb-4">
+                        {"Crédit d'Impôt Innovation (CII)"}
+                    </h2>
+                    <div className="flex flex-col gap-4 text-brand-fine-blue md:text-lg text-base leading-relaxed">
+                        <p>
+                            {"Je suis agréé "}
+                            <span className="font-semibold">{"Crédit d'Impôt Innovation"}</span>
+                            {
+                                " par le Ministère de l'Enseignement Supérieur et de la Recherche. Concrètement, cela signifie que les dépenses engagées pour mes prestations sont éligibles au CII."
+                            }
+                        </p>
+                        <p>
+                            {
+                                "En tant que client, vous pouvez déclarer le montant de ma prestation dans votre déclaration CII et récupérer jusqu'à "
+                            }
+                            <span className="font-semibold">{"20 % du montant en crédit d'impôt"}</span>
+                            {
+                                ". La démarche de déclaration vous incombe, mais elle est simple et directement intégrée à votre liasse fiscale annuelle."
+                            }
+                        </p>
+                        <p>
+                            {
+                                "C'est un avantage concret qui réduit le coût réel de mon intervention — et que peu de CTOs freelances peuvent vous offrir."
+                            }
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

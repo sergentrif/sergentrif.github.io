@@ -22,6 +22,8 @@ Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for G
 
 **Pages** (`src/app/`): App Router pages. Articles are plain `.tsx` files — no CMS, content is hardcoded in each `page.tsx`.
 
+**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (métadonnées des 12 articles + `getArticle(slug)`), `testimonials.ts` (7 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
+
 **Components** split by role:
 
 - `src/components/containers/` — page-specific sections, organized per page (e.g. `homePage/`, `podcastPage/`)
