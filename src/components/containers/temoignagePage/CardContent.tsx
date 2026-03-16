@@ -15,7 +15,7 @@ function quoted(paragraphs: string[]): string[] {
     return result;
 }
 
-const [t1, t2, t3, t4, t5, t6, t7] = testimonials;
+const [t1, t2, t3, t4, t5, t6, t7, t8] = testimonials;
 
 const content = [
     {
@@ -189,6 +189,22 @@ const content = [
             </div>
         ),
     },
+    {
+        id: 8,
+        description: quoted(t8.paragraphs),
+        content: (
+            <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
+                <p className="text-3xl relative lg:left-13 lg:bottom-4 md:left-4">{t8.company}</p>
+                <div className="w-13 border-linear-gradient" />
+                <div>
+                    <p>{t8.author}</p>
+                    <p>
+                        {t8.jobTitle} - {t8.company}
+                    </p>
+                </div>
+            </div>
+        ),
+    },
 ];
 
 const content_mobile = [
@@ -357,6 +373,23 @@ const content_mobile = [
                         {t7.company}
                     </Link>
                 </div>
+            </div>
+        ),
+    },
+    {
+        id: 15,
+        logo: (
+            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
+                <p className="text-2xl top-1 relative">{t8.company}</p>
+            </div>
+        ),
+        description: quoted(t8.paragraphs),
+        author: (
+            <div className="uppercase text-brand-fine-blue font-medium">
+                <p>{t8.author}</p>
+                <p>
+                    {t8.jobTitle} - {t8.company}
+                </p>
             </div>
         ),
     },
