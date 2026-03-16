@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { ReactNode } from "react";
 
 interface InfiniteCarouselProps<T> {
@@ -22,6 +22,7 @@ export function InfiniteCarousel<T>({
     itemClassName = "mx-2 flex-shrink-0",
     showCondition,
 }: InfiniteCarouselProps<T>) {
+    const shouldReduceMotion = useReducedMotion();
     const containerClasses = showCondition ? `${showCondition} ${containerClassName}` : containerClassName;
 
     const duplicatedItems = [...items, ...items];
@@ -30,13 +31,18 @@ export function InfiniteCarousel<T>({
         <div className={containerClasses}>
             <motion.div
                 className={motionClassName}
-                animate={{ x: ["0%", "-50%"] }}
-                transition={{
-                    repeat: Infinity,
-                    repeatType: "loop",
-                    ease: "linear",
-                    duration,
-                }}
+                style={{ willChange: "transform" }}
+                animate={shouldReduceMotion ? {} : { x: ["0%", "-50%"] }}
+                transition={
+                    shouldReduceMotion
+                        ? {}
+                        : {
+                              repeat: Infinity,
+                              repeatType: "loop",
+                              ease: "linear",
+                              duration,
+                          }
+                }
             >
                 {duplicatedItems.map((item, index) => (
                     <div key={index} className={itemClassName}>
