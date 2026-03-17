@@ -34,7 +34,7 @@ const profileStatic: profile[] = [
     { pro: <Tag /> },
     { pro: <GlaasterIcon className="w-9 h-9" /> },
     { pro: <Tag /> },
-    { pro: <DataComplyOneIcon className="w-40 h-9" /> },
+    { pro: <DataComplyOneIcon className="w-16 h-9" /> },
     { pro: <Tag /> },
 ];
 
