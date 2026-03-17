@@ -3,7 +3,6 @@ import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
 import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
 import Image from "next/image";
-import DCOIcon from "@/assets/images/dco-icon.webp";
 import certixioIcon from "@/assets/images/certixio-logo.png";
 import { cn } from "@/libs/utils";
 import { testimonials } from "@/libs/testimonials";
@@ -58,9 +57,12 @@ const content = [
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
                     <Image
-                        src={DCOIcon}
+                        src="/dco-logo.svg"
                         alt="Data Comply One Logo"
+                        width={128}
+                        height={75}
                         className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11"
+                        unoptimized
                     />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
@@ -220,9 +222,12 @@ const content_mobile = [
         logo: (
             <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
                 <Image
-                    src={DCOIcon}
+                    src="/dco-logo.svg"
                     alt="Data Comply One Logo"
+                    width={112}
+                    height={65}
                     className="md:max-w-28 md:max-h-18 max-w-20 max-h-18 w-full h-full relative top-1 md:top-0"
+                    unoptimized
                 />
             </Link>
         ),
