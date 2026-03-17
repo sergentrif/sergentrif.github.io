@@ -17,7 +17,13 @@ export function buildArticleMetadata(slug: string, title: string, date: string, 
     };
 }
 
-export function buildArticleSchema(slug: string, title: string, date: string, description: string) {
+export function buildArticleSchema(
+    slug: string,
+    title: string,
+    date: string,
+    description: string,
+    lastModified?: string,
+) {
     return {
         "@context": "https://schema.org",
         "@graph": [
@@ -26,11 +32,17 @@ export function buildArticleSchema(slug: string, title: string, date: string, de
                 headline: title,
                 url: `${site.url}/articles/${slug}`,
                 datePublished: date,
-                dateModified: date,
+                dateModified: lastModified ?? date,
                 inLanguage: "fr-FR",
                 description,
+                image: `${site.url}/images/adrien-blandin.webp`,
                 author: { "@type": "Person", "@id": site.personId, name: site.name },
-                publisher: { "@type": "Person", "@id": site.personId },
+                publisher: {
+                    "@type": "Person",
+                    "@id": site.personId,
+                    name: site.name,
+                    image: `${site.url}/images/adrien-blandin.webp`,
+                },
                 mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/articles/${slug}` },
             },
             {

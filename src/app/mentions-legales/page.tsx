@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { legal } from "@/libs/constants";
 import t from "./content.json";
+
+export const metadata: Metadata = {
+    title: "Mentions légales | Adrien Blandin",
+    alternates: { canonical: "/mentions-legales" },
+    robots: { index: false, follow: false },
+};
 
 export default function MentionsLegales() {
     return (

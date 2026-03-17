@@ -8,7 +8,9 @@ import { EdenredIcon } from "@/components/ui/icons/brandLogo/Edenred";
 import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
 import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { LePermisLibre } from "@/components/ui/icons/brandLogo/LePermisLibre";
-import { WeCanDo } from "@/components/ui/icons/brandLogo/WeCanDo";
+import { Wecandoo } from "@/components/ui/icons/brandLogo/Wecandoo";
+import { GlaasterIcon } from "@/components/ui/icons/brandLogo/Glaaster";
+import { DataComplyOneIcon } from "@/components/ui/icons/brandLogo/DataComplyOne";
 import { Tag } from "@/components/ui/icons/brandLogo/Tag";
 
 interface profile {
@@ -28,7 +30,11 @@ const profileStatic: profile[] = [
     { pro: <Tag /> },
     { pro: <LePermisLibre /> },
     { pro: <Tag /> },
-    { pro: <WeCanDo /> },
+    { pro: <Wecandoo /> },
+    { pro: <Tag /> },
+    { pro: <GlaasterIcon className="w-9 h-9" /> },
+    { pro: <Tag /> },
+    { pro: <DataComplyOneIcon className="w-40 h-9" /> },
     { pro: <Tag /> },
 ];
 

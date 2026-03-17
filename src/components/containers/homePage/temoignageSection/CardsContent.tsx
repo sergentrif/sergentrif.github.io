@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
+import { DataComplyOneIcon } from "@/components/ui/icons/brandLogo/DataComplyOne";
+
 import certixioIcon from "@/assets/images/certixio-logo.png";
 import { cn } from "@/libs/utils";
 import { testimonials } from "@/libs/testimonials";
@@ -47,14 +49,7 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
-                    <Image
-                        src="/dco-logo.svg"
-                        alt="Data Comply One Logo"
-                        width={128}
-                        height={75}
-                        className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11"
-                        unoptimized
-                    />
+                    <DataComplyOneIcon className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11" />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -101,7 +96,7 @@ const content_mobile = [
         id: 1,
         logo: (
             <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
-                <Image src="/dco-logo.svg" alt="Data Comply One Logo" width={96} height={56} className="max-w-24 max-h-16 w-full h-full" unoptimized />
+                <DataComplyOneIcon className="max-w-24 max-h-16 w-full h-full" />
             </Link>
         ),
         description: t2.paragraphs,

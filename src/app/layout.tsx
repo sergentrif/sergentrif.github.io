@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
 import { Fira_Code, Bricolage_Grotesque } from "next/font/google";
@@ -32,13 +32,6 @@ export const metadata: Metadata = {
     icons: {
         icon: "/favicon.svg",
     },
-    alternates: {
-        canonical: "/",
-        languages: {
-            fr: site.url,
-            "x-default": site.url,
-        },
-    },
     openGraph: {
         type: "website",
         locale: "fr_FR",
@@ -51,6 +44,11 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
     },
+};
+
+export const viewport: Viewport = {
+    width: "device-width",
+    initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

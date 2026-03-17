@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ReactLenis } from "lenis/react";
-import { site } from "@/libs/constants";
+import { site, legal } from "@/libs/constants";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Landing } from "@/components/containers/homePage/landingSection/Landing";
 import { MainCardSection } from "@/components/containers/homePage/MainSection/MainContent";
@@ -30,6 +30,7 @@ const personSchema = {
             "@id": site.personId,
             name: site.name,
             url: site.url,
+            image: `${site.url}/images/adrien-blandin.webp`,
             jobTitle: "CTO Freelance",
             description:
                 "CTO à temps partagé pour start-ups early stage et PME. 7 ans CTO chez lePERMISLIBRE, équipe de 3 à 30 personnes, introduction en bourse réussie.",
@@ -41,6 +42,8 @@ const personSchema = {
                 "Due diligence technique",
                 "Roadmap produit",
             ],
+            knowsLanguage: "fr",
+            worksFor: { "@id": site.serviceId },
             sameAs: ["https://www.linkedin.com/in/adrienblandin", "https://github.com/sergentrif"],
         },
         {
@@ -51,6 +54,14 @@ const personSchema = {
             description:
                 "CTO à temps partagé pour start-ups early stage et PME. Sparing partner pour CTOs, définition de MVP, conférences pour écoles et accélérateurs.",
             founder: { "@id": site.personId },
+            email: legal.email,
+            address: {
+                "@type": "PostalAddress",
+                streetAddress: "2 rue des varennes",
+                addressLocality: "Collonges-au-Mont-d'Or",
+                postalCode: "69660",
+                addressCountry: "FR",
+            },
             serviceType: ["CTO Part-time", "Sparing partner", "Définition de MVP", "Conférencier tech"],
             areaServed: { "@type": "Country", name: "France" },
             hasOfferCatalog: {

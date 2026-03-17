@@ -22,7 +22,7 @@ Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for G
 
 **Pages** (`src/app/`): App Router pages. Articles are plain `.tsx` files — no CMS, content is hardcoded in each `page.tsx`.
 
-**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (métadonnées des 12 articles + `getArticle(slug)`), `testimonials.ts` (7 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
+**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (métadonnées des 12 articles + `getArticle(slug)`), `testimonials.ts` (8 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
 
 **Components** split by role:
 
@@ -32,9 +32,9 @@ Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for G
 
 **Fonts**: Fira Code (body) + Bricolage Grotesque (`--font-brico-gro` CSS var).
 
-**Key libs**: Framer Motion (animations), Three.js + React Three Fiber (3D), Lenis (smooth scroll), Radix UI Popover (contact modal), Tailwind CSS 4.
+**Key libs**: Motion/Framer Motion (animations), Lenis (smooth scroll), Radix UI Popover (contact modal), Tailwind CSS 4.
 
-**Static export constraints**: No server-side features (API routes, SSR, image optimization). `trailingSlash: true` — all internal links must include trailing slash.
+**Static export constraints**: No server-side features (API routes, SSR). `trailingSlash: false` — internal links do NOT include trailing slash. Next.js image optimization is enabled (SSG generates optimized images at build time).
 
 ## Copywriting
 

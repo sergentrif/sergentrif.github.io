@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profil_pic from "@/assets/images/profile_portrait_adrien.webp";
+import profil_pic from "@/assets/images/adrien-blandin.webp";
 import { site } from "@/libs/constants";
 
 export function TopTemoignageSection() {

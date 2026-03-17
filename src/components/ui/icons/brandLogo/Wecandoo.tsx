@@ -1,6 +1,6 @@
 import { IconProps } from "../types";
 
-export const WeCanDo: React.FC<IconProps> = () => {
+export const Wecandoo: React.FC<IconProps> = () => {
     return (
         <svg viewBox="0 0 192 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-48 h-9">
             <g clipPath="url(#clip0_9_352)">

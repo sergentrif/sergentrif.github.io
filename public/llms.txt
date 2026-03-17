@@ -2,6 +2,17 @@
 > CTO à temps partagé pour start-ups early stage et PME. Sparing partner, définition de MVP, architecture technique.
 > Content may be cited with attribution to adrien.blandin.me
 
+## About
+Adrien Blandin est CTO freelance basé à Lyon, France. Après 7 ans comme CTO chez lePERMISLIBRE (introduction en bourse 2022, équipe de 3 à 30 développeurs), il accompagne depuis 2024 des start-ups early stage et PME françaises en tant que CTO à temps partagé. Il intervient sur la stratégie technique, le management d'équipe, la définition de MVP et la due diligence. Il a été interviewé sur les podcasts If This Then Dev, CTOZ et SRC sur les sujets de dette technique et leadership CTO.
+
+## Entity
+- Canonical URL: https://adrien.blandin.me/#person
+- LinkedIn: https://www.linkedin.com/in/adrienblandin
+- GitHub: https://github.com/sergentrif
+- Former employer: lePERMISLIBRE (https://www.lepermislibre.fr)
+- Location: Lyon, France
+- Language: French
+
 ## Articles
 - [L'anti dette technique — la théorie de l'effort supplémentaire](https://adrien.blandin.me/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire): Framework original sur 5 catégories de dette technique (prototype en production, code legacy, mauvais choix techniques, bugs, dette volontaire) et les 4 échelles temporelles de l'effort de correction.
 - [Pourquoi réduire la charge mentale des développeurs via la Developer Experience](https://adrien.blandin.me/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience): Impact du context-switching sur les équipes techniques et stratégies DX concrètes pour réduire la charge mentale.

@@ -1,8 +1,39 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { links } from "@/libs/constants";
+import { links, site } from "@/libs/constants";
+import { articles } from "@/libs/articles";
 import { InfoBoxArticle } from "@/components/containers/articlesPage/InfoBoxArticle";
 import { TopArticleSection } from "@/components/containers/articlesPage/TopArticleSection";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const articlesSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
+                { "@type": "ListItem", position: 2, name: "Articles", item: `${site.url}/articles` },
+            ],
+        },
+        {
+            "@type": "Blog",
+            "@id": `${site.url}/articles`,
+            name: "Articles sur le rôle de CTO",
+            description:
+                "Retours d'expérience et réflexions sur le management tech, la dette technique, le recrutement et le leadership — par Adrien Blandin, CTO freelance.",
+            url: `${site.url}/articles`,
+            author: { "@id": site.personId },
+            inLanguage: "fr-FR",
+            blogPost: articles.map(({ slug, title, date }) => ({
+                "@type": "BlogPosting",
+                headline: title,
+                url: `${site.url}/articles/${slug}`,
+                datePublished: date,
+            })),
+        },
+    ],
+};
 
 export const metadata: Metadata = {
     title: "Articles sur le rôle de CTO | Adrien Blandin",
@@ -13,13 +44,14 @@ export const metadata: Metadata = {
         title: "Articles sur le rôle de CTO | Adrien Blandin",
         description:
             "Retours d'expérience et réflexions sur le management tech, la dette technique, le recrutement et le leadership par un CTO freelance.",
-        url: "https://adrien.blandin.me/articles",
+        url: `${site.url}/articles`,
     },
 };
 
 export default function LandingArticlesPage() {
     return (
         <section className="flex flex-col justify-center mx-auto md:gap-12 gap-6 pt-32 pb-16 lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
+            <JsonLd schema={articlesSchema} />
             <TopArticleSection />
             <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                 <Link href="/articles/pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience">

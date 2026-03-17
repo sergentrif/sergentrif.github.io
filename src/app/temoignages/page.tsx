@@ -35,13 +35,13 @@ const reviewSchema = {
 export const metadata: Metadata = {
     title: "Témoignages clients | Adrien Blandin, CTO Freelance",
     description:
-        "Découvrez ce que les CEO d'Objow, Data Comply One, Certixio, Olset, Glaaster, emlyon Venture Labs et d'autres startups disent de leur collaboration avec Adrien Blandin.",
+        "Retours de CEO accompagnés en CTO freelance : Objow, Data Comply One, Certixio, Olset, Glaaster, Omen-data, Ma nouvelle piscine, emlyon Venture Labs.",
     alternates: { canonical: "/temoignages" },
     openGraph: {
         title: "Témoignages clients | Adrien Blandin, CTO Freelance",
         description:
-            "Ce que les CEO d'Objow, Data Comply One, Certixio, Olset, Glaaster, emlyon Venture Labs et d'autres disent de leur collaboration avec Adrien Blandin.",
-        url: "https://adrien.blandin.me/temoignages",
+            "Retours de CEO accompagnés en CTO freelance : Objow, Data Comply One, Certixio, Olset, Glaaster, Omen-data, Ma nouvelle piscine, emlyon Venture Labs.",
+        url: `${site.url}/temoignages`,
     },
 };
 

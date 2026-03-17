@@ -51,6 +51,12 @@ export function Footer() {
                         >
                             <HoverUnderlineWrapper>Mentions Légales</HoverUnderlineWrapper>
                         </Link>
+                        <Link
+                            href="/politique-de-confidentialite"
+                            className="group text-brand-giants md:text-[22px] text-lg font-medium"
+                        >
+                            <HoverUnderlineWrapper>Confidentialité</HoverUnderlineWrapper>
+                        </Link>
                     </div>
                 </div>
             </div>

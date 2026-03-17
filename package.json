@@ -14,11 +14,8 @@
     },
     "dependencies": {
         "@radix-ui/react-popover": "^1.1.15",
-        "@react-three/drei": "^10.7.7",
-        "@react-three/fiber": "^9.5.0",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
-        "framer-motion": "^12.28.1",
         "lenis": "^1.3.17",
         "lucide-react": "^0.562.0",
         "motion": "^12.28.1",
@@ -26,8 +23,7 @@
         "react": "19.2.3",
         "react-dom": "19.2.3",
         "react-remove-scroll": "^2.7.2",
-        "tailwind-merge": "^3.4.0",
-        "three": "^0.182.0"
+        "tailwind-merge": "^3.4.0"
     },
     "devDependencies": {
         "@eslint/eslintrc": "^3",
@@ -35,7 +31,6 @@
         "@types/node": "^20",
         "@types/react": "^19",
         "@types/react-dom": "^19",
-        "@types/three": "^0.182.0",
         "eslint": "^9",
         "eslint-config-next": "15.5.9",
         "prettier": "^3.8.0",

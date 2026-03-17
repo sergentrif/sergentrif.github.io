@@ -2,6 +2,8 @@ import Link from "next/link";
 import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
 import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
+import { DataComplyOneIcon } from "@/components/ui/icons/brandLogo/DataComplyOne";
+import { GlaasterIcon } from "@/components/ui/icons/brandLogo/Glaaster";
 import Image from "next/image";
 import certixioIcon from "@/assets/images/certixio-logo.png";
 import olsetLogo from "@/assets/images/olset-logo.avif";
@@ -57,14 +59,7 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
-                    <Image
-                        src="/dco-logo.svg"
-                        alt="Data Comply One Logo"
-                        width={128}
-                        height={75}
-                        className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11"
-                        unoptimized
-                    />
+                    <DataComplyOneIcon className="lg:max-w-32 lg:max-h-22 max-w-28 max-h-18 w-full h-full relative lg:left-18 lg:bottom-2 left-11" />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -202,16 +197,11 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer">
-                    <Image
-                        src="/glaaster-logo.svg"
-                        alt="Glaaster Logo"
-                        width={88}
-                        height={88}
+                    <GlaasterIcon
                         className={cn(
                             "max-w-18 max-h-16 relative top-2 left-14 w-full h-full",
                             "lg:max-h-24 lg:max-w-22 lg:-top-2 lg:left-23",
                         )}
-                        unoptimized
                     />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
@@ -234,14 +224,7 @@ const content_mobile = [
         id: 8,
         logo: (
             <Link href={t2.companyUrl!} target="_blank" rel="noopener noreferrer">
-                <Image
-                    src="/dco-logo.svg"
-                    alt="Data Comply One Logo"
-                    width={112}
-                    height={65}
-                    className="md:max-w-28 md:max-h-18 max-w-20 max-h-18 w-full h-full relative top-1 md:top-0"
-                    unoptimized
-                />
+                <DataComplyOneIcon className="md:max-w-28 md:max-h-18 max-w-20 max-h-18 w-full h-full relative top-1 md:top-0" />
             </Link>
         ),
         description: quoted(t2.paragraphs),
@@ -409,14 +392,7 @@ const content_mobile = [
         id: 15,
         logo: (
             <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer">
-                <Image
-                    src="/glaaster-logo.svg"
-                    alt="Glaaster Logo"
-                    width={56}
-                    height={56}
-                    className="max-w-14 max-h-12 w-full h-full"
-                    unoptimized
-                />
+                <GlaasterIcon className="max-w-14 max-h-12 w-full h-full" />
             </Link>
         ),
         description: quoted(t8.paragraphs),

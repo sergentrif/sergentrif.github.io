@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { site } from "@/libs/constants";
-import portrait from "@/assets/images/profile_portrait_adrien.webp";
+import portrait from "@/assets/images/adrien-blandin.webp";
 import { LandingName } from "@/components/ui/icons/LandingName";
 import { AgrementBadge } from "@/components/ui/icons/AgrementBadge";
 import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown";
