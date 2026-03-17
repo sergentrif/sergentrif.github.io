@@ -196,20 +196,28 @@ const content = [
         description: quoted(t8.paragraphs),
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <Image
-                    src="/glaaster-logo.svg"
-                    alt="Glaaster Logo"
-                    width={56}
-                    height={56}
-                    className="relative lg:left-13 lg:bottom-4 md:left-4"
-                    unoptimized
-                />
+                <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer">
+                    <Image
+                        src="/glaaster-logo.svg"
+                        alt="Glaaster Logo"
+                        width={88}
+                        height={88}
+                        className={cn(
+                            "max-w-18 max-h-16 relative top-2 left-14 w-full h-full",
+                            "lg:max-h-24 lg:max-w-22 lg:-top-2 lg:left-23",
+                        )}
+                        unoptimized
+                    />
+                </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>{t8.author}</p>
-                    <p>
-                        {t8.jobTitle} - {t8.company}
-                    </p>
+                    <div className="flex gap-2.5">
+                        {t8.jobTitle} -{" "}
+                        <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer" className="underline">
+                            {t8.company}
+                        </Link>
+                    </div>
                 </div>
             </div>
         ),
@@ -391,21 +399,27 @@ const content_mobile = [
     {
         id: 15,
         logo: (
-            <Image
-                src="/glaaster-logo.svg"
-                alt="Glaaster Logo"
-                width={48}
-                height={48}
-                unoptimized
-            />
+            <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer">
+                <Image
+                    src="/glaaster-logo.svg"
+                    alt="Glaaster Logo"
+                    width={56}
+                    height={56}
+                    className="max-w-14 max-h-12 w-full h-full"
+                    unoptimized
+                />
+            </Link>
         ),
         description: quoted(t8.paragraphs),
         author: (
             <div className="uppercase text-brand-fine-blue font-medium">
                 <p>{t8.author}</p>
-                <p>
-                    {t8.jobTitle} - {t8.company}
-                </p>
+                <div className="flex gap-2">
+                    {t8.jobTitle} -{" "}
+                    <Link href={t8.companyUrl!} target="_blank" rel="noopener noreferrer" className="underline">
+                        {t8.company}
+                    </Link>
+                </div>
             </div>
         ),
     },
