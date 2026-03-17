@@ -4,6 +4,7 @@ import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
 import Image from "next/image";
 import certixioIcon from "@/assets/images/certixio-logo.png";
+import olsetLogo from "@/assets/images/olset-logo.avif";
 import { cn } from "@/libs/utils";
 import { testimonials } from "@/libs/testimonials";
 
@@ -125,7 +126,11 @@ const content = [
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
                 <Link href={t5.companyUrl!} target="_blank" rel="noopener noreferrer">
-                    <p className="text-3xl relative lg:left-22 lg:bottom-4 md:left-13">{t5.company}</p>
+                    <Image
+                        src={olsetLogo}
+                        alt="Olset Logo"
+                        className="lg:max-w-48 max-h-28 max-w-40 w-full h-full relative lg:bottom-5 lg:left-10 left-4"
+                    />
                 </Link>
                 <div className="w-13 border-linear-gradient" />
                 <div>
@@ -328,9 +333,13 @@ const content_mobile = [
     {
         id: 12,
         logo: (
-            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl top-1 relative">{t5.company}</p>
-            </div>
+            <Link href={t5.companyUrl!} target="_blank" rel="noopener noreferrer">
+                <Image
+                    src={olsetLogo}
+                    alt="Olset Logo"
+                    className="md:max-h-28 md:max-w-40 max-h-20 max-w-30 w-full h-full"
+                />
+            </Link>
         ),
         description: quoted(t5.paragraphs),
         author: (
