@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
-import DCOIcon from "@/components/ui/icons/brandLogo/DCOIcon.webp";
-import certixioIcon from "@/components/ui/icons/brandLogo/certixioLogo.png";
+import DCOIcon from "@/assets/images/dco-icon.webp";
+import certixioIcon from "@/assets/images/certixio-logo.png";
 import { cn } from "@/libs/utils";
 import { testimonials } from "@/libs/testimonials";
 

@@ -3,8 +3,8 @@ import { ObjowIcon } from "@/components/ui/icons/brandLogo/Objow";
 import { EmLyonSchoolIcon } from "@/components/ui/icons/brandLogo/EmLyonSchool";
 import { MNPIcon } from "@/components/ui/icons/brandLogo/MNP";
 import Image from "next/image";
-import DCOIcon from "@/components/ui/icons/brandLogo/DCOIcon.webp";
-import certixioIcon from "@/components/ui/icons/brandLogo/certixioLogo.png";
+import DCOIcon from "@/assets/images/dco-icon.webp";
+import certixioIcon from "@/assets/images/certixio-logo.png";
 import { cn } from "@/libs/utils";
 import { testimonials } from "@/libs/testimonials";
 
@@ -194,7 +194,14 @@ const content = [
         description: quoted(t8.paragraphs),
         content: (
             <div className="flex flex-col self-center px-4 gap-8 uppercase text-brand-fine-blue font-medium">
-                <p className="text-3xl relative lg:left-13 lg:bottom-4 md:left-4">{t8.company}</p>
+                <Image
+                    src="/glaaster-logo.svg"
+                    alt="Glaaster Logo"
+                    width={56}
+                    height={56}
+                    className="relative lg:left-13 lg:bottom-4 md:left-4"
+                    unoptimized
+                />
                 <div className="w-13 border-linear-gradient" />
                 <div>
                     <p>{t8.author}</p>
@@ -379,9 +386,13 @@ const content_mobile = [
     {
         id: 15,
         logo: (
-            <div className="flex justify-between w-full uppercase text-brand-fine-blue font-medium">
-                <p className="text-2xl top-1 relative">{t8.company}</p>
-            </div>
+            <Image
+                src="/glaaster-logo.svg"
+                alt="Glaaster Logo"
+                width={48}
+                height={48}
+                unoptimized
+            />
         ),
         description: quoted(t8.paragraphs),
         author: (
