@@ -10,7 +10,8 @@ import { InfiniteSlider } from "./InfiniteSlider";
 import img1 from "@/assets/images/krma_prestation_1.png";
 import img2 from "@/assets/images/krma_prestation_2.png";
 import img3 from "@/assets/images/krma_prestation_3.jpg";
-import img4 from "@/assets/images/krma_prestation_4.png";
+import img4 from "@/assets/images/krma_prestation_9.jpg";
+import img9 from "@/assets/images/krma_prestation_10.jpg";
 import img5 from "@/assets/images/krma_prestation_5.png";
 import img6 from "@/assets/images/krma_prestation_6.jpg";
 import img7 from "@/assets/images/krma_prestation_7.png";
@@ -118,6 +119,7 @@ export const LandingSection = () => {
                         { src: img5, alt: "Adrien work advising" },
                         { src: img6, alt: "Public listening Adrien's conference" },
                         { src: img8, alt: "Adrien conference speech" },
+                        { src: img9, alt: "Krma at Pepouze" },
                     ]}
                 />
             </div>
