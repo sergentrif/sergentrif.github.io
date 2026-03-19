@@ -9,6 +9,15 @@ export interface ArticleMeta {
 
 export const articles: ArticleMeta[] = [
     {
+        slug: "la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation",
+        title: "La révolution IA : le tertiaire à l'heure de l'automatisation",
+        date: "2026-03-19",
+        displayDate: "19/03/2026",
+        description:
+            "L'IA ne supprime pas des métiers — elle supprime des niveaux d'exercice. Analyse de la révolution qui touche tous les métiers du tertiaire, et de la question sans réponse : comment forme-t-on les seniors de demain ?",
+        readTime: "~7",
+    },
+    {
         slug: "pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience",
         title: "Pourquoi réduire la charge mentale des développeurs à travers la Developer Experience ?",
         date: "2024-04-03",
