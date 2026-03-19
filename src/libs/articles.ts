@@ -5,6 +5,7 @@ export interface ArticleMeta {
     displayDate: string;
     description: string;
     readTime: string;
+    excerpt: string;
 }
 
 export const articles: ArticleMeta[] = [
@@ -16,6 +17,8 @@ export const articles: ArticleMeta[] = [
         description:
             "L'IA ne supprime pas des métiers — elle supprime des niveaux d'exercice. Analyse de la révolution qui touche tous les métiers du tertiaire, et de la question sans réponse : comment forme-t-on les seniors de demain ?",
         readTime: "~7",
+        excerpt:
+            "En 3 ans, on est passé de \"l'IA est un gadget pour les développeurs\" à des PDG qui déclarent que 25 à 50% du code produit chez eux est généré par IA. Que les chiffres soient exacts ou gonflés pour rassurer les investisseurs, la direction est claire.",
     },
     {
         slug: "pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience",
@@ -25,6 +28,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Comment réduire la charge mentale des développeurs via la Developer Experience ? Stratégies concrètes pour limiter le context-switching dans les équipes tech.",
         readTime: "~8",
+        excerpt:
+            "J'ai récemment abordé la diversité des tâches que doivent traiter les développeurs au travers d'un article nommé Être développeur, c'est bien plus que développer. Il est important d'avoir conscience de cette diversité de tâches, car elle est génératrice de temps perdu. Et perdre du temps, c'est quelque chose que l'on veut éviter à tout prix.",
     },
     {
         slug: "etre-developpeur-c-est-bien-plus-que-developper",
@@ -34,6 +39,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Au-delà du code : la diversité réelle des tâches d'un développeur au quotidien. Pour les dirigeants qui collaborent avec des équipes techniques.",
         readTime: "~12",
+        excerpt:
+            "Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que vous n'ayez aucune connaissance de ce qu'ils font au quotidien. Beaucoup pensent que développer est un métier facile. Après tout, il suffit d'écrire du code puis de le mettre en production en évitant les bugs.",
     },
     {
         slug: "reussir-ses-recrutements-en-impliquant-son-equipe",
@@ -43,6 +50,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Impliquer son équipe dans le recrutement : méthode concrète pour recruter de meilleurs profils techniques avec l'adhésion de l'équipe.",
         readTime: "~10",
+        excerpt:
+            "Au cours des dernières années, j'ai conduit des centaines d'entretiens de recrutement. Cela n'a jamais été un exercice que j'apprécie particulièrement. Pourtant, je suis persuadé que c'est la tâche la plus importante à traiter. Et ce, même si l'on pense ne pas en avoir le temps.",
     },
     {
         slug: "etre-le-leader-dont-l-equipe-a-besoin",
@@ -52,6 +61,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Comment adopter la posture de leader dont votre équipe technique a besoin, selon le contexte et le stade de développement de l'entreprise.",
         readTime: "~6",
+        excerpt:
+            "Être à un poste de dirigeant implique directement de savoir décider. Mais indirectement, cela implique d'être un leader et de savoir faire preuve de leadership. Ces deux notions ont des définitions différentes pour chacun. Cependant, nous pouvons dire qu'un leader doit savoir montrer le chemin à suivre. Il doit savoir convaincre son équipe de l'y accompagner.",
     },
     {
         slug: "etre-cto-ou-l-art-de-representer-plusieurs-parties",
@@ -61,6 +72,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Le CTO comme intermédiaire stratégique : comment représenter simultanément l'équipe technique, les dirigeants et les partenaires externes.",
         readTime: "~6",
+        excerpt:
+            "En tant qu'intermédiaire, le CTO représente plusieurs interlocuteurs différents. D'abord, il représente l'équipe technique auprès des dirigeants. Ensuite, il représente les dirigeants auprès de l'équipe technique. Enfin, il représente l'entreprise auprès du monde extérieur.",
     },
     {
         slug: "savoir-communiquer-au-coeur-du-role-de-cto",
@@ -70,6 +83,8 @@ export const articles: ArticleMeta[] = [
         description:
             "La communication, compétence clé du CTO : comment traduire les enjeux techniques pour les dirigeants et les enjeux business pour les développeurs.",
         readTime: "~5",
+        excerpt:
+            "Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.",
     },
     {
         slug: "se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau",
@@ -79,6 +94,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Pourquoi le syndrome de l'imposteur est une force pour un CTO : comment la remise en question permanente devient un avantage compétitif durable.",
         readTime: "~4",
+        excerpt:
+            "La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le syndrome de l'imposteur. Un doute maladif qui nie les accomplissements personnels.",
     },
     {
         slug: "qu-est-ce-q-un-bon-cto",
@@ -88,6 +105,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Qu'est-ce qu'un bon CTO ? Les compétences varient selon la taille d'équipe (5, 10, 20+ développeurs). Guide pratique pour recruter son CTO ou évoluer vers ce rôle.",
         readTime: "~4",
+        excerpt:
+            "Que vous soyez un dirigeant d'entreprise qui cherche à recruter son prochain CTO ou un développeur qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès se pose inévitablement.",
     },
     {
         slug: "dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte",
@@ -97,6 +116,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Pourquoi les refontes techniques échouent-elles si souvent ? Analyse et alternatives pragmatiques pour gérer la dette technique sans refonte globale.",
         readTime: "~16",
+        excerpt:
+            "Dans ma récente exploration de la gestion de la dette technique, j'ai partagé une perspective proactive que j'ai baptisée l'effort supplémentaire. Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance constante. Cependant, elle ne s'attaque pas aux problèmes existants, au code déjà en ruine.",
     },
     {
         slug: "l-anti-dette-technique-la-theorie-de-l-effort-supplementaire",
@@ -106,6 +127,8 @@ export const articles: ArticleMeta[] = [
         description:
             "L'anti dette technique : framework original en 5 catégories et la théorie de l'effort supplémentaire pour maintenir un code sain sans refonte globale.",
         readTime: "~14",
+        excerpt:
+            "Après une carrière de 15 ans dans le domaine du développement logiciel, d'abord en tant que développeur puis en tant que CTO, j'ai constamment entendu parler de \"dette technique\". C'est un terme si omniprésent qu'il semble avoir perdu une partie de sa signification initiale.",
     },
     {
         slug: "comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple",
@@ -115,6 +138,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Comment lePERMISLIBRE réduit la complexité produit pour maintenir un système simple — retour d'expérience sur un projet mobilisant 30+ personnes sur un an.",
         readTime: "~16",
+        excerpt:
+            "Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète.",
     },
     {
         slug: "de-developpeur-backend-a-cto-un-retour-a-zero",
@@ -124,6 +149,8 @@ export const articles: ArticleMeta[] = [
         description:
             "Récit personnel de transition de développeur backend à CTO : légitimité, absence de feedbacks et sentiment d'improductivité dans un nouveau rôle.",
         readTime: "~7",
+        excerpt:
+            "Il y a un an, suite au départ de notre CTO, la proposition d'assumer ce rôle m'a été faite. Cela faisait déjà 3 ans que je travaillais pour lePERMISLIBRE en tant qu'ingénieur backend principal.",
     },
 ];
 
