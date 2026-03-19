@@ -229,6 +229,9 @@ export default function ArticleRevolutionIAPage() {
                     L&apos;imprimerie, l&apos;électricité, l&apos;informatique ont transformé le monde sur des
                     décennies. Celle-ci se compte en années.
                 </p>
+                <p>
+                    Et c&apos;est une fuite en avant. Comme le nucléaire militaire. Personne ne va s&apos;arrêter parce qu&apos;on le demande poliment. Peu importe ce qu&apos;on en pense, tout le monde va s'y mettre. La seule question qui reste est individuelle : est-ce qu'on s'adapte ou pas.
+                </p>
                 <p>Le tissu social ne se casse pas dans la tech. Il se casse autour. Silencieusement.</p>
                 <p>
                     Ce n&apos;est pas anodin que Sam Altman se dise favorable à un revenu universel depuis 2016, bien
