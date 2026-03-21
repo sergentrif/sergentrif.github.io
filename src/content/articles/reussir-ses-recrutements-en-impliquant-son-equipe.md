@@ -3,10 +3,10 @@ title: "Réussir ses recrutements en impliquant son équipe"
 date: "2024-02-15"
 displayDate: "15/02/2024"
 description: >-
-  Impliquer son équipe dans le recrutement : méthode concrète pour recruter de meilleurs profils techniques avec l'adhésion de l'équipe.
+    Impliquer son équipe dans le recrutement : méthode concrète pour recruter de meilleurs profils techniques avec l'adhésion de l'équipe.
 readTime: "~10"
 excerpt: >-
-  Au cours des dernières années, j'ai conduit des centaines d'entretiens de recrutement. Cela n'a jamais été un exercice que j'apprécie particulièrement. Pourtant, je suis persuadé que c'est la tâche la plus importante à traiter. Et ce, même si l'on pense ne pas en avoir le temps.
+    Au cours des dernières années, j'ai conduit des centaines d'entretiens de recrutement. Cela n'a jamais été un exercice que j'apprécie particulièrement. Pourtant, je suis persuadé que c'est la tâche la plus importante à traiter. Et ce, même si l'on pense ne pas en avoir le temps.
 ---
 
 Au cours des dernières années, j'ai conduit des centaines d'entretiens de recrutement. Cela n'a jamais été un exercice que j'apprécie particulièrement. Pourtant, je suis persuadé que c'est la tâche la plus importante à traiter. Et ce, même si l'on pense ne pas en avoir le temps.

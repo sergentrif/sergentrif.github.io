@@ -101,6 +101,7 @@ Je n'ai pas écrit cet article. Je l'ai supervisé.
 ## Sources
 
 **Code généré par IA - déclarations des PDG :**
+
 - Satya Nadella (Microsoft) : 20-30% du code - [TechCrunch, avril 2025](https://techcrunch.com/2025/04/29/microsoft-ceo-says-up-to-30-of-the-companys-code-was-written-by-ai/)
 - Sundar Pichai (Google) : plus de 30% du nouveau code - [Alphabet earnings call, avril 2025](https://www.cnbc.com/2025/04/29/satya-nadella-says-as-much-as-30percent-of-microsoft-code-is-written-by-ai.html)
 - Dario Amodei (Anthropic) : prédiction de 90% d'ici 6 mois - [NPR, octobre 2025](https://www.npr.org/2025/10/21/nx-s1-5506141/ai-code-software-productivity-claims)
@@ -108,23 +109,28 @@ Je n'ai pas écrit cet article. Je l'ai supervisé.
 - Analyse critique de ces déclarations - [Fortune, juillet 2025](https://fortune.com/2025/07/02/ai-work-salesforce-benioff-nadella-microsoft-pichai-google/)
 
 **Emploi des juniors en baisse :**
+
 - Étude Stanford Digital Economy Lab, Erik Brynjolfsson et al. - [PDF de l'étude](https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChandarChen.pdf)
 - Couverture CNBC - [CNBC, août 2025](https://www.cnbc.com/2025/08/28/generative-ai-reshapes-us-job-market-stanford-study-shows-entry-level-young-workers.html)
 - Couverture TIME - [TIME, août 2025](https://time.com/7312205/ai-jobs-stanford/)
 
 **Tertiaire et emploi en France :**
+
 - INSEE, Enquête Emploi 2024 : 76,6% des emplois dans le tertiaire - [INSEE](https://www.insee.fr/fr/statistiques/8376826?sommaire=8376908)
 - Vie-publique.fr - [vie-publique.fr](https://www.vie-publique.fr/fiches/269995-les-grands-secteurs-de-production-primaire-secondaire-et-tertiaire)
 
 **Open-source submergé par les contributions IA :**
+
 - GitHub Blog, "Welcome to the Eternal September of open source" - [GitHub Blog, février 2026](https://github.blog/open-source/maintainers/welcome-to-the-eternal-september-of-open-source-heres-what-we-plan-to-do-for-maintainers/)
 - cURL : fermeture du bug bounty, 5% de soumissions valides - [InfoQ, février 2026](https://www.infoq.com/news/2026/02/ai-floods-close-projects/)
 - Ghostty, tldraw et autres projets fermés aux contributions externes - [InfoQ, février 2026](https://www.infoq.com/news/2026/02/ai-floods-close-projects/)
 
 **Sam Altman et le revenu universel :**
+
 - Altman favorable au UBI depuis 2016, étude OpenResearch - [CBS News, juillet 2024](https://www.cbsnews.com/news/sam-altman-universal-basic-income-study-open-research/)
 - "Moore's Law for Everything", 2021 - [CNBC, mars 2021](https://www.cnbc.com/2021/03/30/openai-ceo-sam-altman-says-ai-could-pay-for-ubi-experts-disagree.html)
 
 **Éric Sadin :**
-- *Le désert de nous-mêmes*, L'Échappée, octobre 2025
+
+- _Le désert de nous-mêmes_, L'Échappée, octobre 2025
 - Interview UNESCO, décembre 2025 - [La Vie Ouvrière](https://nvo.fr/le-philosophe-eric-sadin-lance-un-appel-a-la-resistance/)

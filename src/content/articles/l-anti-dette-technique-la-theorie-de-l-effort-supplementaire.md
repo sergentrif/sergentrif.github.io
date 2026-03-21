@@ -3,10 +3,10 @@ title: "L'anti dette technique : la théorie de l'effort supplémentaire"
 date: "2023-12-12"
 displayDate: "12/12/2023"
 description: >-
-  L'anti dette technique : framework original en 5 catégories et la théorie de l'effort supplémentaire pour maintenir un code sain sans refonte globale.
+    L'anti dette technique : framework original en 5 catégories et la théorie de l'effort supplémentaire pour maintenir un code sain sans refonte globale.
 readTime: "~14"
 excerpt: >-
-  Après une carrière de 15 ans dans le domaine du développement logiciel, d'abord en tant que développeur puis en tant que CTO, j'ai constamment entendu parler de "dette technique". C'est un terme si omniprésent qu'il semble avoir perdu une partie de sa signification initiale.
+    Après une carrière de 15 ans dans le domaine du développement logiciel, d'abord en tant que développeur puis en tant que CTO, j'ai constamment entendu parler de "dette technique". C'est un terme si omniprésent qu'il semble avoir perdu une partie de sa signification initiale.
 ---
 
 Après une carrière de 15 ans dans le domaine du développement logiciel, d'abord en tant que développeur puis en tant que CTO, j'ai constamment entendu parler de "dette technique". C'est un terme si omniprésent qu'il semble avoir perdu une partie de sa signification initiale.

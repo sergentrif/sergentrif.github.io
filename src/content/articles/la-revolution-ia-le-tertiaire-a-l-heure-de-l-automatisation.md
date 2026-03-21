@@ -3,10 +3,10 @@ title: "La révolution IA : le tertiaire à l'heure de l'automatisation"
 date: "2026-03-19"
 displayDate: "19/03/2026"
 description: >-
-  L'IA ne supprime pas des métiers — elle supprime des niveaux d'exercice. Analyse de la révolution qui touche tous les métiers du tertiaire, et de la question sans réponse : comment forme-t-on les seniors de demain ?
+    L'IA ne supprime pas des métiers — elle supprime des niveaux d'exercice. Analyse de la révolution qui touche tous les métiers du tertiaire, et de la question sans réponse : comment forme-t-on les seniors de demain ?
 readTime: "~7"
 excerpt: >-
-  En 3 ans, on est passé de "l'IA est un gadget pour les développeurs" à des PDG qui déclarent que 25 à 50% du code produit chez eux est généré par IA. Que les chiffres soient exacts ou gonflés pour rassurer les investisseurs, la direction est claire.
+    En 3 ans, on est passé de "l'IA est un gadget pour les développeurs" à des PDG qui déclarent que 25 à 50% du code produit chez eux est généré par IA. Que les chiffres soient exacts ou gonflés pour rassurer les investisseurs, la direction est claire.
 ---
 
 En 3 ans, on est passé de "l'IA est un gadget pour les développeurs" à des PDG qui déclarent que 25 à 50% du code produit chez eux est généré par IA. Que les chiffres soient exacts ou gonflés pour rassurer les investisseurs, la direction est claire.
@@ -143,5 +143,5 @@ Ce n'est pas anodin que Sam Altman se dise favorable à un revenu universel depu
 
 **Éric Sadin :**
 
-- *Le désert de nous-mêmes*, L'Échappée, octobre 2025
+- _Le désert de nous-mêmes_, L'Échappée, octobre 2025
 - Interview UNESCO, décembre 2025 — [La Vie Ouvrière](https://nvo.fr/le-philosophe-eric-sadin-lance-un-appel-a-la-resistance/)

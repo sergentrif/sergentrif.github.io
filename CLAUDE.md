@@ -34,10 +34,10 @@ title: "Titre de l'article"
 date: "YYYY-MM-DD"
 displayDate: "DD/MM/YYYY"
 description: >-
-  Description SEO (1-2 phrases).
+    Description SEO (1-2 phrases).
 readTime: "~X"
 excerpt: >-
-  Premier paragraphe affiché dans la liste des articles (1-3 phrases).
+    Premier paragraphe affiché dans la liste des articles (1-3 phrases).
 ---
 
 Contenu de l'article en Markdown...

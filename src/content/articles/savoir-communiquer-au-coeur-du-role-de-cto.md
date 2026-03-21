@@ -3,10 +3,10 @@ title: "Savoir communiquer, au cœur du rôle de CTO"
 date: "2024-01-31"
 displayDate: "31/01/2024"
 description: >-
-  La communication, compétence clé du CTO : comment traduire les enjeux techniques pour les dirigeants et les enjeux business pour les développeurs.
+    La communication, compétence clé du CTO : comment traduire les enjeux techniques pour les dirigeants et les enjeux business pour les développeurs.
 readTime: "~5"
 excerpt: >-
-  Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.
+    Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.
 ---
 
 Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.
@@ -39,7 +39,7 @@ Certains sujets stratégiques ne devraient pas être communiqués immédiatement
 
 Les dirigeants de l'entreprise n'ont pas besoin de connaître les moindres détails des problèmes rencontrés par l'équipe technique. Ils ont bien d'autres sujets à gérer à côté. Ce dont ils doivent être surs, c'est que ces sujets sont traités correctement par le CTO, c'est sa responsabilité. Seuls les problèmes de fond doivent être partagés. En mettant l'accent sur l'impact et les conséquences que cela peut avoir pour l'entreprise au global.
 
-*Nota bene : en tant que CTO, il est plaisant de s'adresser à des dirigeants qui peuvent échanger autour de concepts techniques. En particulier, s'ils comprennent leur impact sur le quotidien de l'équipe et donc de l'entreprise.*
+_Nota bene : en tant que CTO, il est plaisant de s'adresser à des dirigeants qui peuvent échanger autour de concepts techniques. En particulier, s'ils comprennent leur impact sur le quotidien de l'équipe et donc de l'entreprise._
 
 Les métriques techniques permettent d'avoir un support commun qui facilite la communication à double sens. Je recommande l'usage de métriques telles que définies par le [framework SPACE](https://queue.acm.org/detail.cfm?id=3454124) ou les [Four Keys Metrics](https://www.atlassian.com/devops/frameworks/dora-metrics). La mesure de la productivité technique est un sujet débattu et régulièrement remis en question. Pour autant, ces métriques permettent de tous parler le même langage. Elles rendent visibles l'impact des choix organisationnels ou techniques. Donc de leur contribution au business, et ce, malgré leurs bais et défauts.
 

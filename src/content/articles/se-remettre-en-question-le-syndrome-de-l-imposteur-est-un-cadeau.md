@@ -3,10 +3,10 @@ title: "Se remettre en question : le syndrome de l'imposteur est un cadeau"
 date: "2024-01-25"
 displayDate: "25/01/2024"
 description: >-
-  Pourquoi le syndrome de l'imposteur est une force pour un CTO : comment la remise en question permanente devient un avantage compétitif durable.
+    Pourquoi le syndrome de l'imposteur est une force pour un CTO : comment la remise en question permanente devient un avantage compétitif durable.
 readTime: "~4"
 excerpt: >-
-  La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le syndrome de l'imposteur. Un doute maladif qui nie les accomplissements personnels.
+    La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le syndrome de l'imposteur. Un doute maladif qui nie les accomplissements personnels.
 ---
 
 La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le [syndrome de l'imposteur](https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur). Un doute maladif qui nie les accomplissements personnels.
@@ -25,7 +25,7 @@ J'aime beaucoup cette citation qui résume avec plus de style ce que j'essaie de
 
 > "Le doute est à la base même du savoir, puisqu'il est la condition essentielle de la recherche de la vérité. On ne court jamais après ce qu'on croit posséder avec certitude."
 >
-> *— Jean-Charles Harvey*
+> _— Jean-Charles Harvey_
 
 Comment répondre au doute lorsqu'il y a peu d'homologues pour partager ses interrogations ? Nous avons la chance de vivre à une époque où les informations n'ont jamais été aussi abondantes et faciles d'accès : articles, podcasts, vidéos, livres, e-books… Un bon CTO consacrera du temps à sa propre formation.
 
@@ -37,7 +37,7 @@ Attention à ce que le CTO ne sombre pas dans l'immobilisme. Douter ne doit pas 
 
 Si cela peut paraitre effrayant, il faut apprendre à relativiser. Beaucoup d'hommes se trouvent à des postes haut placés tout en étant particulièrement incompétents. Le pire, c'est qu'ils le vivent très bien.
 
-Attention toutefois à ne pas confondre des *"NON"* de statu quo avec une fermeture d'esprit. Un directeur capable de revenir quelques heures plus tard en disant *"J'ai bien réfléchi"* ou *"Je me suis trompé"* avait juste besoin de temps pour douter. Il se forgeait une opinion solide sur la demande initiale.
+Attention toutefois à ne pas confondre des _"NON"_ de statu quo avec une fermeture d'esprit. Un directeur capable de revenir quelques heures plus tard en disant _"J'ai bien réfléchi"_ ou _"Je me suis trompé"_ avait juste besoin de temps pour douter. Il se forgeait une opinion solide sur la demande initiale.
 
 La vie d'une entreprise est faite de hauts et de bas. De périodes de croissance et de décroissance. Vous souhaitez avoir à vos côtés un directeur capable de les traverser toutes avec succès. Vous ne souhaitez pas changer de CTO à chacune de ces étapes.
 

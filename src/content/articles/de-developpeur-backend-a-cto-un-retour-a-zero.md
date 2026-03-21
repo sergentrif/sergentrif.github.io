@@ -3,10 +3,10 @@ title: "De développeur backend à CTO, un retour à zéro"
 date: "2021-02-24"
 displayDate: "24/02/2021"
 description: >-
-  Récit personnel de transition de développeur backend à CTO : légitimité, absence de feedbacks et sentiment d'improductivité dans un nouveau rôle.
+    Récit personnel de transition de développeur backend à CTO : légitimité, absence de feedbacks et sentiment d'improductivité dans un nouveau rôle.
 readTime: "~7"
 excerpt: >-
-  Il y a un an, suite au départ de notre CTO, la proposition d'assumer ce rôle m'a été faite. Cela faisait déjà 3 ans que je travaillais pour lePERMISLIBRE en tant qu'ingénieur backend principal.
+    Il y a un an, suite au départ de notre CTO, la proposition d'assumer ce rôle m'a été faite. Cela faisait déjà 3 ans que je travaillais pour lePERMISLIBRE en tant qu'ingénieur backend principal.
 ---
 
 Il y a un an, suite au départ de notre CTO, la proposition d'assumer ce rôle m'a été faite. Cela faisait déjà 3 ans que je travaillais pour [lePERMISLIBRE](https://www.lepermislibre.fr/) en tant qu'ingénieur backend principal.

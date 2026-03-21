@@ -3,10 +3,10 @@ title: "Comment réduire la complexité produit pour maintenir un système simpl
 date: "2023-07-24"
 displayDate: "24/07/2023"
 description: >-
-  Comment lePERMISLIBRE réduit la complexité produit pour maintenir un système simple — retour d'expérience sur un projet mobilisant 30+ personnes sur un an.
+    Comment lePERMISLIBRE réduit la complexité produit pour maintenir un système simple — retour d'expérience sur un projet mobilisant 30+ personnes sur un an.
 readTime: "~16"
 excerpt: >-
-  Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète.
+    Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète.
 ---
 
 Cet article cherche à expliquer comment [lePERMISLIBRE](https://www.lepermislibre.fr/) veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète. Si vous n'avez pas le temps de tout lire, vous pouvez directement vous rendre en fin d'article afin de connaitre les règles que l'on essaie de s'appliquer.

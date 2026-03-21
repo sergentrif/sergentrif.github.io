@@ -3,10 +3,10 @@ title: "Qu'est-ce qu'un bon CTO ?"
 date: "2024-01-24"
 displayDate: "24/01/2024"
 description: >-
-  Qu'est-ce qu'un bon CTO ? Les compétences varient selon la taille d'équipe (5, 10, 20+ développeurs). Guide pratique pour recruter son CTO ou évoluer vers ce rôle.
+    Qu'est-ce qu'un bon CTO ? Les compétences varient selon la taille d'équipe (5, 10, 20+ développeurs). Guide pratique pour recruter son CTO ou évoluer vers ce rôle.
 readTime: "~4"
 excerpt: >-
-  Que vous soyez un dirigeant d'entreprise qui cherche à recruter son prochain CTO ou un développeur qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès se pose inévitablement.
+    Que vous soyez un dirigeant d'entreprise qui cherche à recruter son prochain CTO ou un développeur qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès se pose inévitablement.
 ---
 
 Que vous soyez un dirigeant d'entreprise qui cherche à recruter son prochain CTO ou un développeur qui souhaite le devenir, la question des compétences à avoir pour assumer ce rôle avec succès rôle se pose inévitablement.

@@ -15,12 +15,8 @@ const components: Components = {
             {children}
         </h3>
     ),
-    ul: ({ children }) => (
-        <ul className="list-disc list-outside flex flex-col gap-5 px-4">{children}</ul>
-    ),
-    ol: ({ children }) => (
-        <ol className="list-decimal list-inside flex flex-col gap-1">{children}</ol>
-    ),
+    ul: ({ children }) => <ul className="list-disc list-outside flex flex-col gap-5 px-4">{children}</ul>,
+    ol: ({ children }) => <ol className="list-decimal list-inside flex flex-col gap-1">{children}</ol>,
     li: ({ children }) => <li className="pl-1 ml-4">{children}</li>,
     strong: ({ children }) => <span className="font-bold">{children}</span>,
     em: ({ children }) => <em>{children}</em>,
