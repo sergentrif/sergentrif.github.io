@@ -3,8 +3,8 @@
 ## Conventions de ce repo
 
 - **Conventional commits** : `type(scope): description` en minuscules, impératif, sans majuscule ni point final
-  - Types valides : `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `ci`, `build`
-  - Scope optionnel entre parenthèses (ex: `feat(articles): ...`)
+    - Types valides : `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `chore`, `ci`, `build`
+    - Scope optionnel entre parenthèses (ex: `feat(articles): ...`)
 - **Stratégie** : rebase (jamais de merge commit), squash à la merge de PR
 - **Branche cible** : `main` sauf indication contraire
 
