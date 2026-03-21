@@ -20,9 +20,33 @@ No test suite — manual verification via `npm run preview` after build.
 
 Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for GitHub Pages deployment at `adrien.blandin.me`.
 
-**Pages** (`src/app/`): App Router pages. Articles are plain `.tsx` files — no CMS, content is hardcoded in each `page.tsx`.
+**Pages** (`src/app/`): App Router pages. Articles use a single dynamic route `src/app/articles/[slug]/page.tsx` — no individual page files per article.
 
-**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (métadonnées des 12 articles + `getArticle(slug)`), `testimonials.ts` (8 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
+**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (scan dynamique des `.md` via gray-matter + `getArticle(slug)`), `testimonials.ts` (8 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
+
+## Créer un nouvel article
+
+**Une seule étape** : créer `src/content/articles/<slug>.md` avec ce frontmatter :
+
+```markdown
+---
+title: "Titre de l'article"
+date: "YYYY-MM-DD"
+displayDate: "DD/MM/YYYY"
+description: >-
+  Description SEO (1-2 phrases).
+readTime: "~X"
+excerpt: >-
+  Premier paragraphe affiché dans la liste des articles (1-3 phrases).
+---
+
+Contenu de l'article en Markdown...
+```
+
+- Le `slug` est le nom du fichier sans `.md` (ex: `mon-article.md` → `/articles/mon-article`)
+- `articles.ts` scanne automatiquement le dossier et trie par `date` décroissante
+- La liste des articles et le sitemap se mettent à jour sans aucune autre modification
+- Contenu Markdown supporté : `###`/`##` titres, `**gras**`, `*italique*`, `[lien](url)`, `---` séparateur, `> blockquote`, listes `- item`
 
 **Components** split by role:
 
