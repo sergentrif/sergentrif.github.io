@@ -1,3 +1,14 @@
+---
+title: "Pourquoi réduire la charge mentale des développeurs à travers la Developer Experience ?"
+date: "2024-04-03"
+displayDate: "03/04/2024"
+description: >-
+  Comment réduire la charge mentale des développeurs via la Developer Experience ? Stratégies concrètes pour limiter le context-switching dans les équipes tech.
+readTime: "~8"
+excerpt: >-
+  J'ai récemment abordé la diversité des tâches que doivent traiter les développeurs au travers d'un article nommé Être développeur, c'est bien plus que développer. Il est important d'avoir conscience de cette diversité de tâches, car elle est génératrice de temps perdu. Et perdre du temps, c'est quelque chose que l'on veut éviter à tout prix.
+---
+
 J'ai récemment abordé la diversité des tâches que doivent traiter les développeurs au travers d'un article nommé [Être développeur, c'est bien plus que développer](/articles/etre-developpeur-c-est-bien-plus-que-developper). Il est important d'avoir conscience de cette diversité de tâches, car elle est génératrice de temps perdu. Et perdre du temps, c'est quelque chose que l'on veut éviter à tout prix.
 
 Ce que l'on aimerai, c'est que les développeurs se concentrent sur le développement de fonctionnalités. C'est cette tâche qui est directement génératrice de valeur pour l'entreprise.

@@ -1,3 +1,14 @@
+---
+title: "Être développeur, c'est bien plus que développer"
+date: "2024-03-14"
+displayDate: "14/03/2024"
+description: >-
+  Au-delà du code : la diversité réelle des tâches d'un développeur au quotidien. Pour les dirigeants qui collaborent avec des équipes techniques.
+readTime: "~12"
+excerpt: >-
+  Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que vous n'ayez aucune connaissance de ce qu'ils font au quotidien. Beaucoup pensent que développer est un métier facile. Après tout, il suffit d'écrire du code puis de le mettre en production en évitant les bugs.
+---
+
 Vous côtoyez des développeurs dans le cadre de votre travail ? Alors, il y a de fortes chances que vous n'ayez aucune connaissance de ce qu'ils font au quotidien. Beaucoup pensent que développer est un métier facile. Après tout, il suffit d'écrire du code puis de le mettre en production en évitant les bugs.
 
 Si vous êtes dans cette situation, ce n'est pas grave. Vous n'êtes pas le seul. Être incompris est le fardeau des métiers techniques. Et en même temps, c'est normal. Ces métiers nécessitent des compétences qui ne s'acquièrent qu'avec une formation spécifique.

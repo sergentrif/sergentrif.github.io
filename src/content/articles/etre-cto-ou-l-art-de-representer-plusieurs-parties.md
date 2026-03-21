@@ -1,3 +1,14 @@
+---
+title: "Être CTO ou l'art de représenter plusieurs parties"
+date: "2024-02-06"
+displayDate: "06/02/2024"
+description: >-
+  Le CTO comme intermédiaire stratégique : comment représenter simultanément l'équipe technique, les dirigeants et les partenaires externes.
+readTime: "~6"
+excerpt: >-
+  En tant qu'intermédiaire, le CTO représente plusieurs interlocuteurs différents. D'abord, il représente l'équipe technique auprès des dirigeants. Ensuite, il représente les dirigeants auprès de l'équipe technique. Enfin, il représente l'entreprise auprès du monde extérieur.
+---
+
 En tant qu'intermédiaire, le CTO représente plusieurs interlocuteurs différents. D'abord, il représente l'équipe technique auprès des dirigeants. Ensuite, il représente les dirigeants auprès de l'équipe technique. Enfin, il représente l'entreprise auprès du monde extérieur.
 
 Cet article est la quatrième partie d'une série axée sur les compétences à chercher chez un CTO. Si vous n'avez pas encore lu le troisième article, je vous encourage à le faire ici : [savoir communiquer, au cœur du rôle de CTO](/articles/savoir-communiquer-au-coeur-du-role-de-cto)

@@ -1,3 +1,14 @@
+---
+title: "Être le leader dont l'équipe a besoin"
+date: "2024-02-14"
+displayDate: "14/02/2024"
+description: >-
+  Comment adopter la posture de leader dont votre équipe technique a besoin, selon le contexte et le stade de développement de l'entreprise.
+readTime: "~6"
+excerpt: >-
+  Être à un poste de dirigeant implique directement de savoir décider. Mais indirectement, cela implique d'être un leader et de savoir faire preuve de leadership. Ces deux notions ont des définitions différentes pour chacun. Cependant, nous pouvons dire qu'un leader doit savoir montrer le chemin à suivre. Il doit savoir convaincre son équipe de l'y accompagner.
+---
+
 Être à un poste de dirigeant implique directement de savoir décider. Mais indirectement, cela implique d'être un leader et de savoir faire preuve de leadership. Ces deux notions ont des définitions différentes pour chacun. Cependant, nous pouvons dire qu'un leader doit savoir montrer le chemin à suivre. Il doit savoir convaincre son équipe de l'y accompagner.
 
 Cet article est la dernière partie d'une série axée sur les compétences à chercher chez un CTO. Si vous n'avez pas encore lu le quatrième article, je vous encourage à le faire ici : [être CTO ou l'art de représenter plusieurs parties](/articles/etre-cto-ou-l-art-de-representer-plusieurs-parties)

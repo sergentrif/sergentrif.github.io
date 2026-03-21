@@ -1,3 +1,14 @@
+---
+title: "Se remettre en question : le syndrome de l'imposteur est un cadeau"
+date: "2024-01-25"
+displayDate: "25/01/2024"
+description: >-
+  Pourquoi le syndrome de l'imposteur est une force pour un CTO : comment la remise en question permanente devient un avantage compétitif durable.
+readTime: "~4"
+excerpt: >-
+  La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le syndrome de l'imposteur. Un doute maladif qui nie les accomplissements personnels.
+---
+
 La première des compétences qu'il me semble nécessaire de trouver chez un CTO est sa capacité à se remettre en question. De mon expérience, celle-ci s'accompagne parfois de ce que l'on nomme le [syndrome de l'imposteur](https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur). Un doute maladif qui nie les accomplissements personnels.
 
 Cet article est la deuxième partie d'une série axée sur les compétences à chercher chez un CTO. Si vous n'avez pas encore lu le premier article, je vous encourage à le faire ici : [qu'est ce qu'un bon CTO ?](/articles/qu-est-ce-q-un-bon-cto)

@@ -1,3 +1,14 @@
+---
+title: "Comment réduire la complexité produit pour maintenir un système simple ?"
+date: "2023-07-24"
+displayDate: "24/07/2023"
+description: >-
+  Comment lePERMISLIBRE réduit la complexité produit pour maintenir un système simple — retour d'expérience sur un projet mobilisant 30+ personnes sur un an.
+readTime: "~16"
+excerpt: >-
+  Cet article cherche à expliquer comment lePERMISLIBRE veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète.
+---
+
 Cet article cherche à expliquer comment [lePERMISLIBRE](https://www.lepermislibre.fr/) veille à maintenir une simplicité (donc une maintenabilité) produit & technique à travers l'exemple de la création de sa nouvelle offre de conduite accélérée qui a mobilisé des dizaines de personnes, d'équipes différentes sur plus d'une année complète. Si vous n'avez pas le temps de tout lire, vous pouvez directement vous rendre en fin d'article afin de connaitre les règles que l'on essaie de s'appliquer.
 
 Après plus d'un an de travail, [lePERMISLIBRE](https://www.lepermislibre.fr/) vient de sortir son offre d'apprentissage du permis de conduire en accéléré. Contrairement à notre formation standard où la réussite de l'examen peut mettre plusieurs mois (tout dépend de la motivation variable des élèves et du rythme qu'ils donnent à leur formation), notre promesse ici est de dispenser une formation complète et un passage à l'examen en moins de 2 mois. D'après nos premiers résultats, nous y arrivons même en moins d'un mois.

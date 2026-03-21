@@ -1,3 +1,14 @@
+---
+title: "Savoir communiquer, au cœur du rôle de CTO"
+date: "2024-01-31"
+displayDate: "31/01/2024"
+description: >-
+  La communication, compétence clé du CTO : comment traduire les enjeux techniques pour les dirigeants et les enjeux business pour les développeurs.
+readTime: "~5"
+excerpt: >-
+  Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.
+---
+
 Le CTO a une position particulière au sein de l'entreprise. Au yeux des dirigeants, il représente l'équipe technique. Au yeux de l'équipe technique, il représente les dirigeants.
 
 Cet article est la troisième partie d'une série axée sur les compétences à chercher chez un CTO. Si vous n'avez pas encore lu le deuxième article, je vous encourage à le faire ici : [se remettre en question : le syndrome de l'imposteur est un cadeau](/articles/se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau)

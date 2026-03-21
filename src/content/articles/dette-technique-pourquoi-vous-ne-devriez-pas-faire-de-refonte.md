@@ -1,3 +1,14 @@
+---
+title: "Dette technique : pourquoi vous ne devriez pas faire de refonte"
+date: "2023-12-20"
+displayDate: "20/12/2023"
+description: >-
+  Pourquoi les refontes techniques échouent-elles si souvent ? Analyse et alternatives pragmatiques pour gérer la dette technique sans refonte globale.
+readTime: "~16"
+excerpt: >-
+  Dans ma récente exploration de la gestion de la dette technique, j'ai partagé une perspective proactive que j'ai baptisée l'effort supplémentaire. Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance constante. Cependant, elle ne s'attaque pas aux problèmes existants, au code déjà en ruine.
+---
+
 Dans ma récente exploration de la gestion de la dette technique, j'ai partagé une perspective proactive que j'ai baptisée [l'effort supplémentaire](/articles/l-anti-dette-technique-la-theorie-de-l-effort-supplementaire). Cette approche vise à prévenir la dégradation de la base de code en maintenant une vigilance constante. Cependant, elle ne s'attaque pas aux problèmes existants, au code déjà en ruine.
 
 Au fil des années, travailler sur un projet unique m'a exposé à de nombreuses requêtes de refontes, souvent étiquetées comme "dette technique". Certains termes, tels que "refonte" et "refactoring", déclenchent chez moi une alerte immédiate. En tant que développeur, j'ai non seulement souvent formulé ces demandes, mais je les ai aussi dirigées.
