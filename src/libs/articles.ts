@@ -17,7 +17,7 @@ function loadArticles(): ArticleMeta[] {
     const files = readdirSync(dir).filter((f) => f.endsWith(".md"));
 
     const metas: ArticleMeta[] = files.map((file) => {
-        const slug = file.replace(/\.md$/, "");
+        const slug = file.replace(/\.md$/, "").replace(/[^a-z0-9-]/gi, "");
         const raw = readFileSync(path.join(dir, file), "utf-8");
         const { data } = matter(raw);
         return {
