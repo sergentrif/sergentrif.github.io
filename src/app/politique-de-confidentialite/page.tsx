@@ -17,7 +17,9 @@ export default function PolitiqueDeConfidentialite() {
                 <p>
                     {"La protection de vos données personnelles est une priorité pour ce site, édité par la société "}
                     <span className="font-semibold">{legal.raison_sociale}</span>
-                    {". Cette politique de confidentialité décrit comment vos données sont collectées et utilisées lors de votre navigation sur "}
+                    {
+                        ". Cette politique de confidentialité décrit comment vos données sont collectées et utilisées lors de votre navigation sur "
+                    }
                     <Link href="/" className="hover:underline font-bold">
                         adrien.blandin.me
                     </Link>
@@ -33,7 +35,9 @@ export default function PolitiqueDeConfidentialite() {
                     <li>{"Provenance du trafic (source/medium)"}</li>
                 </ul>
                 <p>
-                    {"Aucune donnée d\u2019identité (nom, prénom, email) n\u2019est collectée automatiquement. Les seules données personnelles traitées sont celles que vous transmettez volontairement en prenant contact par email."}
+                    {
+                        "Aucune donnée d\u2019identité (nom, prénom, email) n\u2019est collectée automatiquement. Les seules données personnelles traitées sont celles que vous transmettez volontairement en prenant contact par email."
+                    }
                 </p>
 
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">{"Finalités du traitement"}</h2>
@@ -44,22 +48,30 @@ export default function PolitiqueDeConfidentialite() {
 
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">{"Partage des données"}</h2>
                 <p>
-                    {"Vos données ne sont jamais revendues. Les seules données partagées avec des tiers concernent la mesure d\u2019audience transmise à Google Analytics (Google LLC). Google agit en tant que sous-traitant et traite ces données conformément à sa propre politique de confidentialité."}
+                    {
+                        "Vos données ne sont jamais revendues. Les seules données partagées avec des tiers concernent la mesure d\u2019audience transmise à Google Analytics (Google LLC). Google agit en tant que sous-traitant et traite ces données conformément à sa propre politique de confidentialité."
+                    }
                 </p>
 
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">Cookies</h2>
                 <p>
-                    {"Ce site utilise des cookies analytiques déposés par Google Analytics afin de mesurer l\u2019audience et améliorer le contenu. Vous pouvez refuser ces cookies via les paramètres de votre navigateur ou en utilisant une extension de blocage (uBlock Origin, etc.)."}
+                    {
+                        "Ce site utilise des cookies analytiques déposés par Google Analytics afin de mesurer l\u2019audience et améliorer le contenu. Vous pouvez refuser ces cookies via les paramètres de votre navigateur ou en utilisant une extension de blocage (uBlock Origin, etc.)."
+                    }
                 </p>
 
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">{"Conservation des données"}</h2>
                 <p>
-                    {"Les données de navigation collectées via Google Analytics sont conservées pendant 14 mois, conformément à la configuration par défaut recommandée par la CNIL. Les données de contact par email sont conservées le temps nécessaire au traitement de la demande."}
+                    {
+                        "Les données de navigation collectées via Google Analytics sont conservées pendant 14 mois, conformément à la configuration par défaut recommandée par la CNIL. Les données de contact par email sont conservées le temps nécessaire au traitement de la demande."
+                    }
                 </p>
 
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">{"Vos droits (RGPD)"}</h2>
                 <p>
-                    {"Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez des droits suivants :"}
+                    {
+                        "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez des droits suivants :"
+                    }
                 </p>
                 <ul className="list-disc list-outside pl-4 flex flex-col gap-2">
                     <li>{"Droit d\u2019accès à vos données"}</li>
@@ -78,9 +90,14 @@ export default function PolitiqueDeConfidentialite() {
                 <h2 className="md:text-2xl md:pt-12 text-xl pt-8 text-black">Modifications</h2>
                 <p>
                     {legal.raison_sociale}
-                    {" se réserve le droit de modifier cette politique à tout moment. La date de mise à jour est indiquée ci-dessous."}
+                    {
+                        " se réserve le droit de modifier cette politique à tout moment. La date de mise à jour est indiquée ci-dessous."
+                    }
                 </p>
-                <p className="text-sm">{"Dernière mise à jour : "}{legal.date_mise_a_jour}</p>
+                <p className="text-sm">
+                    {"Dernière mise à jour : "}
+                    {legal.date_mise_a_jour}
+                </p>
             </div>
 
             <div className="pb-16 self-center flex">

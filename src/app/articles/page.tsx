@@ -56,8 +56,7 @@ export default function LandingArticlesPage() {
             <TopArticleSection />
             {articles.map((article, index) => (
                 <Fragment key={article.slug}>
-                    <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase"
-                    >
+                    <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
                         <Link href={`/articles/${article.slug}`}>{article.title}</Link>
                     </h2>
                     <p className="text-brand-fine-blue max-w-5xl md:px-4 px-0 text-base">{article.excerpt}</p>
