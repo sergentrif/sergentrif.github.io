@@ -87,7 +87,13 @@ Je suis tombé sur une interview du philosophe Éric Sadin. Un de ses concepts e
 
 L'IA nous enlève ça. Je ne sais pas faire de design mais je n'ai plus besoin de designer. Je ne sais pas faire de SEO mais je n'ai plus besoin d'expert. Je ne sais pas écrire d'article mais je n'ai plus besoin de ghostwriter.
 
-Au lieu de payer un humain pour effectuer une tâche, je paye une IA. Et ce que je paye aujourd'hui est artificiellement bas. Les abonnements aux LLM ne sont pas rentables pour les fournisseurs. La trajectoire est connue : on l'a vue chez Uber, chez Airbnb, chez toutes les start-up qui ont numérisé une offre existante. Créer l'usage, installer la dépendance, puis augmenter les prix quand le retour en arrière est devenu impossible. Ce qui coûte 200€ par mois aujourd'hui ne les coûtera probablement pas toujours.
+Au lieu de payer un humain pour effectuer une tâche, je paye une IA. Et ce que je paye aujourd'hui est artificiellement bas. Les abonnements aux LLM ne sont pas rentables pour les fournisseurs. La trajectoire est connue : on l'a vue chez Uber, chez Airbnb, chez toutes les start-up qui ont numérisé une offre existante. Créer l'usage, installer la dépendance, puis augmenter les prix quand le retour en arrière est devenu impossible. Ce qui coûte 200€ par mois aujourd'hui ne les coûtera probablement pas toujours. Mais la dépendance n'est pas inévitable.
+
+Je commence à être de plus en plus convaincu que le setup du développeur de demain ressemblera à ça : un Mac Mini posé quelque part, qui tourne en permanence, avec un modèle local dessus. Et un outil comme opencode à la place de Claude Code.
+
+2 000 à 3 000€ de matos par développeur. Un coût d'entrée, pas une rente mensuelle. À amortir en 12 à 18 mois selon ce qu'on paye déjà en abonnements. Après, plus rien.
+
+Ça soulève quand même une question que personne ne tranche vraiment : qui va développer ces modèles open-source qu'on peut faire tourner en local ? Meta pousse Llama. Mistral pousse ses modèles. Mais c'est encore Anthropic ou OpenAI qui donnent le tempo. La communauté open-source court derrière des labs qui ont des milliards pour entraîner leurs modèles. Si les abonnements montent trop vite, l'open-source accélère. Si l'open-source n'arrive pas à tenir le rythme, la dépendance s'installe pour de bon. On ne sait pas encore qui va gagner ce bras de fer.
 
 Les développeurs expérimentés trouveront leur place. Les designers qui pensent le produit aussi. Les experts pointus garderont leurs clients. Mais tous ceux qui étaient en dessous — ceux qui exécutaient, ceux qui apprenaient, ceux qui faisaient leurs armes — eux, on les a lâchés. Pas en les licenciant. En n'ayant simplement plus besoin d'eux.
 
@@ -104,6 +110,7 @@ Ce n'est pas anodin que Sam Altman se dise favorable à un revenu universel depu
 ---
 
 > Cet article en est un bon exemple. Le texte a été rédigé par une IA. Les instructions ont été fine-tunées et entraînées sur mes propres rédactions pour reproduire mon style. Le contenu — les idées, les positions, les exemples — vient de moi. Le raisonnement a été brainstormé avec l'IA pour en identifier les failles et les angles morts.
+>
 >
 > Je n'ai pas écrit cet article. Je l'ai supervisé.
 
