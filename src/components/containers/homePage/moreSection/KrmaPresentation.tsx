@@ -1,6 +1,5 @@
 import { KdesignIcon } from "@/components/ui/icons/Kdesign";
 import { RightArrowLinearLink } from "@/components/ui/icons/RightArrowLinearLink";
-import { StrikeThrewGiants } from "@/components/ui/icons/StrikeThrewGiants";
 import Link from "next/link";
 import { cn } from "@/libs/utils";
 import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
@@ -18,26 +17,14 @@ export const KrmaPresentation = () => {
                         "text-[22px] w-full",
                     )}
                 >
-                    Une équipe d’experts...
-                    <span>sans les soucis du recrutement</span>
+                    L’équipe qui m’a suivi
                 </h2>
-                <p className="font-medium text-brand-silver p-2">
-                    Besoin de construire ou&nbsp;<span className="whitespace-nowrap">d’accélérer ?</span>
-                </p>
             </div>
 
             <div className="flex md:flex-row flex-col items-center justify-center gap-12 md:gap-16">
                 <div className="max-w-[44.9rem] px-4 md:px-0">
                     <p className="text-brand-silver">
-                        {`Je mets à votre disposition Krma, l'équipe que j'ai constituée et dirigée: des développeurs, product managers et designers qui travaillent en parfaite synergie.`}
-                    </p>
-                    <p className="text-brand-silver pt-4">
-                        Une squad{" "}
-                        <span className="relative inline-block">
-                            {`"clé en main"`}
-                            <StrikeThrewGiants className="absolute top-5 left-0 w-30" />
-                        </span>{" "}
-                        et immédiatement opérationnelle pour transformer vos idées en produit.
+                        {`Ce n’est pas un collectif de freelances trouvés sur une plateforme en ligne. C’est une partie de mon ancienne équipe lePERMISLIBRE - développeurs, designers, product managers seniors - qui a décidé de me suivre à nouveau. Des gens avec qui je travaille depuis des années.`}
                     </p>
                     <Link
                         href="https://www.krma.fr/"

@@ -19,60 +19,24 @@ type cardDataProps = {
 
 export const cardsData: cardDataProps[] = [
     {
-        title: "Un diagnostic clair sur votre situation tech",
-        infoBox: "290€/h",
+        title: "Un état des lieux avant de toucher à quoi que ce soit",
+        infoBox: "2-3 semaines",
         description:
-            "Vous sentez que la technique vous freine mais vous ne savez pas par où commencer ? En 1h, nous faisons le point sur vos urgences.",
-        bulletPoints: ["Un état des lieux honnête", "Pistes d'action concrètes pour reprendre le contrôle"],
-        link: [
-            {
-                label: "Réserver un créneau de diagnostic",
-                href: "https://zcal.co/adrienblandin/conseil-coaching",
-            },
-        ],
-        design: <DesignA className="max-w-80 w-full h-full" />,
-        layout: "regular",
-    },
-    {
-        title: "Votre CTO à temps partagé pour scaler sereinement",
-        infoBox: "Tarif selon projet",
-        description: "Libérez-vous de la gestion technique pour vous concentrer sur votre business.",
+            "2 à 3 semaines. Entretiens individuels avec toute l'équipe, analyse de l'architecture, des rituels, de l'organisation. Pas un audit de code : un état des lieux 360° qui couvre la tech, le produit et le management.",
         secondaryDescription:
-            "Je m'intègre à votre équipe comme un véritable bras droit : présent au quotidien, je pilote les projets, je manage les développeurs et je porte la vision technique à vos côtés pour assurer une croissance maîtrisée.",
+            "Livrable : un plan d'action priorisé court, moyen et long terme, en langage business, actionnable immédiatement par le CEO et le CTO sans traduction ni intermédiaire.",
         bulletPoints: [
-            "Co-construction de la vision produit & tech",
-            "Prise en charge du recrutement et du management",
-            "Représentation technique auprès des investisseurs et du board",
+            "Organisation et vélocité",
+            "Architecture et dette technique",
+            "Management et adéquation tech-produit-business",
         ],
         link: [
             {
-                label: "Déléguer mon pilotage tech",
+                label: "Lancer un audit",
                 href: "https://zcal.co/adrienblandin/decouverte-cto",
             },
         ],
-        design: <DesignC className="relative bottom-12 left-0 -mb-12 max-w-81 min-h-102 w-full h-full" />,
-        layout: "reverse",
-    },
-    {
-        title: "Une mission ciblée pour structurer votre projet",
-        infoBox: "Tarif selon projet",
-
-        description:
-            "Un projet mal cadré au départ, c'est la quasi-certitude de perdre du temps et de l'argent. Confiez cette étape clé à un expert habitué à traduire une vision business en plan d'action technique.",
-        secondaryDescription:
-            "Je m'immerge dans votre besoin le temps d'une mission à périmètre fixe pour livrer un résultat tangible qui sécurise la suite.",
-        bulletPoints: [
-            "Audit et plan d'action pour assainir votre existant",
-            "Cahier des charges qui traduit votre vision en specs claires",
-            "Définition de la stack technique pour garantir la scalabilité",
-        ],
-        link: [
-            {
-                label: "Discuter de mon projet",
-                href: "https://zcal.co/adrienblandin/decouverte-projet",
-            },
-        ],
-        design: <DesignB className="max-w-80 w-full h-full" />,
+        design: <DesignA className="max-w-80 w-full h-full" />,
         layout: "regular",
     },
 ];

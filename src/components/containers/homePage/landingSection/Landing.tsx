@@ -12,15 +12,13 @@ export function Landing() {
         <section className="flex flex-col gap-16 pt-32 md:px-16 px-4 w-full">
             <div className="flex md:flex-row flex-col justify-center md:gap-12 gap-4 relative">
                 <div className="flex flex-col md:items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative lg:left-12 md:left-9 lg:top-14 md:top-12">
-                    <p>CTO &</p>
-                    <p>architecte</p>
-                    <p>technique</p>
+                    <p>CTO freelance</p>
+                    <p>Machine à auditer la tech</p>
                 </div>
                 <LandingName />
                 <div className="flex flex-col md:justify-end md:items-start items-end font-brico-gro tracking-wide text-xs sm:text-sm md:text-base relative -bottom-1.5">
-                    <p>Startups early stage</p>
-                    <p>SaaS</p>
-                    <p>Web & apps</p>
+                    <p>Startups</p>
+                    <p>10 à 80 personnes</p>
                 </div>
             </div>
 
@@ -37,15 +35,12 @@ export function Landing() {
                 </div>
                 <div className="flex flex-col pl-14 relative">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide lg:text-[2.5rem] md:text-2xl max-w-[47rem]">
-                        {" J'aide les CEO à transformer leur tech en accélérateur de croissance "}
+                        {"Votre tech avance bien. Vraiment ?"}
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
-                        <p className="mb-2">{"J'interviens comme CTO à temps partagé pour :"}</p>
-                        <ul className="list-disc list-outside pl-6 space-y-1">
-                            <li>structurer vos projets</li>
-                            <li>aider votre startup à scaler efficacement</li>
-                            <li>accompagner votre équipe technique</li>
-                        </ul>
+                        <p>
+                            {"Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."}
+                        </p>
                         <LandingHomePageArrow className="absolute -z-10 lg:-right-34 lg:-top-14 md:-right-24 md:-top-20 lg:w-71 lg:h-103 md:w-67 md:h-98 opacity-20" />
                     </div>
                 </div>
@@ -62,15 +57,12 @@ export function Landing() {
                 </div>
                 <div className="flex flex-col flex-1 relative">
                     <h2 className="font-bold font-brico-gro uppercase tracking-wide text-[22px]">
-                        {"J'aide les CEOs à transformer leur tech en accélérateur de croissance"}
+                        {"Votre tech avance bien. Vraiment ?"}
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
-                        <p className="mb-2">{"J'interviens comme CTO à temps partagé pour :"}</p>
-                        <ul className="list-disc list-outside pl-6 space-y-1">
-                            <li>structurer vos projets</li>
-                            <li>aider votre startup à scaler efficacement</li>
-                            <li>accompagner votre équipe technique</li>
-                        </ul>
+                        <p>
+                            {"Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."}
+                        </p>
                     </div>
                 </div>
             </div>

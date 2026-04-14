@@ -18,15 +18,19 @@ No test suite — manual verification via `npm run preview` after build.
 
 ## Architecture
 
-Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for GitHub Pages deployment at `adrien.blandin.me`.
+Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for GitHub Pages at `adrien.blandin.me`. No server-side features (API routes, SSR). `trailingSlash: false`.
 
-**Pages** (`src/app/`): App Router pages. Articles use a single dynamic route `src/app/articles/[slug]/page.tsx` — no individual page files per article.
+**Pages** (`src/app/`): App Router pages. Articles → route dynamique `src/app/articles/[slug]/page.tsx`.
 
-**`src/libs/`**: source de vérité pour données partagées entre pages — `articles.ts` (scan dynamique des `.md` via gray-matter + `getArticle(slug)`), `testimonials.ts` (8 témoignages), `constants.ts` (config site : URL, nom, IDs Schema.org). Pas de duplication dans les `page.tsx`.
+**`src/libs/`**: source de vérité — `articles.ts` (scan `.md` via gray-matter + `getArticle(slug)`), `testimonials.ts`, `constants.ts` (URL, nom, IDs Schema.org).
+
+**Components**: `src/components/containers/` (sections par page) · `src/components/ui/` (primitives) · `header/` · `footer/` · `analytics/`
+
+**Fonts**: Fira Code (body) + Bricolage Grotesque (`--font-brico-gro`). **Libs**: Motion/Framer Motion · Lenis · Radix UI Popover · Tailwind CSS 4.
 
 ## Créer un nouvel article
 
-**Une seule étape** : créer `src/content/articles/<slug>.md` avec ce frontmatter :
+**Une seule étape** : créer `src/content/articles/<slug>.md` :
 
 ```markdown
 ---
@@ -43,29 +47,32 @@ excerpt: >-
 Contenu de l'article en Markdown...
 ```
 
-- Le `slug` est le nom du fichier sans `.md` (ex: `mon-article.md` → `/articles/mon-article`)
-- `articles.ts` scanne automatiquement le dossier et trie par `date` décroissante
-- La liste des articles et le sitemap se mettent à jour sans aucune autre modification
-- Contenu Markdown supporté : `###`/`##` titres, `**gras**`, `*italique*`, `[lien](url)`, `---` séparateur, `> blockquote`, listes `- item`
+Slug = nom du fichier sans `.md`. Scan automatique → liste et sitemap mis à jour sans autre modification.
 
-**Components** split by role:
+Markdown supporté : `###`/`##` titres · `**gras**` · `*italique*` · `[lien](url)` · `---` séparateur · `> blockquote` · listes `- item`
 
-- `src/components/containers/` — page-specific sections, organized per page (e.g. `homePage/`, `podcastPage/`)
-- `src/components/ui/` — reusable primitives and icons
-- `src/components/header/` · `src/components/footer/` · `src/components/analytics/`
+---
 
-**Fonts**: Fira Code (body) + Bricolage Grotesque (`--font-brico-gro` CSS var).
+## Documentation de référence
 
-**Key libs**: Motion/Framer Motion (animations), Lenis (smooth scroll), Radix UI Popover (contact modal), Tailwind CSS 4.
+Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout lire systématiquement.
 
-**Static export constraints**: No server-side features (API routes, SSR). `trailingSlash: false` — internal links do NOT include trailing slash. Next.js image optimization is enabled (SSG generates optimized images at build time).
+| Fichier | Contenu | Quand le charger |
+|---------|---------|-----------------|
+| `docs/ghostwriter.md` | Voix, ton, typographie, règles de rédaction. Couvre tous les formats (articles, posts LinkedIn, emails, présentations). | Toute tâche de rédaction ou relecture |
+| `docs/copywriter.md` | Spécificités du site vitrine : voix par page, règles marketing. Pointe vers ghostwriter.md pour la voix. | Modification de pages du site uniquement |
+| `docs/business.md` | Positionnement, cible, douleur, offres, avantage compétitif, verbatim home page, contenus LinkedIn profil | Rédaction de contenu orienté client (pages site, posts mission/client) |
+| `docs/marketing.md` | Stratégie de prospection, prescripteurs, routine hebdo | Planification, choix d'angle pour un contenu |
+| `docs/missions.md` | Détail de chaque mission client (contexte, actions, résultats, insights) | Rédaction d'un contenu qui s'appuie sur un cas client |
+| `docs/contents.md` | Stratégie éditoriale + index éditorial : backlog, statuts, historique de publication | Toute tâche éditoriale (savoir quoi écrire, quoi a été publié, quelle répartition suivre) |
 
-## Copywriting
+---
 
-All written content (articles, pages, CTAs, testimonials) must follow the rules in [`COPYWRITING-RULES.md`](./COPYWRITING-RULES.md). These rules are derived from analysis of all 12 published articles and the timescanner.io product site.
+## Skills éditoriaux
 
-Key distinctions:
-
-- **Articles** — first-person "je", vouvoiement, short paragraphs, no summary conclusions, H2/H3 only for step-by-step or taxonomic content, personal examples always name lePERMISLIBRE explicitly.
-- **Marketing pages** (Prestations, landing) — product voice (no "je"), pain-first, outcome-based titles, transparent pricing, specific CTAs.
-- **Never** use filler phrases ("il est important de noter"), passive voice where active works, or vague testimonials.
+| Commande | Action |
+|----------|--------|
+| `/post` | Rédiger le prochain post LinkedIn |
+| `/article` | Rédiger le prochain article de blog |
+| `/relecture` | Améliorer un contenu existant |
+| `/page` | Modifier le contenu d'une page du site |
