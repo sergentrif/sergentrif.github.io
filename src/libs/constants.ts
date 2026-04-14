@@ -56,9 +56,10 @@ export const googleAnalyticsData = {
     GOOGLE_ADS_ID: "AW-985274405",
 };
 
-export const navLinks: { href: Route; label: string }[] = [
+export const navLinks: { href: Route; label: string; badge?: string }[] = [
     { href: "/parcours", label: "Parcours" },
     { href: "/prestations", label: "Prestations" },
+    { href: "/diagnostic", label: "Diagnostic gratuit", badge: "3 min" },
     { href: "/temoignages", label: "Témoignages" },
     { href: "/podcasts", label: "Podcasts" },
     { href: "/articles", label: "Articles" },

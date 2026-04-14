@@ -6,8 +6,8 @@ import { HeaderLogo } from "../ui/icons/HeaderLogo";
 import { HeaderBurger } from "./HeaderBurger";
 import { useState, useEffect } from "react";
 import { ModalContact } from "@/components/containers/ModalContact";
-import { TopRightSquare } from "../ui/icons/TopRightSquare";
 import { navLinks } from "@/libs/constants";
+import { CtaButton } from "@/components/ui/CtaButton";
 import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
 
 export function Header() {
@@ -85,46 +85,25 @@ export function Header() {
                     const active = isLinkActive(link.href);
 
                     return (
-                        <Link key={link.href} href={link.href} className="flex group">
+                        <Link key={link.href} href={link.href} className="flex items-center gap-1.5 group">
                             <HoverUnderlineWrapper isActive={active}>{link.label}</HoverUnderlineWrapper>
+                            {link.badge && (
+                                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-brand-giants/15 text-brand-giants font-brico-gro font-semibold leading-none">
+                                    {link.badge}
+                                </span>
+                            )}
                         </Link>
                     );
                 })}
 
-                <div className="flex relative hover:scale-105">
-                    <div className="hover:scale-105 border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                        <TopRightSquare
-                            stroke="hsl(13 90% 58%)"
-                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                        />
-                    </div>
-                    <button
-                        onClick={handleContactClick}
-                        className="flex border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 relative overflow-hidden"
-                    >
-                        Contact
-                    </button>
-                </div>
+                <CtaButton onClick={handleContactClick}>Contact</CtaButton>
             </nav>
             <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl p-4 pt-4 w-full relative">
                 <HeaderBurger />
                 <Link href="/" className="absolute left-1/2 -translate-x-1/2">
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
-                <div className="flex relative hover:scale-105">
-                    <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 bottom-6 right-0 border-r-2 border-brand-giants">
-                        <TopRightSquare
-                            stroke="hsl(13 90% 58%)"
-                            className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10"
-                        />
-                    </div>
-                    <button
-                        onClick={handleContactClick}
-                        className="flex border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 relative overflow-hidden"
-                    >
-                        Contact
-                    </button>
-                </div>
+                <CtaButton onClick={handleContactClick}>Contact</CtaButton>
             </nav>
             {isContactModalOpen && (
                 <div
