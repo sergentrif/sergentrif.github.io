@@ -1,5 +1,5 @@
 ---
-title: "Est-ce la faute d'un alternant, s'il exécute un \"DROP database;\" en production ?"
+title: 'Est-ce la faute d''un alternant, s''il exécute un "DROP database;" en production ?'
 date: "2026-04-06"
 type: "post"
 platform: "linkedin"

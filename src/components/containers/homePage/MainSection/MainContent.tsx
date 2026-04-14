@@ -14,7 +14,9 @@ export const MainCardSection = () => {
                 <Cards key={card.title}>
                     <Design className="md:hidden flex">{card.design}</Design>
                     <CardContent>
-                        <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">{card.infoBox}</p>
+                        <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">
+                            {card.infoBox}
+                        </p>
                         <CardTitle>{card.title}</CardTitle>
                         <CardRowAlign className={card.layout === "reverse" ? "flex-row-reverse" : ""}>
                             <Design className="md:flex hidden">{card.design}</Design>

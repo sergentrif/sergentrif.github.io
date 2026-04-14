@@ -32,8 +32,9 @@ Contenu du post...
 ```
 
 Puis mettre à jour `docs/contents.md` :
+
 1. Déplacer l'item du backlog vers le tableau "Publié", remplir date et URL.
 2. Identifier le chapitre du livre blanc le plus pertinent pour ce post (section "Backlog — Livre blanc").
-   - Si le post a été écrit explicitement pour le livre blanc : l'ajouter à la ligne `*→ Livre blanc :*` du chapitre (créer la ligne si elle n'existe pas).
-   - Si le post est thématiquement lié sans être un post livre blanc : l'ajouter à la ligne `*→ Matière :*` du chapitre (créer la ligne si elle n'existe pas).
-   - Si le post n'est lié à aucun chapitre : ne rien faire.
+    - Si le post a été écrit explicitement pour le livre blanc : l'ajouter à la ligne `*→ Livre blanc :*` du chapitre (créer la ligne si elle n'existe pas).
+    - Si le post est thématiquement lié sans être un post livre blanc : l'ajouter à la ligne `*→ Matière :*` du chapitre (créer la ligne si elle n'existe pas).
+    - Si le post n'est lié à aucun chapitre : ne rien faire.

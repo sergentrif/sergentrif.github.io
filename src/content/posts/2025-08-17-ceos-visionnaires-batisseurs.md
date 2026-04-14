@@ -25,6 +25,7 @@ Incapable de découper son rêve en étapes, le visionnaire noie son équipe sou
 La conséquence directe ? Le projet s'enlise, la tech s'épuise à construire des choses qui seront jetées demain, et la vision reste un fantasme.
 
 C'est précisément là que le bâtisseur devient nécessaire. Son rôle :
+
 - Canaliser l'énergie du visionnaire en un plan d'action réaliste.
 - Imposer la clarté : des specs précises, des priorités définies.
 - Protéger l'équipe et piloter la production pour que les choses sortent. Vraiment.

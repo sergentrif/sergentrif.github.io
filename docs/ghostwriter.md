@@ -86,6 +86,7 @@ Deux audiences distinctes. Les confondre est le glissement le plus fréquent.
 **Posts CEO** (Cas A : sans CTO / Cas B : avec CTO qui doute) : douleur business, pas technique. Le CEO ne sait pas ce qu'est une dette technique - il sait que son produit ralentit, que son équipe rame.
 
 Traductions obligatoires sur posts CEO :
+
 - "dette technique" → "les décisions rapides d'il y a deux ans qui coûtent cher aujourd'hui"
 - "architecture monolithique" → "tout est câblé ensemble, changer une chose casse autre chose"
 - "pas de CI/CD" → "chaque mise en prod est une prise de risque manuelle"
@@ -95,6 +96,7 @@ Traductions obligatoires sur posts CEO :
 Fait accompli, chiffre, annonce, déclaration - jamais une introduction à une réflexion.
 
 Qui fonctionnent :
+
 - Fait accompli : "Ça y est, c'est officiellement la fin de ma collaboration avec Objow."
 - Déclaration première personne : "Je ne cherche jamais le coupable quand quelque chose merde en prod."
 - Chiffre concret : "J'ai refusé plusieurs packages à 100k€+."
@@ -105,6 +107,7 @@ Qui fonctionnent :
 - Pratique inattendue : "Tous mes recrutements se terminent par un vote à bulletin secret."
 
 Qui ne fonctionnent pas :
+
 - Annonce d'une réflexion : "La vraie interrogation autour de l'IA en 2025…"
 - Généralisation sur un rôle : "Être CTO en scale-up c'est…"
 - Promesse de liste : "Il y a deux choses que j'observe systématiquement…"
@@ -141,12 +144,14 @@ Le hook crée la réaction, la maxime pose le socle.
 **Objectif :** que le bon CEO se reconnaisse et ait envie d'écrire.
 
 **Contenu :**
+
 - Partir de la douleur du lecteur, pas de l'offre. Une seule douleur tenue sur tout le texte.
 - La crédibilité arrive après la reconnaissance, jamais avant.
 - lePERMISLIBRE nommé explicitement avec contexte. Jamais "mon ancienne entreprise".
 - Pas de liste de prestations. Pas de mention de krma.
 
 **Fin :**
+
 - Invitation directe à échanger. "On peut en parler en 30 minutes" pas "n'hésitez pas à me contacter".
 
 ---
@@ -169,6 +174,7 @@ Formats : cold mails prospection, messages LinkedIn directs, relances.
 Posts LinkedIn, cold messages, pages marketing.
 
 Erreurs syntaxiques récurrentes à corriger :
+
 - "I always ended not starting" → "I never managed to start"
 - "a tool I will forgot" → "a tool I'll forget"
 - "count time" → "track time"

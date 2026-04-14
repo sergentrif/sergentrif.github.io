@@ -1,5 +1,5 @@
 ---
-title: "J'ai eu le plaisir d'échanger sur la question : \"Quelles frontières entre Tech et Produit dans une startup ?\""
+title: 'J''ai eu le plaisir d''échanger sur la question : "Quelles frontières entre Tech et Produit dans une startup ?"'
 date: "2025-01-19"
 type: "post"
 platform: "linkedin"

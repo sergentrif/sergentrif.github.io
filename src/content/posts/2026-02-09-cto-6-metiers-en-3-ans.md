@@ -15,8 +15,9 @@ url: ""
 Une des choses qui m'a été le plus difficile à vivre depuis que j'ai commencé à assumer ce job, c'est à quel point un même intitulé de poste peut vouloir dire plein de choses différentes.
 
 Le rôle et les responsabilités d'un CTO changent drastiquement selon le stade de maturité de l'entreprise ou par rapport à la gouvernance de celle-ci. Nous n'avons pas le même quotidien quand :
- - nous sommes responsables de 2 ou de 20 développeurs
- - nous sommes uniquement responsable du périmètre technique ou du produit + la tech
+
+- nous sommes responsables de 2 ou de 20 développeurs
+- nous sommes uniquement responsable du périmètre technique ou du produit + la tech
 
 J'accompagne aujourd'hui des personnes qui ont le titre de Lead Developer mais le quotidien d'un CTO, et des personnes qui ont le titre de CTO mais qui corrigent des bugs toute la journée.
 

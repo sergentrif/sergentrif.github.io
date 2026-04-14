@@ -1,5 +1,5 @@
 ---
-title: "Comment \"devenir les maçons de la French Tech Lyonnaise\" en 18 mois ?"
+title: 'Comment "devenir les maçons de la French Tech Lyonnaise" en 18 mois ?'
 date: "2025-07-13"
 type: "post"
 platform: "linkedin"
@@ -31,6 +31,7 @@ En gros, devenir les maçons de la La French Tech Saint-Etienne Lyon.
 Notre proposition ? Construire un projet de zéro, renforcer des équipes existantes, gérer les sujets annexes ou les imprévus. Chez krma, nous n'avons peut-être pas l'idée de la prochaine licorne, mais nous savons comment construire des apps robustes.
 
 Le Master Plan tenait sur un post-it :
+
 1. Sécuriser notre activité individuelle,
 2. Sécuriser l'activité du collectif,
 3. Augmenter la valeur du collectif avec nos propres projets (👋 https://www.timescanner.io)
@@ -38,6 +39,7 @@ Le Master Plan tenait sur un post-it :
 18 mois après nos débuts individuels, et 12 mois après le lancement de krma, nous sommes ravis d'accueillir Marie-Pierre BERNET, Adrien Savalle et Tony Servanin à nos côtés pour renforcer le Product Management et l'équipe de développement.
 
 Tout cela est rendu possible grâce à des clients exceptionnels :
+
 - Objow avec Jonathan Le Duc : notre premier partenaire, qui nous a fait confiance dès le début,
 - PulseLife avec Romain Bruckert : l'exemple parfait du business qui rime avec plaisir,
 - Wecandoo avec Arnaud Tiret : une entreprise qui s'impose et inspire le respect,

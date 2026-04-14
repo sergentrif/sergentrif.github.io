@@ -111,7 +111,6 @@ Ce n'est pas anodin que Sam Altman se dise favorable à un revenu universel depu
 
 > Cet article en est un bon exemple. Le texte a été rédigé par une IA. Les instructions ont été fine-tunées et entraînées sur mes propres rédactions pour reproduire mon style. Le contenu — les idées, les positions, les exemples — vient de moi. Le raisonnement a été brainstormé avec l'IA pour en identifier les failles et les angles morts.
 >
->
 > Je n'ai pas écrit cet article. Je l'ai supervisé.
 
 ---

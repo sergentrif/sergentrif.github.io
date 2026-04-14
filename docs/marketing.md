@@ -7,6 +7,7 @@
 Le CEO ne cherche pas un CTO freelance. Il ne sait pas que son problème a une solution externe.
 
 **Déclencheurs :**
+
 1. Board/investisseurs posent des questions techniques → le CEO ne sait pas répondre
 2. Départ clé ou crise technique
 3. Levée de fonds en préparation
@@ -16,13 +17,13 @@ Le CEO ne cherche pas un CTO freelance. Il ne sait pas que son problème a une s
 
 ### Prescripteurs
 
-| Type | Ce qu'il voit | Comment l'activer |
-|------|--------------|------------------|
-| Fonds Seed/Série A | Portfolio en difficulté tech, pré-levée | Grille d'évaluation, outil gratuit |
-| Accélérateurs | Alumni post-programme sans CTO | Masterclass, programme managers |
-| Avocats d'affaires | Startups en levée sans due diligence tech | Check-up pré-levée packagé |
-| Cabinets recrutement tech | Postes CTO non closés | Alternative CTO freelance |
-| EC startups | Coûts tech qui explosent | Recommandation diagnostic |
+| Type                      | Ce qu'il voit                             | Comment l'activer                  |
+| ------------------------- | ----------------------------------------- | ---------------------------------- |
+| Fonds Seed/Série A        | Portfolio en difficulté tech, pré-levée   | Grille d'évaluation, outil gratuit |
+| Accélérateurs             | Alumni post-programme sans CTO            | Masterclass, programme managers    |
+| Avocats d'affaires        | Startups en levée sans due diligence tech | Check-up pré-levée packagé         |
+| Cabinets recrutement tech | Postes CTO non closés                     | Alternative CTO freelance          |
+| EC startups               | Coûts tech qui explosent                  | Recommandation diagnostic          |
 
 **Abandons explicites :** cold email de masse, mentorat CTO standalone, prospection directe sans signal.
 
@@ -31,10 +32,12 @@ Le CEO ne cherche pas un CTO freelance. Il ne sait pas que son problème a une s
 ## Ressources à produire
 
 **Priorité 1**
+
 - Grille d'évaluation tech (10 questions) : PDF + simulateur sur le site
 - Fiche de présentation / one-pager PDF pour prescripteurs
 
 **Priorité 2**
+
 - Exemple de livrable d'audit anonymisé (PDF 5-10 pages)
 - Template email prescripteurs
 - CV / profil structuré

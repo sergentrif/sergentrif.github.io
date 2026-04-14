@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi 50% des gens qui me demandent \"comment devenir CTO ?\" sont... des CEOs."
+title: 'Pourquoi 50% des gens qui me demandent "comment devenir CTO ?" sont... des CEOs.'
 date: "2025-11-11"
 type: "post"
 platform: "linkedin"

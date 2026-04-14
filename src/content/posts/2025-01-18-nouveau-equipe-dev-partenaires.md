@@ -19,6 +19,7 @@ J'aide régulièrement des entrepreneurs à définir leur MVP. Mais ensuite, ils
 J'ai donc décidé de changer les choses. J'ai constitué une équipe de développeurs de confiance. Ensemble, nous vous accompagnons dans vos projets, du début à la fin.
 
 Notre approche :
+
 1. Nous sommes des partenaires, pas des prestataires,
 2. Nous travaillons par étapes, avec des livrables. Vous pouvez nous tester et arrêter si besoin,
 3. Nous réduisons le périmètre fonctionnel pour réduire les coûts et les délais. Pas plus de 3 mois sur un projet qui stagne.

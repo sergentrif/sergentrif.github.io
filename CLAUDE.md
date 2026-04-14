@@ -57,22 +57,22 @@ Markdown supporté : `###`/`##` titres · `**gras**` · `*italique*` · `[lien](
 
 Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout lire systématiquement.
 
-| Fichier | Contenu | Quand le charger |
-|---------|---------|-----------------|
-| `docs/ghostwriter.md` | Voix, ton, typographie, règles de rédaction. Couvre tous les formats (articles, posts LinkedIn, emails, présentations). | Toute tâche de rédaction ou relecture |
-| `docs/copywriter.md` | Spécificités du site vitrine : voix par page, règles marketing. Pointe vers ghostwriter.md pour la voix. | Modification de pages du site uniquement |
-| `docs/business.md` | Positionnement, cible, douleur, offres, avantage compétitif, verbatim home page, contenus LinkedIn profil | Rédaction de contenu orienté client (pages site, posts mission/client) |
-| `docs/marketing.md` | Stratégie de prospection, prescripteurs, routine hebdo | Planification, choix d'angle pour un contenu |
-| `docs/missions.md` | Détail de chaque mission client (contexte, actions, résultats, insights) | Rédaction d'un contenu qui s'appuie sur un cas client |
-| `docs/contents.md` | Stratégie éditoriale + index éditorial : backlog, statuts, historique de publication | Toute tâche éditoriale (savoir quoi écrire, quoi a été publié, quelle répartition suivre) |
+| Fichier               | Contenu                                                                                                                 | Quand le charger                                                                          |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `docs/ghostwriter.md` | Voix, ton, typographie, règles de rédaction. Couvre tous les formats (articles, posts LinkedIn, emails, présentations). | Toute tâche de rédaction ou relecture                                                     |
+| `docs/copywriter.md`  | Spécificités du site vitrine : voix par page, règles marketing. Pointe vers ghostwriter.md pour la voix.                | Modification de pages du site uniquement                                                  |
+| `docs/business.md`    | Positionnement, cible, douleur, offres, avantage compétitif, verbatim home page, contenus LinkedIn profil               | Rédaction de contenu orienté client (pages site, posts mission/client)                    |
+| `docs/marketing.md`   | Stratégie de prospection, prescripteurs, routine hebdo                                                                  | Planification, choix d'angle pour un contenu                                              |
+| `docs/missions.md`    | Détail de chaque mission client (contexte, actions, résultats, insights)                                                | Rédaction d'un contenu qui s'appuie sur un cas client                                     |
+| `docs/contents.md`    | Stratégie éditoriale + index éditorial : backlog, statuts, historique de publication                                    | Toute tâche éditoriale (savoir quoi écrire, quoi a été publié, quelle répartition suivre) |
 
 ---
 
 ## Skills éditoriaux
 
-| Commande | Action |
-|----------|--------|
-| `/post` | Rédiger le prochain post LinkedIn |
-| `/article` | Rédiger le prochain article de blog |
-| `/relecture` | Améliorer un contenu existant |
-| `/page` | Modifier le contenu d'une page du site |
+| Commande     | Action                                 |
+| ------------ | -------------------------------------- |
+| `/post`      | Rédiger le prochain post LinkedIn      |
+| `/article`   | Rédiger le prochain article de blog    |
+| `/relecture` | Améliorer un contenu existant          |
+| `/page`      | Modifier le contenu d'une page du site |

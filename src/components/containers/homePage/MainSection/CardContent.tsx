@@ -1,6 +1,4 @@
 import { DesignA } from "@/components/ui/icons/cardsDesign/DesignA";
-import { DesignB } from "@/components/ui/icons/cardsDesign/DesignB";
-import { DesignC } from "@/components/ui/icons/cardsDesign/DesignC";
 import { ReactNode } from "react";
 import { links } from "@/libs/constants";
 

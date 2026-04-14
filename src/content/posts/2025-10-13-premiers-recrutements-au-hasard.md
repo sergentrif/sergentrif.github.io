@@ -1,5 +1,5 @@
 ---
-title: "\"J'ai recruté mes premiers développeurs au hasard\"."
+title: '"J''ai recruté mes premiers développeurs au hasard".'
 date: "2025-10-13"
 type: "post"
 platform: "linkedin"

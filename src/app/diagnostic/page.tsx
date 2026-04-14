@@ -3,6 +3,7 @@ import { site, links } from "@/libs/constants";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Simulator } from "@/components/containers/simulatorPage/Simulator";
 import { CtaButton } from "@/components/ui/CtaButton";
+import { ShareButton } from "@/components/ui/ShareButton";
 
 export const metadata: Metadata = {
     title: "Diagnostic tech CEO : votre équipe technique est-elle un frein ? | Adrien Blandin",
@@ -92,10 +93,15 @@ export default function DiagnosticPage() {
                             savent juste pas quoi.
                         </p>
                         <p>
-                            Ce diagnostic pose les 10 questions que j'utilise en début de chaque audit. Sans jargon.
-                            Résultat immédiat.
+                            Ce diagnostic pose les 10 questions que j&apos;utilise en début de chaque audit. Sans
+                            jargon. Résultat immédiat.
                         </p>
                     </div>
+                    <ShareButton
+                        path="/diagnostic"
+                        title="Diagnostic tech gratuit — 3 minutes"
+                        text="Votre tech est-elle un frein à votre croissance ? 10 questions pour le savoir."
+                    />
                 </div>
 
                 <Simulator />
@@ -106,32 +112,32 @@ export default function DiagnosticPage() {
                 {/* À qui s'adresse ce diagnostic */}
                 <div className="flex flex-col gap-6 max-w-3xl">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
-                        À qui s'adresse ce diagnostic ?
+                        À qui s&apos;adresse ce diagnostic ?
                     </h2>
                     <div className="flex flex-col gap-4 text-brand-fine-blue leading-relaxed">
                         <p>
-                            Vous êtes CEO ou fondateur d'une startup de 10 à 80 personnes. Vous avez une équipe
+                            Vous êtes CEO ou fondateur d&apos;une startup de 10 à 80 personnes. Vous avez une équipe
                             technique. Et vous avez ce doute qui revient : votre tech avance-t-elle vraiment ?
                         </p>
                         <p>
                             Vos développeurs bossent, les réunions ont lieu, les fonctionnalités sortent. Mais vous ne
-                            savez pas si c'est rapide, si c'est solide, si ça tient à l'échelle.
+                            savez pas si c&apos;est rapide, si c&apos;est solide, si ça tient à l&apos;échelle.
                         </p>
                         <p>Ce diagnostic a été conçu pour deux profils précis.</p>
                         <div className="flex flex-col gap-4 pl-4 border-l-2 border-brand-giants/40">
                             <p>
                                 <span className="font-semibold text-brand-midnight">
-                                    Vous n'avez pas de CTO identifié.
+                                    Vous n&apos;avez pas de CTO identifié.
                                 </span>{" "}
-                                Vous prenez des décisions techniques dans un domaine qui n'est pas le vôtre, et vous
-                                le savez. Ce diagnostic vous dit si vous avez raison de vous inquiéter.
+                                Vous prenez des décisions techniques dans un domaine qui n&apos;est pas le vôtre, et
+                                vous le savez. Ce diagnostic vous dit si vous avez raison de vous inquiéter.
                             </p>
                             <p>
                                 <span className="font-semibold text-brand-midnight">
-                                    Vous avez un CTO, mais un doute s'est installé.
+                                    Vous avez un CTO, mais un doute s&apos;est installé.
                                 </span>{" "}
-                                Pas sur sa compétence - sur ce que vous n'arrivez pas à lire. Ce diagnostic vous donne
-                                un point de départ pour en parler sans mettre tout le monde sur la défensive.
+                                Pas sur sa compétence - sur ce que vous n&apos;arrivez pas à lire. Ce diagnostic vous
+                                donne un point de départ pour en parler sans mettre tout le monde sur la défensive.
                             </p>
                         </div>
                     </div>
@@ -159,8 +165,8 @@ export default function DiagnosticPage() {
                                 <p className="font-semibold text-brand-midnight text-sm">Zone jaune - 10 à 15 points</p>
                                 <p className="text-brand-fine-blue text-sm leading-relaxed">
                                     Des signaux existent. Ils ne sont pas encore critiques, mais ils deviennent des
-                                    problèmes business si rien ne change. Un audit de 2 à 3 semaines permet d'identifier
-                                    précisément où ça coince.
+                                    problèmes business si rien ne change. Un audit de 2 à 3 semaines permet
+                                    d&apos;identifier précisément où ça coince.
                                 </p>
                             </div>
                         </div>
@@ -169,8 +175,8 @@ export default function DiagnosticPage() {
                             <div className="flex flex-col gap-1">
                                 <p className="font-semibold text-brand-midnight text-sm">Zone rouge - 0 à 9 points</p>
                                 <p className="text-brand-fine-blue text-sm leading-relaxed">
-                                    Votre tech freine probablement votre croissance. Pas parce que vos développeurs
-                                    sont mauvais - mais parce que l'organisation, les process ou le management manquent
+                                    Votre tech freine probablement votre croissance. Pas parce que vos développeurs sont
+                                    mauvais - mais parce que l&apos;organisation, les process ou le management manquent
                                     de structure. Un audit pose le diagnostic. Puis on décide quoi faire.
                                 </p>
                             </div>
@@ -184,20 +190,28 @@ export default function DiagnosticPage() {
                         Et après ?
                     </h2>
                     <div className="flex flex-col gap-4 text-brand-fine-blue leading-relaxed">
-                        <p>Ce diagnostic ne remplace pas un audit. Il vous dit si vous en avez besoin - et à quel niveau d'urgence.</p>
                         <p>
-                            J'ai passé 7 ans CTO chez lePERMISLIBRE, de 3 développeurs à 30, jusqu'à l'introduction en
-                            bourse. J'ai aussi été CEO. J'ai vécu les deux : ne pas comprendre ce que faisait mon
-                            équipe quand j'étais CEO, et ne pas être compris de mon CEO quand j'étais CTO.
+                            Ce diagnostic ne remplace pas un audit. Il vous dit si vous en avez besoin - et à quel
+                            niveau d&apos;urgence.
                         </p>
                         <p>
-                            Mes audits couvrent l'organisation, la rapidité d'exécution, le management et
-                            l'adéquation entre ce que fait la tech et ce dont le business a besoin. Le livrable est en
-                            langage business : pas un rapport technique à faire traduire, une liste de décisions à
-                            prendre dans l'ordre.
+                            J&apos;ai passé 7 ans CTO chez lePERMISLIBRE, de 3 développeurs à 30, jusqu&apos;à
+                            l&apos;introduction en bourse. J&apos;ai aussi été CEO. J&apos;ai vécu les deux : ne pas
+                            comprendre ce que faisait mon équipe quand j&apos;étais CEO, et ne pas être compris de mon
+                            CEO quand j&apos;étais CTO.
+                        </p>
+                        <p>
+                            Mes audits couvrent l&apos;organisation, la rapidité d&apos;exécution, le management et
+                            l&apos;adéquation entre ce que fait la tech et ce dont le business a besoin. Le livrable est
+                            en langage business : pas un rapport technique à faire traduire, une liste de décisions à
+                            prendre dans l&apos;ordre.
                         </p>
                     </div>
-                    <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=diagnostic&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                    <CtaButton
+                        href={`${links.zcal}?utm_source=site&utm_medium=diagnostic&utm_campaign=rdv`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Prendre rendez-vous
                     </CtaButton>
                 </div>

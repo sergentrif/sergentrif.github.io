@@ -41,16 +41,25 @@ export function Landing() {
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
                         <p>
-                            {"Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."}
+                            {
+                                "Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."
+                            }
                         </p>
                         <LandingHomePageArrow className="absolute -z-10 lg:-right-34 lg:-top-14 md:-right-24 md:-top-20 lg:w-71 lg:h-103 md:w-67 md:h-98 opacity-20" />
                     </div>
                     <div className="flex flex-row items-center gap-6 pt-8">
-                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                        <CtaButton
+                            href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Prendre rendez-vous
                         </CtaButton>
-                        <Link href="/diagnostic" className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors">
-                            Pas encore sûr ? Diagnostic gratuit — 3 min
+                        <Link
+                            href="/diagnostic"
+                            className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors"
+                        >
+                            Pas encore sûr ? Diagnostic gratuit (3 min)
                         </Link>
                     </div>
                 </div>
@@ -71,15 +80,24 @@ export function Landing() {
                     </h2>
                     <div className="text-brand-fine-blue pt-4">
                         <p>
-                            {"Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."}
+                            {
+                                "Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."
+                            }
                         </p>
                     </div>
                     <div className="flex flex-col gap-4 pt-8">
-                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                        <CtaButton
+                            href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Prendre rendez-vous
                         </CtaButton>
-                        <Link href="/diagnostic" className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors">
-                            Pas encore sûr ? Diagnostic gratuit — 3 min
+                        <Link
+                            href="/diagnostic"
+                            className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors"
+                        >
+                            Pas encore sûr ? Diagnostic gratuit (3 min)
                         </Link>
                     </div>
                 </div>

@@ -10,7 +10,12 @@ export function BottomContactBox() {
                 Transformons ensemble votre entreprise : contactez-moi pour découvrir comment mon expertise technique
                 peut propulser vos objectifs business vers de nouveaux sommets de réussite.
             </p>
-            <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=bottom_cta&utm_campaign=rdv`} rel="noopener noreferrer" target="_blank" className="self-center">
+            <CtaButton
+                href={`${links.zcal}?utm_source=site&utm_medium=bottom_cta&utm_campaign=rdv`}
+                rel="noopener noreferrer"
+                target="_blank"
+                className="self-center"
+            >
                 Contactez-moi
             </CtaButton>
         </div>

@@ -23,6 +23,7 @@ Cela fait 10 ans que je vois Victor Linder tenter différents projets entreprene
 Récemment, il a créé KOZ club, où il organise des déjeuners entre "inconnus".
 
 Et force est de reconnaître que ce projet coche pas mal de cases pour un avenir radieux :
+
 - Le levier : Victor Linder met son plus gros atout (son réseau) au service des autres.
 - La valeur : la proposition est claire, nous faire sortir de notre réseau direct.
 - La friction : nulle. Le déjeuner est le créneau idéal, qui ne se fait pas au détriment de la famille.

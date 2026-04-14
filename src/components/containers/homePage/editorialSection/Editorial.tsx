@@ -55,7 +55,9 @@ export function EditorialSection() {
 
             <div className="flex flex-col gap-4 max-w-3xl">
                 <p className="font-brico-gro font-bold text-2xl md:text-3xl text-brand-midnight">Et après ?</p>
-                <p className="text-brand-fine-blue">{"Si l'audit suffit, je m'en vais. On se recroisera quand ce sera le moment."}</p>
+                <p className="text-brand-fine-blue">
+                    {"Si l'audit suffit, je m'en vais. On se recroisera quand ce sera le moment."}
+                </p>
                 <p className="text-brand-fine-blue">
                     {
                         "Sinon, on continue. Je reste en accompagnement pour suivre l'exécution du plan : sparring-partner pour le CEO, regard extérieur pour le CTO, aide au recrutement, préparation d'une levée. Et si le diagnostic révèle un besoin d'exécution - du dev, du design, du produit - j'ai krma. Ce n'est pas un collectif de freelances trouvés sur une plateforme en ligne. C'est une partie de mon ancienne équipe qui a choisi de me suivre à nouveau quand je suis parti. Des gens avec qui je travaille depuis des années."

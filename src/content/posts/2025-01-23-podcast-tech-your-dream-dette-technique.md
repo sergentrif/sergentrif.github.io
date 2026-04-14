@@ -1,5 +1,5 @@
 ---
-title: "J'ai eu le plaisir de parler \"Dette Technique\" au micro du podcast Tech your Dream."
+title: 'J''ai eu le plaisir de parler "Dette Technique" au micro du podcast Tech your Dream.'
 date: "2025-01-23"
 type: "post"
 platform: "linkedin"

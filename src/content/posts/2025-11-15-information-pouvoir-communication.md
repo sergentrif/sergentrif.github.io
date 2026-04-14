@@ -19,6 +19,7 @@ Une entreprise c'est comme un couple. Pour être viable, il faut une communicati
 J'ai toujours mis un point d'honneur à être au courant de tout ce qu'il se passe. Si bien que l'on m'a surnommé "l'oeil de Moscou".
 
 Mais je ne fais pas ça pour le plaisir. C'est en étant au courant de tout que l'on peut :
+
 - Relier les différents points et construire une vision d'ensemble.
 - Identifier des opportunités à saisir.
 - Faire circuler l'info là où elle est nécessaire, et donc débloquer les gens dans leur travail.
@@ -28,6 +29,7 @@ Mais je ne fais pas ça pour le plaisir. C'est en étant au courant de tout que 
 Tout l'enjeu est de savoir quel canal (oral, écrit instantané, mail, doc...) utiliser pour quelle information.
 
 C'est autour de ces questions que je structure mes équipes avec deux objectifs simples :
+
 1. Chacun doit être en mesure de savoir, comme moi, ce qu'il se passe.
 2. Chacun doit être en mesure de savoir où trouver l'information qui l'intéresse.
 

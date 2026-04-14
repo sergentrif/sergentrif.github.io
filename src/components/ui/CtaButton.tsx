@@ -28,9 +28,7 @@ export function CtaButton({ children, className = "", ...props }: CtaButtonProps
     const disabled = "disabled" in props && props.disabled;
 
     return (
-        <div
-            className={`flex w-fit relative transition-transform ${disabled ? "" : "hover:scale-105"} ${className}`}
-        >
+        <div className={`flex w-fit relative transition-transform ${disabled ? "" : "hover:scale-105"} ${className}`}>
             {!disabled && (
                 <div className="border-t-2 w-5.5 h-5.5 flex absolute z-10 md:bottom-6 bottom-5 right-0 border-r-2 border-brand-giants">
                     <TopRightSquare stroke="hsl(13 90% 58%)" className="absolute w-2.5 h-2.5 bottom-4 left-4 z-10" />

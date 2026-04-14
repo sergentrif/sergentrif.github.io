@@ -16,11 +16,11 @@
 
 ## Par page
 
-| Page | Voix | Règle dominante |
-|------|------|----------------|
-| Accueil | Auteur (je) - verbatim validé | Audit d'abord, ouverture ensuite |
-| Prestations | Produit | Pain-first, outcome, prix affiché |
-| Parcours / À propos | Auteur (je) | Factuel, même ton que zone Infos LinkedIn (voir `docs/business.md`) |
-| Témoignages | Neutre | Outcome concret visible |
-| Articles | Auteur (je) | Voir `docs/ghostwriter.md` section 2 |
-| Simulateur | Produit | Questions claires, scoring, CTA adapté au résultat |
+| Page                | Voix                          | Règle dominante                                                     |
+| ------------------- | ----------------------------- | ------------------------------------------------------------------- |
+| Accueil             | Auteur (je) - verbatim validé | Audit d'abord, ouverture ensuite                                    |
+| Prestations         | Produit                       | Pain-first, outcome, prix affiché                                   |
+| Parcours / À propos | Auteur (je)                   | Factuel, même ton que zone Infos LinkedIn (voir `docs/business.md`) |
+| Témoignages         | Neutre                        | Outcome concret visible                                             |
+| Articles            | Auteur (je)                   | Voir `docs/ghostwriter.md` section 2                                |
+| Simulateur          | Produit                       | Questions claires, scoring, CTA adapté au résultat                  |

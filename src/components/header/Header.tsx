@@ -38,13 +38,21 @@ export function Header() {
                     );
                 })}
 
-                <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                <CtaButton
+                    href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Prendre rendez-vous
                 </CtaButton>
             </nav>
             <nav className="md:hidden flex items-center justify-between text-base bg-brand-powder/94 backdrop-blur-xl p-4 pt-4 w-full relative">
                 <HeaderBurger />
-                <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                <CtaButton
+                    href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Prendre rendez-vous
                 </CtaButton>
             </nav>

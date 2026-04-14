@@ -1,5 +1,5 @@
 ---
-title: "\"Alors si on devait relancer un produit critique demain, je pense qu'on ne changerait rien.\""
+title: '"Alors si on devait relancer un produit critique demain, je pense qu''on ne changerait rien."'
 date: "2026-02-13"
 type: "post"
 platform: "linkedin"

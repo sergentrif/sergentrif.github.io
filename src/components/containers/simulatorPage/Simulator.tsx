@@ -343,7 +343,11 @@ export function Simulator() {
                     <p className="text-brand-fine-blue leading-relaxed">{result.body}</p>
 
                     <div className="flex flex-col sm:flex-row gap-6 pt-2 items-start">
-                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=simulator&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                        <CtaButton
+                            href={`${links.zcal}?utm_source=site&utm_medium=simulator&utm_campaign=rdv`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             {result.cta}
                         </CtaButton>
                         <button
@@ -360,7 +364,9 @@ export function Simulator() {
                     <div className="border border-dashed border-brand-silver/50 rounded-xl p-4 flex flex-col gap-2">
                         <div className="flex items-center gap-2">
                             <BugIcon width="14" height="14" className="text-brand-silver" />
-                            <p className="text-xs font-brico-gro uppercase tracking-widest text-brand-silver">Dev — scénarios</p>
+                            <p className="text-xs font-brico-gro uppercase tracking-widest text-brand-silver">
+                                Dev — scénarios
+                            </p>
                         </div>
                         <div className="flex flex-wrap gap-2">
                             {DEV_SCENARIOS.map((scenario) => (
@@ -477,8 +483,30 @@ export function Simulator() {
             {IS_DEV && (
                 <div className="border border-dashed border-brand-silver/50 rounded-xl p-4 flex flex-col gap-2">
                     <div className="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-silver">
-                            <path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><rect width="8" height="14" x="8" y="6" rx="5"/><path d="M19 7 22 4"/><path d="m5 7-3-3"/><path d="M19 19c-2 0-3-1-3-3v-4"/><path d="M5 19c2 0 3-1 3-3v-4"/><path d="M8 13H5"/><path d="M19 13h-3"/><path d="M8 19H4"/><path d="M20 19h-4"/><line x1="12" y1="20" x2="12" y2="22"/>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="text-brand-silver"
+                        >
+                            <path d="m8 2 1.88 1.88" />
+                            <path d="M14.12 3.88 16 2" />
+                            <rect width="8" height="14" x="8" y="6" rx="5" />
+                            <path d="M19 7 22 4" />
+                            <path d="m5 7-3-3" />
+                            <path d="M19 19c-2 0-3-1-3-3v-4" />
+                            <path d="M5 19c2 0 3-1 3-3v-4" />
+                            <path d="M8 13H5" />
+                            <path d="M19 13h-3" />
+                            <path d="M8 19H4" />
+                            <path d="M20 19h-4" />
+                            <line x1="12" y1="20" x2="12" y2="22" />
                         </svg>
                         <p className="text-xs font-brico-gro uppercase tracking-widest text-brand-silver">Dev</p>
                     </div>

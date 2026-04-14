@@ -21,6 +21,7 @@ On a échangé sur son parcours et ses voyages. Il m'a raconté avoir fait (entr
 Je suis donc reparti chez moi avec sous le bras un vélo obsolète selon les critères d'aujourd'hui.
 
 En quelques mois, j'ai tout changé :
+
 - J'ai fait appel à un cadreur qui m'a aidé à moderniser le système de freinage en passant de freins cantilevers à des freins à disque,
 - J'ai fait repeindre le cadre,
 - J'ai passé des mois à identifier et dénicher des pièces d'occasion, compatibles entre elles pour remplacer les anciennes.

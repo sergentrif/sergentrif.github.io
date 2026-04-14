@@ -1,5 +1,5 @@
 ---
-title: "Loin des \"réussites\" ambiantes sans cesse partagées sur LinkedIn, le quotidien est fait de nombreuses déceptions, d'échecs et d'impasses."
+title: 'Loin des "réussites" ambiantes sans cesse partagées sur LinkedIn, le quotidien est fait de nombreuses déceptions, d''échecs et d''impasses.'
 date: "2025-12-17"
 type: "post"
 platform: "linkedin"
@@ -15,6 +15,7 @@ Loin des "réussites" ambiantes sans cesse partagées sur LinkedIn (par moi-mêm
 J'y suis d'autant plus exposé qu'en parallèle du développement de krma, j'accompagne plusieurs start-ups en tant que CTO.
 
 Multiplier les projets, c'est multiplier les montagnes russes émotionnelles :
+
 - Un projet qui déborde de son planning,
 - Une implémentation technique non conforme aux specs,
 - Des incidents en prod à gérer dans l'urgence,

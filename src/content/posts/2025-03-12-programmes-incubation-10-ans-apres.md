@@ -29,6 +29,7 @@ Le focus était 100% client. Fini de créer des applications pour le plaisir de 
 Vous êtes remis en question, fortement, et ce n'est pas toujours agréable. C'est un coup de pied au derrière pour aller sur le terrain et parler à ceux pour qui vous construisez une entreprise.
 
 Nous avons appris à :
+
 - Comprendre les vrais problèmes des utilisateurs,
 - Tester rapidement des solutions,
 - Apprendre à vendre son idée (pitch).

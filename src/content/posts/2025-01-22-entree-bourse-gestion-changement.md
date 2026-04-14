@@ -13,6 +13,7 @@ url: ""
 Lorsque l'on est entrés en bourse, j'étais terrifié.
 
 Pour que notre dossier soit validé, il fallait réussir plusieurs audits techniques. Sans surprise, ces audits se concentrent surtout sur la sécurité, à travers 2 axes :
+
 1. La gestion des droits accès
 2. La gestion du changement (les évolutions du code, les nouvelles fonctionnalités)
 
@@ -21,6 +22,7 @@ Au début, j'avais peur que l'on ne soit pas au point sur ces sujets, donc que l
 En terme de sécurité, la gestion des droits d'accès semble évidente. Alors, je voulais aujourd'hui aborder le sujet de la gestion du changement.
 
 Une bonne gestion du changement consiste en 4 points :
+
 1. Pouvoir tracer qui est à l'origine d'une demande de changement
 2. Pouvoir tracer qui a validé la demande de changement
 3. Pouvoir tracer qui a réalisé le changement

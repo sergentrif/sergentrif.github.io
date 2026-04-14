@@ -1,5 +1,5 @@
 ---
-title: "J'ai une dissonance cognitive profonde : je veux aller vite, quand mon mantra est \"patience et persévérance\"."
+title: 'J''ai une dissonance cognitive profonde : je veux aller vite, quand mon mantra est "patience et persévérance".'
 date: "2025-08-09"
 type: "post"
 platform: "linkedin"
@@ -27,6 +27,7 @@ La preuve la plus concrète ? Je pensais qu'un devis se signait en 3 jours. La m
 Exit donc les changements de cap tous les 2 mois. Il faut une direction intelligente, la réévaluer de temps à autre, et s'y tenir.
 
 Depuis un an et demi, mon plan de route n'a pas changé :
+
 1. Sécuriser mon activité de CTO indépendant
 2. Sécuriser l'activité de développement d'applications de toute l'équipe krma
 3. Générer des revenus complémentaires avec des projets comme https://www.timescanner.io

@@ -21,10 +21,12 @@ Je fais partie de ces entrepreneurs qui ont cette "urgence du temps". Ceux qui a
 Mais avancer sans cesse nécessite un cap. Alors chaque année, je me fixe un unique objectif. Un pour le sport, un pour le business. Pas n'importe lesquels. Des objectifs réalistes et atteignables, avec de la discipline. Jamais de "croissance x10" sans une stratégie claire pour y parvenir.
 
 L'année dernière (2024) :
+
 - ✅ Courir mon premier marathon
 - ✅ Me lancer en tant que freelance
 
 Cette année (2025) :
+
 - ✅ Courir mon premier "Maratrail"
 - ✅ Développer krma en tant que collectif structuré
 
@@ -35,6 +37,7 @@ Quant à krma, nous sommes désormais une équipe complète et fonctionnelle de 
 Alors aujourd'hui, la question est : "Quels sont les objectifs de 2026 ?".
 
 Le défi sera de tout doubler :
+
 - 🎯 Courir la SaintéLyon (80 kms et 2000D+), sans réduire l'allure
 - 🎯 Accompagner deux fois plus de start-ups avec krma, sans réduire l'exigence
 

@@ -11,14 +11,12 @@ export function DiagnosticCallout() {
                     <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">
                         Diagnostic gratuit — 3 minutes
                     </p>
-                    <CardTitle>
-                        Vous sentez que quelque chose cloche. Mais vous n'avez pas de preuve.
-                    </CardTitle>
+                    <CardTitle>Vous sentez que quelque chose cloche. Mais vous n&apos;avez pas de preuve.</CardTitle>
                     <CardDescription>
                         <p>
                             10 questions pour savoir si votre tech freine votre croissance — ou si votre intuition vous
-                            joue des tours. Les mêmes questions que j'utilise en début d'audit. Sans jargon. Résultat
-                            immédiat.
+                            joue des tours. Les mêmes questions que j&apos;utilise en début d&apos;audit. Sans jargon.
+                            Résultat immédiat.
                         </p>
                     </CardDescription>
                     <LinkCards>
