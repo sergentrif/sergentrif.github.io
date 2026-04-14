@@ -14,7 +14,7 @@ export function HeaderBurger() {
     return (
         <div className="md:hidden">
             <Popover open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
-                <PopoverTrigger>
+                <PopoverTrigger className="hover:scale-105 transition-transform cursor-pointer">
                     <Burger />
                 </PopoverTrigger>
                 {isMobileMenuOpen && <div className="w-full flex inset-0" onClick={handleMobileLinkClick} />}

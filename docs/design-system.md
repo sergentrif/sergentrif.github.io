@@ -17,3 +17,8 @@ Symbol colors:
 
  - #c8c6fa
  - #aaeafe
+
+## Colors (non officielles — à valider avec le designer)
+
+ - `brand-green` : #30A65B — vert, zone verte du simulateur de diagnostic
+

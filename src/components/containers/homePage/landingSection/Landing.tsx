@@ -1,11 +1,13 @@
 import Image from "next/image";
-import { site } from "@/libs/constants";
+import Link from "next/link";
+import { site, links } from "@/libs/constants";
 import portrait from "@/assets/images/adrien-blandin.webp";
 import { LandingName } from "@/components/ui/icons/LandingName";
 import { AgrementBadge } from "@/components/ui/icons/AgrementBadge";
 import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown";
 import { LandingHomePageArrow } from "@/components/ui/icons/RightArrowYellow";
 import { LandingBannerCarousel } from "./LandingCarousel";
+import { CtaButton } from "@/components/ui/CtaButton";
 
 export function Landing() {
     return (
@@ -43,6 +45,14 @@ export function Landing() {
                         </p>
                         <LandingHomePageArrow className="absolute -z-10 lg:-right-34 lg:-top-14 md:-right-24 md:-top-20 lg:w-71 lg:h-103 md:w-67 md:h-98 opacity-20" />
                     </div>
+                    <div className="flex flex-row items-center gap-6 pt-8">
+                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                            Prendre rendez-vous
+                        </CtaButton>
+                        <Link href="/diagnostic" className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors">
+                            Pas encore sûr ? Diagnostic gratuit — 3 min
+                        </Link>
+                    </div>
                 </div>
             </div>
 
@@ -63,6 +73,14 @@ export function Landing() {
                         <p>
                             {"Ex-CTO lePERMISLIBRE (3 → 30 personnes, IPO). J'ouvre le capot, je traduis ce que je vois en langage business, et je propose un plan d'action priorisé. Avant de toucher à quoi que ce soit."}
                         </p>
+                    </div>
+                    <div className="flex flex-col gap-4 pt-8">
+                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
+                            Prendre rendez-vous
+                        </CtaButton>
+                        <Link href="/diagnostic" className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors">
+                            Pas encore sûr ? Diagnostic gratuit — 3 min
+                        </Link>
                     </div>
                 </div>
             </div>

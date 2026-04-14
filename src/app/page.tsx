@@ -9,6 +9,7 @@ import { TemoignageSection } from "@/components/containers/homePage/temoignageSe
 import { KrmaPresentation } from "@/components/containers/homePage/moreSection/KrmaPresentation";
 import { CiiPresentation } from "@/components/containers/homePage/moreSection/CiiPresentation";
 import { FaqSection } from "@/components/containers/homePage/faqSection/FAQ";
+import { DiagnosticCallout } from "@/components/containers/homePage/diagnosticCallout/DiagnosticCallout";
 
 export const metadata: Metadata = {
     title: "Adrien Blandin — CTO freelance • Machine à auditer la tech",
@@ -129,6 +130,7 @@ export default function Home() {
                 <EditorialSection />
                 <MainCardSection />
                 <TemoignageSection />
+                <DiagnosticCallout />
                 <KrmaPresentation />
                 <CiiPresentation />
                 <FaqSection />

@@ -1,4 +1,4 @@
-import { Cards, CardRowAlign, CardContent, CardTitle, InfoBox, CardDescription, LinkCards, Design } from "./Card";
+import { Cards, CardRowAlign, CardContent, CardTitle, CardDescription, LinkCards, Design } from "./Card";
 import Link from "next/link";
 import { RightArrowLinearLink } from "@/components/ui/icons/RightArrowLinearLink";
 import { cardsData } from "./CardContent";
@@ -14,12 +14,11 @@ export const MainCardSection = () => {
                 <Cards key={card.title}>
                     <Design className="md:hidden flex">{card.design}</Design>
                     <CardContent>
-                        <InfoBox className="md:hidden flex">{card.infoBox}</InfoBox>
+                        <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">{card.infoBox}</p>
                         <CardTitle>{card.title}</CardTitle>
                         <CardRowAlign className={card.layout === "reverse" ? "flex-row-reverse" : ""}>
                             <Design className="md:flex hidden">{card.design}</Design>
                             <div className="flex-1 flex flex-col gap-6 md:relative md:z-10">
-                                <InfoBox className="md:flex hidden">{card.infoBox}</InfoBox>
                                 <CardDescription>
                                     <p>{card.description}</p>
                                     {card.secondaryDescription && <p className="pt-6">{card.secondaryDescription}</p>}

@@ -143,8 +143,8 @@ export default function DiagnosticPage() {
                         Ce que chaque zone signifie
                     </h2>
                     <div className="flex flex-col gap-4">
-                        <div className="flex gap-4 items-start p-4 rounded-xl bg-brand-lime/10 border border-brand-lime">
-                            <span className="w-2.5 h-2.5 rounded-full bg-brand-lime shrink-0 mt-1.5" />
+                        <div className="flex gap-4 items-start p-4 rounded-xl bg-brand-green/10 border border-brand-green">
+                            <span className="w-2.5 h-2.5 rounded-full bg-brand-green shrink-0 mt-1.5" />
                             <div className="flex flex-col gap-1">
                                 <p className="font-semibold text-brand-midnight text-sm">Zone verte - 16 à 20 points</p>
                                 <p className="text-brand-fine-blue text-sm leading-relaxed">
@@ -153,12 +153,10 @@ export default function DiagnosticPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex gap-4 items-start p-4 rounded-xl bg-brand-lavender/10 border border-brand-lavender">
-                            <span className="w-2.5 h-2.5 rounded-full bg-brand-giants shrink-0 mt-1.5" />
+                        <div className="flex gap-4 items-start p-4 rounded-xl bg-brand-lime/20 border border-brand-lime">
+                            <span className="w-2.5 h-2.5 rounded-full bg-brand-lime shrink-0 mt-1.5" />
                             <div className="flex flex-col gap-1">
-                                <p className="font-semibold text-brand-midnight text-sm">
-                                    Zone orange - 10 à 15 points
-                                </p>
+                                <p className="font-semibold text-brand-midnight text-sm">Zone jaune - 10 à 15 points</p>
                                 <p className="text-brand-fine-blue text-sm leading-relaxed">
                                     Des signaux existent. Ils ne sont pas encore critiques, mais ils deviennent des
                                     problèmes business si rien ne change. Un audit de 2 à 3 semaines permet d'identifier
@@ -193,12 +191,13 @@ export default function DiagnosticPage() {
                             équipe quand j'étais CEO, et ne pas être compris de mon CEO quand j'étais CTO.
                         </p>
                         <p>
-                            Mes audits couvrent l'organisation, l'architecture, la vélocité, le management et
-                            l'adéquation produit-business. Le livrable est en langage business : pas un rapport
-                            technique à faire traduire, une liste de décisions à prendre dans l'ordre.
+                            Mes audits couvrent l'organisation, la rapidité d'exécution, le management et
+                            l'adéquation entre ce que fait la tech et ce dont le business a besoin. Le livrable est en
+                            langage business : pas un rapport technique à faire traduire, une liste de décisions à
+                            prendre dans l'ordre.
                         </p>
                     </div>
-                    <CtaButton href={links.zcal} target="_blank" rel="noopener noreferrer">
+                    <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=diagnostic&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
                         Prendre rendez-vous
                     </CtaButton>
                 </div>

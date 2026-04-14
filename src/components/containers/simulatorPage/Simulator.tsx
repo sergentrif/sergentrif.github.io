@@ -199,11 +199,11 @@ const questions = [
     },
 ];
 
-type Zone = "vert" | "orange" | "rouge";
+type Zone = "vert" | "jaune" | "rouge";
 
 function getZone(score: number): Zone {
     if (score >= 16) return "vert";
-    if (score >= 10) return "orange";
+    if (score >= 10) return "jaune";
     return "rouge";
 }
 
@@ -223,16 +223,16 @@ function getResult(score: number, hasCtoFullTime: boolean) {
         };
     }
 
-    if (zone === "orange") {
+    if (zone === "jaune") {
         return {
             zone,
-            label: "Zone orange",
+            label: "Zone jaune",
             headline: "Votre intuition est juste.",
             body: "Quelque chose cloche - même si votre CTO vous dit que tout va bien. Ces signaux ne sont pas encore critiques, mais ils deviennent des problèmes business si rien ne change. Un audit de 2 à 3 semaines permet d'identifier précisément où ça coince.",
             cta: "Parlons-en",
-            bgColor: "bg-brand-red/10",
-            borderColor: "border-brand-red",
-            dot: "bg-brand-red",
+            bgColor: "bg-brand-lime/20",
+            borderColor: "border-brand-lime",
+            dot: "bg-brand-lime",
         };
     }
 
@@ -244,9 +244,9 @@ function getResult(score: number, hasCtoFullTime: boolean) {
             headline: "Votre tech freine votre business.",
             body: "Vous avez un CTO, mais les signaux sont là. Un regard extérieur n'est pas un jugement sur lui - c'est un deuxième avis qui l'aide autant que vous. Plus vous attendez, plus ça coûte.",
             cta: "Prenons 30 minutes",
-            bgColor: "bg-brand-red/10",
-            borderColor: "border-brand-red",
-            dot: "bg-brand-red",
+            bgColor: "bg-brand-giants/10",
+            borderColor: "border-brand-giants",
+            dot: "bg-brand-giants",
         };
     }
 
@@ -343,7 +343,7 @@ export function Simulator() {
                     <p className="text-brand-fine-blue leading-relaxed">{result.body}</p>
 
                     <div className="flex flex-col sm:flex-row gap-6 pt-2 items-start">
-                        <CtaButton href={links.zcal} target="_blank" rel="noopener noreferrer">
+                        <CtaButton href={`${links.zcal}?utm_source=site&utm_medium=simulator&utm_campaign=rdv`} target="_blank" rel="noopener noreferrer">
                             {result.cta}
                         </CtaButton>
                         <button
