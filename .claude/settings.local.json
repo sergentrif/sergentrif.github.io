@@ -11,7 +11,8 @@
       "Bash(rtk read:*)",
       "Bash(python3:*)",
       "WebSearch",
-      "Bash(rtk ls:*)"
+      "Bash(rtk ls:*)",
+      "Bash(rtk grep:*)"
     ]
   }
 }

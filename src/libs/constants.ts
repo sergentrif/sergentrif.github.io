@@ -40,6 +40,7 @@ export const links = {
     technical_debt: "https://martinfowler.com/bliki/TechnicalDebt.html",
     from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
     zcal: "https://zcal.co/adrienblandin/decouverte-cto",
+    zcal_pro_bono: "https://zcal.co/adrienblandin/diagnostic-pro-bono",
 };
 
 export const legal = {
@@ -59,7 +60,8 @@ export const googleAnalyticsData = {
 export const navLinks: { href: Route; label: string; badge?: string }[] = [
     { href: "/parcours", label: "Parcours" },
     { href: "/prestations", label: "Prestations" },
-    { href: "/diagnostic", label: "Diagnostic gratuit", badge: "3 min" },
+    { href: "/diagnostic", label: "Diagnostic éclair", badge: "3 min" },
+    { href: "/diagnostic-pro-bono", label: "Pro bono", badge: "Gratuit" },
     { href: "/temoignages", label: "Témoignages" },
     { href: "/podcasts", label: "Podcasts" },
     { href: "/articles", label: "Articles" },

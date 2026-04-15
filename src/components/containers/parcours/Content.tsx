@@ -9,12 +9,12 @@ import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
 export default function ParcoursContent() {
     return (
         <section className="flex flex-col pt-12 pb-16">
-            <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 ">
+            <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
                 <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
                 <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Mon Parcours</h2>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
-            <div className="relative flex flex-col justify-center mx-auto w-full lg:px-36 md:px-16 sm:px-12 md:gap-12 gap-6 max-w-6xl ">
+            <div className="relative flex flex-col justify-center mx-auto lg:px-36 md:px-16 sm:px-12 px-4 md:gap-16 gap-10 max-w-6xl w-full">
                 <div className="absolute top-20 sm:right-6 right-8 opacity-10 pointer-events-none">
                     <DesignA aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
@@ -27,7 +27,7 @@ export default function ParcoursContent() {
                     <DesignC aria-hidden="true" className="w-60 h-60 sm:w-80 sm:h-80 md:w-[500px] md:h-[500px]" />
                 </div>
 
-                <div className="pb-12 flex flex-col md:gap-8 gap-6 self-start md:px-16 px-4 relative z-10">
+                <div className="pb-12 flex flex-col md:gap-8 gap-6 self-start relative z-10">
                     <div className="flex flex-col gap-4">
                         <p className="md:text-xl text-lg font-semibold text-brand-fine-blue">
                             J’ai toujours aimé créer.
@@ -58,8 +58,8 @@ export default function ParcoursContent() {
                         — que j’ai construit mon parcours.
                     </p>
 
-                    <h2 className="md:text-2xl md:pt-12 text-xl pt-8 font-semibold">1. Les Fondations</h2>
-                    <div className="md:text-lg text-base flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">1. Les Fondations</h2>
+                    <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             Tout commence par un socle académique indispensable. Diplômé d’un{" "}
                             <span className="font-semibold">Master à l’EPSI Lyon</span>, j’y ai acquis la rigueur de
@@ -71,10 +71,10 @@ export default function ParcoursContent() {
                         </p>
                     </div>
 
-                    <h2 className="md:text-2xl md:pt-12 text-xl pt-8 font-semibold">
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         2. L’Exigence & L’Entrepreneuriat
                     </h2>
-                    <div className="md:text-lg text-base flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
+                    <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>Mes premières années de carrière ont été une école de l’intensité.</p>
                         <p>
                             <span className="font-semibold">Chez Batch (ex-AppGratis)</span>, j’ai appris l’excellence
@@ -93,10 +93,10 @@ export default function ParcoursContent() {
                         </p>
                     </div>
 
-                    <h2 className="md:text-2xl md:pt-12 text-xl pt-8 font-semibold">
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         3. La Preuve par l’Hypercroissance
                     </h2>
-                    <div className="md:text-lg text-base flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
+                    <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             C’est l’expérience qui structure mon offre aujourd’hui. Arrivé dans une entreprise de 5
                             personnes comme deuxième développeur, j’ai fini CTO d’une structure de 30 talents tech,
@@ -114,8 +114,8 @@ export default function ParcoursContent() {
                         </ul>
                     </div>
 
-                    <h2 className="md:text-2xl md:pt-12 text-xl pt-8 font-semibold">4. La Mission Actuelle</h2>
-                    <div className="md:text-lg text-base flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">4. La Mission Actuelle</h2>
+                    <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             Depuis 2024, j’apporte cette expertise à un plus grand nombre d’entreprises (une dizaine de
                             startups accompagnées en 2 ans). Basé à Lyon, j’interviens en France entière, en présentiel

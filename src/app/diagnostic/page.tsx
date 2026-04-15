@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { Simulator } from "@/components/containers/simulatorPage/Simulator";
 import { CtaButton } from "@/components/ui/CtaButton";
 import { ShareButton } from "@/components/ui/ShareButton";
+import { ContactModalArrowIcon } from "@/components/ui/icons/RightArrowYellow";
 
 export const metadata: Metadata = {
     title: "Diagnostic tech CEO : votre équipe technique est-elle un frein ? | Adrien Blandin",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
                 url: `${site.url}/images/diagnostic-og.png`,
                 width: 1200,
                 height: 630,
-                alt: "Diagnostic tech gratuit — Votre tech est-elle un frein à votre croissance ?",
+                alt: "Diagnostic éclair — Votre tech est-elle un frein à votre croissance ?",
             },
         ],
     },
@@ -34,7 +35,7 @@ const diagnosticSchema = {
             "@type": "BreadcrumbList",
             itemListElement: [
                 { "@type": "ListItem", position: 1, name: "Accueil", item: site.url },
-                { "@type": "ListItem", position: 2, name: "Diagnostic tech", item: `${site.url}/diagnostic` },
+                { "@type": "ListItem", position: 2, name: "Diagnostic éclair", item: `${site.url}/diagnostic` },
             ],
         },
         {
@@ -83,18 +84,24 @@ const diagnosticSchema = {
 
 export default function DiagnosticPage() {
     return (
-        <section className="flex flex-col justify-center mx-auto gap-0 pt-32 pb-16 w-full">
+        <section className="flex flex-col pt-12 pb-16">
             <JsonLd schema={diagnosticSchema} />
 
-            {/* Intro + quiz — centré, étroit */}
-            <div className="flex flex-col gap-10 lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl mx-auto">
-                <div className="flex flex-col gap-6 w-full max-w-2xl mx-auto seo-intro">
+            <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
+                <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
+                <h1 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Diagnostic éclair</h1>
+                <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
+            </div>
+
+            <div className="flex flex-col md:gap-16 gap-10 mx-auto lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
+            {/* Intro + quiz */}
+            <div className="flex flex-col gap-6 w-full seo-intro">
                     <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">
-                        Diagnostic gratuit - 3 minutes
+                        Gratuit - 3 minutes - En ligne
                     </p>
-                    <h1 className="font-brico-gro font-extrabold lg:text-[2.5rem] md:text-3xl text-[26px] leading-tight uppercase tracking-wide text-brand-midnight">
+                    <p className="font-brico-gro font-extrabold lg:text-[2rem] md:text-2xl text-xl leading-tight uppercase tracking-wide text-brand-midnight">
                         Votre tech est-elle un frein à votre croissance ?
-                    </h1>
+                    </p>
                     <div className="flex flex-col gap-3 text-brand-fine-blue md:text-lg text-base leading-relaxed">
                         <p>
                             La plupart des CEOs que je rencontre savent que quelque chose cloche dans leur tech. Ils ne
@@ -107,18 +114,16 @@ export default function DiagnosticPage() {
                     </div>
                     <ShareButton
                         path="/diagnostic"
-                        title="Diagnostic tech gratuit — 3 minutes"
+                        title="Diagnostic éclair — 3 minutes"
                         text="Votre tech est-elle un frein à votre croissance ? 10 questions pour le savoir."
                     />
-                </div>
-
-                <Simulator />
             </div>
 
-            {/* Section SEO — même largeur que les autres pages */}
-            <div className="flex flex-col gap-16 lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl mx-auto mt-24 pt-16 border-t border-brand-light-beige">
-                {/* À qui s'adresse ce diagnostic */}
-                <div className="flex flex-col gap-6 max-w-3xl">
+            <Simulator />
+
+
+            {/* À qui s'adresse ce diagnostic */}
+            <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         À qui s&apos;adresse ce diagnostic ?
                     </h2>
@@ -149,14 +154,15 @@ export default function DiagnosticPage() {
                             </p>
                         </div>
                     </div>
-                </div>
+            </div>
 
-                {/* Ce que chaque zone signifie */}
-                <div className="flex flex-col gap-6 max-w-3xl">
+
+            {/* Ce que chaque zone signifie */}
+            <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         Ce que chaque zone signifie
                     </h2>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-6">
                         <div className="flex gap-4 items-start p-4 rounded-xl bg-brand-green/10 border border-brand-green">
                             <span className="w-2.5 h-2.5 rounded-full bg-brand-green shrink-0 mt-1.5" />
                             <div className="flex flex-col gap-1">
@@ -190,10 +196,11 @@ export default function DiagnosticPage() {
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
 
-                {/* Et après */}
-                <div className="flex flex-col gap-6 max-w-3xl">
+
+            {/* Et après */}
+            <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         Et après ?
                     </h2>
@@ -222,7 +229,7 @@ export default function DiagnosticPage() {
                     >
                         Prendre rendez-vous
                     </CtaButton>
-                </div>
+            </div>
             </div>
         </section>
     );

@@ -1,4 +1,6 @@
-const faqs = [
+type FaqItem = { question: string; answer: string };
+
+const defaultFaqs: FaqItem[] = [
     {
         question: "Est-ce que ça va braquer mon CTO ?",
         answer: "Non. L'audit n'est pas une inspection externe qui arrive en juge. Je travaille avec votre CTO, pas contre lui. La plupart du temps, il est soulagé qu'un regard extérieur pose les mots sur ce qu'il vit déjà. Ce que vous obtenez, c'est un diagnostic partagé - pas un rapport à charge.",
@@ -21,7 +23,7 @@ const faqs = [
     },
 ];
 
-export const FaqSection = () => {
+export const FaqSection = ({ faqs = defaultFaqs }: { faqs?: FaqItem[] }) => {
     return (
         <section className="flex flex-col items-center py-16 lg:py-24 px-4 md:px-16 lg:px-32 gap-8">
             <h2 className="w-full max-w-7xl font-brico-gro lg:text-[2.5rem] md:text-3xl text-[22px] font-bold tracking-wide uppercase">

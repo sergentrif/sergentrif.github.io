@@ -6,12 +6,12 @@ import type { Components } from "react-markdown";
 const components: Components = {
     p: ({ children }) => <p>{children}</p>,
     h2: ({ children }) => (
-        <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase">
+        <h2 className="font-brico-gro lg:text-[2.5rem] md:text-3xl text-xl font-bold tracking-wide uppercase text-brand-midnight">
             {children}
         </h2>
     ),
     h3: ({ children }) => (
-        <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase">
+        <h3 className="font-brico-gro lg:text-3xl md:text-2xl text-base font-bold tracking-wide uppercase text-brand-midnight">
             {children}
         </h3>
     ),

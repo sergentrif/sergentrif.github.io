@@ -59,7 +59,7 @@ export function Landing() {
                             href="/diagnostic"
                             className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors"
                         >
-                            Pas encore sûr ? Diagnostic gratuit (3 min)
+                            Pas encore sûr ? Diagnostic éclair (3 min)
                         </Link>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ export function Landing() {
                             }
                         </p>
                     </div>
-                    <div className="flex flex-col gap-4 pt-8">
+                    <div className="flex flex-row items-center gap-6 pt-8">
                         <CtaButton
                             href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
                             target="_blank"
@@ -97,7 +97,7 @@ export function Landing() {
                             href="/diagnostic"
                             className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors"
                         >
-                            Pas encore sûr ? Diagnostic gratuit (3 min)
+                            Pas encore sûr ? Diagnostic éclair (3 min)
                         </Link>
                     </div>
                 </div>
