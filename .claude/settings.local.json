@@ -1,18 +1,18 @@
 {
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:adrien.blandin.me)",
-      "WebFetch(domain:www.timescanner.io)",
-      "Skill(update-config)",
-      "Bash(npm run:*)",
-      "Bash(npm install:*)",
-      "Bash(ls:*)",
-      "Bash(rtk npm:*)",
-      "Bash(rtk read:*)",
-      "Bash(python3:*)",
-      "WebSearch",
-      "Bash(rtk ls:*)",
-      "Bash(rtk grep:*)"
-    ]
-  }
+    "permissions": {
+        "allow": [
+            "WebFetch(domain:adrien.blandin.me)",
+            "WebFetch(domain:www.timescanner.io)",
+            "Skill(update-config)",
+            "Bash(npm run:*)",
+            "Bash(npm install:*)",
+            "Bash(ls:*)",
+            "Bash(rtk npm:*)",
+            "Bash(rtk read:*)",
+            "Bash(python3:*)",
+            "WebSearch",
+            "Bash(rtk ls:*)",
+            "Bash(rtk grep:*)"
+        ]
+    }
 }

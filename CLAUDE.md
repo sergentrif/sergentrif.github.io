@@ -58,6 +58,7 @@ Markdown supporté : `###`/`##` titres · `**gras**` · `*italique*` · `[lien](
 Pages concernées : diagnostic, pro-bono, parcours, articles (liste + article), mentions-légales, confidentialité.
 
 **Structure type (arrow header) :**
+
 ```jsx
 <section className="flex flex-col pt-12 pb-16">
   <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
@@ -75,6 +76,7 @@ Pages concernées : diagnostic, pro-bono, parcours, articles (liste + article), 
 ```
 
 **Séparateurs :**
+
 - Pages texte : aucun séparateur visuel entre blocs. L'espacement (`md:gap-16`) suffit.
 - `border-linear-gradient` : liste d'articles uniquement (entre chaque article).
 - `border-brand-lavender border-b-2` : cards et page prestations uniquement.

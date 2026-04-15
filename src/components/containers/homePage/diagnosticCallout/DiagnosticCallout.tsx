@@ -26,9 +26,9 @@ export function DiagnosticCallout() {
                                 Vous sentez que quelque chose cloche. Mais vous n&apos;avez pas de preuve.
                             </h3>
                             <p className="text-base text-brand-fine-blue leading-relaxed">
-                                10 questions pour savoir si votre tech freine votre croissance - ou si votre
-                                intuition vous joue des tours. Les mêmes questions que j&apos;utilise en début
-                                d&apos;audit. Sans jargon. Résultat immédiat.
+                                10 questions pour savoir si votre tech freine votre croissance - ou si votre intuition
+                                vous joue des tours. Les mêmes questions que j&apos;utilise en début d&apos;audit. Sans
+                                jargon. Résultat immédiat.
                             </p>
                             <div className="lg:text-lg text-sm font-normal lg:px-1 px-0 flex">
                                 <Link href="/diagnostic" className="flex items-center gap-1 group">
@@ -49,9 +49,9 @@ export function DiagnosticCallout() {
                                 Pas encore le budget pour un audit. Mais un vrai problème tech.
                             </h3>
                             <p className="text-base text-brand-fine-blue leading-relaxed">
-                                Deux créneaux par semaine, une session par CEO, 45 minutes en visio.
-                                Vous m&apos;indiquez votre situation, on en parle sans filtre. Pas de
-                                rapport, pas d&apos;engagement. Un point de vue honnête sur ce que vous vivez.
+                                Deux créneaux par semaine, une session par CEO, 45 minutes en visio. Vous
+                                m&apos;indiquez votre situation, on en parle sans filtre. Pas de rapport, pas
+                                d&apos;engagement. Un point de vue honnête sur ce que vous vivez.
                             </p>
                             <div className="lg:text-lg text-sm font-normal lg:px-1 px-0 flex">
                                 <Link href="/diagnostic-pro-bono" className="flex items-center gap-1 group">

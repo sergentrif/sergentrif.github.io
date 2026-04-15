@@ -94,8 +94,8 @@ export default function DiagnosticPage() {
             </div>
 
             <div className="flex flex-col md:gap-16 gap-10 mx-auto lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
-            {/* Intro + quiz */}
-            <div className="flex flex-col gap-6 w-full seo-intro">
+                {/* Intro + quiz */}
+                <div className="flex flex-col gap-6 w-full seo-intro">
                     <p className="font-brico-gro text-xs uppercase tracking-widest text-brand-fine-blue">
                         Gratuit - 3 minutes - En ligne
                     </p>
@@ -117,13 +117,12 @@ export default function DiagnosticPage() {
                         title="Diagnostic éclair — 3 minutes"
                         text="Votre tech est-elle un frein à votre croissance ? 10 questions pour le savoir."
                     />
-            </div>
+                </div>
 
-            <Simulator />
+                <Simulator />
 
-
-            {/* À qui s'adresse ce diagnostic */}
-            <div className="flex flex-col gap-6">
+                {/* À qui s'adresse ce diagnostic */}
+                <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         À qui s&apos;adresse ce diagnostic ?
                     </h2>
@@ -154,11 +153,10 @@ export default function DiagnosticPage() {
                             </p>
                         </div>
                     </div>
-            </div>
+                </div>
 
-
-            {/* Ce que chaque zone signifie */}
-            <div className="flex flex-col gap-6">
+                {/* Ce que chaque zone signifie */}
+                <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         Ce que chaque zone signifie
                     </h2>
@@ -196,11 +194,10 @@ export default function DiagnosticPage() {
                             </div>
                         </div>
                     </div>
-            </div>
+                </div>
 
-
-            {/* Et après */}
-            <div className="flex flex-col gap-6">
+                {/* Et après */}
+                <div className="flex flex-col gap-6">
                     <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
                         Et après ?
                     </h2>
@@ -229,7 +226,7 @@ export default function DiagnosticPage() {
                     >
                         Prendre rendez-vous
                     </CtaButton>
-            </div>
+                </div>
             </div>
         </section>
     );

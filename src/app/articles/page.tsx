@@ -59,16 +59,16 @@ export default function LandingArticlesPage() {
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
             <div className="flex flex-col md:gap-16 gap-10 mx-auto lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl">
-            {articles.map((article, index) => (
-                <Fragment key={article.slug}>
-                    <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
-                        <Link href={`/articles/${article.slug}`}>{article.title}</Link>
-                    </h2>
-                    <p className="text-brand-fine-blue max-w-5xl md:px-4 px-0 text-base">{article.excerpt}</p>
-                    <InfoBoxArticle className="self-end text-sm md:text-base">{article.displayDate}</InfoBoxArticle>
-                    {index < articles.length - 1 && <div className="border-linear-gradient w-full" />}
-                </Fragment>
-            ))}
+                {articles.map((article, index) => (
+                    <Fragment key={article.slug}>
+                        <h2 className="self-start font-brico-gro underline hover:scale-101 md:text-3xl text-xl font-bold tracking-tight uppercase">
+                            <Link href={`/articles/${article.slug}`}>{article.title}</Link>
+                        </h2>
+                        <p className="text-brand-fine-blue max-w-5xl md:px-4 px-0 text-base">{article.excerpt}</p>
+                        <InfoBoxArticle className="self-end text-sm md:text-base">{article.displayDate}</InfoBoxArticle>
+                        {index < articles.length - 1 && <div className="border-linear-gradient w-full" />}
+                    </Fragment>
+                ))}
             </div>
         </section>
     );

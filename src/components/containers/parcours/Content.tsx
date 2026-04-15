@@ -58,7 +58,9 @@ export default function ParcoursContent() {
                         — que j’ai construit mon parcours.
                     </p>
 
-                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">1. Les Fondations</h2>
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
+                        1. Les Fondations
+                    </h2>
                     <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             Tout commence par un socle académique indispensable. Diplômé d’un{" "}
@@ -114,7 +116,9 @@ export default function ParcoursContent() {
                         </ul>
                     </div>
 
-                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">4. La Mission Actuelle</h2>
+                    <h2 className="font-brico-gro font-bold lg:text-2xl text-xl uppercase tracking-wide text-brand-midnight">
+                        4. La Mission Actuelle
+                    </h2>
                     <div className="flex flex-col gap-4 leading-relaxed text-brand-fine-blue">
                         <p>
                             Depuis 2024, j’apporte cette expertise à un plus grand nombre d’entreprises (une dizaine de
