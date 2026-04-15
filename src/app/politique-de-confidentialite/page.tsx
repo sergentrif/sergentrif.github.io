@@ -146,8 +146,6 @@ export default function PolitiqueDeConfidentialite() {
                         </p>
                     </div>
                 </div>
-
-                <CtaButton href="/">{"Retour à l\u2019accueil"}</CtaButton>
             </div>
         </section>
     );

@@ -58,11 +58,11 @@ export const googleAnalyticsData = {
 };
 
 export const navLinks: { href: Route; label: string; badge?: string }[] = [
-    { href: "/parcours", label: "Parcours" },
-    { href: "/prestations", label: "Prestations" },
     { href: "/diagnostic", label: "Diagnostic éclair", badge: "3 min" },
     { href: "/diagnostic-pro-bono", label: "Pro bono", badge: "Gratuit" },
     { href: "/temoignages", label: "Témoignages" },
+    { href: "/parcours", label: "Parcours" },
+    { href: "/prestations", label: "Prestations" },
     { href: "/podcasts", label: "Podcasts" },
     { href: "/articles", label: "Articles" },
 ];

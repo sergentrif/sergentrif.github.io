@@ -124,8 +124,6 @@ export default function MentionsLegales() {
                         </p>
                     </div>
                 </div>
-
-                <CtaButton href="/">{"Retour à l'accueil"}</CtaButton>
             </div>
         </section>
     );
