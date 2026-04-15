@@ -16,6 +16,14 @@ export const metadata: Metadata = {
         description:
             "10 questions sans jargon technique pour savoir si votre tech avance bien — ou si elle freine votre croissance. Résultat immédiat, gratuit.",
         url: `${site.url}/diagnostic`,
+        images: [
+            {
+                url: `${site.url}/images/diagnostic-og.png`,
+                width: 1200,
+                height: 630,
+                alt: "Diagnostic tech gratuit — Votre tech est-elle un frein à votre croissance ?",
+            },
+        ],
     },
 };
 
