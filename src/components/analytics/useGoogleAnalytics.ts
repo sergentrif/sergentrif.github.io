@@ -18,17 +18,14 @@ function getDevice(): "mobile" | "desktop" {
 }
 
 export const useGoogleAnalytics = () => {
-    const trackEvent = useCallback(
-        (eventName: string, parameters?: Record<string, unknown>) => {
-            if (typeof window !== "undefined" && window.gtag) {
-                window.gtag("event", eventName, {
-                    device: getDevice(),
-                    ...parameters,
-                });
-            }
-        },
-        [],
-    );
+    const trackEvent = useCallback((eventName: string, parameters?: Record<string, unknown>) => {
+        if (typeof window !== "undefined" && window.gtag) {
+            window.gtag("event", eventName, {
+                device: getDevice(),
+                ...parameters,
+            });
+        }
+    }, []);
 
     const trackCta = useCallback(
         (medium: string, campaign: string) => {

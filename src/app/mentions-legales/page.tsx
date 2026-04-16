@@ -3,7 +3,6 @@ import Link from "next/link";
 import { legal } from "@/libs/constants";
 import t from "./content.json";
 import { ContactModalArrowIcon } from "@/components/ui/icons/RightArrowYellow";
-import { CtaButton } from "@/components/ui/CtaButton";
 
 export const metadata: Metadata = {
     title: "Mentions légales | Adrien Blandin",

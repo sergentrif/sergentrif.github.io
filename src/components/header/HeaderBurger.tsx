@@ -30,11 +30,7 @@ export function HeaderBurger() {
                                     <React.Fragment key={link.label}>
                                         <hr className="w-full border-brand-beige/40" />
                                         {link.children.map((child) => (
-                                            <Link
-                                                key={child.href}
-                                                href={child.href}
-                                                onClick={handleMobileLinkClick}
-                                            >
+                                            <Link key={child.href} href={child.href} onClick={handleMobileLinkClick}>
                                                 {child.label}
                                             </Link>
                                         ))}

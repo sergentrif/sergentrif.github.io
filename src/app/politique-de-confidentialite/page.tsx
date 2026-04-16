@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { legal } from "@/libs/constants";
 import { ContactModalArrowIcon } from "@/components/ui/icons/RightArrowYellow";
-import { CtaButton } from "@/components/ui/CtaButton";
 
 export const metadata: Metadata = {
     title: "Politique de confidentialité | Adrien Blandin",
