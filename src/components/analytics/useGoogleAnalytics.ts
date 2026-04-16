@@ -12,27 +12,51 @@ declare global {
     }
 }
 
+function getDevice(): "mobile" | "desktop" {
+    if (typeof window === "undefined") return "desktop";
+    return window.innerWidth < 768 ? "mobile" : "desktop";
+}
+
 export const useGoogleAnalytics = () => {
     const trackEvent = useCallback(
-        (
-            eventName: string,
-            parameters?: {
-                event_category?: string;
-                event_label?: string;
-                value?: number;
-                custom_parameters?: Record<string, unknown>;
-            },
-        ) => {
+        (eventName: string, parameters?: Record<string, unknown>) => {
             if (typeof window !== "undefined" && window.gtag) {
                 window.gtag("event", eventName, {
-                    event_category: parameters?.event_category,
-                    event_label: parameters?.event_label,
-                    value: parameters?.value,
-                    ...parameters?.custom_parameters,
+                    device: getDevice(),
+                    ...parameters,
                 });
             }
         },
         [],
+    );
+
+    const trackCta = useCallback(
+        (medium: string, campaign: string) => {
+            trackEvent("cta_click", { medium, campaign });
+        },
+        [trackEvent],
+    );
+
+    const trackDiagnosticStart = useCallback(() => {
+        trackEvent("diagnostic_start");
+    }, [trackEvent]);
+
+    const trackDiagnosticComplete = useCallback(
+        (score: number, zone: "vert" | "jaune" | "rouge") => {
+            trackEvent("diagnostic_complete", { score, zone });
+        },
+        [trackEvent],
+    );
+
+    const trackDiagnosticShare = useCallback(() => {
+        trackEvent("diagnostic_share");
+    }, [trackEvent]);
+
+    const trackDownload = useCallback(
+        (document: "cv" | "presentation") => {
+            trackEvent("file_download", { document });
+        },
+        [trackEvent],
     );
 
     const trackPageView = useCallback((url: string, title?: string) => {
@@ -56,6 +80,11 @@ export const useGoogleAnalytics = () => {
 
     return {
         trackEvent,
+        trackCta,
+        trackDiagnosticStart,
+        trackDiagnosticComplete,
+        trackDiagnosticShare,
+        trackDownload,
         trackPageView,
         trackConversion,
     };

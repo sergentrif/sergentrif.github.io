@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { site } from "@/libs/constants";
+import { useGoogleAnalytics } from "@/components/analytics/useGoogleAnalytics";
 
 type ShareButtonProps = {
     path: string;
@@ -11,8 +12,10 @@ type ShareButtonProps = {
 
 export function ShareButton({ path, title, text }: ShareButtonProps) {
     const [copied, setCopied] = useState(false);
+    const { trackDiagnosticShare } = useGoogleAnalytics();
 
     async function handleShare() {
+        trackDiagnosticShare();
         const url = `${site.url}${path}`;
 
         if (navigator.share) {

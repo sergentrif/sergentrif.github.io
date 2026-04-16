@@ -52,6 +52,7 @@ export function Landing() {
                             href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            tracking={{ medium: "hero", campaign: "rdv" }}
                         >
                             Prendre rendez-vous
                         </CtaButton>
@@ -90,6 +91,7 @@ export function Landing() {
                             href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            tracking={{ medium: "hero", campaign: "rdv" }}
                         >
                             Prendre rendez-vous
                         </CtaButton>

@@ -4,6 +4,7 @@ import { links, legal } from "@/libs/constants";
 import { FooterLogo } from "@/components/ui/icons/FooterLogo";
 import { FooterBanner, FooterBannerCarousel } from "./FooterBanner";
 import { HoverUnderlineWrapper } from "../ui/HoverUnderlineWrapper";
+import { TrackedLink } from "../ui/TrackedLink";
 
 export function Footer() {
     return (
@@ -24,21 +25,48 @@ export function Footer() {
                                     <span className="text-brand-glacier">##</span>GITHUB
                                 </HoverUnderlineWrapper>
                             </Link>
-                            <Link href={links.presentation} target="_blank" rel="noopener noreferrer" className="group">
+                            <TrackedLink
+                                href={links.presentation}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group"
+                                tracking={{ medium: "footer", campaign: "presentation" }}
+                            >
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>PRÉSENTATION
                                 </HoverUnderlineWrapper>
-                            </Link>
-                            <Link href={links.adrien_cv} target="_blank" rel="noopener noreferrer" className="group">
+                            </TrackedLink>
+                            <TrackedLink
+                                href={links.adrien_cv}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group"
+                                tracking={{ medium: "footer", campaign: "cv" }}
+                            >
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>CV
                                 </HoverUnderlineWrapper>
-                            </Link>
+                            </TrackedLink>
                             <a href={`mailto:${legal.email}`} className="group">
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>EMAIL
                                 </HoverUnderlineWrapper>
                             </a>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col self-start font-extrabold tracking-[0.03] px-2 text-lg md:text-[22px] md:order-none -order-1">
+                        <div className="flex flex-col md:gap-1">
+                            <Link href="/parcours" className="group">
+                                <HoverUnderlineWrapper>
+                                    <span className="text-brand-glacier">##</span>PARCOURS
+                                </HoverUnderlineWrapper>
+                            </Link>
+                            <Link href="/prestations" className="group">
+                                <HoverUnderlineWrapper>
+                                    <span className="text-brand-glacier">##</span>PRESTATIONS
+                                </HoverUnderlineWrapper>
+                            </Link>
                         </div>
                     </div>
 

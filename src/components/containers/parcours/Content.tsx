@@ -9,7 +9,7 @@ import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
 export default function ParcoursContent() {
     return (
         <section className="flex flex-col pt-12 pb-16">
-            <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
+            <div className="flex w-full h-full gap-2 items-center justify-center md:justify-start relative md:right-19 md:-left-12 overflow-x-hidden">
                 <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
                 <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Mon Parcours</h2>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />

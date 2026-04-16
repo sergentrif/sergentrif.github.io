@@ -5,6 +5,7 @@ import Image from "next/image";
 import { links } from "@/libs/constants";
 import { CtaButton } from "@/components/ui/CtaButton";
 import { BugIcon } from "@/components/ui/icons/BugIcon";
+import { useGoogleAnalytics } from "@/components/analytics/useGoogleAnalytics";
 
 const questions = [
     {
@@ -277,12 +278,16 @@ export function Simulator() {
     const [answers, setAnswers] = useState<number[]>([]);
     const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
     const [finished, setFinished] = useState(false);
+    const { trackDiagnosticStart, trackDiagnosticComplete } = useGoogleAnalytics();
 
     const question = questions[currentQuestion];
     const progress = (currentQuestion / questions.length) * 100;
     const isLast = currentQuestion === questions.length - 1;
 
     function handleSelect(points: number) {
+        if (currentQuestion === 0 && answers.length === 0 && selectedAnswer === null) {
+            trackDiagnosticStart();
+        }
         setSelectedAnswer(points);
     }
 
@@ -293,6 +298,8 @@ export function Simulator() {
         setSelectedAnswer(null);
 
         if (isLast) {
+            const score = newAnswers.reduce((sum, v) => sum + v, 0);
+            trackDiagnosticComplete(score, getZone(score));
             setFinished(true);
         } else {
             setCurrentQuestion((q) => q + 1);
@@ -345,6 +352,7 @@ export function Simulator() {
                     <div className="flex flex-col sm:flex-row gap-6 pt-2 items-start">
                         <CtaButton
                             href={`${links.zcal}?utm_source=site&utm_medium=simulator&utm_campaign=rdv`}
+                            tracking={{ medium: "simulator", campaign: "rdv" }}
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import { Burger } from "../ui/icons/Burger";
 import { Popover, PopoverContent, PopoverTrigger } from "./BurgerPop";
@@ -23,21 +24,40 @@ export function HeaderBurger() {
                         <Link href="/" onClick={handleMobileLinkClick}>
                             Accueil
                         </Link>
-                        {navLinks.map(({ href, label, badge }) => (
-                            <Link
-                                key={href}
-                                href={href}
-                                onClick={handleMobileLinkClick}
-                                className="flex items-center gap-2"
-                            >
-                                {label}
-                                {badge && (
-                                    <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-brand-giants/15 text-brand-giants font-brico-gro font-semibold leading-none normal-case">
-                                        {badge}
-                                    </span>
-                                )}
-                            </Link>
-                        ))}
+                        {navLinks.map((link) => {
+                            if (link.children) {
+                                return (
+                                    <React.Fragment key={link.label}>
+                                        <hr className="w-full border-brand-beige/40" />
+                                        {link.children.map((child) => (
+                                            <Link
+                                                key={child.href}
+                                                href={child.href}
+                                                onClick={handleMobileLinkClick}
+                                            >
+                                                {child.label}
+                                            </Link>
+                                        ))}
+                                    </React.Fragment>
+                                );
+                            }
+
+                            return (
+                                <Link
+                                    key={link.href}
+                                    href={link.href}
+                                    onClick={handleMobileLinkClick}
+                                    className="flex items-center gap-2"
+                                >
+                                    {link.label}
+                                    {link.badge && (
+                                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-brand-giants/15 text-brand-giants font-brico-gro font-semibold leading-none normal-case">
+                                            {link.badge}
+                                        </span>
+                                    )}
+                                </Link>
+                            );
+                        })}
                     </nav>
                 </PopoverContent>
             </Popover>

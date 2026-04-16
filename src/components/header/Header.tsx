@@ -24,8 +24,37 @@ export function Header() {
                     <HeaderLogo className="w-10 h-8" />
                 </Link>
                 {navLinks.map((link) => {
-                    const active = isLinkActive(link.href);
+                    if (link.children) {
+                        const isDropdownActive = link.children.some((child) => isLinkActive(child.href));
+                        return (
+                            <div key={link.label} className="relative group">
+                                <span className="flex items-center gap-1 cursor-default select-none">
+                                    <HoverUnderlineWrapper isActive={isDropdownActive}>
+                                        {link.label}
+                                    </HoverUnderlineWrapper>
+                                    <span className="text-[10px] transition-transform group-hover:rotate-180 inline-block">
+                                        ▾
+                                    </span>
+                                </span>
+                                <div className="absolute top-full left-1/2 -translate-x-1/2 hidden group-hover:flex flex-col bg-brand-powder shadow-sm border border-brand-beige/25 rounded-lg overflow-hidden min-w-[160px] z-50">
+                                    {link.children.map((child) => {
+                                        const childActive = isLinkActive(child.href);
+                                        return (
+                                            <Link
+                                                key={child.href}
+                                                href={child.href}
+                                                className={`px-5 py-3 hover:bg-brand-beige/20 flex items-center text-sm${childActive ? " font-semibold" : ""}`}
+                                            >
+                                                {child.label}
+                                            </Link>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        );
+                    }
 
+                    const active = isLinkActive(link.href);
                     return (
                         <Link key={link.href} href={link.href} className="flex items-center gap-1.5 group">
                             <HoverUnderlineWrapper isActive={active}>{link.label}</HoverUnderlineWrapper>
@@ -42,6 +71,7 @@ export function Header() {
                     href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    tracking={{ medium: "header", campaign: "rdv" }}
                 >
                     Prendre rendez-vous
                 </CtaButton>
@@ -52,6 +82,7 @@ export function Header() {
                     href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    tracking={{ medium: "header", campaign: "rdv" }}
                 >
                     Prendre rendez-vous
                 </CtaButton>

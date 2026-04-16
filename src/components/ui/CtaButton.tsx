@@ -1,9 +1,14 @@
+"use client";
+
 import Link from "next/link";
 import { TopRightSquare } from "@/components/ui/icons/TopRightSquare";
+import { useTrackingHandler } from "@/hooks/useTrackingHandler";
+import type { TrackingProps } from "@/libs/tracking";
 
 type BaseProps = {
     children: React.ReactNode;
     className?: string;
+    tracking?: TrackingProps;
 };
 
 type LinkProps = BaseProps & {
@@ -25,6 +30,7 @@ type ButtonProps = BaseProps & {
 type CtaButtonProps = LinkProps | ButtonProps;
 
 export function CtaButton({ children, className = "", ...props }: CtaButtonProps) {
+    const handleTracking = useTrackingHandler(props.tracking);
     const disabled = "disabled" in props && props.disabled;
 
     return (
@@ -39,13 +45,17 @@ export function CtaButton({ children, className = "", ...props }: CtaButtonProps
                     href={props.href}
                     target={props.target}
                     rel={props.rel}
+                    onClick={handleTracking}
                     className="flex border-2 border-brand-giants z-20 rounded-full cursor-pointer px-4 py-2.25 relative overflow-hidden"
                 >
                     {children}
                 </Link>
             ) : (
                 <button
-                    onClick={"onClick" in props ? props.onClick : undefined}
+                    onClick={() => {
+                        handleTracking();
+                        if ("onClick" in props) props.onClick?.();
+                    }}
                     disabled={disabled || undefined}
                     className={`flex border-2 z-20 rounded-full px-4 py-2.25 relative overflow-hidden ${
                         disabled

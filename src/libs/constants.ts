@@ -57,14 +57,21 @@ export const googleAnalyticsData = {
     GOOGLE_ADS_ID: "AW-985274405",
 };
 
-export const navLinks: { href: Route; label: string; badge?: string }[] = [
+type NavLinkSimple = { href: Route; label: string; badge?: string; children?: never };
+type NavLinkDropdown = { href?: never; label: string; badge?: never; children: Array<{ href: Route; label: string }> };
+export type NavLink = NavLinkSimple | NavLinkDropdown;
+
+export const navLinks: NavLink[] = [
+    { href: "/temoignages", label: "Témoignages" },
     { href: "/diagnostic", label: "Diagnostic éclair", badge: "3 min" },
     { href: "/diagnostic-pro-bono", label: "Pro bono", badge: "Gratuit" },
-    { href: "/temoignages", label: "Témoignages" },
-    { href: "/parcours", label: "Parcours" },
-    { href: "/prestations", label: "Prestations" },
-    { href: "/podcasts", label: "Podcasts" },
-    { href: "/articles", label: "Articles" },
+    {
+        label: "Médias",
+        children: [
+            { href: "/articles", label: "Articles" },
+            { href: "/podcasts", label: "Podcasts" },
+        ],
+    },
 ];
 
 export const podcastLinks = {

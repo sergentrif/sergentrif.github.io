@@ -117,7 +117,7 @@ export default function DiagnosticProBonoPage() {
             <section className="flex flex-col pt-12 pb-16">
                 <JsonLd schema={proBonoSchema} />
 
-                <div className="flex w-full h-full gap-2 items-center justify-start relative md:right-19 -left-12 overflow-x-hidden">
+                <div className="flex w-full h-full gap-2 items-center justify-center md:justify-start relative md:right-19 md:-left-12 overflow-x-hidden">
                     <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
                     <h1 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Diagnostic pro bono</h1>
                     <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
@@ -159,6 +159,7 @@ export default function DiagnosticProBonoPage() {
                             href={`${links.zcal_pro_bono}?utm_source=site&utm_medium=pro-bono&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            tracking={{ medium: "pro-bono", campaign: "rdv" }}
                         >
                             Choisir un créneau
                         </CtaButton>
