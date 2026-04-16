@@ -101,16 +101,16 @@ export default function AuditPage() {
                         <div className="flex flex-col gap-3 text-brand-fine-blue md:text-lg text-base leading-relaxed">
                             <p>
                                 Vos développeurs bossent. Des fonctionnalités sortent. Mais vous n&apos;arrivez pas à
-                                savoir si c&apos;est rapide, si c&apos;est solide, ou si ça va tenir quand vous
-                                passerez à l&apos;étape suivante.
+                                savoir si c&apos;est rapide, si c&apos;est solide, ou si ça va tenir quand vous passerez
+                                à l&apos;étape suivante.
                             </p>
                             <p>
                                 Ce n&apos;est pas une question technique - c&apos;est une question de pilotage. Vous
                                 manquez l&apos;information pour décider.
                             </p>
                             <p>
-                                L&apos;audit couvre l&apos;organisation, la rapidité d&apos;exécution, le management
-                                et l&apos;adéquation entre ce que fait la tech et ce dont le business a besoin. En{" "}
+                                L&apos;audit couvre l&apos;organisation, la rapidité d&apos;exécution, le management et
+                                l&apos;adéquation entre ce que fait la tech et ce dont le business a besoin. En{" "}
                                 {auditInfo.duration}. Le livrable est en langage business : pas un rapport technique à
                                 faire traduire, un plan d&apos;action priorisé avec un horizon clair.
                             </p>
@@ -144,8 +144,8 @@ export default function AuditPage() {
                                 </p>
                                 <p>
                                     <span className="font-semibold text-brand-midnight">Management et équipe.</span> Le
-                                    profil de chaque personne clé, les silos de connaissance, les dépendances
-                                    critiques. Ce qui se passe si une personne part.
+                                    profil de chaque personne clé, les silos de connaissance, les dépendances critiques.
+                                    Ce qui se passe si une personne part.
                                 </p>
                                 <p>
                                     <span className="font-semibold text-brand-midnight">
@@ -184,10 +184,10 @@ export default function AuditPage() {
                                     <span className="font-semibold text-brand-midnight">Les entretiens.</span> Je
                                     rencontre tout le monde : le CEO pour les enjeux business et la vision stratégique,
                                     les directeurs de pôle pour leurs frustrations vis-à-vis de la tech, le responsable
-                                    technique pour la vision globale de la stack, et chaque développeur individuellement.
-                                    Pour beaucoup, ça ressemble à une séance chez le psy. Une oreille neutre et
-                                    objective leur permet de mettre sur la table les frustrations et les non-dits.
-                                    C&apos;est ce qu&apos;ils attendent.
+                                    technique pour la vision globale de la stack, et chaque développeur
+                                    individuellement. Pour beaucoup, ça ressemble à une séance chez le psy. Une oreille
+                                    neutre et objective leur permet de mettre sur la table les frustrations et les
+                                    non-dits. C&apos;est ce qu&apos;ils attendent.
                                 </p>
                             </div>
                             <div className="flex gap-4 items-start">
@@ -206,10 +206,10 @@ export default function AuditPage() {
                                     4.
                                 </span>
                                 <p>
-                                    <span className="font-semibold text-brand-midnight">Le livrable.</span> J&apos;écris,
-                                    j&apos;attends quelques jours, je relis, j&apos;améliore. Ce que je livre
-                                    n&apos;est pas un premier jet. Puis une restitution en présentiel ou visio pour en
-                                    discuter.
+                                    <span className="font-semibold text-brand-midnight">Le livrable.</span>{" "}
+                                    J&apos;écris, j&apos;attends quelques jours, je relis, j&apos;améliore. Ce que je
+                                    livre n&apos;est pas un premier jet. Puis une restitution en présentiel ou visio
+                                    pour en discuter.
                                 </p>
                             </div>
                         </div>
@@ -236,8 +236,8 @@ export default function AuditPage() {
                                 <p>
                                     Chez un autre, les entretiens individuels ont fait apparaître un signal clair : le
                                     développeur senior était en désengagement actif. Ni le CEO ni son associé ne
-                                    l&apos;avaient vu venir. Quelques semaines plus tard sans intervention, il partait
-                                    - et avec lui, cinq ans de connaissance du produit.
+                                    l&apos;avaient vu venir. Quelques semaines plus tard sans intervention, il partait -
+                                    et avec lui, cinq ans de connaissance du produit.
                                 </p>
                             </div>
                             <p>
@@ -257,8 +257,7 @@ export default function AuditPage() {
                             <p>
                                 Un état des lieux complet de votre tech et de votre organisation, rédigé pour vous : ce
                                 qui va, ce qui doit changer, pourquoi. Chaque recommandation est priorisée sur trois
-                                horizons : ce qu&apos;on peut faire dans les jours qui viennent, les semaines, les
-                                mois.
+                                horizons : ce qu&apos;on peut faire dans les jours qui viennent, les semaines, les mois.
                             </p>
                             <p>
                                 Pas de jargon non traduit. Pas de liste technique sans impact business. Un document que
@@ -267,9 +266,8 @@ export default function AuditPage() {
                             <p>
                                 J&apos;ai passé 7 ans CTO chez lePERMISLIBRE, de 3 développeurs à 30, jusqu&apos;à
                                 l&apos;introduction en bourse. J&apos;ai aussi été CEO. Mes audits ne sont pas que
-                                techniques - ils couvrent aussi le management, le produit et l&apos;adéquation
-                                business. Parce que c&apos;est rarement là où vous cherchez que se trouvent les vrais
-                                problèmes.
+                                techniques - ils couvrent aussi le management, le produit et l&apos;adéquation business.
+                                Parce que c&apos;est rarement là où vous cherchez que se trouvent les vrais problèmes.
                             </p>
                         </div>
                     </div>
@@ -281,9 +279,8 @@ export default function AuditPage() {
                         </h2>
                         <div className="flex flex-col gap-4 text-brand-fine-blue leading-relaxed">
                             <p>
-                                En moyenne{" "}
-                                <span className="font-semibold text-brand-midnight">{auditInfo.price}</span> selon la
-                                taille de l&apos;équipe. Le tarif peut varier selon le périmètre exact.
+                                En moyenne <span className="font-semibold text-brand-midnight">{auditInfo.price}</span>{" "}
+                                selon la taille de l&apos;équipe. Le tarif peut varier selon le périmètre exact.
                             </p>
                             <p>
                                 Les détails sont sur la{" "}
