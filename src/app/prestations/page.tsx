@@ -15,30 +15,20 @@ const prestationsSchema = {
         },
         {
             "@type": "Service",
-            name: "Sparing Partner CTO",
-            serviceType: "Conseil et mentorat CTO",
+            name: "Accompagnement mensuel",
+            serviceType: "Regard extérieur mensuel pour CEO",
             description:
-                "Accompagnement des CTO et futurs CTO pour structurer leur organisation, affirmer leur leadership technique et gagner en hauteur de vue.",
+                "Accompagnement mensuel du CEO comme regard extérieur sur la tech : suivi du plan d'action post-audit, arbitrages, préparation de levée. 4 à 8 heures par mois, engagement trimestriel.",
             provider: { "@id": site.serviceId },
             areaServed: { "@type": "Country", name: "France" },
             url: `${site.url}/prestations`,
         },
         {
             "@type": "Service",
-            name: "CTO Part-time",
-            serviceType: "Direction technique externalisée",
+            name: "Due diligence technique",
+            serviceType: "Due diligence pré-acquisition et levée de fonds",
             description:
-                "Direction technique expérimentée pour startups et PME, quelques jours par semaine. Roadmap produit, choix technologiques, management d'équipe.",
-            provider: { "@id": site.serviceId },
-            areaServed: { "@type": "Country", name: "France" },
-            url: `${site.url}/prestations`,
-        },
-        {
-            "@type": "Service",
-            name: "Définition du MVP",
-            serviceType: "Prestation au livrable",
-            description:
-                "Accompagnement à la définition d'un MVP clair, priorisé et techniquement réaliste. Livrable complet incluant architecture, scalabilité et dette acceptable.",
+                "Due diligence technique et organisationnelle pour fonds d'investissement et acquéreurs. Même méthodologie que l'audit : documentation, interviews équipe, analyse complète. Livrable avec niveau de risque par point et stratégie d'intégration si acquisition.",
             provider: { "@id": site.serviceId },
             areaServed: { "@type": "Country", name: "France" },
             url: `${site.url}/prestations`,
@@ -57,14 +47,14 @@ const prestationsSchema = {
 };
 
 export const metadata: Metadata = {
-    title: "Prestations CTO à temps partagé | Adrien Blandin",
+    title: "Prestations | Adrien Blandin",
     description:
-        "Sparing partner pour CTOs, CTO part-time pour startups, définition de MVP et conférences pour écoles et accélérateurs. Découvrez mes offres d'accompagnement technique.",
+        "Accompagnement mensuel post-audit, due diligence technique pré-acquisition et conférences pour écoles et accélérateurs.",
     alternates: { canonical: "/prestations" },
     openGraph: {
-        title: "Prestations CTO à temps partagé | Adrien Blandin",
+        title: "Prestations | Adrien Blandin",
         description:
-            "Sparing partner pour CTOs, CTO part-time pour startups, définition de MVP et conférences pour écoles et accélérateurs.",
+            "Accompagnement mensuel post-audit, due diligence technique pré-acquisition et conférences pour écoles et accélérateurs.",
         url: `${site.url}/prestations`,
     },
 };

@@ -20,6 +20,7 @@ Le CEO ne cherche pas un CTO freelance. Il ne sait pas que son problème a une s
 | Type                      | Ce qu'il voit                             | Comment l'activer                  |
 | ------------------------- | ----------------------------------------- | ---------------------------------- |
 | Fonds Seed/Série A        | Portfolio en difficulté tech, pré-levée   | Grille d'évaluation, outil gratuit |
+| Fonds (M&A)               | Due diligence pré-acquisition             | LinkedIn + warm intros via startups auditées |
 | Accélérateurs             | Alumni post-programme sans CTO            | Masterclass, programme managers    |
 | Avocats d'affaires        | Startups en levée sans due diligence tech | Check-up pré-levée packagé         |
 | Cabinets recrutement tech | Postes CTO non closés                     | Alternative CTO freelance          |

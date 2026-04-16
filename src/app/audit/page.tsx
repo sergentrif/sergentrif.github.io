@@ -30,6 +30,10 @@ const auditFaqs = [
         question: "En quoi c'est différent d'un cabinet de conseil ?",
         answer: "Pas d'intermédiaire, pas de junior qui instruit le dossier. La même personne fait les entretiens, l'analyse et rédige le livrable. Et l'audit couvre la tech, le produit, l'organisation et le business - pas uniquement la stack.",
     },
+    {
+        question: "Y a-t-il un avantage fiscal ?",
+        answer: "Oui. Je suis agréé Crédit d'Impôt Innovation par le Ministère de l'Enseignement Supérieur et de la Recherche. Les dépenses engagées pour mes prestations sont éligibles au CII : vous pouvez récupérer jusqu'à 20 % du montant en crédit d'impôt. La démarche est simple et s'intègre directement à votre liasse fiscale annuelle.",
+    },
 ];
 
 export const metadata: Metadata = {

@@ -61,6 +61,21 @@ Le CEO ne sait pas si sa tech avance bien, coûte le bon prix, ou freine sa croi
 - Dev, design, PM. Ancienne équipe lePERMISLIBRE.
 - Squad autonome ou profils en régie
 
+### Due diligence technique (affiché sur /prestations)
+
+- Même méthodologie que l'audit
+- Cible : fonds d'investissement, acquéreurs (pas le CEO de startup)
+- Déclencheur : pré-acquisition ou levée de fonds
+- Livrable : état des lieux + stratégie d'intégration si acquisition
+- Prix : 8 000 - 16 000 € selon périmètre et taille équipe
+- Honnêteté non négociable : le livrable ne sera pas biaisé pour sécuriser une levée
+
+### Conférencier (affiché sur /prestations pour crédibilité, pas prospecté)
+
+- Écoles et accélérateurs
+- Sujets : CTO, MVP, due diligence, recrutement, structuration d'équipe
+- Rôle sur le site : crédibilise le positionnement d'expert, pas une offre à vendre
+
 ### CTO part-time (non affiché)
 
 - 2-3 jours/semaine si opportunité

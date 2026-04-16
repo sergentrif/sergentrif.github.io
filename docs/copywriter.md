@@ -13,6 +13,8 @@
 - Chiffres dans les CTA. Prix affiché directement, sans "contactez-nous".
 - Témoignages avec résultat concret, pas de satisfaction vague.
 - Exception : le verbatim validé de la page d'accueil (voir `docs/business.md`) utilise "je" et un ton personnel assumé. C'est voulu.
+- Ne pas exposer la logique business du prestataire dans le copy client : nombre de clients en parallèle, engagement minimum, organisation interne. Seul ce qui aide la décision du lecteur reste.
+- Anonymisation par défaut : noms de clients et détails de missions toujours anonymisés, sauf témoignages et cas explicitement validés par Adrien.
 
 ## Par page
 

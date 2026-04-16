@@ -1,10 +1,8 @@
 import Image from "next/image";
 import { ContactModalArrowIcon } from "../../ui/icons/RightArrowYellow";
 import { InfoBox } from "../homePage/MainSection/Card";
-import { CircleArrowUpAndDown } from "@/components/ui/icons/CircleArrowUpAndDown";
 import { DesignA } from "@/components/ui/icons/cardsDesign/DesignA";
 import { DesignB } from "@/components/ui/icons/cardsDesign/DesignB";
-import { DesignC } from "@/components/ui/icons/cardsDesign/DesignC";
 import { InfiniteSlider } from "./InfiniteSlider";
 
 import img1 from "@/assets/images/krma_prestation_1.png";
@@ -14,7 +12,6 @@ import img4 from "@/assets/images/krma_prestation_9.jpg";
 import img9 from "@/assets/images/krma_prestation_10.jpg";
 import img5 from "@/assets/images/krma_prestation_5.png";
 import img6 from "@/assets/images/krma_prestation_6.jpg";
-import img7 from "@/assets/images/krma_prestation_7.png";
 import img8 from "@/assets/images/krma_prestation_8.png";
 
 export const LandingSection = () => {
@@ -27,44 +24,31 @@ export const LandingSection = () => {
             </div>
 
             <div className="flex flex-col gap-22">
+                {/* Accompagnement */}
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
                     <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
-                        <div className="flex flex-col justify-center gap-4 w-full ">
+                        <div className="flex flex-col justify-center gap-4 w-full">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
-                                Sparing partner
+                                Accompagnement
                             </h2>
-                            <InfoBox className="flex mx-auto">Conseil-mentorat</InfoBox>
+                            <InfoBox className="flex mx-auto">Mensuel · engagement trimestriel</InfoBox>
                         </div>
                         <p>
-                            J’accompagne les CTO et futurs CTO qui veulent gagner en hauteur de vue, structurer leur
-                            organisation et affirmer leur leadership technique. Je suis passé par là : de développeur à
-                            CTO. J’ai fait les erreurs, j’ai appris, et aujourd’hui je partage cette expérience pour
-                            vous faire gagner plusieurs années d’apprentissage.
+                            L&apos;audit pose le diagnostic. L&apos;accompagnement s&apos;assure qu&apos;il se traduit
+                            en décisions.
                         </p>
                         <p>
-                            Nous travaillons directement sur vos enjeux{" "}
-                            <span className="whitespace-nowrap">concrets :</span>
-                        </p>
-                        <ul className="list-disc list-outside -mt-4 pl-4">
-                            <li>priorisation stratégique</li>
-                            <li>structuration de la roadmap</li>
-                            <li>mise en place de process d’ingénierie</li>
-                            <li>recrutement et management d’équipe</li>
-                            <li>choix d’architecture</li>
-                            <li>relation avec les fondateurs ou les équipes produit. </li>
-                        </ul>
-                        <p>
-                            Je vous offre un espace neutre pour challenger vos décisions, débloquer des situations
-                            complexes et consolider votre posture de leader technique.
+                            J&apos;interviens auprès du CEO comme regard extérieur sur la tech : tenir l&apos;exécution
+                            du plan d&apos;action, challenger les arbitrages en cours de route, préparer une levée, ou
+                            avoir quelqu&apos;un à qui soumettre les vraies questions.
                         </p>
                         <p>
-                            J’interviens également auprès des CEO : pour leur apporter un regard objectif sur leur CTO
-                            ou leur équipe technique, ou simplement les conseiller lorsqu’ils n’ont pas encore de
-                            leadership tech en place.
+                            Si l&apos;audit a révélé un besoin de montée en puissance chez votre CTO, je peux
+                            l&apos;accompagner également.
                         </p>
                         <p>
-                            <span className="font-bold">L’objectif</span> : vous aider à monter en puissance plus
-                            rapidement, plus sereinement… et éviter les erreurs que j’ai déjà commises pour vous.
+                            <span className="font-bold">Format :</span> quelques heures par mois, cadence à définir
+                            selon vos besoins.
                         </p>
                         <DesignA className="max-w-153 w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
@@ -76,32 +60,36 @@ export const LandingSection = () => {
                         priority
                     />
                 </div>
+
+                {/* Due diligence */}
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
                     <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
-                        <div className="flex flex-col justify-center gap-4 w-full ">
+                        <div className="flex flex-col justify-center gap-4 w-full">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
-                                CTO Part-time
+                                Due diligence
                             </h2>
-                            <InfoBox className="flex mx-auto">Intégration à vos équipes tech</InfoBox>
+                            <InfoBox className="flex mx-auto">Pré-acquisition · levée de fonds</InfoBox>
                         </div>
                         <p>
-                            En tant que CTO part-time, j’accompagne les startups et PME qui ont besoin d’une direction
-                            technique expérimentée sans recruter un profil full-time en interne.
+                            Même approche que l&apos;audit. Objectif différent : vous donner une lecture fiable de
+                            l&apos;actif tech avant de vous engager.
                         </p>
                         <p>
-                            J’interviens quelques jours par semaine pour structurer la roadmap produit, sécuriser les
-                            choix technologiques, mettre en place les bonnes pratiques d’ingénierie, encadrer les
-                            équipes et fluidifier la collaboration entre métier et technique.
+                            Je commence par toute la documentation disponible - architecture, infrastructure, bases de
+                            données, SaaS en production. J&apos;interview ensuite l&apos;équipe : les profils à
+                            responsabilité, les juniors, les personnes au contact de la tech. Le CEO et le CTO.
                         </p>
                         <p>
-                            Mon approche combine vision stratégique et action opérationnelle, afin d’aider l’entreprise
-                            à avancer vite, réduire les risques et atteindre ses objectifs avec une tech maîtrisée et
-                            scalable.
+                            Le livrable couvre l&apos;état des lieux complet avec un niveau de risque par point. Si la
+                            mission porte sur une acquisition, j&apos;inclus une stratégie technique pour l&apos;actif
+                            racheté : maintien, migration ou intégration.
                         </p>
-                        <p>Basé à Lyon, j’interviens en France entière, en présentiel ou à distance.</p>
+                        <p>
+                            Je ne biaiserai pas le livrable pour sécuriser une levée. Si la tech repose sur trois bouts
+                            de ficelle, je le dirai.
+                        </p>
                         <DesignB className="max-w-153 w-full h-full absolute top-12 opacity-50 mix-blend-plus-lighter md:hidden" />
                     </div>
-                    <CircleArrowUpAndDown className="w-16 absolute right-30 -top-37 hidden md:block" />
                     <DesignB className="hidden md:block lg:max-w-153 md:max-w-120 w-full h-full absolute lg:top-13 md:top-4 lg:left-82 md:left-50 opacity-50 mix-blend-plus-lighter" />
                     <Image
                         src={img2}
@@ -110,6 +98,7 @@ export const LandingSection = () => {
                     />
                 </div>
             </div>
+
             <div className="md:hidden py-16">
                 <InfiniteSlider
                     images={[
@@ -145,55 +134,21 @@ export const LandingSection = () => {
                     className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
                 />
             </div>
-            <div className="flex flex-col gap-22">
-                <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex justify-center gap-28 relative">
-                    <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
-                        <div className="flex flex-col justify-center gap-4 w-full ">
-                            <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
-                                Définition du MVP
-                            </h2>
-                            <InfoBox className="flex mx-auto">Prestation au livrable</InfoBox>
-                        </div>
 
-                        <p>
-                            Je vous accompagne dans la définition d’un MVP clair, priorisé et techniquement réaliste,
-                            sous forme d’un livrable complet.
-                        </p>
-                        <p>
-                            À partir de votre idée, nous identifions ensemble la proposition de valeur, les parcours
-                            utilisateurs essentiels et les fonctionnalités réellement nécessaires pour tester votre
-                            marché.
-                        </p>
-                        <p>J’analyse également les implications techniques :</p>
-                        <ul className="list-disc list-outside -mt-4 pl-4">
-                            <li>choix d’architecture</li>
-                            <li>contraintes de scalabilité</li>
-                            <li>dette acceptable</li>
-                        </ul>
-                        <p>
-                            À l’issue de la mission, vous repartez avec un document structuré, conçu pour être
-                            directement utilisé par une équipe technique ou pour réaliser vos demandes de subvention.
-                        </p>
-                        <DesignC className="max-w-134 w-full h-full absolute top-13 opacity-50 mix-blend-plus-lighter md:hidden" />
-                    </div>
-                    <DesignC className="hidden md:block lg:max-w-134 md:max-w-120 w-full h-full absolute lg:top-0 lg:right-57 md:-top-5 md:right-27 opacity-50 mix-blend-plus-lighter" />
-                    <Image
-                        src={img7}
-                        alt="Adrien wearing Krma's clothes"
-                        className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
-                    />
-                </div>
+            <div className="flex flex-col gap-22">
+                {/* Conférencier */}
                 <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto flex flex-row-reverse justify-center gap-28 relative">
                     <div className="flex flex-col gap-6 self-center lg:max-w-[550px] md:max-w-[350px] text-brand-fine-blue relative">
-                        <div className="flex flex-col justify-center gap-4 w-full ">
+                        <div className="flex flex-col justify-center gap-4 w-full">
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Conférencier
                             </h2>
                             <InfoBox className="flex mx-auto">Écoles et accélérateurs</InfoBox>
                         </div>
                         <p>
-                            En tant que CTO freelance, j’interviens régulièrement auprès d’écoles et d’accélérateurs
-                            pour partager une vision concrète, décomplexée et opérationnelle de la tech.
+                            En tant que CTO freelance, j&apos;interviens régulièrement auprès d&apos;écoles et
+                            d&apos;accélérateurs pour partager une vision concrète, décomplexée et opérationnelle de la
+                            tech.
                         </p>
                         <p>
                             Mes conférences couvrent des sujets clés pour les futurs entrepreneurs et professionnels :
@@ -213,37 +168,6 @@ export const LandingSection = () => {
                         alt="Adrien conference speech"
                         className="hidden md:block lg:max-h-[600px] lg:max-w-[400px] md:max-h-[500px] md:max-w-[350px] h-full w-full"
                     />
-                </div>
-            </div>
-
-            <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto mt-22 max-w-6xl">
-                <div className="border-l-4 border-brand-giants sm:pl-6 pl-4 py-4">
-                    <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider mb-4">
-                        {"Crédit d'Impôt Innovation (CII)"}
-                    </h2>
-                    <div className="flex flex-col gap-4 text-brand-fine-blue md:text-lg text-base leading-relaxed">
-                        <p>
-                            {"Je suis agréé "}
-                            <span className="font-semibold">{"Crédit d'Impôt Innovation"}</span>
-                            {
-                                " par le Ministère de l'Enseignement Supérieur et de la Recherche. Concrètement, cela signifie que les dépenses engagées pour mes prestations sont éligibles au CII."
-                            }
-                        </p>
-                        <p>
-                            {
-                                "En tant que client, vous pouvez déclarer le montant de ma prestation dans votre déclaration CII et récupérer jusqu'à "
-                            }
-                            <span className="font-semibold">{"20 % du montant en crédit d'impôt"}</span>
-                            {
-                                ". La démarche de déclaration vous incombe, mais elle est simple et directement intégrée à votre liasse fiscale annuelle."
-                            }
-                        </p>
-                        <p>
-                            {
-                                "C'est un avantage concret qui réduit le coût réel de mon intervention — et que peu de CTOs freelances peuvent vous offrir."
-                            }
-                        </p>
-                    </div>
                 </div>
             </div>
         </section>

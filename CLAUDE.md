@@ -83,6 +83,8 @@ Pages concernées : diagnostic, pro-bono, parcours, articles (liste + article), 
 
 **Pages validées par le designer — ne pas modifier le layout :** homepage, prestations, témoignages, podcasts.
 
+**Rôle de `/prestations` :** ce qui vient après ou à côté de l'audit (accompagnement, due diligence, conférences). L'audit a sa propre page `/audit` — ne pas le remettre sur `/prestations`.
+
 ---
 
 ## Documentation de référence
