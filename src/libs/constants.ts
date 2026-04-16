@@ -63,6 +63,7 @@ export type NavLink = NavLinkSimple | NavLinkDropdown;
 
 export const navLinks: NavLink[] = [
     { href: "/temoignages", label: "Témoignages" },
+    { href: "/audit", label: "Audit" },
     { href: "/diagnostic", label: "Diagnostic éclair", badge: "3 min" },
     { href: "/diagnostic-pro-bono", label: "Pro bono", badge: "Gratuit" },
     {
@@ -73,6 +74,11 @@ export const navLinks: NavLink[] = [
         ],
     },
 ];
+
+export const auditInfo = {
+    price: "4 000 - 8 000 €",
+    duration: "2 à 4 semaines",
+};
 
 export const podcastLinks = {
     episode1: {

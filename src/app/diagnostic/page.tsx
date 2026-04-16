@@ -177,7 +177,7 @@ export default function DiagnosticPage() {
                                 <p className="font-semibold text-brand-midnight text-sm">Zone jaune - 10 à 15 points</p>
                                 <p className="text-brand-fine-blue text-sm leading-relaxed">
                                     Des signaux existent. Ils ne sont pas encore critiques, mais ils deviennent des
-                                    problèmes business si rien ne change. Un audit de 2 à 3 semaines permet
+                                    problèmes business si rien ne change. Un audit de 2 à 4 semaines permet
                                     d&apos;identifier précisément où ça coince.
                                 </p>
                             </div>

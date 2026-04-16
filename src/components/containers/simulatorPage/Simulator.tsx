@@ -229,7 +229,7 @@ function getResult(score: number, hasCtoFullTime: boolean) {
             zone,
             label: "Zone jaune",
             headline: "Votre intuition est juste.",
-            body: "Quelque chose cloche - même si votre CTO vous dit que tout va bien. Ces signaux ne sont pas encore critiques, mais ils deviennent des problèmes business si rien ne change. Un audit de 2 à 3 semaines permet d'identifier précisément où ça coince.",
+            body: "Quelque chose cloche - même si votre CTO vous dit que tout va bien. Ces signaux ne sont pas encore critiques, mais ils deviennent des problèmes business si rien ne change. Un audit de 2 à 4 semaines permet d'identifier précisément où ça coince.",
             cta: "Parlons-en",
             bgColor: "bg-brand-lime/20",
             borderColor: "border-brand-lime",

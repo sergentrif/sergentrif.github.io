@@ -19,7 +19,7 @@ type cardDataProps = {
 export const cardsData: cardDataProps[] = [
     {
         title: "Un état des lieux avant de toucher à quoi que ce soit",
-        infoBox: "2-3 semaines",
+        infoBox: "2 à 4 semaines",
         description:
             "Entretiens individuels avec toute l'équipe, analyse de l'architecture, des rituels, de l'organisation. Pas un audit de code : un état des lieux 360° qui couvre la tech, le produit et le management.",
         secondaryDescription:

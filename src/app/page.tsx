@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ReactLenis } from "lenis/react";
-import { site, legal } from "@/libs/constants";
+import { site, legal, auditInfo } from "@/libs/constants";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { Landing } from "@/components/containers/homePage/landingSection/Landing";
 import { MainCardSection } from "@/components/containers/homePage/MainSection/MainContent";
@@ -8,7 +8,7 @@ import { EditorialSection } from "@/components/containers/homePage/editorialSect
 import { TemoignageSection } from "@/components/containers/homePage/temoignageSection/Temoignage";
 import { KrmaPresentation } from "@/components/containers/homePage/moreSection/KrmaPresentation";
 import { CiiPresentation } from "@/components/containers/homePage/moreSection/CiiPresentation";
-import { FaqSection } from "@/components/containers/homePage/faqSection/FAQ";
+import { FaqSection, faqsToSchema } from "@/components/containers/homePage/faqSection/FAQ";
 import { DiagnosticCallout } from "@/components/containers/homePage/diagnosticCallout/DiagnosticCallout";
 
 export const metadata: Metadata = {
@@ -24,6 +24,29 @@ export const metadata: Metadata = {
         url: site.url,
     },
 };
+
+const homeFaqs = [
+    {
+        question: "Est-ce que ça va braquer mon CTO ?",
+        answer: "Non. L'audit n'est pas une inspection externe qui arrive en juge. Je travaille avec votre CTO, pas contre lui. La plupart du temps, il est soulagé qu'un regard extérieur pose les mots sur ce qu'il vit déjà. Ce que vous obtenez, c'est un diagnostic partagé - pas un rapport à charge.",
+    },
+    {
+        question: "Combien ça coûte ?",
+        answer: `En moyenne ${auditInfo.price} selon la taille de l'équipe. Le tarif peut varier selon le périmètre exact. ${auditInfo.duration}, livrable en langage business. Les détails sont sur la page Prestations.`,
+    },
+    {
+        question: "Qu'est-ce que j'obtiens à la fin ?",
+        answer: "Un état des lieux complet et un plan d'action priorisé court, moyen et long terme - pensé pour être actionnable immédiatement par le CEO ou le CTO, sans traduction ni intermédiaire. Organisation, architecture, vélocité, management, adéquation produit/business : pas un rapport à lire, une liste de choses à faire dans l'ordre.",
+    },
+    {
+        question: "Est-ce qu'on peut continuer ensemble après ?",
+        answer: "Oui, de deux façons. Un accompagnement mensuel (4 à 8h/mois) pour rester en regard extérieur sur l'exécution. Ou une équipe d'exécution si l'audit révèle un besoin concret en dev, design ou produit.",
+    },
+    {
+        question: "En quoi c'est différent d'un cabinet de conseil ?",
+        answer: "Vous parlez directement à quelqu'un qui a fait : 7 ans CTO chez lePERMISLIBRE (3 à 30 personnes, IPO), 2 ans aux côtés d'Objow face à un grand compte Edenred, et une quinzaine de startups auditées depuis. J'ai aussi été CEO. Mon audit couvre la tech, le produit, l'organisation et le business - pas uniquement la stack.",
+    },
+];
 
 const personSchema = {
     "@context": "https://schema.org",
@@ -49,51 +72,7 @@ const personSchema = {
             worksFor: { "@id": site.serviceId },
             sameAs: ["https://www.linkedin.com/in/adrienblandin", "https://github.com/sergentrif"],
         },
-        {
-            "@type": "FAQPage",
-            mainEntity: [
-                {
-                    "@type": "Question",
-                    name: "Est-ce que ça va braquer mon CTO ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Non. L'audit n'est pas une inspection externe qui arrive en juge. Je travaille avec votre CTO, pas contre lui. La plupart du temps, il est soulagé qu'un regard extérieur pose les mots sur ce qu'il vit déjà. Ce que vous obtenez, c'est un diagnostic partagé - pas un rapport à charge.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "Combien ça coûte ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "En moyenne entre 4 000 et 8 000 € selon la taille de l'équipe. Moins pour une très petite équipe, plus au-delà de 5 à 6 développeurs. 2 à 3 semaines, livrable en langage business.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "Qu'est-ce que j'obtiens à la fin ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Un état des lieux complet et un plan d'action priorisé court, moyen et long terme - pensé pour être actionnable immédiatement par le CEO ou le CTO, sans traduction ni intermédiaire.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "Est-ce qu'on peut continuer ensemble après ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Oui, de deux façons. Un accompagnement mensuel (4 à 8h/mois) pour rester en regard extérieur sur l'exécution. Ou une équipe d'exécution si l'audit révèle un besoin concret en dev, design ou produit.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "En quoi c'est différent d'un cabinet de conseil ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Vous parlez directement à quelqu'un qui a fait : 7 ans CTO chez lePERMISLIBRE (3 à 30 personnes, IPO), 2 ans aux côtés d'Objow face à un grand compte Edenred, et une quinzaine de startups auditées depuis. J'ai aussi été CEO. Mon audit couvre la tech, le produit, l'organisation et le business - pas uniquement la stack.",
-                    },
-                },
-            ],
-        },
+        faqsToSchema(homeFaqs),
         {
             "@type": "ProfessionalService",
             "@id": site.serviceId,
@@ -133,7 +112,7 @@ export default function Home() {
                 <DiagnosticCallout />
                 <KrmaPresentation />
                 <CiiPresentation />
-                <FaqSection />
+                <FaqSection faqs={homeFaqs} />
             </main>
         </ReactLenis>
     );

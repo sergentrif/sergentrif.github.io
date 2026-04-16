@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { site, links } from "@/libs/constants";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { CtaButton } from "@/components/ui/CtaButton";
-import { FaqSection } from "@/components/containers/homePage/faqSection/FAQ";
+import { FaqSection, faqsToSchema } from "@/components/containers/homePage/faqSection/FAQ";
 import { ContactModalArrowIcon } from "@/components/ui/icons/RightArrowYellow";
 
 const proBonoFaqs = [
@@ -71,43 +71,7 @@ const proBonoSchema = {
             },
             url: `${site.url}/diagnostic-pro-bono`,
         },
-        {
-            "@type": "FAQPage",
-            mainEntity: [
-                {
-                    "@type": "Question",
-                    name: "Ce programme pro bono est-il vraiment gratuit ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Oui, entièrement. 45 minutes en visio, sans contrepartie. Pas d'engagement, pas de suite obligatoire.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "À qui s'adresse ce programme ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Aux CEOs de startups tech de 5 à 40 personnes qui ont un doute sur leur tech mais n'ont pas encore le budget pour un audit complet — ou qui ne sont pas encore convaincus d'en avoir besoin.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "Que se passe-t-il pendant les 45 minutes ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Vous décrivez votre situation. Je pose des questions. Je vous dis ce que j'observe : si vous avez un vrai problème tech, si c'est autre chose, ou si vous n'avez pas de problème du tout. Franc, sans filtre, sans argumentaire.",
-                    },
-                },
-                {
-                    "@type": "Question",
-                    name: "Y a-t-il une suite obligatoire après la session ?",
-                    acceptedAnswer: {
-                        "@type": "Answer",
-                        text: "Non. Si un audit a du sens, je vous le dirai. Si ce n'est pas le cas, je vous le dirai aussi. La décision vous appartient entièrement.",
-                    },
-                },
-            ],
-        },
+        faqsToSchema(proBonoFaqs),
     ],
 };
 

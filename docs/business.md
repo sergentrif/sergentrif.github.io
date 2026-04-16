@@ -43,7 +43,7 @@ Le CEO ne sait pas si sa tech avance bien, coûte le bon prix, ou freine sa croi
 
 ### Audit technique, organisationnel et managérial (produit d'appel)
 
-- Format : 2-3 semaines
+- Format : 2-4 semaines
 - Prix : 4 000 - 8 000 € (~4k€ pour 2-3 devs, ~8k€ pour 5-6 devs)
 - Livrable : état des lieux + recommandations priorisées en langage business
 - Couvre : organisation, architecture, dette technique, vélocité, management, adéquation tech/produit/business, entretiens individuels
