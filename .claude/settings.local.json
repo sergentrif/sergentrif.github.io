@@ -14,7 +14,8 @@
             "Bash(rtk ls:*)",
             "Bash(rtk grep:*)",
             "Bash(rtk find:*)",
-            "Bash(xargs sed:*)"
+            "Bash(xargs sed:*)",
+            "Bash(rtk git:*)"
         ]
     }
 }

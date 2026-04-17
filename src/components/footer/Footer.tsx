@@ -15,6 +15,9 @@ export function Footer() {
                 <div className="flex md:flex-row flex-col justify-between w-full gap-6">
                     <div className="flex flex-col items-center self-start font-extrabold tracking-[0.03] px-2 text-lg md:text-[22px]">
                         <div className="flex flex-col md:gap-1">
+                            <span className="text-xs font-medium text-brand-giants/60 uppercase tracking-widest mb-1">
+                                Ressources
+                            </span>
                             <Link href={links.linkedin} target="_blank" rel="noopener noreferrer" className="group">
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>LINKEDIN
@@ -57,6 +60,9 @@ export function Footer() {
 
                     <div className="flex flex-col self-start font-extrabold tracking-[0.03] px-2 text-lg md:text-[22px] md:order-none -order-1">
                         <div className="flex flex-col md:gap-1">
+                            <span className="text-xs font-medium text-brand-giants/60 uppercase tracking-widest mb-1">
+                                À propos
+                            </span>
                             <Link href="/parcours" className="group">
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>PARCOURS
@@ -65,6 +71,16 @@ export function Footer() {
                             <Link href="/prestations" className="group">
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>PRESTATIONS
+                                </HoverUnderlineWrapper>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col md:gap-1 md:mt-8 mt-6">
+                            <span className="text-xs font-medium text-brand-giants/60 uppercase tracking-widest mb-1">
+                                Projets
+                            </span>
+                            <Link href={links.timescanner} target="_blank" rel="noopener noreferrer" className="group">
+                                <HoverUnderlineWrapper>
+                                    <span className="text-brand-glacier">##</span>TIMESCANNER
                                 </HoverUnderlineWrapper>
                             </Link>
                         </div>

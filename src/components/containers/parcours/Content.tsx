@@ -132,6 +132,13 @@ export default function ParcoursContent() {
                             , mon équipe (PMs, Designers, Développeurs Seniors) pour exécuter la vision avec la vélocité
                             d&apos;une start-up.
                         </p>
+                        <p>
+                            En parallèle, j&apos;ai lancé{" "}
+                            <Link target="_blank" href={links.timescanner} className="font-bold group">
+                                <HoverUnderlineWrapper>Timescanner</HoverUnderlineWrapper>
+                            </Link>{" "}
+                            — un SaaS de facturation automatique pour freelances. Parce que je continue de construire.
+                        </p>
                     </div>
                     <div className="md:text-xl text-lg font-semibold mt-8 p-6 border-l-4 sm:pl-6 pl-2 border-brand-giants text-brand-fine-blue">
                         Mon but est <span className="whitespace-nowrap">simple :</span> faire en sorte que votre tech ne

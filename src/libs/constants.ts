@@ -41,6 +41,7 @@ export const links = {
     from_tech_debt_to_design_int: "https://medium.com/@ziobrando/from-technical-debt-to-design-integrity-48e7056b6776",
     zcal: "https://zcal.co/adrienblandin/decouverte-cto",
     zcal_pro_bono: "https://zcal.co/adrienblandin/diagnostic-pro-bono",
+    timescanner: "https://www.timescanner.io",
 };
 
 export const legal = {
