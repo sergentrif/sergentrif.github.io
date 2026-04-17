@@ -28,6 +28,7 @@ export const cardsData: cardDataProps[] = [
             "Organisation et vélocité",
             "Architecture et dette technique",
             "Management et adéquation tech-produit-business",
+            "Adoption de l'IA",
         ],
         link: [
             {

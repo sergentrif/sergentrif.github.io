@@ -22,7 +22,7 @@ export function EditorialSection() {
                 </p>
                 <p className="text-brand-fine-blue">
                     {
-                        "J'ai besoin de comprendre. J'ai besoin de matière : architecture, organigramme, rituels, échanges avec l'équipe - technique, produit, CODIR. Je synthétise, je traduis en langage business, et je propose un plan d'action priorisé qui peut démarrer immédiatement."
+                        "J'ai besoin de comprendre. J'ai besoin de matière : architecture, organigramme, rituels, échanges avec l'équipe - technique, produit, CODIR. Et depuis que l'IA est partout, comment l'équipe l'intègre vraiment - ou pas. Je synthétise, je traduis en langage business, et je propose un plan d'action priorisé qui peut démarrer immédiatement."
                     }
                 </p>
             </div>

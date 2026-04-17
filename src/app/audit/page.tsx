@@ -31,6 +31,10 @@ const auditFaqs = [
         answer: "Pas d'intermédiaire, pas de junior qui instruit le dossier. La même personne fait les entretiens, l'analyse et rédige le livrable. Et l'audit couvre la tech, le produit, l'organisation et le business - pas uniquement la stack.",
     },
     {
+        question: "Est-ce que l'audit couvre l'utilisation de l'IA par l'équipe ?",
+        answer: "Oui. L'IA fait partie des sujets abordés dans l'audit organisationnel. Pas sous l'angle de la hype - sous l'angle de la vélocité réelle : est-ce que votre équipe l'intègre, comment, et est-ce que ça change quelque chose à la façon de prioriser vos investissements tech.",
+    },
+    {
         question: "Y a-t-il un avantage fiscal ?",
         answer: "Oui. Je suis agréé Crédit d'Impôt Innovation par le Ministère de l'Enseignement Supérieur et de la Recherche. Les dépenses engagées pour mes prestations sont éligibles au CII : vous pouvez récupérer jusqu'à 20 % du montant en crédit d'impôt. La démarche est simple et s'intègre directement à votre liasse fiscale annuelle.",
     },
@@ -157,6 +161,12 @@ export default function AuditPage() {
                                     </span>{" "}
                                     Est-ce que ce qui est construit répond à ce dont le business a besoin ? Est-ce que
                                     la tech avance dans la bonne direction ?
+                                </p>
+                                <p>
+                                    <span className="font-semibold text-brand-midnight">Adoption de l&apos;IA.</span>{" "}
+                                    Comment l&apos;équipe intègre les outils IA dans son quotidien : développement,
+                                    documentation, process. Ce qui est déjà en place, ce qui reste à structurer, et où
+                                    l&apos;enthousiasme cache parfois une désorganisation.
                                 </p>
                             </div>
                         </div>
