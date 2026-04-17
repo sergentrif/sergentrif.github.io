@@ -102,6 +102,12 @@ Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout
 
 ---
 
+## Tracking
+
+- URLs dans `src/libs/constants.ts` : propres, sans paramètres. UTM et paramètres de tracking → dans les composants à l'usage.
+
+---
+
 ## Skills éditoriaux
 
 | Commande     | Action                                 |
