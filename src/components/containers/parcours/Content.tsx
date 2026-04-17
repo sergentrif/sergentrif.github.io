@@ -125,6 +125,13 @@ export default function ParcoursContent() {
                             </li>
                         </ul>
                         <p>
+                            J&apos;interviens aussi dans l&apos;écosystème lyonnais : ateliers, masterclasses et
+                            accompagnements au <span className="font-semibold">H7</span>, à{" "}
+                            <span className="font-semibold">l&apos;emlyon</span> et au{" "}
+                            <span className="font-semibold">Wagon</span>. Jury à{" "}
+                            <span className="font-semibold">Lyon Start&nbsp;Up</span>.
+                        </p>
+                        <p>
                             Une fois la direction fixée, je peux mobiliser{" "}
                             <Link
                                 target="_blank"

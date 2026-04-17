@@ -146,12 +146,14 @@ export const LandingSection = () => {
                             <InfoBox className="flex mx-auto">Écoles et accélérateurs</InfoBox>
                         </div>
                         <p>
-                            En tant que CTO freelance, j&apos;interviens régulièrement auprès d&apos;écoles et
-                            d&apos;accélérateurs pour partager une vision concrète, décomplexée et opérationnelle de la
-                            tech.
+                            Intervenant régulier au <span className="font-semibold">H7</span>, à{" "}
+                            <span className="font-semibold">l&apos;emlyon</span> et au{" "}
+                            <span className="font-semibold">Wagon</span> : masterclasses, ateliers et accompagnements
+                            auprès de fondateurs et équipes tech. Jury à{" "}
+                            <span className="font-semibold">Lyon Start&nbsp;Up</span>.
                         </p>
                         <p>
-                            Mes conférences couvrent des sujets clés pour les futurs entrepreneurs et professionnels :
+                            Mes interventions couvrent des sujets clés pour les futurs entrepreneurs et professionnels :
                             passer du rôle de développeur à celui de CTO, construire un MVP rapidement et efficacement,
                             rédiger un cahier des charges solide, réussir une due diligence technique ou encore recruter
                             et structurer une équipe.
