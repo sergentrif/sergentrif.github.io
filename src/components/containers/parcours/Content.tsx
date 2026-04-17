@@ -126,7 +126,11 @@ export default function ParcoursContent() {
                         </ul>
                         <p>
                             Une fois la direction fixée, je peux mobiliser{" "}
-                            <Link target="_blank" href={links.krma_site} className="font-bold group">
+                            <Link
+                                target="_blank"
+                                href={`${links.krma_site}?utm_source=adrien-blandin-me&utm_medium=website&utm_campaign=portfolio`}
+                                className="font-bold group"
+                            >
                                 <HoverUnderlineWrapper>Krma</HoverUnderlineWrapper>
                             </Link>
                             , mon équipe (PMs, Designers, Développeurs Seniors) pour exécuter la vision avec la vélocité
@@ -134,7 +138,11 @@ export default function ParcoursContent() {
                         </p>
                         <p>
                             En parallèle, j&apos;ai lancé{" "}
-                            <Link target="_blank" href={links.timescanner} className="font-bold group">
+                            <Link
+                                target="_blank"
+                                href={`${links.timescanner}?utm_source=adrien-blandin-me&utm_medium=website&utm_campaign=portfolio`}
+                                className="font-bold group"
+                            >
                                 <HoverUnderlineWrapper>Timescanner</HoverUnderlineWrapper>
                             </Link>{" "}
                             — un SaaS de facturation automatique pour freelances. Parce que je continue de construire.

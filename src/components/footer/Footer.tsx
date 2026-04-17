@@ -78,7 +78,12 @@ export function Footer() {
                             <span className="text-xs font-medium text-brand-giants/60 uppercase tracking-widest mb-1">
                                 Projets
                             </span>
-                            <Link href={links.timescanner} target="_blank" rel="noopener noreferrer" className="group">
+                            <Link
+                                href={`${links.timescanner}?utm_source=adrien-blandin-me&utm_medium=website&utm_campaign=portfolio`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group"
+                            >
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>TIMESCANNER
                                 </HoverUnderlineWrapper>

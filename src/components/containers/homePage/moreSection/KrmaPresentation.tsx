@@ -27,7 +27,7 @@ export const KrmaPresentation = () => {
                         {`Ce n’est pas un collectif de freelances trouvés sur une plateforme en ligne. C’est une partie de mon ancienne équipe lePERMISLIBRE - développeurs, designers, product managers seniors - qui a décidé de me suivre à nouveau. Des gens avec qui je travaille depuis des années.`}
                     </p>
                     <Link
-                        href="https://www.krma.fr/"
+                        href="https://www.krma.fr?utm_source=adrien-blandin-me&utm_medium=website&utm_campaign=portfolio"
                         rel="noopener noreferrer"
                         target="_blank"
                         className="flex items-center gap-2 pt-4 group"
