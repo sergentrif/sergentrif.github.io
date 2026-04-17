@@ -9,7 +9,7 @@ export const site = {
 };
 
 export const links = {
-    krma_site: "https://krma.fr",
+    krma_site: "https://www.krma.fr",
     linkedin: "https://www.linkedin.com/in/adrienblandin",
     github: "https://github.com/sergentrif",
     presentation: "/pdfs/presentation.pdf",
