@@ -123,7 +123,7 @@ export default function DiagnosticProBonoPage() {
                             href={`${links.zcal_pro_bono}?utm_source=site&utm_medium=pro-bono&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            tracking={{ medium: "pro-bono", campaign: "rdv" }}
+                            tracking={{ event: "appointment_booking", medium: "pro-bono" }}
                         >
                             Choisir un créneau
                         </CtaButton>
@@ -223,6 +223,7 @@ export default function DiagnosticProBonoPage() {
                             href={`${links.zcal_pro_bono}?utm_source=site&utm_medium=pro-bono-bottom&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
+                            tracking={{ event: "appointment_booking", medium: "pro-bono-bottom" }}
                         >
                             Choisir un créneau
                         </CtaButton>

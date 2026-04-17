@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { site } from "@/libs/constants";
 import { LandingSection } from "@/components/containers/prestationPage/LandingSection";
+import { BottomContactBox } from "@/components/containers/BottomContactBox";
 import { JsonLd } from "@/components/ui/JsonLd";
 
 const prestationsSchema = {
@@ -18,7 +19,7 @@ const prestationsSchema = {
             name: "Accompagnement mensuel",
             serviceType: "Regard extérieur mensuel pour CEO",
             description:
-                "Accompagnement mensuel du CEO comme regard extérieur sur la tech : suivi du plan d'action post-audit, arbitrages, préparation de levée. 4 à 8 heures par mois, engagement trimestriel.",
+                "Accompagnement mensuel du CEO comme regard extérieur sur la tech : suivi du plan d'action post-audit, arbitrages, préparation de levée. 4 à 8 heures par mois.",
             provider: { "@id": site.serviceId },
             areaServed: { "@type": "Country", name: "France" },
             url: `${site.url}/prestations`,
@@ -64,6 +65,9 @@ export default function PrestationsPage() {
         <>
             <JsonLd schema={prestationsSchema} />
             <LandingSection />
+            <div className="lg:px-36 md:px-16 sm:px-12 px-4 w-full max-w-6xl mx-auto pb-16">
+                <BottomContactBox />
+            </div>
         </>
     );
 }

@@ -223,7 +223,7 @@ export default function DiagnosticPage() {
                         href={`${links.zcal}?utm_source=site&utm_medium=diagnostic&utm_campaign=rdv`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        tracking={{ medium: "diagnostic", campaign: "rdv" }}
+                        tracking={{ event: "appointment_booking", medium: "diagnostic" }}
                     >
                         Prendre rendez-vous
                     </CtaButton>

@@ -1,7 +1,10 @@
+"use client";
+
 import { links } from "@/libs/constants";
 import { Cards, CardContent } from "./homePage/MainSection/Card";
 import { RightArrowLinearLink } from "@/components/ui/icons/RightArrowLinearLink";
 import { HoverUnderlineWrapper } from "@/components/ui/HoverUnderlineWrapper";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export function BottomContactBox() {
     return (
@@ -19,15 +22,16 @@ export function BottomContactBox() {
                         d&apos;engagement. Un point de vue externe, honnête, sur votre situation.
                     </p>
                     <div className="lg:text-lg text-sm font-normal lg:px-1 px-0 flex">
-                        <a
+                        <TrackedLink
                             href={`${links.zcal}?utm_source=site&utm_medium=bottom_cta&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-1 group"
+                            tracking={{ event: "appointment_booking", medium: "bottom_cta" }}
                         >
                             <HoverUnderlineWrapper>Prendre rendez-vous</HoverUnderlineWrapper>
                             <RightArrowLinearLink className="md:w-3 md:h-5.5 w-2.5 h-4.5 pt-0.5" />
-                        </a>
+                        </TrackedLink>
                     </div>
                 </div>
             </CardContent>

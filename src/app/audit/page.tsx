@@ -123,7 +123,7 @@ export default function AuditPage() {
                             href={`${links.zcal}?utm_source=site&utm_medium=audit&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            tracking={{ medium: "audit", campaign: "rdv" }}
+                            tracking={{ event: "appointment_booking", medium: "audit" }}
                         >
                             Prendre rendez-vous
                         </CtaButton>
@@ -301,7 +301,7 @@ export default function AuditPage() {
                             href={`${links.zcal}?utm_source=site&utm_medium=audit-bottom&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
-                            tracking={{ medium: "audit-bottom", campaign: "rdv" }}
+                            tracking={{ event: "appointment_booking", medium: "audit-bottom" }}
                         >
                             Prendre rendez-vous
                         </CtaButton>

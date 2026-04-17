@@ -50,7 +50,7 @@ Le CEO ne sait pas si sa tech avance bien, coûte le bon prix, ou freine sa croi
 
 ### Accompagnement / sparring (revenu récurrent)
 
-- Format : 4-8h par mois par client, engagement trimestriel
+- Format : 4-8h par mois par client
 - Prix : 600 - 1 600 €/mois
 - Sparring-partner CEO, regard extérieur CTO, suivi d'exécution, aide recrutement, préparation levée
 - 5-8 clients en parallèle sans friction cognitive

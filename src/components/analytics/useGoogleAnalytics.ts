@@ -34,6 +34,13 @@ export const useGoogleAnalytics = () => {
         [trackEvent],
     );
 
+    const trackAppointmentBooking = useCallback(
+        (medium: string) => {
+            trackEvent("appointment_booking", { medium });
+        },
+        [trackEvent],
+    );
+
     const trackDiagnosticStart = useCallback(() => {
         trackEvent("diagnostic_start");
     }, [trackEvent]);
@@ -78,6 +85,7 @@ export const useGoogleAnalytics = () => {
     return {
         trackEvent,
         trackCta,
+        trackAppointmentBooking,
         trackDiagnosticStart,
         trackDiagnosticComplete,
         trackDiagnosticShare,

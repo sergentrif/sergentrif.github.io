@@ -30,7 +30,7 @@ export function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group"
-                                tracking={{ medium: "footer", campaign: "presentation" }}
+                                tracking={{ event: "file_download", medium: "footer", document: "presentation" }}
                             >
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>PRÉSENTATION
@@ -41,7 +41,7 @@ export function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group"
-                                tracking={{ medium: "footer", campaign: "cv" }}
+                                tracking={{ event: "file_download", medium: "footer", document: "cv" }}
                             >
                                 <HoverUnderlineWrapper>
                                     <span className="text-brand-glacier">##</span>CV

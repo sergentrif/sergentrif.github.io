@@ -31,7 +31,7 @@ export const LandingSection = () => {
                             <h2 className="text-black font-brico-gro font-extrabold text-[22px] tracking-wider flex justify-center w-full border-b-2 border-brand-lavender py-2">
                                 Accompagnement
                             </h2>
-                            <InfoBox className="flex mx-auto">Mensuel · engagement trimestriel</InfoBox>
+                            <InfoBox className="flex mx-auto">Mensuel</InfoBox>
                         </div>
                         <p>
                             L&apos;audit pose le diagnostic. L&apos;accompagnement s&apos;assure qu&apos;il se traduit

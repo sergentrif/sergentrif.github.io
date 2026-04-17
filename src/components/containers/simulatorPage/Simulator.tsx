@@ -352,7 +352,7 @@ export function Simulator() {
                     <div className="flex flex-col sm:flex-row gap-6 pt-2 items-start">
                         <CtaButton
                             href={`${links.zcal}?utm_source=site&utm_medium=simulator&utm_campaign=rdv`}
-                            tracking={{ medium: "simulator", campaign: "rdv" }}
+                            tracking={{ event: "appointment_booking", medium: "simulator" }}
                             target="_blank"
                             rel="noopener noreferrer"
                         >

@@ -71,7 +71,7 @@ export function Header() {
                     href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    tracking={{ medium: "header", campaign: "rdv" }}
+                    tracking={{ event: "appointment_booking", medium: "header" }}
                 >
                     Prendre rendez-vous
                 </CtaButton>
@@ -82,7 +82,7 @@ export function Header() {
                     href={`${links.zcal}?utm_source=site&utm_medium=header&utm_campaign=rdv`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    tracking={{ medium: "header", campaign: "rdv" }}
+                    tracking={{ event: "appointment_booking", medium: "header" }}
                 >
                     Prendre rendez-vous
                 </CtaButton>
