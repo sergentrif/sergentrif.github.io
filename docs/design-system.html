@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design System — Adrien Blandin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400;12..96,75..100,700;12..96,75..100,800&family=Fira+Code:wght@500&family=DM+Mono&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─────────────────────────────────────────
+       CSS Custom Properties — Design Tokens
+    ───────────────────────────────────────── */
+    :root {
+      /* Colors */
+      --color-midnight:  #000F1A;
+      --color-giants:    #F46036;
+      --color-powder:    #F7F7F2;
+      --color-lime:      #EEF36B;
+      --color-glacier:   #AAEAFE;
+      --color-lavender:  #C8C6FA;
+      --color-body:      #49687C;
+      --color-surface:   #EFEFEA;
+      --color-muted:     #B4B4AD;
+
+      /* Typography */
+      --font-display: 'Bricolage Grotesque', sans-serif;
+      --font-code:    'Fira Code', monospace;
+      --font-mono:    'DM Mono', monospace;
+      --fvs:          'opsz' 14, 'wdth' 100;
+
+      /* Type Scale */
+      --text-h1:       40px;
+      --text-h4:       26px;
+      --text-caption:  16px;
+      --text-button:   16px;
+      --text-body:     16px;
+      --text-mono:     14px;
+
+      /* Spacing */
+      --space-xs:  8px;
+      --space-sm:  16px;
+      --space-md:  22px;
+      --space-lg:  32px;
+      --space-xl:  44px;
+      --space-2xl: 60px;
+      --space-3xl: 76px;
+      --space-4xl: 96px;
+
+      /* Border Radius */
+      --radius-sm:   8px;
+      --radius-md:   16px;
+      --radius-full: 99px;
+
+      /* Layout */
+      --layout-page:    1440px;
+      --layout-content: 1248px;
+      --layout-inner:   1034px;
+    }
+
+    /* ─────────────────────────────────────────
+       Reset & Base
+    ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--color-powder);
+      color: var(--color-midnight);
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: var(--text-body);
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─────────────────────────────────────────
+       Page Shell
+    ───────────────────────────────────────── */
+    .ds-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 var(--space-4xl) var(--space-4xl);
+    }
+
+    /* ─────────────────────────────────────────
+       Page Header
+    ───────────────────────────────────────── */
+    .ds-header {
+      padding: var(--space-xl) 0 var(--space-lg);
+      border-bottom: 2px solid var(--color-lavender);
+      margin-bottom: var(--space-xl);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: var(--space-lg);
+    }
+
+    .ds-header-title {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+      color: var(--color-midnight);
+    }
+
+    .ds-header-title span {
+      color: var(--color-giants);
+    }
+
+    .ds-header-meta {
+      font-family: var(--font-mono);
+      font-size: var(--text-mono);
+      color: var(--color-body);
+      line-height: 1.6;
+      text-align: right;
+    }
+
+    /* ─────────────────────────────────────────
+       Section
+    ───────────────────────────────────────── */
+    .ds-section {
+      margin-bottom: var(--space-xl);
+    }
+
+    .ds-section-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-giants);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: var(--space-sm);
+    }
+
+    .ds-section-title {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 700;
+      font-size: 22px;
+      color: var(--color-midnight);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding-bottom: var(--space-sm);
+      border-bottom: 1px solid var(--color-lavender);
+      margin-bottom: var(--space-lg);
+    }
+
+    /* ─────────────────────────────────────────
+       Color Swatches
+    ───────────────────────────────────────── */
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: var(--space-sm);
+    }
+
+    .color-swatch {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .color-swatch-block {
+      height: 80px;
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+    }
+
+    .color-swatch-block:hover {
+      transform: scale(1.04);
+    }
+
+    .color-swatch-name {
+      font-family: var(--font-code);
+      font-size: 11px;
+      color: var(--color-midnight);
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    .color-swatch-hex {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-body);
+      margin-top: 2px;
+    }
+
+    .color-swatch-usage {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 11px;
+      color: var(--color-body);
+      margin-top: 1px;
+    }
+
+    /* ─────────────────────────────────────────
+       Typography Scale
+    ───────────────────────────────────────── */
+    .type-stack {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+    }
+
+    .type-row {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: var(--space-lg);
+      align-items: center;
+      padding-bottom: var(--space-lg);
+      border-bottom: 1px solid rgba(200,198,250,0.3);
+    }
+
+    .type-row:last-child { border-bottom: none; }
+
+    .type-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .type-token {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-giants);
+      letter-spacing: 1px;
+    }
+
+    .type-specs {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--color-body);
+      line-height: 1.8;
+    }
+
+    .type-sample-h1 {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 1.3;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      color: var(--color-midnight);
+    }
+
+    .type-sample-h4 {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 1.4;
+      letter-spacing: 0.78px;
+      color: var(--color-body);
+    }
+
+    .type-sample-caption {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.4;
+      letter-spacing: 0.16px;
+      color: var(--color-midnight);
+    }
+
+    .type-sample-button {
+      font-family: var(--font-code);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.2;
+      color: var(--color-midnight);
+    }
+
+    .type-sample-body-code {
+      font-family: var(--font-code);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.4;
+      color: var(--color-body);
+    }
+
+    .type-sample-mono {
+      font-family: var(--font-mono);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--color-giants);
+    }
+
+    /* ─────────────────────────────────────────
+       Spacing Scale
+    ───────────────────────────────────────── */
+    .spacing-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .spacing-row {
+      display: grid;
+      grid-template-columns: 80px 1fr 200px;
+      align-items: center;
+      gap: var(--space-lg);
+    }
+
+    .spacing-token {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-giants);
+    }
+
+    .spacing-bar-wrap {
+      height: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .spacing-bar {
+      height: 8px;
+      background: var(--color-lavender);
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+
+    .spacing-usage {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-body);
+    }
+
+    /* ─────────────────────────────────────────
+       Radius
+    ───────────────────────────────────────── */
+    .radius-grid {
+      display: flex;
+      gap: var(--space-lg);
+      align-items: flex-end;
+    }
+
+    .radius-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-xs);
+    }
+
+    .radius-box {
+      width: 80px;
+      height: 80px;
+      background: var(--color-surface);
+      border: 2px solid var(--color-lavender);
+    }
+
+    .radius-token {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-giants);
+    }
+
+    .radius-value {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 12px;
+      color: var(--color-body);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Navbar
+    ───────────────────────────────────────── */
+    .comp-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--space-lg) var(--space-4xl);
+      background: var(--color-powder);
+      border: 1px solid var(--color-lavender);
+      border-radius: var(--radius-md);
+    }
+
+    .comp-navbar-monogram {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--color-midnight);
+      letter-spacing: -0.5px;
+    }
+
+    .comp-navbar-links {
+      display: flex;
+      gap: var(--space-xs);
+    }
+
+    .comp-navbar-link {
+      font-family: var(--font-code);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--color-midnight);
+      padding: var(--space-xs);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .comp-navbar-link:hover { color: var(--color-giants); }
+
+    .comp-btn-primary {
+      font-family: var(--font-code);
+      font-size: var(--text-button);
+      font-weight: 500;
+      color: var(--color-midnight);
+      background: var(--color-powder);
+      border: 2px solid var(--color-giants);
+      border-radius: var(--radius-full);
+      padding: 16px var(--space-md);
+      cursor: pointer;
+      transition: background 0.15s ease, transform 0.1s ease;
+      white-space: nowrap;
+    }
+
+    .comp-btn-primary:hover {
+      background: var(--color-giants);
+      color: var(--color-powder);
+      transform: translateY(-1px);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Buttons
+    ───────────────────────────────────────── */
+    .button-row {
+      display: flex;
+      align-items: center;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+    }
+
+    .comp-btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-family: var(--font-code);
+      font-size: var(--text-button);
+      font-weight: 500;
+      color: var(--color-midnight);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: gap 0.15s ease;
+    }
+
+    .comp-btn-secondary:hover { gap: 12px; }
+
+    .comp-btn-secondary-arrow {
+      display: inline-block;
+      width: 7px;
+      height: 14px;
+      background: var(--color-midnight);
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      flex-shrink: 0;
+      transition: transform 0.15s ease;
+    }
+
+    .comp-btn-secondary:hover .comp-btn-secondary-arrow {
+      transform: translateX(3px);
+    }
+
+    .comp-btn-dark {
+      font-family: var(--font-code);
+      font-size: var(--text-button);
+      font-weight: 500;
+      color: var(--color-powder);
+      background: var(--color-midnight);
+      border: 2px solid var(--color-midnight);
+      border-radius: var(--radius-full);
+      padding: 16px var(--space-md);
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .comp-btn-dark:hover {
+      background: var(--color-body);
+      border-color: var(--color-body);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Tag / Badge
+    ───────────────────────────────────────── */
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-xs);
+      background: var(--color-surface);
+      border: 1px solid var(--color-lavender);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--color-body);
+      letter-spacing: 0.16px;
+      white-space: nowrap;
+    }
+
+    .tags-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-xs);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Card (Service)
+    ───────────────────────────────────────── */
+    .cards-row {
+      display: flex;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+    }
+
+    .comp-card {
+      border: 2px solid var(--color-lavender);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      width: 320px;
+      min-height: 360px;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s ease;
+    }
+
+    .comp-card:hover { border-color: var(--color-body); }
+
+    .comp-card-media {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      mix-blend-mode: plus-lighter;
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    .comp-card-media svg {
+      width: 260px;
+      height: 260px;
+    }
+
+    .comp-card-top {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+      position: relative;
+      z-index: 1;
+    }
+
+    .comp-card-heading {
+      border-bottom: 2px solid var(--color-lavender);
+      padding-bottom: var(--space-xs);
+    }
+
+    .comp-card-heading p {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 1.4;
+      letter-spacing: 0.78px;
+      color: var(--color-body);
+      text-align: center;
+    }
+
+    .comp-card-tag-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    .comp-card-cta {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ─────────────────────────────────────────
+       Component: ReviewItem
+    ───────────────────────────────────────── */
+    .review-layout {
+      display: flex;
+      gap: var(--space-lg);
+      align-items: stretch;
+    }
+
+    .comp-review-quote {
+      flex: 1;
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      font-family: var(--font-code);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: var(--color-body);
+    }
+
+    .comp-review-attribution {
+      width: 280px;
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: var(--space-lg);
+    }
+
+    .comp-review-company {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 400;
+      font-size: 22px;
+      color: var(--color-midnight);
+      letter-spacing: 0.66px;
+    }
+
+    .comp-review-divider {
+      width: 50px;
+      height: 2px;
+      background: var(--color-body);
+    }
+
+    .comp-review-name {
+      font-family: var(--font-code);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--color-body);
+      text-transform: uppercase;
+      line-height: 1.4;
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Banner (Trust Strip)
+    ───────────────────────────────────────── */
+    .comp-banner {
+      border-top: 1px solid var(--color-lavender);
+      border-bottom: 1px solid var(--color-lavender);
+      padding: var(--space-xs) var(--space-lg);
+      display: flex;
+      align-items: center;
+      gap: var(--space-xl);
+      overflow: hidden;
+    }
+
+    .comp-banner-label {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 400;
+      font-size: 16px;
+      color: var(--color-midnight);
+      letter-spacing: 0.16px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .comp-banner-items {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xl);
+      flex-wrap: wrap;
+    }
+
+    .comp-banner-name {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--color-body);
+      letter-spacing: 0.16px;
+    }
+
+    .comp-banner-sep {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--color-giants);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Dark Section (Krma)
+    ───────────────────────────────────────── */
+    .comp-dark {
+      background: var(--color-midnight);
+      border-radius: var(--radius-md);
+      padding: var(--space-2xl) var(--space-4xl);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xl);
+    }
+
+    .comp-dark-heading {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 700;
+      font-size: var(--text-h1);
+      line-height: 1.3;
+      text-transform: uppercase;
+      color: var(--color-powder);
+    }
+
+    .comp-dark-body {
+      font-family: var(--font-code);
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--color-muted);
+      line-height: 1.4;
+      max-width: 560px;
+    }
+
+    .comp-dark .comp-btn-secondary {
+      color: var(--color-powder);
+    }
+
+    .comp-dark .comp-btn-secondary-arrow {
+      background: var(--color-powder);
+    }
+
+    /* ─────────────────────────────────────────
+       Component: Footer
+    ───────────────────────────────────────── */
+    .comp-footer {
+      background: var(--color-powder);
+      border: 1px solid var(--color-lavender);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+
+    .comp-footer-strip {
+      border-top: 1px solid var(--color-lavender);
+      border-bottom: 1px solid var(--color-lavender);
+      padding: var(--space-xs) var(--space-lg);
+      display: flex;
+      align-items: center;
+      gap: var(--space-lg);
+      overflow-x: auto;
+    }
+
+    .comp-footer-strip span {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 16px;
+      color: var(--color-body);
+      letter-spacing: 0.16px;
+      white-space: nowrap;
+    }
+
+    .comp-footer-row {
+      padding: var(--space-xl) var(--space-4xl);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .comp-footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .comp-footer-link {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 1.4;
+      letter-spacing: 0.78px;
+      text-transform: uppercase;
+      color: var(--color-midnight);
+    }
+
+    .comp-footer-link .prefix {
+      color: var(--color-glacier);
+    }
+
+    .comp-footer-right {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+      align-items: flex-end;
+    }
+
+    .comp-footer-logo {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: var(--color-midnight);
+    }
+
+    .comp-footer-tagline {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 16px;
+      color: var(--color-body);
+      letter-spacing: 0.16px;
+    }
+
+    .comp-footer-legal {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-size: 16px;
+      color: var(--color-midnight);
+      text-decoration: underline;
+    }
+
+    /* ─────────────────────────────────────────
+       Decorative Patterns Section
+    ───────────────────────────────────────── */
+    .pattern-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+    }
+
+    .pattern-item {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: var(--space-lg);
+      align-items: center;
+      padding: var(--space-sm);
+      background: var(--color-surface);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-lavender);
+    }
+
+    .pattern-label {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-body);
+    }
+
+    .pattern-demo {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+    }
+
+    /* ─────────────────────────────────────────
+       Layout Reference
+    ───────────────────────────────────────── */
+    .layout-diagram {
+      position: relative;
+      height: 140px;
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-lavender);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .layout-page-band {
+      position: absolute;
+      inset: 0;
+      background: rgba(200,198,250,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .layout-content-band {
+      position: absolute;
+      inset: 0 8.33% 0 8.33%; /* ~96px / 1440px * 100 */
+      background: rgba(200,198,250,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .layout-inner-band {
+      position: absolute;
+      inset: 0 18.33% 0 18.33%;
+      background: rgba(200,198,250,0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .layout-band-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--color-body);
+      letter-spacing: 0.5px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .layout-legend {
+      display: flex;
+      gap: var(--space-lg);
+      margin-top: var(--space-sm);
+      flex-wrap: wrap;
+    }
+
+    .layout-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-body);
+    }
+
+    .layout-legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+
+    /* ─────────────────────────────────────────
+       TOC sidebar (sticky)
+    ───────────────────────────────────────── */
+    .ds-wrap {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: var(--space-xl);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 var(--space-xl) var(--space-4xl);
+    }
+
+    .ds-toc {
+      position: sticky;
+      top: var(--space-lg);
+      height: fit-content;
+      padding-top: var(--space-xl);
+    }
+
+    .ds-toc-title {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--color-giants);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: var(--space-sm);
+    }
+
+    .ds-toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .ds-toc-list a {
+      font-family: var(--font-code);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--color-body);
+      text-decoration: none;
+      transition: color 0.15s;
+      display: block;
+      padding: 4px 0;
+      border-left: 2px solid transparent;
+      padding-left: var(--space-xs);
+    }
+
+    .ds-toc-list a:hover {
+      color: var(--color-midnight);
+      border-left-color: var(--color-giants);
+    }
+
+    .ds-main {
+      min-width: 0;
+    }
+
+    /* ─────────────────────────────────────────
+       Page title bar (top, full-width)
+    ───────────────────────────────────────── */
+    .ds-topbar {
+      background: var(--color-midnight);
+      padding: var(--space-lg) var(--space-xl);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+
+    .ds-topbar-title {
+      font-family: var(--font-display);
+      font-variation-settings: var(--fvs);
+      font-weight: 800;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-powder);
+    }
+
+    .ds-topbar-title span { color: var(--color-giants); }
+
+    .ds-topbar-meta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-muted);
+    }
+
+    .ds-topbar-badge {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--color-midnight);
+      background: var(--color-lime);
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+
+    /* Divider */
+    hr.ds-divider {
+      border: none;
+      border-top: 1px solid var(--color-lavender);
+      margin: var(--space-xl) 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="ds-topbar">
+    <div class="ds-topbar-title">//ADRIEN <span>BLANDIN</span> — Design System</div>
+    <div style="display:flex;align-items:center;gap:16px">
+      <span class="ds-topbar-meta">Extracted from Figma · AB · 1. Homepage</span>
+      <span class="ds-topbar-badge">v1.0</span>
+    </div>
+  </div>
+
+  <!-- Two-column layout: TOC + main -->
+  <div class="ds-wrap">
+
+    <!-- Sticky TOC -->
+    <nav class="ds-toc">
+      <div class="ds-toc-title">Contents</div>
+      <ul class="ds-toc-list">
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#spacing">Spacing</a></li>
+        <li><a href="#radius">Border Radius</a></li>
+        <li><a href="#layout">Layout</a></li>
+        <li><a href="#navbar">Navbar</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#cards">Cards</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#banner">Banner</a></li>
+        <li><a href="#dark">Dark Section</a></li>
+        <li><a href="#footer">Footer</a></li>
+        <li><a href="#decorative">Patterns</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main class="ds-main">
+
+      <!-- ── COLORS ── -->
+      <section class="ds-section" id="colors">
+        <div class="ds-section-label">01 — Tokens</div>
+        <h2 class="ds-section-title">Colors</h2>
+        <div class="color-grid">
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#000F1A;"></div>
+            <div class="color-swatch-name">Brand/Midnight</div>
+            <div class="color-swatch-hex">#000F1A</div>
+            <div class="color-swatch-usage">Primary text, dark bg</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#F46036;"></div>
+            <div class="color-swatch-name">Brand/Giants</div>
+            <div class="color-swatch-hex">#F46036</div>
+            <div class="color-swatch-usage">Accent, CTAs, separators</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#F7F7F2; border:1px solid #E0E0D8;"></div>
+            <div class="color-swatch-name">Brand/Powder</div>
+            <div class="color-swatch-hex">#F7F7F2</div>
+            <div class="color-swatch-usage">Page bg, button fill</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#EEF36B;"></div>
+            <div class="color-swatch-name">Brand/Lime</div>
+            <div class="color-swatch-hex">#EEF36B</div>
+            <div class="color-swatch-usage">Highlights, badges</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#AAEAFE;"></div>
+            <div class="color-swatch-name">Brand/Glacier</div>
+            <div class="color-swatch-hex">#AAEAFE</div>
+            <div class="color-swatch-usage">Monogram highlights</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#C8C6FA;"></div>
+            <div class="color-swatch-name">Brand/Lavender</div>
+            <div class="color-swatch-hex">#C8C6FA</div>
+            <div class="color-swatch-usage">Card borders, dividers</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#49687C;"></div>
+            <div class="color-swatch-name">Body</div>
+            <div class="color-swatch-hex">#49687C</div>
+            <div class="color-swatch-usage">Secondary text, labels</div>
+          </div>
+          <div class="color-swatch">
+            <div class="color-swatch-block" style="background:#EFEFEA; border:1px solid #E0E0D8;"></div>
+            <div class="color-swatch-name">Surface</div>
+            <div class="color-swatch-hex">#EFEFEA</div>
+            <div class="color-swatch-usage">Card & review bg</div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── TYPOGRAPHY ── -->
+      <section class="ds-section" id="typography">
+        <div class="ds-section-label">02 — Tokens</div>
+        <h2 class="ds-section-title">Typography</h2>
+        <div class="type-stack">
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">H1</span>
+              <span class="type-specs">Bricolage Grotesque Bold<br/>40px · lh 1.3 · ls 0<br/>Uppercase</span>
+            </div>
+            <div class="type-sample-h1">Transformer votre tech</div>
+          </div>
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">H4</span>
+              <span class="type-specs">Bricolage Grotesque ExtraBold<br/>26px · lh 1.4 · ls 0.78px</span>
+            </div>
+            <div class="type-sample-h4">Un diagnostic clair sur votre situation tech</div>
+          </div>
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">Caption-Display</span>
+              <span class="type-specs">Bricolage Grotesque Regular<br/>16px · lh 1.4 · ls 0.16px</span>
+            </div>
+            <div class="type-sample-caption">CTO &amp; architecte technique · Startups early stage</div>
+          </div>
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">Button</span>
+              <span class="type-specs">Fira Code Medium<br/>16px · lh 1.2 · ls 0</span>
+            </div>
+            <div class="type-sample-button">Réserver un créneau de diagnostic</div>
+          </div>
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">Body (code)</span>
+              <span class="type-specs">Fira Code Medium<br/>16px · lh 1.4 · ls 0</span>
+            </div>
+            <div class="type-sample-body-code">J'interviens comme CTO à temps partagé pour structurer vos projets, accompagner votre équipe technique.</div>
+          </div>
+          <div class="type-row">
+            <div class="type-meta">
+              <span class="type-token">Mono</span>
+              <span class="type-specs">DM Mono Regular<br/>14px · lh 1.4 · ls 0</span>
+            </div>
+            <div class="type-sample-mono">&lt;/&gt; &lt;/&gt; &lt;/&gt;</div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── SPACING ── -->
+      <section class="ds-section" id="spacing">
+        <div class="ds-section-label">03 — Tokens</div>
+        <h2 class="ds-section-title">Spacing</h2>
+        <div class="spacing-list">
+          <div class="spacing-row">
+            <span class="spacing-token">xs · 8px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:8px;"></div></div>
+            <span class="spacing-usage">Icon padding, tag padding, small gaps</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">sm · 16px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:16px;"></div></div>
+            <span class="spacing-usage">List gaps, heading stacks</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">md · 22px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:22px;"></div></div>
+            <span class="spacing-usage">Button horizontal padding</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">lg · 32px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:32px;"></div></div>
+            <span class="spacing-usage">Card padding, section gaps, row spacing</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">xl · 44px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:44px;"></div></div>
+            <span class="spacing-usage">Section breathing room, footer row gaps</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">2xl · 60px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:60px;"></div></div>
+            <span class="spacing-usage">Section vertical padding</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">3xl · 76px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:76px;"></div></div>
+            <span class="spacing-usage">Hero spacing, content block gaps</span>
+          </div>
+          <div class="spacing-row">
+            <span class="spacing-token">4xl · 96px</span>
+            <div class="spacing-bar-wrap"><div class="spacing-bar" style="width:96px;"></div></div>
+            <span class="spacing-usage">Page horizontal margins</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── BORDER RADIUS ── -->
+      <section class="ds-section" id="radius">
+        <div class="ds-section-label">04 — Tokens</div>
+        <h2 class="ds-section-title">Border Radius</h2>
+        <div class="radius-grid">
+          <div class="radius-item">
+            <div class="radius-box" style="border-radius:8px;"></div>
+            <span class="radius-token">radius-sm</span>
+            <span class="radius-value">8px · Tags, badges</span>
+          </div>
+          <div class="radius-item">
+            <div class="radius-box" style="border-radius:16px;"></div>
+            <span class="radius-token">radius-md</span>
+            <span class="radius-value">16px · Cards, images</span>
+          </div>
+          <div class="radius-item">
+            <div class="radius-box" style="border-radius:99px; width:140px; height:52px;"></div>
+            <span class="radius-token">radius-full</span>
+            <span class="radius-value">99px · Buttons (pill)</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── LAYOUT ── -->
+      <section class="ds-section" id="layout">
+        <div class="ds-section-label">05 — Structure</div>
+        <h2 class="ds-section-title">Layout</h2>
+        <div class="layout-diagram">
+          <div class="layout-page-band">
+            <span class="layout-band-label">Page<br/>1440px</span>
+          </div>
+          <div class="layout-content-band">
+            <span class="layout-band-label">Content<br/>1248px</span>
+          </div>
+          <div class="layout-inner-band">
+            <span class="layout-band-label">Inner<br/>1034px</span>
+          </div>
+        </div>
+        <div class="layout-legend">
+          <div class="layout-legend-item">
+            <div class="layout-legend-dot" style="background:rgba(200,198,250,0.2);border:1px solid var(--color-lavender);"></div>
+            Page — 1440px
+          </div>
+          <div class="layout-legend-item">
+            <div class="layout-legend-dot" style="background:rgba(200,198,250,0.35);border:1px solid var(--color-lavender);"></div>
+            Content container — 1248px
+          </div>
+          <div class="layout-legend-item">
+            <div class="layout-legend-dot" style="background:rgba(200,198,250,0.55);border:1px solid var(--color-lavender);"></div>
+            Inner content — 1034px
+          </div>
+          <div class="layout-legend-item">
+            <div class="layout-legend-dot" style="background:var(--color-giants);"></div>
+            H. padding — 96px
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── NAVBAR ── -->
+      <section class="ds-section" id="navbar">
+        <div class="ds-section-label">06 — Components</div>
+        <h2 class="ds-section-title">Navbar</h2>
+        <div class="comp-navbar">
+          <div class="comp-navbar-monogram">/AB</div>
+          <nav class="comp-navbar-links">
+            <a class="comp-navbar-link" href="#">Prestations</a>
+            <a class="comp-navbar-link" href="#">Témoignages</a>
+            <a class="comp-navbar-link" href="#">Parcours</a>
+            <a class="comp-navbar-link" href="#">Podcasts</a>
+            <a class="comp-navbar-link" href="#">Articles</a>
+          </nav>
+          <button class="comp-btn-primary">Contact</button>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── BUTTONS ── -->
+      <section class="ds-section" id="buttons">
+        <div class="ds-section-label">07 — Components</div>
+        <h2 class="ds-section-title">Buttons</h2>
+        <div class="button-row">
+          <button class="comp-btn-primary">Contact</button>
+          <button class="comp-btn-dark">Réserver un créneau</button>
+          <button class="comp-btn-secondary">
+            Voir tous les témoignages
+            <span class="comp-btn-secondary-arrow"></span>
+          </button>
+          <button class="comp-btn-secondary">
+            Discuter de mon projet
+            <span class="comp-btn-secondary-arrow"></span>
+          </button>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── TAGS ── -->
+      <section class="ds-section" id="tags">
+        <div class="ds-section-label">08 — Components</div>
+        <h2 class="ds-section-title">Tags / Badges</h2>
+        <div class="tags-row">
+          <span class="tag">250€/h</span>
+          <span class="tag">Tarif selon projet</span>
+          <span class="tag">À partir de 9 000€/mois</span>
+          <span class="tag">Startups early stage</span>
+          <span class="tag">SaaS</span>
+          <span class="tag">Web &amp; apps</span>
+          <span class="tag" style="background:var(--color-lime); border-color:var(--color-lime); color:var(--color-midnight);">CII · 20%</span>
+          <span class="tag" style="background:var(--color-glacier); border-color:var(--color-glacier); color:var(--color-midnight);">##LINKEDIN</span>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── CARDS ── -->
+      <section class="ds-section" id="cards">
+        <div class="ds-section-label">09 — Components</div>
+        <h2 class="ds-section-title">Cards (Service)</h2>
+        <div class="cards-row">
+
+          <div class="comp-card">
+            <div class="comp-card-media">
+              <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="130" cy="130" rx="120" ry="60" stroke="#C8C6FA" stroke-width="1.5" opacity="0.6"/>
+                <ellipse cx="130" cy="130" rx="80" ry="100" stroke="#C8C6FA" stroke-width="1.5" opacity="0.6"/>
+                <ellipse cx="130" cy="130" rx="50" ry="120" stroke="#C8C6FA" stroke-width="1.5" opacity="0.6"/>
+              </svg>
+            </div>
+            <div class="comp-card-top">
+              <div class="comp-card-heading">
+                <p>Un diagnostic clair sur votre situation tech</p>
+              </div>
+              <div class="comp-card-tag-wrap">
+                <span class="tag">250€/h</span>
+              </div>
+            </div>
+            <div class="comp-card-cta">
+              <button class="comp-btn-secondary">
+                Réserver un créneau de diagnostic
+                <span class="comp-btn-secondary-arrow"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-card-media">
+              <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="60" y="60" width="140" height="140" rx="8" stroke="#C8C6FA" stroke-width="1.5" opacity="0.5"/>
+                <rect x="80" y="80" width="100" height="100" rx="8" stroke="#C8C6FA" stroke-width="1.5" opacity="0.5"/>
+                <line x1="130" y1="40" x2="130" y2="220" stroke="#C8C6FA" stroke-width="1" opacity="0.4"/>
+                <line x1="40" y1="130" x2="220" y2="130" stroke="#C8C6FA" stroke-width="1" opacity="0.4"/>
+              </svg>
+            </div>
+            <div class="comp-card-top">
+              <div class="comp-card-heading">
+                <p>Une mission ciblée pour structurer votre projet</p>
+              </div>
+              <div class="comp-card-tag-wrap">
+                <span class="tag">Tarif selon projet</span>
+              </div>
+            </div>
+            <div class="comp-card-cta">
+              <button class="comp-btn-secondary">
+                Discuter de mon projet
+                <span class="comp-btn-secondary-arrow"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-card-media">
+              <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40 200 Q80 80 130 130 Q180 180 220 60" stroke="#C8C6FA" stroke-width="1.5" fill="none" opacity="0.6"/>
+                <path d="M40 180 Q90 100 130 110 Q170 120 220 80" stroke="#C8C6FA" stroke-width="1" fill="none" opacity="0.4"/>
+                <circle cx="130" cy="130" r="4" fill="#C8C6FA" opacity="0.6"/>
+              </svg>
+            </div>
+            <div class="comp-card-top">
+              <div class="comp-card-heading">
+                <p>CTO à temps partagé pour piloter votre croissance</p>
+              </div>
+              <div class="comp-card-tag-wrap">
+                <span class="tag">À partir de 9 000€/mois</span>
+              </div>
+            </div>
+            <div class="comp-card-cta">
+              <button class="comp-btn-secondary">
+                Déléguer mon pilotage tech
+                <span class="comp-btn-secondary-arrow"></span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── REVIEWS ── -->
+      <section class="ds-section" id="reviews">
+        <div class="ds-section-label">10 — Components</div>
+        <h2 class="ds-section-title">Review Item</h2>
+        <div class="review-layout">
+          <div class="comp-review-quote">
+            "J'ai eu la chance de collaborer avec beaucoup de monde dans mes différentes expériences, mais j'ai rarement vu quelqu'un s'intégrer et prendre des responsabilités aussi rapidement ! Professionnel, impliqué et efficace dans chacune de ses interventions, je peux dire que collaborer avec Adrien est certainement l'une des meilleures décisions que nous avons prises."
+          </div>
+          <div class="comp-review-attribution">
+            <div class="comp-review-company">Objow</div>
+            <div class="comp-review-divider"></div>
+            <div class="comp-review-name">Jonathan le Duc<br/>CEO — Objow</div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── BANNER ── -->
+      <section class="ds-section" id="banner">
+        <div class="ds-section-label">11 — Components</div>
+        <h2 class="ds-section-title">Banner (Trust Strip)</h2>
+        <div class="comp-banner">
+          <div class="comp-banner-label">Ils me font confiance<br/>et c'est réciproque</div>
+          <div class="comp-banner-items">
+            <span class="comp-banner-name">Objow</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span class="comp-banner-name">Mechdeski</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span class="comp-banner-name">Ultime</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span class="comp-banner-name">Dougs</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span class="comp-banner-name">IpernsLibre</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span class="comp-banner-name">Pulse</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── DARK SECTION ── -->
+      <section class="ds-section" id="dark">
+        <div class="ds-section-label">12 — Components</div>
+        <h2 class="ds-section-title">Dark Section (Krma)</h2>
+        <div class="comp-dark">
+          <div class="comp-dark-heading">Une équipe d'experts...<br/>sans les soucis du recrutement</div>
+          <div class="comp-dark-body">Je mets à votre disposition l'équipe que j'ai constituée et dirigée : des développeurs, product managers et designers qui travaillent en parfaite synergie.</div>
+          <button class="comp-btn-secondary" style="color:var(--color-powder)">
+            Découvrir Krma
+            <span class="comp-btn-secondary-arrow" style="background:var(--color-powder)"></span>
+          </button>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── FOOTER ── -->
+      <section class="ds-section" id="footer">
+        <div class="ds-section-label">13 — Components</div>
+        <h2 class="ds-section-title">Footer</h2>
+        <div class="comp-footer">
+          <div class="comp-footer-strip">
+            <span>Audit</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Stratégie</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Roadmap</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Management</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Recrutement</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Cahier des charges</span>
+            <span class="comp-banner-sep">&lt;/&gt;</span>
+            <span>Conseil Technique</span>
+          </div>
+          <div class="comp-footer-row">
+            <div class="comp-footer-links">
+              <div class="comp-footer-link"><span class="prefix">##</span>LINKEDIN</div>
+              <div class="comp-footer-link"><span class="prefix">##</span>GITHUB</div>
+            </div>
+            <div class="comp-footer-right">
+              <div class="comp-footer-logo">//ADRIEN BLANDIN</div>
+              <div class="comp-footer-tagline">CTO &amp; architecte technique</div>
+              <div class="comp-footer-legal">Mentions Légales</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="ds-divider" />
+
+      <!-- ── DECORATIVE PATTERNS ── -->
+      <section class="ds-section" id="decorative">
+        <div class="ds-section-label">14 — Patterns</div>
+        <h2 class="ds-section-title">Decorative Patterns</h2>
+        <div class="pattern-list">
+
+          <div class="pattern-item">
+            <div class="pattern-label">Code separator<br/>DM Mono · 14px · Giants</div>
+            <div class="pattern-demo">
+              <span style="font-family:var(--font-mono);font-size:22px;color:var(--color-giants);letter-spacing:12px;">&lt;/&gt; &lt;/&gt; &lt;/&gt;</span>
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-label">Footer prefix<br/>Bricolage ExtraBold · 26px · Glacier</div>
+            <div class="pattern-demo">
+              <span style="font-family:var(--font-display);font-variation-settings:var(--fvs);font-weight:800;font-size:26px;letter-spacing:0.78px;text-transform:uppercase;">
+                <span style="color:var(--color-glacier);">##</span><span style="color:var(--color-midnight);">LINKEDIN</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-label">Uppercase headings<br/>Bricolage Bold · H1 · Midnight</div>
+            <div class="pattern-demo">
+              <span style="font-family:var(--font-display);font-variation-settings:var(--fvs);font-weight:700;font-size:40px;text-transform:uppercase;line-height:1.3;color:var(--color-midnight);">Transformer des défis techniques</span>
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-label">CTO role badge<br/>Caption-Display · Giants accent</div>
+            <div class="pattern-demo" style="display:flex;align-items:center;gap:12px;">
+              <span style="font-family:var(--font-mono);font-size:14px;color:var(--color-giants);">&lt;/&gt;</span>
+              <span style="font-family:var(--font-display);font-variation-settings:var(--fvs);font-size:16px;color:var(--color-body);letter-spacing:0.16px;">CTO &amp; architecte technique</span>
+              <span style="font-family:var(--font-mono);font-size:14px;color:var(--color-giants);">&lt;/&gt;</span>
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-label">Lime highlight<br/>Badge on dark context</div>
+            <div class="pattern-demo">
+              <span style="background:var(--color-lime);color:var(--color-midnight);font-family:var(--font-mono);font-size:12px;padding:2px 10px;border-radius:4px;font-weight:600;letter-spacing:1px;">v1.0</span>
+              &nbsp;&nbsp;
+              <span style="background:var(--color-glacier);color:var(--color-midnight);font-family:var(--font-mono);font-size:12px;padding:2px 10px;border-radius:4px;font-weight:600;letter-spacing:1px;">CII 20%</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>

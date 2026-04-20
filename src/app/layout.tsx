@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
-import { Fira_Code, Bricolage_Grotesque } from "next/font/google";
+import { Fira_Code, Bricolage_Grotesque, DM_Mono } from "next/font/google";
 import "@/assets/styles/globals.css";
 import { cn } from "@/libs/utils";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
@@ -17,6 +17,13 @@ const bricolageGrotesque = Bricolage_Grotesque({
     weight: ["400", "500", "600", "700", "800"],
     subsets: ["latin"],
     variable: "--font-brico-gro",
+    display: "swap",
+});
+
+const dmMono = DM_Mono({
+    weight: ["400"],
+    subsets: ["latin"],
+    variable: "--font-dm-mono",
     display: "swap",
 });
 
@@ -54,7 +61,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="fr">
-            <body className={cn(firaCode.className, bricolageGrotesque.variable, "overflow-x-hidden")}>
+            <body className={cn(firaCode.className, bricolageGrotesque.variable, dmMono.variable, "overflow-x-hidden")}>
                 <GoogleAnalytics />
                 <Header />
                 {children}

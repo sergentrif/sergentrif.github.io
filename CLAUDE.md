@@ -30,7 +30,7 @@ Static portfolio site (Next.js 15 SSG, App Router). Output goes to `dist/` for G
 
 ## Créer un nouvel article
 
-**Une seule étape** : créer `src/content/articles/<slug>.md` :
+**Une seule étape** : créer `src/content/articles/YYYY-MM-DD-<slug>.md` (le préfixe date est strippé automatiquement pour l'URL) :
 
 ```markdown
 ---

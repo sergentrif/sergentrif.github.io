@@ -1,21 +1,26 @@
 {
-    "permissions": {
-        "allow": [
-            "WebFetch(domain:adrien.blandin.me)",
-            "WebFetch(domain:www.timescanner.io)",
-            "Skill(update-config)",
-            "Bash(npm run:*)",
-            "Bash(npm install:*)",
-            "Bash(ls:*)",
-            "Bash(rtk npm:*)",
-            "Bash(rtk read:*)",
-            "Bash(python3:*)",
-            "WebSearch",
-            "Bash(rtk ls:*)",
-            "Bash(rtk grep:*)",
-            "Bash(rtk find:*)",
-            "Bash(xargs sed:*)",
-            "Bash(rtk git:*)"
-        ]
-    }
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:adrien.blandin.me)",
+      "WebFetch(domain:www.timescanner.io)",
+      "Skill(update-config)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(rtk npm:*)",
+      "Bash(rtk read:*)",
+      "Bash(python3:*)",
+      "WebSearch",
+      "Bash(rtk ls:*)",
+      "Bash(rtk grep:*)",
+      "Bash(rtk find:*)",
+      "Bash(xargs sed:*)",
+      "Bash(rtk git:*)",
+      "Bash(mv de-developpeur-backend-a-cto-un-retour-a-zero.md 2021-02-24-de-developpeur-backend-a-cto-un-retour-a-zero.md)",
+      "Bash(mv comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple.md 2023-07-24-comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple.md)",
+      "Bash(mv l-anti-dette-technique-la-theorie-de-l-effort-supplementaire.md 2023-12-12-l-anti-dette-technique-la-theorie-de-l-effort-supplementaire.md)",
+      "Bash(mv dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte.md 2023-12-20-dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte.md)",
+      "Bash(mv qu-est-ce-q-un-bon-cto.md 2024-01-24-qu-est-ce-q-un-bon-cto.md)"
+    ]
+  }
 }

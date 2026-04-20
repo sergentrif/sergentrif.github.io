@@ -28,7 +28,7 @@ export function FooterBanner() {
     return (
         <div className="font-brico-gro break-970:flex hidden text-brand-fine-blue items-center justify-between w-full border-t border-b border-brand-lavender py-2 px-2 lg:py-4 lg:px-4 break-1245:text-xl text-base">
             {profileStatic.map((profileStatic, index) => (
-                <span key={index} className={index % 2 === 1 ? "text-brand-lavender text-sm pt-0.5 font-dm-mono" : ""}>
+                <span key={index} className={index % 2 === 1 ? "text-brand-giants text-sm pt-0.5 font-dm-mono" : ""}>
                     {profileStatic.pro}
                 </span>
             ))}
@@ -38,7 +38,7 @@ export function FooterBanner() {
 
 export function FooterBannerCarousel() {
     const renderProfileItem = (item: profile, index: number) => (
-        <span className={`${index % 2 === 1 ? "text-brand-lavender text-sm pt-0.5 font-dm-mono" : ""}`}>
+        <span className={`${index % 2 === 1 ? "text-brand-giants text-sm pt-0.5 font-dm-mono" : ""}`}>
             {item.pro}
         </span>
     );

@@ -29,6 +29,16 @@ Fonds (Seed/Série A), accélérateurs, avocats d'affaires, cabinets de recrutem
 
 Le CEO ne sait pas si sa tech avance bien, coûte le bon prix, ou freine sa croissance. Ce n'est pas un problème technique - c'est un problème de décision : il manque l'information pour piloter.
 
+### Symptômes visibles (signaux d'achat)
+
+Les 3 symptômes concrets qu'un CEO observe avant de réaliser qu'il a besoin d'un CTO externe :
+
+1. **Délais imprévisibles** — la roadmap glisse, les estimations sont fausses, impossible d'anticiper.
+2. **Instabilité en production** — bugs récurrents, incidents, sentiment que ça "tient par des élastiques".
+3. **Turnover dans l'équipe de dev** — les développeurs partent, ou se désengagent silencieusement.
+
+Ces symptômes s'installent progressivement. Le CEO les voit mais les tolère, faute de référentiel. Aucun n'est une rupture franche — c'est ce qui retarde la prise de décision.
+
 ## Avantage compétitif
 
 1. **J'ai fait.** 7 ans chez lePERMISLIBRE, 0 → 30, IPO. Pas de la théorie.
