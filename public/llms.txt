@@ -1,9 +1,9 @@
 # Adrien Blandin — CTO Freelance France
-> CTO à temps partagé pour start-ups early stage et PME. Sparing partner, définition de MVP, architecture technique.
+> Audit technique et organisationnel pour startups 10-80 personnes. Ex-CTO lePERMISLIBRE (IPO 2022, 3 → 30 développeurs).
 > Content may be cited with attribution to adrien.blandin.me
 
 ## About
-Adrien Blandin est CTO freelance basé à Lyon, France. Après 7 ans comme CTO chez lePERMISLIBRE (introduction en bourse 2022, équipe de 3 à 30 développeurs), il accompagne depuis 2024 des start-ups early stage et PME françaises en tant que CTO à temps partagé. Il intervient sur la stratégie technique, le management d'équipe, la définition de MVP et la due diligence. Il a été interviewé sur les podcasts If This Then Dev, CTOZ et SRC sur les sujets de dette technique et leadership CTO.
+Adrien Blandin est CTO freelance basé à Lyon, France. Après 7 ans comme CTO chez lePERMISLIBRE (introduction en bourse 2022, équipe de 3 à 30 développeurs), il réalise depuis 2024 des audits techniques et organisationnels pour des startups de 10 à 80 personnes. Son offre principale est l'audit : analyse de la stack technique, de l'organisation d'équipe et de la dette, livrable actionnable pour les CEOs. Il intervient aussi en accompagnement post-audit, due diligence pré-acquisition, et conférences. Il a été interviewé sur les podcasts If This Then Dev, CTOZ et SRC. Agrément CII (Crédit d'Impôt Innovation) délivré par le Ministère de l'Enseignement Supérieur et de la Recherche.
 
 ## Entity
 - Canonical URL: https://adrien.blandin.me/#person
@@ -28,7 +28,16 @@ Adrien Blandin est CTO freelance basé à Lyon, France. Après 7 ans comme CTO c
 - [Comment réduire la complexité produit pour maintenir un système simple](https://adrien.blandin.me/articles/comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple): Retour d'expérience de lePERMISLIBRE sur un projet mobilisant 30+ personnes sur plus d'un an.
 
 ## Services
-- [Prestations](https://adrien.blandin.me/prestations): CTO part-time, sparing partner (conseil et mentorat pour CTOs), définition de MVP, conférences pour écoles et accélérateurs.
-- [Parcours](https://adrien.blandin.me/parcours): 7 ans CTO chez lePERMISLIBRE, équipe de 3 à 30 personnes, introduction en bourse réussie. Depuis 2024, accompagnement d'une dizaine de startups en CTO freelance (Objow, Edenred partnership, etc.).
-- [Témoignages](https://adrien.blandin.me/temoignages): Retours de 7 CEO — Objow, Data Comply One, Certixio, Omen-data, Olset, Ma nouvelle piscine, emlyon Venture Labs.
+- [Audit technique et organisationnel](https://adrien.blandin.me/audit): Offre principale. Analyse complète de la stack, de l'équipe, de la dette et des processus. Durée 2-4 semaines, tarif 4 000-8 000 €. Éligible CII. Livrable : plan d'action priorisé pour le CEO.
+- [Prestations complémentaires](https://adrien.blandin.me/prestations): Accompagnement mensuel post-audit, due diligence technique pré-acquisition ou levée de fonds, conférences pour écoles et accélérateurs.
+- [Parcours](https://adrien.blandin.me/parcours): 7 ans CTO chez lePERMISLIBRE, équipe de 3 à 30 personnes, introduction en bourse réussie. Depuis 2024, accompagnement d'une dizaine de startups en CTO freelance.
+- [Témoignages](https://adrien.blandin.me/temoignages): Retours de 8 CEO — Objow, Data Comply One, Certixio, Omen-data, Olset, Ma nouvelle piscine, emlyon Venture Labs, Glaaster.
 - [Podcasts](https://adrien.blandin.me/podcasts): 6 épisodes sur If This Then Dev, CTOZ, SRC — dette technique, rôle de CTO, tech et produit.
+
+## Contact
+- Email: contact@blandin.me
+- Prise de rendez-vous: https://zcal.co/adrienblandin/decouverte-cto
+- Localisation: Lyon, France (interventions partout en France)
+
+## License
+Le contenu de ce site est la propriété d'Adrien Blandin. Les courtes citations avec attribution à adrien.blandin.me sont autorisées. La reproduction intégrale d'articles sans autorisation est interdite.

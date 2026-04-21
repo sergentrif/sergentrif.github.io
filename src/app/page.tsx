@@ -100,6 +100,14 @@ const personSchema = {
                 name: "Prestations",
                 url: `${site.url}/prestations`,
             },
+            aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5",
+                bestRating: "5",
+                worstRating: "1",
+                ratingCount: "8",
+                reviewCount: "8",
+            },
         },
     ],
 };

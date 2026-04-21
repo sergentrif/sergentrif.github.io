@@ -123,6 +123,8 @@ export const InfiniteSlider = ({ images, className = "" }: InfiniteSliderProps) 
                     <Image
                         src={img.src}
                         alt={img.alt}
+                        width={280}
+                        height={400}
                         className="h-[240px] w-[180px] sm:h-[280px] sm:w-[210px] md:h-[320px] md:w-[240px] lg:h-[400px] lg:w-[280px] object-cover select-none pointer-events-none"
                         draggable={false}
                     />

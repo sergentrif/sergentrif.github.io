@@ -11,7 +11,7 @@ export default function ParcoursContent() {
         <section className="flex flex-col pt-12 pb-16">
             <div className="flex w-full h-full gap-2 items-center justify-center md:justify-start relative md:right-19 md:-left-12 overflow-x-hidden">
                 <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
-                <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Mon Parcours</h2>
+                <h1 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Mon Parcours</h1>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
             </div>
             <div className="relative flex flex-col justify-center mx-auto lg:px-36 md:px-16 sm:px-12 px-4 md:gap-16 gap-10 max-w-6xl w-full">
@@ -159,6 +159,13 @@ export default function ParcoursContent() {
                         Mon but est <span className="whitespace-nowrap">simple :</span> faire en sorte que votre tech ne
                         soit plus un centre de coûts opaque, mais le moteur de votre réussite business.
                     </div>
+                    <p className="text-brand-fine-blue">
+                        Si vous voulez comprendre comment j&apos;interviens concrètement, consultez{" "}
+                        <Link href="/audit" className="font-bold group">
+                            <HoverUnderlineWrapper>la page audit</HoverUnderlineWrapper>
+                        </Link>
+                        .
+                    </p>
                 </div>
             </div>
         </section>

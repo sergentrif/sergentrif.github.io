@@ -38,9 +38,7 @@ export function FooterBanner() {
 
 export function FooterBannerCarousel() {
     const renderProfileItem = (item: profile, index: number) => (
-        <span className={`${index % 2 === 1 ? "text-brand-giants text-sm pt-0.5 font-dm-mono" : ""}`}>
-            {item.pro}
-        </span>
+        <span className={`${index % 2 === 1 ? "text-brand-giants text-sm pt-0.5 font-dm-mono" : ""}`}>{item.pro}</span>
     );
     const carouselConfigs = [
         {

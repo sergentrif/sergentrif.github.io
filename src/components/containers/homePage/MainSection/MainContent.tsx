@@ -38,7 +38,7 @@ export const MainCardSection = () => {
                                             <Link
                                                 href={link.href}
                                                 rel="noopener noreferrer"
-                                                target="_blank"
+                                                target={link.target ?? "_blank"}
                                                 className="flex items-center gap-1 group"
                                             >
                                                 <HoverUnderlineWrapper>{link.label}</HoverUnderlineWrapper>

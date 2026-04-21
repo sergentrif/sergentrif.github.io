@@ -48,12 +48,12 @@ const prestationsSchema = {
 };
 
 export const metadata: Metadata = {
-    title: "Prestations | Adrien Blandin",
+    title: "Accompagnement CTO, due diligence et conférences | Adrien Blandin",
     description:
         "Accompagnement mensuel post-audit, due diligence technique pré-acquisition et conférences pour écoles et accélérateurs.",
     alternates: { canonical: "/prestations" },
     openGraph: {
-        title: "Prestations | Adrien Blandin",
+        title: "Accompagnement CTO, due diligence et conférences | Adrien Blandin",
         description:
             "Accompagnement mensuel post-audit, due diligence technique pré-acquisition et conférences pour écoles et accélérateurs.",
         url: `${site.url}/prestations`,

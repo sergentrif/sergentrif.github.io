@@ -14,6 +14,14 @@ const reviewSchema = {
             "@id": site.serviceId,
             name: site.title,
             url: site.url,
+            aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5",
+                bestRating: "5",
+                worstRating: "1",
+                ratingCount: String(testimonials.length),
+                reviewCount: String(testimonials.length),
+            },
             review: testimonials.map((t) => ({
                 "@type": "Review",
                 author: {
@@ -27,6 +35,12 @@ const reviewSchema = {
                     },
                 },
                 reviewBody: t.paragraphs.join(" "),
+                reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: "5",
+                    bestRating: "5",
+                    worstRating: "1",
+                },
             })),
         },
     ],

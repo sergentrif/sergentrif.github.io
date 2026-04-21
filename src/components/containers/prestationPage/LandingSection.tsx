@@ -19,8 +19,16 @@ export const LandingSection = () => {
         <section className="flex flex-col pt-12 pb-16">
             <div className="flex w-full h-full gap-2 items-center justify-center md:justify-start relative md:right-19 md:-left-12 overflow-x-hidden">
                 <ContactModalArrowIcon className="md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
-                <h2 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Prestations</h2>
+                <h1 className="uppercase md:text-[40px] text-3xl font-brico-gro font-bold">Prestations</h1>
                 <ContactModalArrowIcon className="rotate-180 scale-y-[-1] md:max-w-46 md:max-h-66 max-w-32 max-h-52 pt-6" />
+            </div>
+
+            <div className="lg:px-22 md:px-16 sm:px-12 px-4 w-full mx-auto max-w-6xl pt-8">
+                <p className="text-brand-fine-blue leading-relaxed max-w-2xl">
+                    Ces prestations viennent en complément de l&apos;audit — ou s&apos;adressent à des cas précis qui
+                    n&apos;en nécessitent pas. Accompagnement post-audit, due diligence pour les investisseurs et
+                    acquéreurs, interventions en écoles et accélérateurs.
+                </p>
             </div>
 
             <div className="flex flex-col gap-22">
@@ -116,22 +124,30 @@ export const LandingSection = () => {
                 <Image
                     src={img3}
                     alt="Krma team working together"
-                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                    width={400}
+                    height={600}
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full object-cover"
                 />
                 <Image
                     src={img4}
                     alt="Adrien conference speech"
-                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                    width={400}
+                    height={600}
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full object-cover"
                 />
                 <Image
                     src={img5}
                     alt="Adrien work advising"
-                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                    width={400}
+                    height={600}
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full object-cover"
                 />
                 <Image
                     src={img6}
                     alt="Public listening Adrien's conference"
-                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full"
+                    width={400}
+                    height={600}
+                    className="lg:max-h-[600px] lg:max-w-[400px] md:max-h-[450px] md:max-w-[300px] h-full w-full object-cover"
                 />
             </div>
 

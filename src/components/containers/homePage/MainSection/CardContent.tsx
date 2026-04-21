@@ -11,6 +11,7 @@ type cardDataProps = {
     link: {
         label: string;
         href: string;
+        target?: string;
     }[];
     design: ReactNode;
     layout: string;
@@ -34,6 +35,11 @@ export const cardsData: cardDataProps[] = [
             {
                 label: "Prendre rendez-vous",
                 href: `${links.zcal}?utm_source=site&utm_medium=card&utm_campaign=rdv`,
+            },
+            {
+                label: "En savoir plus sur l'audit",
+                href: "/audit",
+                target: "_self",
             },
         ],
         design: <DesignA className="max-w-80 w-full h-full" />,

@@ -70,7 +70,7 @@ export function Landing() {
                 <div className="flex relative justify-between sm:justify-around shrink-0 pb-8 w-full">
                     <div className="relative">
                         <AgrementBadge className="absolute -top-10 -right-10 w-26 h-26" />
-                        <Image src={portrait} alt={`Portrait de ${site.name}`} className="w-42 h-56 " />
+                        <Image src={portrait} alt={`Portrait de ${site.name}`} className="w-42 h-56 " priority />
                     </div>
                     <LandingHomePageArrow className="absolute -z-10 -top-22 right-8 w-75 h-102 opacity-20" />
                     <CircleArrowUpAndDown className="w-16 pt-15" />

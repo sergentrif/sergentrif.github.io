@@ -38,12 +38,19 @@ export function buildArticleSchema(
                 image: `${site.url}/images/adrien-blandin.webp`,
                 author: { "@type": "Person", "@id": site.personId, name: site.name },
                 publisher: {
-                    "@type": "Person",
-                    "@id": site.personId,
-                    name: site.name,
-                    image: `${site.url}/images/adrien-blandin.webp`,
+                    "@type": "Organization",
+                    "@id": site.serviceId,
+                    name: site.title,
+                    logo: {
+                        "@type": "ImageObject",
+                        url: `${site.url}/favicon.svg`,
+                    },
                 },
                 mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/articles/${slug}` },
+                speakable: {
+                    "@type": "SpeakableSpecification",
+                    cssSelector: ["h1", "h2", ".article-description"],
+                },
             },
             {
                 "@type": "BreadcrumbList",

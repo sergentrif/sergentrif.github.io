@@ -6,16 +6,16 @@
 
 ## Colors
 
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `Brand/Midnight` | `#000F1A` | Primary text, dark backgrounds |
-| `Brand/Giants` | `#F46036` | Accent, CTA highlights, code separators |
-| `Brand/Powder` | `#F7F7F2` | Page background, button fill |
-| `Brand/Lime` | `#EEF36B` | Accent (highlights, badges) |
-| `Brand/Glacier` | `#AAEAFE` | Accent (monogram color highlights) |
-| `Brand/Lavender` | `#C8C6FA` | Card borders, dividers, banner borders |
-| `Body` | `#49687C` | Secondary text, card text, labels |
-| `Surface` | `#EFEFEA` | Card backgrounds, review items, tag backgrounds |
+| Token            | Hex       | Usage                                           |
+| ---------------- | --------- | ----------------------------------------------- |
+| `Brand/Midnight` | `#000F1A` | Primary text, dark backgrounds                  |
+| `Brand/Giants`   | `#F46036` | Accent, CTA highlights, code separators         |
+| `Brand/Powder`   | `#F7F7F2` | Page background, button fill                    |
+| `Brand/Lime`     | `#EEF36B` | Accent (highlights, badges)                     |
+| `Brand/Glacier`  | `#AAEAFE` | Accent (monogram color highlights)              |
+| `Brand/Lavender` | `#C8C6FA` | Card borders, dividers, banner borders          |
+| `Body`           | `#49687C` | Secondary text, card text, labels               |
+| `Surface`        | `#EFEFEA` | Card backgrounds, review items, tag backgrounds |
 
 ---
 
@@ -23,22 +23,22 @@
 
 ### Fonts
 
-| Family | Weights Used | Role |
-|--------|-------------|------|
-| **Bricolage Grotesque** | Regular (400), Bold (700), ExtraBold (800) | Headings, body copy, UI labels |
-| **Fira Code** | Medium (500) | Body text, navigation, CTAs, review quotes |
-| **DM Mono** | Regular (400) | Code-style decorators (`</>`, separators) |
+| Family                  | Weights Used                               | Role                                       |
+| ----------------------- | ------------------------------------------ | ------------------------------------------ |
+| **Bricolage Grotesque** | Regular (400), Bold (700), ExtraBold (800) | Headings, body copy, UI labels             |
+| **Fira Code**           | Medium (500)                               | Body text, navigation, CTAs, review quotes |
+| **DM Mono**             | Regular (400)                              | Code-style decorators (`</>`, separators)  |
 
 ### Type Scale
 
-| Token | Family | Weight | Size | Line Height | Letter Spacing |
-|-------|--------|--------|------|-------------|----------------|
-| `H1` | Bricolage Grotesque | Bold (700) | 40px | 1.3 | 0 |
-| `H4` | Bricolage Grotesque | ExtraBold (800) | 26px | 1.4 | 3px (0.78px tracking) |
-| `Caption-Display` | Bricolage Grotesque | Regular (400) | 16px | 1.4 | 1px (0.16px tracking) |
-| `Button` | Fira Code | Medium (500) | 16px | 1.2 | 0 |
-| `Body (code)` | Fira Code | Medium (500) | 16px | 1.4 | 0 |
-| `Mono` | DM Mono | Regular (400) | 14px | 1.4 | 0 |
+| Token             | Family              | Weight          | Size | Line Height | Letter Spacing        |
+| ----------------- | ------------------- | --------------- | ---- | ----------- | --------------------- |
+| `H1`              | Bricolage Grotesque | Bold (700)      | 40px | 1.3         | 0                     |
+| `H4`              | Bricolage Grotesque | ExtraBold (800) | 26px | 1.4         | 3px (0.78px tracking) |
+| `Caption-Display` | Bricolage Grotesque | Regular (400)   | 16px | 1.4         | 1px (0.16px tracking) |
+| `Button`          | Fira Code           | Medium (500)    | 16px | 1.2         | 0                     |
+| `Body (code)`     | Fira Code           | Medium (500)    | 16px | 1.4         | 0                     |
+| `Mono`            | DM Mono             | Regular (400)   | 14px | 1.4         | 0                     |
 
 > All Bricolage Grotesque text uses `font-variation-settings: 'opsz' 14, 'wdth' 100`
 
@@ -46,37 +46,37 @@
 
 ## Spacing
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `xs` | 8px | Icon padding, small gaps, tag padding |
-| `sm` | 16px | List gaps, heading stacks |
-| `md` | 22px | Button horizontal padding |
-| `lg` | 32px | Card padding, section gaps, row spacing |
-| `xl` | 44px | Section breathing room, footer row gaps |
-| `2xl` | 60px | Section vertical padding |
-| `3xl` | 76px | Hero spacing, content block gaps |
-| `4xl` | 96px | Page horizontal margins |
+| Token | Value | Usage                                   |
+| ----- | ----- | --------------------------------------- |
+| `xs`  | 8px   | Icon padding, small gaps, tag padding   |
+| `sm`  | 16px  | List gaps, heading stacks               |
+| `md`  | 22px  | Button horizontal padding               |
+| `lg`  | 32px  | Card padding, section gaps, row spacing |
+| `xl`  | 44px  | Section breathing room, footer row gaps |
+| `2xl` | 60px  | Section vertical padding                |
+| `3xl` | 76px  | Hero spacing, content block gaps        |
+| `4xl` | 96px  | Page horizontal margins                 |
 
 ---
 
 ## Border Radius
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `radius-sm` | 8px | Tags, badges |
-| `radius-md` | 16px | Cards, image frames |
-| `radius-full` | 99px | Buttons (pill shape) |
+| Token         | Value | Usage                |
+| ------------- | ----- | -------------------- |
+| `radius-sm`   | 8px   | Tags, badges         |
+| `radius-md`   | 16px  | Cards, image frames  |
+| `radius-full` | 99px  | Buttons (pill shape) |
 
 ---
 
 ## Layout
 
-| Property | Value |
-|----------|-------|
-| Page width | 1440px |
-| Content container | 1248px |
-| Inner content | 1034–1035px |
-| Horizontal padding | 96px |
+| Property           | Value       |
+| ------------------ | ----------- |
+| Page width         | 1440px      |
+| Content container  | 1248px      |
+| Inner content      | 1034–1035px |
+| Horizontal padding | 96px        |
 
 ---
 
