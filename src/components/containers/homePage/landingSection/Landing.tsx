@@ -86,18 +86,19 @@ export function Landing() {
                             }
                         </p>
                     </div>
-                    <div className="flex flex-row items-center gap-6 pt-8">
+                    <div className="flex flex-col gap-4 pt-8">
                         <CtaButton
                             href={`${links.zcal}?utm_source=site&utm_medium=hero&utm_campaign=rdv`}
                             target="_blank"
                             rel="noopener noreferrer"
                             tracking={{ event: "appointment_booking", medium: "hero" }}
+                            className="w-full [&>a]:w-full [&>a]:justify-center"
                         >
                             Prendre rendez-vous
                         </CtaButton>
                         <Link
                             href="/diagnostic"
-                            className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors"
+                            className="text-sm text-brand-fine-blue underline underline-offset-4 hover:text-brand-midnight transition-colors text-center"
                         >
                             Pas encore sûr ? Diagnostic éclair (3 min)
                         </Link>
