@@ -326,7 +326,7 @@ _→ Matière :_ `2026-04-08-dire-non-avant-d-ouvrir-jira` · `2025-03-20-dire-n
 - [ ] Les risques : dette de compréhension, dépendance aux outils, qualité invisible
 - [ ] Construire un cadre d'usage pour l'équipe : ni interdire, ni adopter sans réflexion
 
-_→ Matière :_ `2026-03-11-ia-standardisation-equipe` · `2025-02-24-ia-generation-code-bolt-new` · `2026-03-21-article-ia-long-format`
+_→ Matière :_ `2026-03-11-ia-standardisation-equipe` · `2025-02-24-ia-generation-code-bolt-new` · `2026-03-21-article-ia-long-format` · `2026-04-28-agents-ia-orchestration`
 
 **Ch.22 — Stratégie applicative et data** `architecture`
 
@@ -383,6 +383,7 @@ _→ Matière :_ `2025-01-14-attaque-pirate-observabilite`
 
 | Date       | Titre / Hook                                                                               | Angle                                                  | Cas            | Mission  | Fichier                                         | URL                                  |
 | ---------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------ | -------------- | -------- | ----------------------------------------------- | ------------------------------------ |
+| 2026-04-28 | J'ai commenté CLAUDE, PROMPT... (agents IA vs scripts déterministes)                       | LLM probabiliste vs tâche déterministe                 | opinion        | -        | 2026-04-28-agents-ia-orchestration              | -                                    |
 | 2026-04-26 | 77% des emplois en France sont dans le secteur tertiaire                                   | L'automatisation qui vient pour l'immatériel           | opinion        | -        | 2026-04-26-ia-menace-industrie-service          | https://lnkd.in/dBkEpY_3             |
 | 2026-04-24 | La plupart de mes clients étaient persuadés de ne pas avoir besoin de moi                  | La vraie valeur du CTO fractionnel = le temps retrouvé | Cas A          | objow    | 2026-04-24-rendre-du-temps-fondateur            | https://adrien.blandin.me/diagnostic |
 | 2026-04-22 | Depuis deux ans, j'ai conseillé gracieusement autant de CEOs que j'en ai facturé           | Annonce programme pro bono                             | positionnement | -        | 2026-04-22-programme-pro-bono                   | https://lnkd.in/dHJgZit2             |
@@ -402,6 +403,7 @@ _→ Matière :_ `2025-01-14-attaque-pirate-observabilite`
 
 | Date | Titre | Slug | Description | Fichier |
 | ---- | ----- | ---- | ----------- | ------- |
+| 2026-04-27 | Agents IA : probabiliste vs déterministe | agents-ia-orchestration-deterministe | Test pipeline OpenClaw/Make vs Claude Code + scripts. Problème structurel : LLM probabiliste ≠ tâche déterministe. | 2026-04-28-agents-ia-orchestration-deterministe |
 
 ---
 
