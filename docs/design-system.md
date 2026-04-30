@@ -191,16 +191,3 @@ padding-y: 44px
 - Rotating stamp/badge decorative elements
 - Wavy vector illustrations as card backgrounds (mix-blend-mode: plus-lighter)
 
----
-
-## Page Sections (Homepage)
-
-1. **Navbar** — logo, nav links, contact CTA
-2. **Hero** — full-name wordmark, subtitle tags, decorative stamp
-3. **BlocAdrien** — photo + bio text block
-4. **Banner** — client trust logos strip
-5. **Sections** — 3× service rows (text left, card right)
-6. **Reviews** — 3× testimonial rows
-7. **Krma** — dark section for partner agency
-8. **CII** — tax credit callout with stamp
-9. **Footer** — social links, logo, legal

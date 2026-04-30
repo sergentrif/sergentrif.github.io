@@ -117,7 +117,7 @@ Sans ce processus, le travail est brouillon. On improvise en temps réel avec l'
 
 Ce processus, c'est celui qu'on a structuré dans les équipes tech au cours de la dernière décennie : un Product Manager pour la discovery et la priorisation, un Product Designer pour le maquettage et la spécification fonctionnelle, un Tech Lead pour la spécification technique, des développeurs pour l'implémentation. On voit aujourd'hui ces rôles se rapprocher, se frôler. Ce qui va en sortir exactement, personne ne le sait encore.
 
-Si la question de l'impact de l'IA sur les métiers vous intéresse au-delà de la tech, j'ai développé ce sujet dans un autre article : [La révolution IA : le tertiaire à l'heure de l'automatisation](https://adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-lheure-de-lautomatisation).
+Si la question de l'impact de l'IA sur les métiers vous intéresse au-delà de la tech, j'ai développé ce sujet dans un autre article : [La révolution IA : le tertiaire à l'heure de l'automatisation](https://adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation).
 
 ---
 

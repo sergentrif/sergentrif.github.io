@@ -182,9 +182,3 @@ Erreurs syntaxiques récurrentes à corriger :
 
 Ton : même registre qu'en français. Direct, expérience terrain, pas de formules LinkedIn américaines.
 
----
-
-## 7. Posts de référence
-
-Section opérationnelle uniquement quand les textes complets sont intégrés.
-À compléter avec : "Je ne cherche jamais le coupable", "J'ai refusé plusieurs packages à 100k€+", "Je n'embauche que les gens curieux", "Tous mes recrutements se terminent par un vote à bulletin secret".
