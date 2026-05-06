@@ -190,4 +190,3 @@ padding-y: 44px
 - Headings are **uppercase**
 - Rotating stamp/badge decorative elements
 - Wavy vector illustrations as card backgrounds (mix-blend-mode: plus-lighter)
-

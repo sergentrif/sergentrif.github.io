@@ -1,4 +1,5 @@
 <!-- compacted: 2026-04-29 | extrait de contents.md (~5500 tokens) | backup: docs/contents.md.backup.20260429_101955 -->
+
 # Backlog éditorial — Adrien Blandin
 
 Charger pour choisir le prochain post ou article à rédiger.
@@ -58,11 +59,9 @@ Charger pour choisir le prochain post ou article à rédiger.
 | article | backlog  | Que chercher chez un premier développeur                                           | -                                                                                                            | technique      | -          | backlog |
 | article | backlog  | Comment lancer une startup tech sans rien connaître à la tech                      | -                                                                                                            | Cas A          | -          | backlog |
 | post    | P1       | Un projet bien pensé est peu visible                                               | La valeur d'une bonne archi ne se voit que dans l'avant/après — ou quand quelque chose ne casse pas          | opinion        | olset      | backlog |
-| post    | P1       | La valeur différée du bon travail                                                  | Client qui trouve la mission difficile à chaud, rappelle 6 semaines plus tard : 3 devs → 1 à 1j/semaine      | Cas A          | olset      | backlog |
+| post    | P1       | La valeur différée du bon travail                                                  | Client qui trouve la mission difficile à chaud, rappelle 6 semaines plus tard : 3 devs → 1 à 1j/semaine      | Cas A          | olset      | published |
 | post    | P1       | Ce qui performe sur LinkedIn n'est pas ce qui convertit                            | Les milestones font 100+ likes, les cas clients font 15 — et pourtant c'est eux qui génèrent les leads       | opinion        | -          | backlog |
 | post    | P2       | Je suis un radar à gâchis                                                          | Chaque mission tourne autour du même axe : éviter que du temps, de l'argent ou du talent soit gaspillé       | positionnement | -          | backlog |
-| post    | P2       | Le sport et le leadership c'est le même muscle                                     | Trail/marathon : effort soutenu, feedback différé, discipline sans témoin — exactement le coût du leadership | perso          | -          | backlog |
-| post    | P1       | CTO vs CPTO                                                                        | Le CPTO n'est pas un CTO avec plus de pouvoirs — quand les rôles fusionnent et à quel coût                   | opinion        | -          | backlog |
 | post    | P2       | J'ai eu tort sur ma cible                                                          | Trois mois de terrain pour remettre en question son positionnement — se traiter comme son propre produit     | opinion        | -          | backlog |
 | post    | P3       | Développer, art ou artisanat ?                                                     | L'artisanat comme métaphore du craft logiciel                                                                | opinion        | -          | backlog |
 | post    | P3       | La notion de devenir                                                               | Les compétences clés du CTO ne sont pas innées, elles se construisent                                        | opinion        | -          | backlog |
@@ -122,7 +121,7 @@ _→ Matière :_ `2025-11-13-talk-le-wagon-introspection`
 - [ ] Servant Leadership : tu ne donnes pas des ordres, tu lèves des obstacles
 - [ ] Ne pas être le plus technique — être le plus polyvalent : produit, design, data, business, infra
 
-_→ Matière :_ `2025-08-17-ceos-visionnaires-batisseurs` · `2026-02-15-scaler-startup-scaler-leaders` · `2025-04-13-prendre-decisions-leadership-technique`
+_→ Matière :_ `2025-08-17-ceos-visionnaires-batisseurs` · `2026-02-15-scaler-startup-scaler-leaders` · `2025-04-13-prendre-decisions-leadership-technique` · `2026-05-12-cto-vs-cpto`
 
 **Ch.4 — Se former une fois en poste** `management`
 
@@ -203,7 +202,7 @@ _→ Matière :_ `2025-11-15-information-pouvoir-communication` · `2026-04-14-c
 - [ ] Négocier un budget "qualité" récurrent sans le justifier à chaque sprint
 - [ ] La dette technique comme outil de négociation au CODIR
 
-_→ Matière :_ `2024-06-12-dette-technique-pas-de-refonte` · `2025-01-23-podcast-tech-your-dream-dette-technique` · `2025-04-21-bugs-dette-technique-post-pmf`
+_→ Matière :_ `2024-06-12-dette-technique-pas-de-refonte` · `2025-01-23-podcast-tech-your-dream-dette-technique` · `2025-04-21-bugs-dette-technique-post-pmf` · `2026-05-08-valeur-differee-bon-travail`
 
 **Ch.13 — La relation avec les investisseurs et le board** `management`
 

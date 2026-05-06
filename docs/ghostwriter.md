@@ -126,6 +126,10 @@ Le hook crée la réaction, la maxime pose le socle.
 - Un seul point. Si "quel est le point central ?" contient "et aussi" → c'est deux posts.
 - Pas de hashtags en corps de texte.
 - PS 1 / PS 2 pour les précisions qui enrichissent sans alourdir le corps.
+- Lien vers le site (page ou article) si naturellement pertinent — en PS ou en clôture. Ne pas forcer.
+- Signature obligatoire en fin de post : `---\nAdrien Blandin - CTO freelance • Machine à auditer les équipes techniques.`
+- Pas de question ouverte en clôture - trop générique, ne génère pas d'engagement. Préférer une affirmation tranchée ou un angle que le lecteur peut contredire.
+- Phrases courtes mais complètes. Jamais de fragments nominaux ("Délais débordés, budget dépassé."). La concision passe par des phrases courtes, pas tronquées.
 
 ### Test avant publication
 
@@ -181,4 +185,3 @@ Erreurs syntaxiques récurrentes à corriger :
 - Liens en milieu de phrase → les mettre en fin de paragraphe ou CTA séparé.
 
 Ton : même registre qu'en français. Direct, expérience terrain, pas de formules LinkedIn américaines.
-
