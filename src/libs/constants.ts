@@ -58,6 +58,11 @@ export const googleAnalyticsData = {
     GOOGLE_ADS_ID: "AW-985274405",
 };
 
+export const lemlistTrackingData = {
+    KEY: "a+Xs/lW9zYKGXCaVJr8jt25J2lfWFzb+O0kfl6mf90Y=",
+    TRACKER_ID: "tea_XEC2jvEZPwTBQdGxq",
+};
+
 type NavLinkSimple = { href: Route; label: string; badge?: string; children?: never };
 type NavLinkDropdown = { href?: never; label: string; badge?: never; children: Array<{ href: Route; label: string }> };
 export type NavLink = NavLinkSimple | NavLinkDropdown;

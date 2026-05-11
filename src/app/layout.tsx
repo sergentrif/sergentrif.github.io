@@ -5,6 +5,7 @@ import { Fira_Code, Bricolage_Grotesque, DM_Mono } from "next/font/google";
 import "@/assets/styles/globals.css";
 import { cn } from "@/libs/utils";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { LemlistTracking } from "@/components/analytics/LemlistTracking";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { site } from "@/libs/constants";
 
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body className={cn(firaCode.className, bricolageGrotesque.variable, dmMono.variable, "overflow-x-hidden")}>
                 <JsonLd schema={websiteSchema} />
                 <GoogleAnalytics />
+                <LemlistTracking />
                 <Header />
                 {children}
                 <Footer />

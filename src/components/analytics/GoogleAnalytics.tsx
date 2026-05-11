@@ -4,6 +4,8 @@ import Script from "next/script";
 import { googleAnalyticsData } from "@/libs/constants";
 
 export const GoogleAnalytics = () => {
+    if (!googleAnalyticsData.GA_TRACKING_ID) return null;
+
     return (
         <>
             <Script
