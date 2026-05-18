@@ -11,26 +11,32 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 
 **Rythme :** 3 posts LinkedIn/semaine · 1 article blog/mois
 
-| Jour     | Type                                 | Cible                                    |
-| -------- | ------------------------------------ | ---------------------------------------- |
-| Mardi    | Prise de position / opinion tranchée | Portée algorithmique — le plus important |
-| Jeudi    | Technique/craft                      | CTOs + crédibilité + livre blanc         |
-| Week-end | Perso/hybride                        | Audience large                           |
+**Objectif unique :** toucher les CEOs (Cas A et B), pas l'audience tech. L'algo est recalibré dev/CTO → le corriger demande une surproduction délibérée de contenus CEO.
 
-**Répartition mensuelle (12 posts) :** 3 mission/client · 2 prise de position · 4 techniques · 3 perso/hybride
+| Jour     | Type                                                                | Cible                                         |
+| -------- | ------------------------------------------------------------------- | --------------------------------------------- |
+| Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO      | Signal d'achat · miroir douleur CEO           |
+| Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois)   | Alternance : 1 IA + 1 CTO max par mois        |
+| Week-end | CEO signal — Cas B en priorité, ou symptôme d'achat                | Renforcer la répétition sur la cible principale|
 
-**Thématiques pro (rotation) :**
+**Répartition mensuelle (12 posts) :** 7-8 CEO signals (Cas A/B + symptômes) · 2 IA concrets angle CEO · 1 crédibilité CTO · 1 perso max (si envie, sinon CEO signal)
 
-- Prise de position : thèse tranchée sur pattern universel (recrutement, estimations, IA, leadership).
-- Client/terrain : observations chez les clients. Filon principal.
-- CTO/management : recrutement, équipe, leadership, transition dev → CTO
-- Indépendance : modèle fractional, liberté vs sécurité, arbitrages
+**Deux modes — plus de 4 thématiques :**
 
-**Thématiques perso (rotation) :** trail, course, vélo, bikepacking · observations de vie, micro-aventures, arbitrages personnels
+- **CEO signals** *(priorité absolue)* : Cas A, Cas B, 3 symptômes d'achat en rotation (roadmap glisse · bugs prod · turnover silencieux), IA adoption angle CEO (résultats, attentes vs réalité, pression investisseurs).
+- **Crédibilité CTO** *(1/mois max)* : technique, livre blanc, management. Construit la légitimité, ne génère pas de leads.
 
-**Source d'idées :** observation récurrente chez les clients → post.
+**IA adoption — angle CEO, pas technique :**
+- Mon fond me demande des résultats IA concrets. Je n'en ai pas.
+- J'ai essayé progressif pendant un an. Rien n'a changé.
+- Faire mieux sans recruter plus : ce que les CEOs cherchent vraiment dans l'IA.
+- Pas de hype, pas de théorie. Résultats chiffrés ou questions sans réponse assumées.
 
-**Pipeline livre blanc :** posts techniques du jeudi taggués par thématique. Chaque sous-chapitre = 2-3 posts.
+**Perso :** 1/mois si envie. Pas une thématique, pas une obligation.
+
+**Source d'idées :** observation récurrente chez les clients → post. Notes de réunion CEO → signal direct.
+
+**Pipeline livre blanc :** posts crédibilité CTO du jeudi taggués par thématique. Rythme réduit mais maintenu.
 
 **Tags cas cibles :** `Cas A` (CEO sans CTO) · `Cas B` (CEO avec CTO qui doute) · `technique` · `perso` · `positionnement` · `opinion`
 

@@ -42,12 +42,12 @@ const auditFaqs = [
 
 export const metadata: Metadata = {
     title: "Audit technique et organisationnel startup | Adrien Blandin",
-    description: `Audit complet en ${auditInfo.duration} : organisation, vélocité, dette technique, management. Livrable en langage business, pas un rapport technique. En moyenne ${auditInfo.price}. Ex-CTO lePERMISLIBRE.`,
+    description: `Audit complet en ${auditInfo.duration} : organisation, vélocité, dette technique, adoption de l'IA, management. Livrable en langage business, pas un rapport technique. En moyenne ${auditInfo.price}. Ex-CTO lePERMISLIBRE.`,
     alternates: { canonical: "/audit" },
     openGraph: {
         type: "website",
         title: "Audit technique et organisationnel startup | Adrien Blandin",
-        description: `Audit complet en ${auditInfo.duration} : organisation, vélocité, dette technique, management. Livrable en langage business. En moyenne ${auditInfo.price}.`,
+        description: `Audit complet en ${auditInfo.duration} : organisation, vélocité, dette technique, adoption de l'IA, management. Livrable en langage business. En moyenne ${auditInfo.price}.`,
         url: `${site.url}/audit`,
     },
 };
@@ -117,10 +117,12 @@ export default function AuditPage() {
                                 manquez l&apos;information pour décider.
                             </p>
                             <p>
-                                L&apos;audit couvre l&apos;organisation, la rapidité d&apos;exécution, le management et
-                                l&apos;adéquation entre ce que fait la tech et ce dont le business a besoin. En{" "}
-                                {auditInfo.duration}. Le livrable est en langage business : pas un rapport technique à
-                                faire traduire, un plan d&apos;action priorisé avec un horizon clair.
+                                L&apos;audit couvre l&apos;organisation, la rapidité d&apos;exécution, le management,
+                                l&apos;adéquation entre ce que fait la tech et ce dont le business a besoin — et depuis
+                                2025, comment votre équipe utilise réellement l&apos;IA : ce qui est en place, ce qui
+                                reste à structurer, et si ça change quelque chose à votre vélocité ou à vos décisions de
+                                recrutement. En {auditInfo.duration}. Le livrable est en langage business : pas un
+                                rapport technique à faire traduire, un plan d&apos;action priorisé avec un horizon clair.
                             </p>
                         </div>
                         <CtaButton
@@ -164,9 +166,11 @@ export default function AuditPage() {
                                 </p>
                                 <p>
                                     <span className="font-semibold text-brand-midnight">Adoption de l&apos;IA.</span>{" "}
-                                    Comment l&apos;équipe intègre les outils IA dans son quotidien : développement,
-                                    documentation, process. Ce qui est déjà en place, ce qui reste à structurer, et où
-                                    l&apos;enthousiasme cache parfois une désorganisation.
+                                    Pas sous l&apos;angle de la hype — sous l&apos;angle du pilotage. Est-ce que
+                                    l&apos;équipe l&apos;utilise vraiment, comment, et est-ce que ça se traduit par
+                                    quelque chose de mesurable : vélocité, ratio build/buy, décisions de recrutement ?
+                                    C&apos;est la question que votre fond va vous poser. C&apos;est celle que
+                                    j&apos;instruis pendant l&apos;audit.
                                 </p>
                             </div>
                         </div>
