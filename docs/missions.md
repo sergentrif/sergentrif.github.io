@@ -44,7 +44,7 @@ Suite à l'audit. Fondateur CEO/CTO seul aux commandes. Edenred exigeait des gar
 - Migration infra serveur dédié → Azure cloud
 - CI/CD : 1 déploiement/semaine → 10/jour
 - Optimisation coûts infra : ÷2
-- Supervision Kadeos Incentive (partenariat Edenred 2 ans, validation archi et sécu groupe)
+- Supervision Kadeos Incentive (partenariat Edenred 2 ans) : application grand compte faisant circuler plusieurs dizaines de millions d'euros de bons cadeaux — tests d'intrusion, déclarations URSSAF, conformité RGPD, validation architecture et sécurité groupe
 - Négociation contrat Edenred : obtention droits de propriété intellectuelle, licences ×2
 - Recrutement 2 lead developers + 1 CTO successeur
 - Gestion prestataires (freelances, infogérant, agences)
@@ -303,6 +303,32 @@ CTO (Boris) sans titre, sans rémunération adaptée, relation dysfonctionnelle 
 - Boris compensait le désordre des autres par une rigueur excessive (tout par écrit) → épuisement
 - Conflit ingénieur/marketing : incompatibilité de cultures de travail, pas de personnes
 - Le mentorat ne vise pas toujours à améliorer quelqu'un dans son poste actuel
+
+---
+
+## lePERMISLIBRE — CTO
+
+_7 ans (jusqu'à l'IPO)_
+
+### Contexte
+
+Startup legaltech. CTO depuis les débuts jusqu'à l'IPO. Équipe : 3 → 30 développeurs.
+
+### Environnements réglementés
+
+- **AMF** : validation audits pour l'introduction en bourse
+- **ORIAS** : construction d'un produit d'assurance validé par le régulateur
+- **Direction de la Sécurité Routière** (ministère de l'intérieur) : accompagnement pour la numérisation des examens du permis de conduire
+- Contexte permanent sous pression réglementaire : inspections du travail, contrôles CNIL, fermetures administratives
+
+### Management
+
+- Recrutement et structuration d'une équipe de 3 à 30 développeurs, jusqu'à l'IPO
+
+### Insights
+
+- Environnement réglementé = contrainte qui oblige à construire proprement dès le début
+- L'IPO impose une rigueur documentaire et organisationnelle que peu de startups atteignent autrement
 
 ---
 

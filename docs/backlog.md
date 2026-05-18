@@ -290,7 +290,7 @@ _→ Matière :_ `2026-04-08-dire-non-avant-d-ouvrir-jira` · `2025-03-20-dire-n
 - [ ] Les risques : dette de compréhension, dépendance aux outils, qualité invisible
 - [ ] Construire un cadre d'usage pour l'équipe : ni interdire, ni adopter sans réflexion
 
-_→ Matière :_ `2026-03-11-ia-standardisation-equipe` · `2025-02-24-ia-generation-code-bolt-new` · `2026-03-21-article-ia-long-format` · `2026-04-28-agents-ia-orchestration` · `2026-04-30-ia-en-equipe-system-engineering-tokenops`
+_→ Matière :_ `2026-03-11-ia-standardisation-equipe` · `2025-02-24-ia-generation-code-bolt-new` · `2026-03-21-article-ia-long-format` · `2026-04-28-agents-ia-orchestration` · `2026-04-30-ia-en-equipe-system-engineering-tokenops` · `2026-05-14-assistant-ia-scripts-python-crons`
 
 **Ch.22 — Stratégie applicative et data** `architecture`
 

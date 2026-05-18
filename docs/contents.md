@@ -36,6 +36,25 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 
 ---
 
+## Observations LinkedIn (analyse mai 2026)
+
+**Problème structurel confirmé par les stats :**
+L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. L'algorithme apprend de ces amplificateurs → sert les posts suivants au même public. Cercle fermé.
+
+**Ce que les chiffres montrent :**
+- Top posts (3 000–4 000 impr.) = événements de vie (fin mission, recrutement) amplifiés par le réseau tech. Illusion de portée.
+- Posts Cas A/B = 1 000–1 600 impr. Contenu juste, distribution bloquée faute de CEOs dans la bulle.
+- Seul post CTA "roadmap glisse" = 1 130 impr. Publié une fois. Invisible.
+- Posts techniques = meilleure portée que Cas A/B. Mauvais signal : crédibilité dev, pas signal d'achat CEO.
+
+**Règles dérivées :**
+- Les posts techniques du jeudi construisent la crédibilité mais ne génèrent pas de leads — les limiter à 1/mois max.
+- Recycler les 3 symptômes d'achat (roadmap, bugs prod, turnover) : 1 post/symptôme/mois, hook différent à chaque fois.
+- Cas B = 2 posts sur 60 publiés. Minimum 1 Cas B par semaine jusqu'à atteindre la parité avec Cas A.
+- Le contenu seul ne corrige pas le problème d'audience. Prescripteurs IRL → CEOs dans la bulle → algo se recalibre.
+
+---
+
 ## Publié
 
 ### Articles de blog
@@ -62,6 +81,7 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 
 | Date       | Hook                                                                                                     | Angle          | Cas   | Mission  | Fichier                                                      |
 | ---------- | -------------------------------------------------------------------------------------------------------- | -------------- | ----- | -------- | ------------------------------------------------------------ |
+| 2026-05-14 | Je n'ai jamais aussi peu travaillé.                                                                      | technique      | -     | -        | 2026-05-14-assistant-ia-scripts-python-crons                 |
 | 2026-05-12 | Je suis (très) loin d'être un excellent développeur.                                                     | opinion        | -     | -        | 2026-05-12-cto-vs-cpto                                       |
 | 2026-05-08 | Six semaines après la fin d'une mission, le client m'a appelé.                                           | Cas A          | Cas A | olset    | 2026-05-08-valeur-differee-bon-travail                       |
 | 2026-04-30 | On sait utiliser l'IA seul. On ne sait pas encore l'utiliser en équipe.                                  | technique      | -     | -        | 2026-04-30-ia-en-equipe-system-engineering-tokenops          |

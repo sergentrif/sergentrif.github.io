@@ -11,6 +11,7 @@ import { LePermisLibre } from "@/components/ui/icons/brandLogo/LePermisLibre";
 import { Wecandoo } from "@/components/ui/icons/brandLogo/Wecandoo";
 import { GlaasterIcon } from "@/components/ui/icons/brandLogo/Glaaster";
 import { DataComplyOneIcon } from "@/components/ui/icons/brandLogo/DataComplyOne";
+import { HupsoIcon } from "@/components/ui/icons/brandLogo/Hupso";
 import { Tag } from "@/components/ui/icons/brandLogo/Tag";
 
 interface profile {
@@ -35,6 +36,8 @@ const profileStatic: profile[] = [
     { pro: <GlaasterIcon className="w-9 h-9" /> },
     { pro: <Tag /> },
     { pro: <DataComplyOneIcon className="w-16 h-9" /> },
+    { pro: <Tag /> },
+    { pro: <HupsoIcon /> },
     { pro: <Tag /> },
 ];
 

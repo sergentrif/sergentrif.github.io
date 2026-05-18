@@ -131,6 +131,11 @@ Le hook crée la réaction, la maxime pose le socle.
 - Pas de question ouverte en clôture - trop générique, ne génère pas d'engagement. Préférer une affirmation tranchée ou un angle que le lecteur peut contredire.
 - Phrases courtes mais complètes. Jamais de fragments nominaux ("Délais débordés, budget dépassé."). La concision passe par des phrases courtes, pas tronquées.
 
+### Mode de collaboration ghostwriting
+
+- Adrien préfère écrire une ébauche brute lui-même et la soumettre pour amélioration. Ne pas rédiger un post from scratch sans ébauche préalable, sauf demande explicite.
+- Si anonymisation totale requise (client prospect, accord absent) : proposer l'angle et la structure d'abord, pas le texte complet. Laisser Adrien remplir la matière.
+
 ### Test avant publication
 
 - Le hook annonce-t-il un fait ou une réflexion ?

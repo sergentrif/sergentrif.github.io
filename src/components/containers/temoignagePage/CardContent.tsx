@@ -172,7 +172,7 @@ const content = [
                 <Link href={t7.companyUrl!} target="_blank" rel="noopener noreferrer">
                     <EmLyonSchoolIcon
                         className={cn(
-                            "max-w-18 max-h-16 relative top-2 left-14 flex self-center w-full h-full text-[#ed1c24]",
+                            "max-w-18 max-h-16 relative top-2 left-14 flex self-center w-full h-full",
                             "lg:max-h-24 lg:max-w-22 lg:-top-2 lg:left-23",
                         )}
                     />
@@ -368,7 +368,7 @@ const content_mobile = [
     },
     {
         id: 14,
-        logo: <EmLyonSchoolIcon className={cn("max-w-14 max-h-12  flex self-center w-full h-full text-[#ed1c24]")} />,
+        logo: <EmLyonSchoolIcon className={cn("max-w-14 max-h-12 flex self-center w-full h-full")} />,
         description: quoted(t7.paragraphs),
         author: (
             <div className="font-medium text-brand-fine-blue uppercase">
