@@ -1,6 +1,6 @@
-# CLAUDE.md
+# CLAUDE.md — portfolio (adrien.blandin.me)
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+@../CLAUDE.md
 
 ## Commands
 
