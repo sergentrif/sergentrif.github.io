@@ -39,6 +39,15 @@ jobs:
             - name: Install dependencies
               run: npm install
 
+            - name: Typecheck
+              run: npm run ts:check
+
+            - name: Lint
+              run: npm run lint
+
+            - name: Format check
+              run: npm run format:check
+
             - name: Restore Next cache from previous BUILD
               uses: actions/cache@v5
               with:

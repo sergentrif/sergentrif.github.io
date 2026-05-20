@@ -1,0 +1,21 @@
+name: portfolio
+
+services:
+  web:
+    container_name: abventure-portfolio-web
+    build: .
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`${APP_DOMAIN}`)"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
+      - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
+    env_file: .env
+    networks:
+      - abventure-proxy
+    restart: unless-stopped
+
+networks:
+  abventure-proxy:
+    name: abventure-proxy
+    external: true
