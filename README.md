@@ -1,127 +1,43 @@
-# Site Portfolio Adrien Blandin
+# adrien.blandin.me
 
-Portfolio personnel développé avec Next.js 15, déployé sur GitHub Pages avec un domaine personnalisé.
+Site vitrine + blog, Next.js 15 SSG, déployé sur GitHub Pages.
 
-## 🚀 Développement local
+---
 
-```bash
-# Installer les dépendances
-npm install
-
-# Lancer le serveur de développement
-npm run dev
-```
-
-Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
-
-## 📦 Build et Test Local
-
-### Build de production
+## Développement local
 
 ```bash
-# Créer un build de production
-npm run build
+make install   # Installe les dépendances
+make dev       # Dev server sur http://localhost:3000
 ```
 
-Le site statique sera généré dans le dossier `dist/`.
+---
 
-### Tester le build statique localement
-
-Pour vérifier que votre build statique fonctionne correctement avant de le déployer :
+## Commandes
 
 ```bash
-# 1. Créer le build
-npm run build
-
-# 2. Vérifier le build (optionnel mais recommandé)
-./verify-build.sh
-
-# 3. Prévisualiser le site statique
-npm run preview
+make build       # Build production → dist/
+make preview     # Serve dist/ sur :8080
+make lint        # ESLint
+make format      # Prettier fix
+make typecheck   # TypeScript (no emit)
+make check       # typecheck + lint + format check
 ```
 
-Le site sera accessible sur [http://localhost:8080](http://localhost:8080)
+---
 
-**Alternative avec npx :**
+## Déploiement
 
-```bash
-# Avec serve (recommandé)
-npx serve dist
+Push sur `main` → GitHub Actions :
 
-# Avec http-server
-npx http-server dist -p 8080
-```
+1. Build Next.js statique
+2. Déploiement sur GitHub Pages
 
-### Script de vérification automatique
+Site accessible sur https://adrien.blandin.me
 
-Le script `verify-build.sh` vérifie automatiquement :
+---
 
-- ✅ Présence du dossier `dist/`
-- ✅ Fichier `index.html` généré
-- ✅ Fichier `.nojekyll` présent
-- ✅ Dossier `_next/` avec les assets
-- ✅ Toutes les pages principales
-- 📊 Statistiques du build (nombre de fichiers, taille)
+## Stack
 
-### Vérifications manuelles à effectuer
-
-Après avoir lancé le serveur local, vérifiez :
-
-- ✅ Toutes les pages se chargent correctement
-- ✅ Les images et assets sont bien chargés
-- ✅ La navigation fonctionne (liens internes)
-- ✅ Les animations et interactions fonctionnent
-- ✅ Le scroll smooth (Lenis) fonctionne
-- ✅ Les composants 3D (Three.js) se chargent
-- ✅ Pas d'erreurs dans la console du navigateur
-
-## 🌐 Déploiement sur GitHub Pages
-
-Le site est automatiquement déployé sur GitHub Pages via GitHub Actions à chaque push sur la branche `main`.
-
-### Configuration
-
-- **Domaine personnalisé** : `adrien.blandin.me` (configuré via le fichier `CNAME`)
-- **Workflow** : `.github/workflows/nextjs-gh-pages.yml`
-- **Output** : Site 100% statique (SSG - Static Site Generation)
-
-### Fonctionnement du déploiement
-
-1. À chaque push sur `main`, GitHub Actions :
-    - Installe les dépendances Node.js
-    - Build le site Next.js en mode statique
-    - Copie le fichier `CNAME` dans le dossier de distribution
-    - Déploie le contenu du dossier `dist/` sur GitHub Pages
-
-2. Le site est accessible à l'adresse : https://adrien.blandin.me
-
-### Configuration Next.js pour GitHub Pages
-
-Le fichier `next.config.ts` est configuré pour l'export statique :
-
-```typescript
-{
-  output: 'export',           // Export statique
-  distDir: 'dist',           // Dossier de sortie
-  trailingSlash: true,       // URLs avec trailing slash
-  images: {
-    unoptimized: true,       // Images non optimisées (requis pour export statique)
-  }
-}
-```
-
-## 🛠️ Technologies utilisées
-
-- **Framework** : Next.js 15
-- **Langage** : TypeScript
-- **Styling** : Tailwind CSS 4
-- **Animations** : Framer Motion
-- **3D** : Three.js avec React Three Fiber
-- **UI Components** : Radix UI
-- **Smooth Scroll** : Lenis
-
-## 📝 Notes
-
-- Le dossier `dist/` est ignoré par Git (généré automatiquement lors du build)
-- Le fichier `.nojekyll` dans `public/` indique à GitHub Pages de ne pas traiter le site comme un site Jekyll
-- Le fichier `CNAME` contient le domaine personnalisé et est copié automatiquement dans `dist/` lors du déploiement
+- Next.js 15 · TypeScript · Tailwind CSS 4
+- Framer Motion · Lenis · Three.js / React Three Fiber · Radix UI
