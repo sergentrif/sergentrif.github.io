@@ -1,5 +1,5 @@
 ---
-compact: docs/architecture.compact.md
+compact: docs/compact/architecture.compact.md
 ---
 
 # Architecture — portfolio (adrien.blandin.me)
