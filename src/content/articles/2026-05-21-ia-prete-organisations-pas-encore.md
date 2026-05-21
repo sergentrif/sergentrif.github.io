@@ -103,4 +103,16 @@ _PS 1 - Les questions structurantes de l'IA en équipe sont détaillées dans [c
 
 _PS 2 - La question du déterminisme des agents, dans [celui-ci](https://adrien.blandin.me/articles/agents-ia-orchestration-deterministe)._
 
-_PS 3 - McKinsey, The State of AI 2025, novembre 2025. Jensen Huang, GTC 2026, mars 2026._
+### Sources
+
+**McKinsey :**
+
+- The State of AI 2025, novembre 2025 — [McKinsey](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+
+**Jensen Huang, GTC 2026 :**
+
+- Token budgets et ingénieurs à 500K$ — [Tom's Hardware, mars 2026](https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-engineers-should-use-ai-tokens-worth-half-their-annual-salary-every-year-to-be-fully-productive-compares-not-using-ai-to-using-paper-and-pencil-for-designing-chips)
+
+**Peter Steinberger, OpenClaw :**
+
+- 1,3M€ de tokens OpenAI en 30 jours — [The Next Web](https://thenextweb.com/news/openclaw-peter-steinberger-1-3-million-openai-token-bill)

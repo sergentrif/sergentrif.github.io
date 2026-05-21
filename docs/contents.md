@@ -70,6 +70,7 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 | Date       | Titre                                                                           | Fichier                                                                                          |
 | ---------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                        | 2026-05-21-ia-prete-organisations-pas-encore                                                                     |
 | 2026-04-28 | Structurer l'IA dans une équipe technique, les questions sans réponse           | 2026-04-28-structurer-ia-equipe-technique-questions-sans-reponse                                 |
 | 2026-04-27 | Agents IA : probabiliste vs déterministe                                        | 2026-04-27-agents-ia-orchestration-deterministe                                                  |
 | 2026-03-19 | La révolution IA : le tertiaire à l'heure de l'automatisation                   | 2026-03-19-la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation                           |
@@ -90,6 +91,12 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 | Date       | Hook                                                                                                     | Angle          | Cas   | Mission  | Fichier                                                      |
 | ---------- | -------------------------------------------------------------------------------------------------------- | -------------- | ----- | -------- | ------------------------------------------------------------ |
+| 2026-06-10 | 88% des entreprises déclarent utiliser l'IA. Seulement un tiers l'ont déployée à l'échelle.              | opinion        | -     | -        | 2026-06-10-ia-adoption-organisationnelle-mckinsey            |
+| 2026-06-05 | Il y a deux ans, l'IA dans une équipe de développement, c'était de l'autocomplétion de code.             | opinion        | -     | -        | 2026-06-05-ruptures-ia-transformation-risque-outils          |
+| 2026-06-03 | On pense à tort que le frein à la vélocité d'une équipe tech, c'est le nombre de développeurs.           | opinion        | -     | -        | 2026-06-03-velicite-argent-ia-coordination                   |
+| 2026-05-29 | 1,3M€ de tokens en 30 jours. C'est la facture OpenAI de Peter Steinberger, fondateur d'OpenClaw.         | opinion        | -     | -        | 2026-05-29-tokens-openclaw-mesure-investissement-ia          |
+| 2026-05-26 | Jensen Huang serait "profondément alarmé" si un ingénieur ne consommait pas 250k$ de tokens/an.          | opinion        | -     | -        | 2026-05-26-tokens-productivite-ia-jensen-huang               |
+| 2026-05-22 | J'utilise l'IA tous les jours. Je n'écris plus une ligne de code moi-même.                               | opinion        | -     | -        | 2026-05-22-ia-prete-organisations-postures                   |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé.                                                                      | technique      | -     | -        | 2026-05-14-assistant-ia-scripts-python-crons                 |
 | 2026-05-12 | Je suis (très) loin d'être un excellent développeur.                                                     | opinion        | -     | -        | 2026-05-12-cto-vs-cpto                                       |
 | 2026-05-08 | Six semaines après la fin d'une mission, le client m'a appelé.                                           | Cas A          | Cas A | olset    | 2026-05-08-valeur-differee-bon-travail                       |

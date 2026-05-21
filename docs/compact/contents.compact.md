@@ -25,6 +25,7 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 
 | Date       | Titre                                                         |
 | ---------- | ------------------------------------------------------------- |
+| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.      |
 | 2026-04-28 | Structurer l'IA dans une équipe technique                     |
 | 2026-04-27 | Agents IA : probabiliste vs déterministe                      |
 | 2026-03-19 | La révolution IA : le tertiaire à l'heure de l'automatisation |
@@ -47,6 +48,12 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 
 | Date       | Hook                                     | Angle          | Cas   | Mission  |
 | ---------- | ---------------------------------------- | -------------- | ----- | -------- |
+| 2026-06-10 | 88% utilisent IA, 1/3 déployé à l'échelle | opinion       | -     | -        |
+| 2026-06-05 | 5 ruptures IA en 2 ans — pari sur outils | opinion        | -     | -        |
+| 2026-06-03 | Frein vélocité = argent, pas nb devs     | opinion        | -     | -        |
+| 2026-05-29 | 1,3M€ tokens/mois — facture OpenClaw     | opinion        | -     | -        |
+| 2026-05-26 | Jensen Huang "alarmé" si < 250k$ tokens  | opinion        | -     | -        |
+| 2026-05-22 | J'utilise l'IA tous les jours            | opinion        | -     | -        |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé       | technique      | -     | -        |
 | 2026-05-12 | Très loin d'être excellent développeur   | opinion        | -     | -        |
 | 2026-05-08 | Six sem après mission, client m'a appelé | Cas A          | Cas A | olset    |
