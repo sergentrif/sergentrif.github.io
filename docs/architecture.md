@@ -4,7 +4,7 @@ compact: docs/compact/architecture.compact.md
 
 # Architecture — portfolio (adrien.blandin.me)
 
-Stack : Next.js 15 (SSG, App Router) · TypeScript 5 · Tailwind CSS 4 · React 19.
+Stack : Next.js 15 (SSG, App Router) · TypeScript 5 · Tailwind CSS 4 · React 19 · Node 20.
 
 Déploiement : GitHub Pages (`adrien.blandin.me`). Build → `dist/`. Aucun serveur, aucune API route, aucun SSR. `trailingSlash: false`.
 

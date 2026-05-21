@@ -40,4 +40,4 @@ Site accessible sur https://adrien.blandin.me
 ## Stack
 
 - Next.js 15 · TypeScript · Tailwind CSS 4
-- Framer Motion · Lenis · Three.js / React Three Fiber · Radix UI
+- Framer Motion · Lenis · Radix UI
