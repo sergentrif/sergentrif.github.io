@@ -70,7 +70,7 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 | Date       | Titre                                                                           | Fichier                                                                                          |
 | ---------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                        | 2026-05-21-ia-prete-organisations-pas-encore                                                                     |
+| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                        | 2026-05-21-ia-prete-organisations-pas-encore                                                     |
 | 2026-04-28 | Structurer l'IA dans une équipe technique, les questions sans réponse           | 2026-04-28-structurer-ia-equipe-technique-questions-sans-reponse                                 |
 | 2026-04-27 | Agents IA : probabiliste vs déterministe                                        | 2026-04-27-agents-ia-orchestration-deterministe                                                  |
 | 2026-03-19 | La révolution IA : le tertiaire à l'heure de l'automatisation                   | 2026-03-19-la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation                           |
