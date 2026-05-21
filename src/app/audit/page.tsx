@@ -122,7 +122,8 @@ export default function AuditPage() {
                                 2025, comment votre équipe utilise réellement l&apos;IA : ce qui est en place, ce qui
                                 reste à structurer, et si ça change quelque chose à votre vélocité ou à vos décisions de
                                 recrutement. En {auditInfo.duration}. Le livrable est en langage business : pas un
-                                rapport technique à faire traduire, un plan d&apos;action priorisé avec un horizon clair.
+                                rapport technique à faire traduire, un plan d&apos;action priorisé avec un horizon
+                                clair.
                             </p>
                         </div>
                         <CtaButton

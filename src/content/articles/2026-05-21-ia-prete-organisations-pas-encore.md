@@ -99,8 +99,8 @@ Nous sommes pourtant nombreux dans ce vide. Mais dans le monde d'aujourd'hui, ma
 
 ---
 
-*PS 1 - Les questions structurantes de l'IA en équipe sont détaillées dans [cet article](https://adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse).*
+_PS 1 - Les questions structurantes de l'IA en équipe sont détaillées dans [cet article](https://adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse)._
 
-*PS 2 - La question du déterminisme des agents, dans [celui-ci](https://adrien.blandin.me/articles/agents-ia-orchestration-deterministe).*
+_PS 2 - La question du déterminisme des agents, dans [celui-ci](https://adrien.blandin.me/articles/agents-ia-orchestration-deterministe)._
 
-*PS 3 - McKinsey, The State of AI 2025, novembre 2025. Jensen Huang, GTC 2026, mars 2026.*
+_PS 3 - McKinsey, The State of AI 2025, novembre 2025. Jensen Huang, GTC 2026, mars 2026._

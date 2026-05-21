@@ -13,20 +13,21 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 
 **Objectif unique :** toucher les CEOs (Cas A et B), pas l'audience tech. L'algo est recalibré dev/CTO → le corriger demande une surproduction délibérée de contenus CEO.
 
-| Jour     | Type                                                                | Cible                                         |
-| -------- | ------------------------------------------------------------------- | --------------------------------------------- |
-| Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO      | Signal d'achat · miroir douleur CEO           |
-| Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois)   | Alternance : 1 IA + 1 CTO max par mois        |
-| Week-end | CEO signal — Cas B en priorité, ou symptôme d'achat                | Renforcer la répétition sur la cible principale|
+| Jour     | Type                                                             | Cible                                           |
+| -------- | ---------------------------------------------------------------- | ----------------------------------------------- |
+| Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO    | Signal d'achat · miroir douleur CEO             |
+| Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois) | Alternance : 1 IA + 1 CTO max par mois          |
+| Week-end | CEO signal — Cas B en priorité, ou symptôme d'achat              | Renforcer la répétition sur la cible principale |
 
 **Répartition mensuelle (12 posts) :** 7-8 CEO signals (Cas A/B + symptômes) · 2 IA concrets angle CEO · 1 crédibilité CTO · 1 perso max (si envie, sinon CEO signal)
 
 **Deux modes — plus de 4 thématiques :**
 
-- **CEO signals** *(priorité absolue)* : Cas A, Cas B, 3 symptômes d'achat en rotation (roadmap glisse · bugs prod · turnover silencieux), IA adoption angle CEO (résultats, attentes vs réalité, pression investisseurs).
-- **Crédibilité CTO** *(1/mois max)* : technique, livre blanc, management. Construit la légitimité, ne génère pas de leads.
+- **CEO signals** _(priorité absolue)_ : Cas A, Cas B, 3 symptômes d'achat en rotation (roadmap glisse · bugs prod · turnover silencieux), IA adoption angle CEO (résultats, attentes vs réalité, pression investisseurs).
+- **Crédibilité CTO** _(1/mois max)_ : technique, livre blanc, management. Construit la légitimité, ne génère pas de leads.
 
 **IA adoption — angle CEO, pas technique :**
+
 - Mon fond me demande des résultats IA concrets. Je n'en ai pas.
 - J'ai essayé progressif pendant un an. Rien n'a changé.
 - Faire mieux sans recruter plus : ce que les CEOs cherchent vraiment dans l'IA.
@@ -48,12 +49,14 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. L'algorithme apprend de ces amplificateurs → sert les posts suivants au même public. Cercle fermé.
 
 **Ce que les chiffres montrent :**
+
 - Top posts (3 000–4 000 impr.) = événements de vie (fin mission, recrutement) amplifiés par le réseau tech. Illusion de portée.
 - Posts Cas A/B = 1 000–1 600 impr. Contenu juste, distribution bloquée faute de CEOs dans la bulle.
 - Seul post CTA "roadmap glisse" = 1 130 impr. Publié une fois. Invisible.
 - Posts techniques = meilleure portée que Cas A/B. Mauvais signal : crédibilité dev, pas signal d'achat CEO.
 
 **Règles dérivées :**
+
 - Les posts techniques du jeudi construisent la crédibilité mais ne génèrent pas de leads — les limiter à 1/mois max.
 - Recycler les 3 symptômes d'achat (roadmap, bugs prod, turnover) : 1 post/symptôme/mois, hook différent à chaque fois.
 - Cas B = 2 posts sur 60 publiés. Minimum 1 Cas B par semaine jusqu'à atteindre la parité avec Cas A.

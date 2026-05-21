@@ -66,16 +66,16 @@ Structure pages à une colonne + composants → `../docs/compact/design-system.c
 
 Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout lire systématiquement.
 
-| Fichier                    | Contenu                                                                                                                 | Quand le charger                                                       |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| `../docs/ghostwriter.md`   | Voix, ton, typographie, règles de rédaction. Couvre tous les formats (articles, posts LinkedIn, emails, présentations). | Toute tâche de rédaction ou relecture                                  |
-| `../docs/copywriter.md`    | Spécificités du site vitrine : voix par page, règles marketing. Pointe vers ghostwriter.md pour la voix.                | Modification de pages du site uniquement                               |
-| `../docs/business.md`      | Positionnement, cible, douleur, offres, avantage compétitif, verbatim home page, contenus LinkedIn profil               | Rédaction de contenu orienté client (pages site, posts mission/client) |
-| `../docs/marketing.md`     | Stratégie de prospection, prescripteurs, routine hebdo                                                                  | Planification, choix d'angle pour un contenu                           |
-| `../docs/missions.md`      | Détail de chaque mission client (contexte, actions, résultats, insights)                                                | Rédaction d'un contenu qui s'appuie sur un cas client                  |
-| `docs/compact/contents.compact.md` | Stratégie éditoriale + 2026 posts + articles publiés (condensé)                                               | Connaître la stratégie, vérifier ce qui a déjà été publié              |
-| `docs/compact/backlog.compact.md`  | Backlog P1/P2 + structure livre blanc "De développeur à CTO" (condensé)                                       | Choisir le prochain post ou article à rédiger                          |
-| `../docs/design-system.md` | Couleurs, typographie, espacements, composants extraits de Figma                                                        | Modification de composants UI ou ajout d'un nouveau composant          |
+| Fichier                            | Contenu                                                                                                                 | Quand le charger                                                       |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `../docs/ghostwriter.md`           | Voix, ton, typographie, règles de rédaction. Couvre tous les formats (articles, posts LinkedIn, emails, présentations). | Toute tâche de rédaction ou relecture                                  |
+| `../docs/copywriter.md`            | Spécificités du site vitrine : voix par page, règles marketing. Pointe vers ghostwriter.md pour la voix.                | Modification de pages du site uniquement                               |
+| `../docs/business.md`              | Positionnement, cible, douleur, offres, avantage compétitif, verbatim home page, contenus LinkedIn profil               | Rédaction de contenu orienté client (pages site, posts mission/client) |
+| `../docs/marketing.md`             | Stratégie de prospection, prescripteurs, routine hebdo                                                                  | Planification, choix d'angle pour un contenu                           |
+| `../docs/missions.md`              | Détail de chaque mission client (contexte, actions, résultats, insights)                                                | Rédaction d'un contenu qui s'appuie sur un cas client                  |
+| `docs/compact/contents.compact.md` | Stratégie éditoriale + 2026 posts + articles publiés (condensé)                                                         | Connaître la stratégie, vérifier ce qui a déjà été publié              |
+| `docs/compact/backlog.compact.md`  | Backlog P1/P2 + structure livre blanc "De développeur à CTO" (condensé)                                                 | Choisir le prochain post ou article à rédiger                          |
+| `../docs/design-system.md`         | Couleurs, typographie, espacements, composants extraits de Figma                                                        | Modification de composants UI ou ajout d'un nouveau composant          |
 
 ---
 

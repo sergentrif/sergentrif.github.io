@@ -1,27 +1,27 @@
 name: portfolio
 
 services:
-  web:
-    container_name: abventure-portfolio-web
-    build: .
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.portfolio.rule=Host(`${APP_DOMAIN}`)"
-      - "traefik.http.routers.portfolio.entrypoints=websecure"
-      - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
-      - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
-    env_file: .env
-    networks:
-      - abventure-proxy
-    healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:3000"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 60s
-    restart: unless-stopped
+    web:
+        container_name: abventure-portfolio-web
+        build: .
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.routers.portfolio.rule=Host(`${APP_DOMAIN}`)"
+            - "traefik.http.routers.portfolio.entrypoints=websecure"
+            - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
+            - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
+        env_file: .env
+        networks:
+            - abventure-proxy
+        healthcheck:
+            test: ["CMD", "wget", "-qO-", "http://localhost:3000"]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 60s
+        restart: unless-stopped
 
 networks:
-  abventure-proxy:
-    name: abventure-proxy
-    external: true
+    abventure-proxy:
+        name: abventure-proxy
+        external: true

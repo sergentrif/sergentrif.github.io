@@ -1,13 +1,13 @@
 services:
-  web:
-    environment:
-      - WATCHPACK_POLLING=true
-    volumes:
-      - .:/app
-      - portfolio-node-modules:/app/node_modules
-      - /app/.next
-    ports:
-      - "3000:3000"
+    web:
+        environment:
+            - WATCHPACK_POLLING=true
+        volumes:
+            - .:/app
+            - portfolio-node-modules:/app/node_modules
+            - /app/.next
+        ports:
+            - "3000:3000"
 
 volumes:
-  portfolio-node-modules:
+    portfolio-node-modules:
