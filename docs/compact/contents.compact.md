@@ -53,6 +53,7 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 | 2026-06-03 | Frein vélocité = argent, pas nb devs      | opinion        | -     | -        |
 | 2026-05-29 | 1,3M€ tokens/mois — facture OpenClaw      | opinion        | -     | -        |
 | 2026-05-26 | Jensen Huang "alarmé" si < 250k$ tokens   | opinion        | -     | -        |
+| 2026-05-23 | Offre d'emploi symptomatique — IA vs déterminisme | opinion        | -     | -        |
 | 2026-05-22 | J'utilise l'IA tous les jours             | opinion        | -     | -        |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé        | technique      | -     | -        |
 | 2026-05-12 | Très loin d'être excellent développeur    | opinion        | -     | -        |
