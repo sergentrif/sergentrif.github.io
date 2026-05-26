@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.0...v1.1.1) (2026-05-26)
+
+
+### Bug Fixes
+
+* add environment ([2b86c41](https://github.com/sergentrif/sergentrif.github.io/commit/2b86c4138beb1e0cef313906f573bb8f14ab192d))
+* auto-fix ([18efbad](https://github.com/sergentrif/sergentrif.github.io/commit/18efbad90eecf397c8d0cb8d43c9558fd5fc60bf))
+
 # [1.1.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.0.0...v1.1.0) (2026-05-26)
 
 ### Bug Fixes
