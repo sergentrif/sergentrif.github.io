@@ -1,15 +1,13 @@
 # [1.1.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.0.0...v1.1.0) (2026-05-26)
 
-
 ### Bug Fixes
 
-* add environment ([c803ad2](https://github.com/sergentrif/sergentrif.github.io/commit/c803ad2d3427c17c53d646af8be732555aa8d271))
-* ci ([4674546](https://github.com/sergentrif/sergentrif.github.io/commit/467454621b68a64ca733b3dabf80045fb015c8d8))
-
+- add environment ([c803ad2](https://github.com/sergentrif/sergentrif.github.io/commit/c803ad2d3427c17c53d646af8be732555aa8d271))
+- ci ([4674546](https://github.com/sergentrif/sergentrif.github.io/commit/467454621b68a64ca733b3dabf80045fb015c8d8))
 
 ### Features
 
-* improve github workflow ([15ee92f](https://github.com/sergentrif/sergentrif.github.io/commit/15ee92f23e44c27c3be3b8af20894cb39c0330d8))
+- improve github workflow ([15ee92f](https://github.com/sergentrif/sergentrif.github.io/commit/15ee92f23e44c27c3be3b8af20894cb39c0330d8))
 
 # 1.0.0 (2026-05-25)
 
