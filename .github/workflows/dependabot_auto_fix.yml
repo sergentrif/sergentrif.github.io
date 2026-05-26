@@ -1,38 +1,38 @@
 name: dependabot_auto_fix
 
 on:
-  pull_request:
-    branches: [main]
+    pull_request:
+        branches: [main]
 
 permissions:
-  contents: write
+    contents: write
 
 jobs:
-  auto-fix:
-    runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    auto-fix:
+        runs-on: ubuntu-latest
+        if: github.actor == 'dependabot[bot]'
 
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          ref: ${{ github.head_ref }}
-          token: ${{ secrets.ABVENTURE_GITHUB_PAT }}
+        steps:
+            - uses: actions/checkout@v6
+              with:
+                  ref: ${{ github.head_ref }}
+                  token: ${{ secrets.ABVENTURE_GITHUB_PAT }}
 
-      - name: Setup Node.js
-        uses: ./.github/composites/setup
+            - name: Setup Node.js
+              uses: ./.github/composites/setup
 
-      - name: Install dependencies
-        run: npm install
+            - name: Install dependencies
+              run: npm install
 
-      - name: Format
-        run: npm run format:write
+            - name: Format
+              run: npm run format:write
 
-      - name: Lint fix
-        run: npm run lint -- --fix
-        continue-on-error: true
+            - name: Lint fix
+              run: npm run lint -- --fix
+              continue-on-error: true
 
-      - name: Commit fixes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet && git diff --staged --quiet || (git add -A && git commit -m "chore: auto-fix format and lint" && git push)
+            - name: Commit fixes
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git diff --quiet && git diff --staged --quiet || (git add -A && git commit -m "chore: auto-fix format and lint" && git push)
