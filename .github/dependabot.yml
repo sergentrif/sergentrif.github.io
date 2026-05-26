@@ -7,6 +7,10 @@ updates:
             update-types: ["version-update:semver-major"]
       schedule:
           interval: "weekly"
+      commit-message:
+          prefix: "chore"
+          prefix-development: "chore"
+          include: "scope"
       groups:
           dependencies:
               patterns: ["*"]
@@ -15,6 +19,10 @@ updates:
       directory: "/"
       schedule:
           interval: "weekly"
+      commit-message:
+          prefix: "chore"
+          prefix-development: "chore"
+          include: "scope"
       groups:
           github-actions:
               patterns: ["*"]

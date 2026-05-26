@@ -26,12 +26,8 @@ jobs:
               with:
                   static_site_generator: next
 
-            - name: Setup Node
-              uses: actions/setup-node@v6
-              with:
-                  node-version: "25"
-                  cache: "npm"
-                  cache-dependency-path: package-lock.json
+            - name: Setup Node.js
+              uses: ./.github/composites/setup
 
             - name: Install dependencies
               run: npm install

@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: ./.github/composites/setup
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Typecheck
+        run: npm run ts:check
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format check
+        run: npm run format:check
