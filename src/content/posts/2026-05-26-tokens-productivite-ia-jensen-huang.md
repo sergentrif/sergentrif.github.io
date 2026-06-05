@@ -1,5 +1,5 @@
 ---
-title: "Jensen Huang, le patron de Nvidia, serait \"profondément alarmé\" si un ingénieur payé 500 000$ par an ne consommait pas au moins 250 000$ de tokens annuellement."
+title: 'Jensen Huang, le patron de Nvidia, serait "profondément alarmé" si un ingénieur payé 500 000$ par an ne consommait pas au moins 250 000$ de tokens annuellement.'
 date: "2026-05-26"
 type: "post"
 platform: "linkedin"

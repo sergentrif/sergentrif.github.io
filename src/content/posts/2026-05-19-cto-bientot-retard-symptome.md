@@ -1,5 +1,5 @@
 ---
-title: "Votre CTO vous dit \"bientôt\" depuis six semaines."
+title: 'Votre CTO vous dit "bientôt" depuis six semaines.'
 date: "2026-05-19"
 type: "post"
 platform: "linkedin"

@@ -16,16 +16,18 @@ Mais face aux positions simplistes sur le sujet, et face aux promesses qui sembl
 Alors aujourd'hui, avec plusieurs mois de recul, il est temps de faire le bilan sur ce que j'ai réellement réussi à construire avec l'IA. D'une part, avec l'IA comme outil de build, et de l'autre, avec l'IA comme outil d'automatisation.
 
 J'utilise l'IA dans le cadre de deux projets complètement différents :
-- [Timescanner](https://www.timescanner.io) : un SaaS de *time-tracking* qui m'aide à calculer en quelques secondes le nombre d'heures travaillées pour chacun de mes clients comme CTO part-time, afin d'établir instantanément des factures qui soient justes.
+
+- [Timescanner](https://www.timescanner.io) : un SaaS de _time-tracking_ qui m'aide à calculer en quelques secondes le nombre d'heures travaillées pour chacun de mes clients comme CTO part-time, afin d'établir instantanément des factures qui soient justes.
 - [adrien.blandin.me](https://adrien.blandin.me) : mon site vitrine pour présenter mes activités de CTO part-time et d'audit, composé d'un backend invisible pour automatiser un certain nombre de mes tâches rébarbatives.
 
 Ces deux projets reposent sur une architecture 3-tiers classique : webapp frontend, API backend, base de données. Une architecture suffisamment représentative d'une start-up standard pour que les conclusions soient transposables.
 
 ## L'IA comme outil de build - l'exemple Timescanner
 
-Timescanner est mon projet le plus représentatif de l'écosystème start-up. C'est un SaaS à destination d'une niche d'utilisateurs : les personnes qui travaillent en *fractional*. Il fait une seule chose et il la fait bien.
+Timescanner est mon projet le plus représentatif de l'écosystème start-up. C'est un SaaS à destination d'une niche d'utilisateurs : les personnes qui travaillent en _fractional_. Il fait une seule chose et il la fait bien.
 
 Conçu en architecture 3-tiers, les technos sont plutôt lambda sur le marché :
+
 - Base de données PostgreSQL
 - API en PHP avec Symfony
 - Webapp en TypeScript avec React
@@ -160,8 +162,8 @@ Adoption de l'IA vs. impact réel :
 
 ---
 
-*PS 1 : J'ai longuement écrit sur la révolution IA dans le secteur tertiaire ici : [adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation](https://adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation)*
+_PS 1 : J'ai longuement écrit sur la révolution IA dans le secteur tertiaire ici : [adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation](https://adrien.blandin.me/articles/la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation)_
 
-*PS 2 : Mes expériences avec OpenClaw et les limites de l'orchestration agentique sont détaillées ici : [adrien.blandin.me/articles/agents-ia-orchestration-deterministe](https://adrien.blandin.me/articles/agents-ia-orchestration-deterministe)*
+_PS 2 : Mes expériences avec OpenClaw et les limites de l'orchestration agentique sont détaillées ici : [adrien.blandin.me/articles/agents-ia-orchestration-deterministe](https://adrien.blandin.me/articles/agents-ia-orchestration-deterministe)_
 
-*PS 3 : Sur ce que ça soulève à l'échelle d'une équipe technique : [adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse](https://adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse)*
+_PS 3 : Sur ce que ça soulève à l'échelle d'une équipe technique : [adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse](https://adrien.blandin.me/articles/structurer-ia-equipe-technique-questions-sans-reponse)_

@@ -10,13 +10,14 @@ mission: ""
 url: ""
 ---
 
-Je viens de voir passer une offre d'emploi qui est assez symptomatique de la période actuelle : 
+Je viens de voir passer une offre d'emploi qui est assez symptomatique de la période actuelle :
 
 "Nous avons fait des choix architecturaux erronés : utiliser de l'IA là où du déterminisme était nécessaire, construire des chaînes d'agents complexes là où une seule requête aurait suffi. Nous avons accumulé une dette organisationnelle dans l'équipe technique et tenté de couvrir trop de segments à la fois.
 
 Nous avons donc pris des décisions difficiles :
- - Réduction de 50% de l'équipe
- - Résiliation de la plupart des contrats clients"
+
+- Réduction de 50% de l'équipe
+- Résiliation de la plupart des contrats clients"
 
 Utiliser l'IA à tout prix parce que c'est la vibe du moment. Y compris pour exécuter des tâches qu'on sait faire depuis des décennies, à moindre coût, sans avoir jamais eu besoin d'IA jusqu'ici.
 

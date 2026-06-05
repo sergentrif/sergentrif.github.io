@@ -87,9 +87,9 @@ Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout
 
 - URLs dans `src/libs/constants.ts` : propres, sans paramètres. UTM et paramètres de tracking → dans les composants à l'usage.
 - Tout lien vers le site dans un contenu externe → ajouter UTMs. Convention :
-  - LinkedIn post : `utm_source=linkedin` · `utm_medium=post` · `utm_campaign=<thème>`
-  - Email : `utm_source=email` · `utm_medium=newsletter` · `utm_campaign=<thème>`
-  - CTA site : `utm_source=site` · `utm_medium=bottom_cta|header` · `utm_campaign=<thème>`
+    - LinkedIn post : `utm_source=linkedin` · `utm_medium=post` · `utm_campaign=<thème>`
+    - Email : `utm_source=email` · `utm_medium=newsletter` · `utm_campaign=<thème>`
+    - CTA site : `utm_source=site` · `utm_medium=bottom_cta|header` · `utm_campaign=<thème>`
 
 ---
 
@@ -118,6 +118,7 @@ Adrien Blandin - CTO freelance • Machine à auditer les équipes techniques.
 ```
 
 **Dériver depuis un article :**
+
 1. Identifier 3-5 angles distincts dans l'article
 2. Proposer structure (nb posts, angles, dates) → attendre validation
 3. Écrire les posts avec UTMs (`utm_source=linkedin&utm_medium=post&utm_campaign=<thème>`)

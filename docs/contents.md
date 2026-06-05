@@ -13,11 +13,11 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 
 **Objectif unique :** toucher les CEOs (Cas A et B), pas l'audience tech. L'algo est recalibré dev/CTO → le corriger demande une surproduction délibérée de contenus CEO.
 
-| Jour     | Type                                                             | Cible                                           |
-| -------- | ---------------------------------------------------------------- | ----------------------------------------------- |
-| Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO    | Signal d'achat · miroir douleur CEO             |
-| Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois) | Alternance : 1 IA + 1 CTO max par mois          |
-| Vendredi | Support article — post technique dérivé d'un article de blog     | Trafic site · découverte univers                |
+| Jour     | Type                                                             | Cible                                  |
+| -------- | ---------------------------------------------------------------- | -------------------------------------- |
+| Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO    | Signal d'achat · miroir douleur CEO    |
+| Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois) | Alternance : 1 IA + 1 CTO max par mois |
+| Vendredi | Support article — post technique dérivé d'un article de blog     | Trafic site · découverte univers       |
 
 **Répartition mensuelle (12 posts) :** 7-8 CEO signals (Cas A/B + symptômes) · 2 IA concrets angle CEO · 1 crédibilité CTO · 1 perso max (si envie, sinon CEO signal)
 
@@ -68,25 +68,25 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 ### Articles de blog
 
-| Date       | Titre                                                                           | Fichier                                                                                          |
-| ---------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Date       | Titre                                                                                          | Fichier                                                                                          |
+| ---------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | 2026-06-05 | Build, automatisation, structure de coût : retours terrain de l'IA sur mes projets personnels. | 2026-06-05-build-automatisation-structure-de-cout-retours-terrain-ia                             |
-| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                        | 2026-05-21-ia-prete-organisations-pas-encore                                                     |
-| 2026-04-28 | Structurer l'IA dans une équipe technique, les questions sans réponse           | 2026-04-28-structurer-ia-equipe-technique-questions-sans-reponse                                 |
-| 2026-04-27 | Agents IA : probabiliste vs déterministe                                        | 2026-04-27-agents-ia-orchestration-deterministe                                                  |
-| 2026-03-19 | La révolution IA : le tertiaire à l'heure de l'automatisation                   | 2026-03-19-la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation                           |
-| 2024-04-03 | Pourquoi réduire la charge mentale des développeurs via la Developer Experience | 2024-04-03-pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience |
-| 2024-03-14 | Être développeur, c'est bien plus que développer                                | 2024-03-14-etre-developpeur-c-est-bien-plus-que-developper                                       |
-| 2024-02-15 | Réussir ses recrutements en impliquant son équipe                               | 2024-02-15-reussir-ses-recrutements-en-impliquant-son-equipe                                     |
-| 2024-02-14 | Être le leader dont l'équipe a besoin                                           | 2024-02-14-etre-le-leader-dont-l-equipe-a-besoin                                                 |
-| 2024-02-06 | Être CTO ou l'art de représenter plusieurs parties                              | 2024-02-06-etre-cto-ou-l-art-de-representer-plusieurs-parties                                    |
-| 2024-01-31 | Savoir communiquer, au cœur du rôle de CTO                                      | 2024-01-31-savoir-communiquer-au-coeur-du-role-de-cto                                            |
-| 2024-01-25 | Se remettre en question : le syndrome de l'imposteur est un cadeau              | 2024-01-25-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau                      |
-| 2024-01-24 | Qu'est-ce qu'un bon CTO ?                                                       | 2024-01-24-qu-est-ce-q-un-bon-cto                                                                |
-| 2023-12-20 | Dette technique : pourquoi vous ne devriez pas faire de refonte                 | 2023-12-20-dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte                         |
-| 2023-12-12 | L'anti dette technique : la théorie de l'effort supplémentaire                  | 2023-12-12-l-anti-dette-technique-la-theorie-de-l-effort-supplementaire                          |
-| 2023-07-24 | Comment réduire la complexité produit pour maintenir un système simple ?        | 2023-07-24-comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple                |
-| 2021-02-24 | De développeur backend à CTO, un retour à zéro                                  | 2021-02-24-de-developpeur-backend-a-cto-un-retour-a-zero                                         |
+| 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                                       | 2026-05-21-ia-prete-organisations-pas-encore                                                     |
+| 2026-04-28 | Structurer l'IA dans une équipe technique, les questions sans réponse                          | 2026-04-28-structurer-ia-equipe-technique-questions-sans-reponse                                 |
+| 2026-04-27 | Agents IA : probabiliste vs déterministe                                                       | 2026-04-27-agents-ia-orchestration-deterministe                                                  |
+| 2026-03-19 | La révolution IA : le tertiaire à l'heure de l'automatisation                                  | 2026-03-19-la-revolution-ia-le-tertiaire-a-l-heure-de-l-automatisation                           |
+| 2024-04-03 | Pourquoi réduire la charge mentale des développeurs via la Developer Experience                | 2024-04-03-pourquoi-reduire-la-charge-mentale-des-developpeurs-a-travers-la-developer-experience |
+| 2024-03-14 | Être développeur, c'est bien plus que développer                                               | 2024-03-14-etre-developpeur-c-est-bien-plus-que-developper                                       |
+| 2024-02-15 | Réussir ses recrutements en impliquant son équipe                                              | 2024-02-15-reussir-ses-recrutements-en-impliquant-son-equipe                                     |
+| 2024-02-14 | Être le leader dont l'équipe a besoin                                                          | 2024-02-14-etre-le-leader-dont-l-equipe-a-besoin                                                 |
+| 2024-02-06 | Être CTO ou l'art de représenter plusieurs parties                                             | 2024-02-06-etre-cto-ou-l-art-de-representer-plusieurs-parties                                    |
+| 2024-01-31 | Savoir communiquer, au cœur du rôle de CTO                                                     | 2024-01-31-savoir-communiquer-au-coeur-du-role-de-cto                                            |
+| 2024-01-25 | Se remettre en question : le syndrome de l'imposteur est un cadeau                             | 2024-01-25-se-remettre-en-question-le-syndrome-de-l-imposteur-est-un-cadeau                      |
+| 2024-01-24 | Qu'est-ce qu'un bon CTO ?                                                                      | 2024-01-24-qu-est-ce-q-un-bon-cto                                                                |
+| 2023-12-20 | Dette technique : pourquoi vous ne devriez pas faire de refonte                                | 2023-12-20-dette-technique-pourquoi-vous-ne-devriez-pas-faire-de-refonte                         |
+| 2023-12-12 | L'anti dette technique : la théorie de l'effort supplémentaire                                 | 2023-12-12-l-anti-dette-technique-la-theorie-de-l-effort-supplementaire                          |
+| 2023-07-24 | Comment réduire la complexité produit pour maintenir un système simple ?                       | 2023-07-24-comment-reduire-la-complexite-produit-pour-maintenir-un-systeme-simple                |
+| 2021-02-24 | De développeur backend à CTO, un retour à zéro                                                 | 2021-02-24-de-developpeur-backend-a-cto-un-retour-a-zero                                         |
 
 ### Posts LinkedIn
 
@@ -103,7 +103,7 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 | 2026-05-26 | Jensen Huang serait "profondément alarmé" si un ingénieur ne consommait pas 250k$ de tokens/an.          | opinion        | -     | -        | 2026-05-26-tokens-productivite-ia-jensen-huang               |
 | 2026-05-23 | Je viens de voir passer une offre d'emploi qui est assez symptomatique de la période actuelle            | opinion        | -     | -        | 2026-05-23-ia-determinisme-probabiliste-offre-emploi         |
 | 2026-05-22 | J'utilise l'IA tous les jours. Je n'écris plus une ligne de code moi-même.                               | opinion        | -     | -        | 2026-05-22-ia-prete-organisations-postures                   |
-| 2026-05-19 | Votre CTO vous dit "bientôt" depuis six semaines.                                                         | Cas B          | Cas B | -        | 2026-05-19-cto-bientot-retard-symptome                       |
+| 2026-05-19 | Votre CTO vous dit "bientôt" depuis six semaines.                                                        | Cas B          | Cas B | -        | 2026-05-19-cto-bientot-retard-symptome                       |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé.                                                                      | technique      | -     | -        | 2026-05-14-assistant-ia-scripts-python-crons                 |
 | 2026-05-12 | Je suis (très) loin d'être un excellent développeur.                                                     | opinion        | -     | -        | 2026-05-12-cto-vs-cpto                                       |
 | 2026-05-08 | Six semaines après la fin d'une mission, le client m'a appelé.                                           | Cas A          | Cas A | olset    | 2026-05-08-valeur-differee-bon-travail                       |

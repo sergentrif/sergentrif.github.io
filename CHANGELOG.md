@@ -1,10 +1,9 @@
 ## [1.1.2](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.1...v1.1.2) (2026-05-26)
 
-
 ### Bug Fixes
 
-* lint ([0e633b4](https://github.com/sergentrif/sergentrif.github.io/commit/0e633b4b8bc34ceab3f04f03e0a8cf889d55eca6))
-* releaserc ([653560b](https://github.com/sergentrif/sergentrif.github.io/commit/653560b10d8e58d4bdac08a6ef05105a50ad3fa5))
+- lint ([0e633b4](https://github.com/sergentrif/sergentrif.github.io/commit/0e633b4b8bc34ceab3f04f03e0a8cf889d55eca6))
+- releaserc ([653560b](https://github.com/sergentrif/sergentrif.github.io/commit/653560b10d8e58d4bdac08a6ef05105a50ad3fa5))
 
 ## [1.1.1](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.0...v1.1.1) (2026-05-26)
 
