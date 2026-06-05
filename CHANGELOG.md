@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.2...v1.2.0) (2026-06-05)
+
+
+### Bug Fixes
+
+* ci ([052eff6](https://github.com/sergentrif/sergentrif.github.io/commit/052eff68d6cf90b2ce07eab547de17c14a9253ec))
+
+
+### Features
+
+* new article about my builds with AI ([4df16dd](https://github.com/sergentrif/sergentrif.github.io/commit/4df16ddaa30183f03e907ed805d4af8c2dfb3cfc))
+
 ## [1.1.2](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.1...v1.1.2) (2026-05-26)
 
 ### Bug Fixes
