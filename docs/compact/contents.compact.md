@@ -14,7 +14,7 @@ source: portfolio/docs/contents.md
 - **Crédibilité CTO** _(1/mois max)_ : technique, livre blanc. Crédibilité, pas leads.
 
 **Répartition (12 posts/mois) :** 7-8 CEO signals · 2 IA angle CEO · 1 crédibilité CTO · 1 perso max.
-**Jours :** Mardi → CEO signal · Jeudi → IA concret ou CTO (1/mois) · WE → CEO signal Cas B priorité.
+**Jours :** Mardi → CEO signal · Jeudi → IA concret ou CTO (1/mois) · Vendredi → support article (post technique dérivé d'un article de blog).
 
 **Observations LinkedIn (mai 2026) :** audience = devs/CTOs, zéro CEO, cercle fermé.
 Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook différent) · Cas B ≥ 1/sem · prescripteurs IRL pour recalibrer algo.
@@ -25,6 +25,7 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 
 | Date       | Titre                                                         |
 | ---------- | ------------------------------------------------------------- |
+| 2026-06-05 | Build, automatisation, structure de coût : retours terrain de l'IA sur mes projets personnels. |
 | 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.      |
 | 2026-04-28 | Structurer l'IA dans une équipe technique                     |
 | 2026-04-27 | Agents IA : probabiliste vs déterministe                      |
@@ -48,6 +49,10 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 
 | Date       | Hook                                              | Angle          | Cas   | Mission  |
 | ---------- | ------------------------------------------------- | -------------- | ----- | -------- |
+| 2026-07-10 | 80% orgs IA générative = zéro impact tangible (McKinsey) | opinion   | -     | -        |
+| 2026-07-03 | SaaS build 1 fois / IA build 1000 fois — inversion coût   | opinion   | -     | -        |
+| 2026-06-26 | bolt.new bluffant → immondice monumentale 2 mois plus tard | opinion  | -     | -        |
+| 2026-06-19 | Prospection 5 centimes/jour — CRONs + scripts + LLM       | opinion   | -     | -        |
 | 2026-06-10 | 88% utilisent IA, 1/3 déployé à l'échelle         | opinion        | -     | -        |
 | 2026-06-05 | 5 ruptures IA en 2 ans — pari sur outils          | opinion        | -     | -        |
 | 2026-06-03 | Frein vélocité = argent, pas nb devs              | opinion        | -     | -        |
@@ -55,6 +60,7 @@ Règles : posts techniques ≤ 1/mois · recycler 3 symptômes/mois (hook diffé
 | 2026-05-26 | Jensen Huang "alarmé" si < 250k$ tokens           | opinion        | -     | -        |
 | 2026-05-23 | Offre d'emploi symptomatique — IA vs déterminisme | opinion        | -     | -        |
 | 2026-05-22 | J'utilise l'IA tous les jours                     | opinion        | -     | -        |
+| 2026-05-19 | CTO dit "bientôt" depuis 6 semaines               | Cas B          | Cas B | -        |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé                | technique      | -     | -        |
 | 2026-05-12 | Très loin d'être excellent développeur            | opinion        | -     | -        |
 | 2026-05-08 | Six sem après mission, client m'a appelé          | Cas A          | Cas A | olset    |

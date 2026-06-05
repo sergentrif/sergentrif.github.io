@@ -17,7 +17,7 @@ Backlog et structure livre blanc → `docs/backlog.md`.
 | -------- | ---------------------------------------------------------------- | ----------------------------------------------- |
 | Mardi    | CEO signal — Cas A/B, symptôme d'achat, IA adoption angle CEO    | Signal d'achat · miroir douleur CEO             |
 | Jeudi    | IA adoption concrète (résultats) **ou** crédibilité CTO (1/mois) | Alternance : 1 IA + 1 CTO max par mois          |
-| Week-end | CEO signal — Cas B en priorité, ou symptôme d'achat              | Renforcer la répétition sur la cible principale |
+| Vendredi | Support article — post technique dérivé d'un article de blog     | Trafic site · découverte univers                |
 
 **Répartition mensuelle (12 posts) :** 7-8 CEO signals (Cas A/B + symptômes) · 2 IA concrets angle CEO · 1 crédibilité CTO · 1 perso max (si envie, sinon CEO signal)
 
@@ -70,6 +70,7 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 | Date       | Titre                                                                           | Fichier                                                                                          |
 | ---------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| 2026-06-05 | Build, automatisation, structure de coût : retours terrain de l'IA sur mes projets personnels. | 2026-06-05-build-automatisation-structure-de-cout-retours-terrain-ia                             |
 | 2026-05-21 | L'IA est prête. Nos organisations ne le sont pas encore.                        | 2026-05-21-ia-prete-organisations-pas-encore                                                     |
 | 2026-04-28 | Structurer l'IA dans une équipe technique, les questions sans réponse           | 2026-04-28-structurer-ia-equipe-technique-questions-sans-reponse                                 |
 | 2026-04-27 | Agents IA : probabiliste vs déterministe                                        | 2026-04-27-agents-ia-orchestration-deterministe                                                  |
@@ -91,6 +92,10 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 
 | Date       | Hook                                                                                                     | Angle          | Cas   | Mission  | Fichier                                                      |
 | ---------- | -------------------------------------------------------------------------------------------------------- | -------------- | ----- | -------- | ------------------------------------------------------------ |
+| 2026-07-10 | 80% des organisations qui utilisent l'IA générative n'en voient aucun impact tangible.                   | opinion        | -     | -        | 2026-07-10-mckinsey-80-pourcent-zones-ia                     |
+| 2026-07-03 | Le SaaS : on build une fois, on déploie mille fois. Avec l'IA dans le produit, cette logique s'inverse.  | opinion        | -     | -        | 2026-07-03-saas-cost-inversion-ia                            |
+| 2026-06-26 | J'ai utilisé bolt.new pour builder le frontend de Timescanner. En quelques heures, une webapp. Bluffant. | opinion        | -     | -        | 2026-06-26-bolt-new-code-quality-gitclear                    |
+| 2026-06-19 | Ma machine de prospection en production me coûte 5 centimes par jour.                                    | opinion        | -     | -        | 2026-06-19-prospection-5-centimes-crons-deterministe         |
 | 2026-06-10 | 88% des entreprises déclarent utiliser l'IA. Seulement un tiers l'ont déployée à l'échelle.              | opinion        | -     | -        | 2026-06-10-ia-adoption-organisationnelle-mckinsey            |
 | 2026-06-05 | Il y a deux ans, l'IA dans une équipe de développement, c'était de l'autocomplétion de code.             | opinion        | -     | -        | 2026-06-05-ruptures-ia-transformation-risque-outils          |
 | 2026-06-03 | On pense à tort que le frein à la vélocité d'une équipe tech, c'est le nombre de développeurs.           | opinion        | -     | -        | 2026-06-03-velicite-argent-ia-coordination                   |
@@ -98,6 +103,7 @@ L'audience qui amplifie = devs + CTOs + ex-collègues. Aucun CEO dans la bulle. 
 | 2026-05-26 | Jensen Huang serait "profondément alarmé" si un ingénieur ne consommait pas 250k$ de tokens/an.          | opinion        | -     | -        | 2026-05-26-tokens-productivite-ia-jensen-huang               |
 | 2026-05-23 | Je viens de voir passer une offre d'emploi qui est assez symptomatique de la période actuelle            | opinion        | -     | -        | 2026-05-23-ia-determinisme-probabiliste-offre-emploi         |
 | 2026-05-22 | J'utilise l'IA tous les jours. Je n'écris plus une ligne de code moi-même.                               | opinion        | -     | -        | 2026-05-22-ia-prete-organisations-postures                   |
+| 2026-05-19 | Votre CTO vous dit "bientôt" depuis six semaines.                                                         | Cas B          | Cas B | -        | 2026-05-19-cto-bientot-retard-symptome                       |
 | 2026-05-14 | Je n'ai jamais aussi peu travaillé.                                                                      | technique      | -     | -        | 2026-05-14-assistant-ia-scripts-python-crons                 |
 | 2026-05-12 | Je suis (très) loin d'être un excellent développeur.                                                     | opinion        | -     | -        | 2026-05-12-cto-vs-cpto                                       |
 | 2026-05-08 | Six semaines après la fin d'une mission, le client m'a appelé.                                           | Cas A          | Cas A | olset    | 2026-05-08-valeur-differee-bon-travail                       |

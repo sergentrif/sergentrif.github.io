@@ -51,6 +51,10 @@ Slug = nom du fichier sans `.md`. Scan automatique → liste et sitemap mis à j
 
 Markdown supporté : `###`/`##` titres · `**gras**` · `*italique*` · `[lien](url)` · `---` séparateur · `> blockquote` · listes `- item`
 
+Sources : format `- Auteur, "Titre", date — [Label](url)` (tiret cadratin `—` dans les citations uniquement).
+
+Après création : mettre à jour `docs/contents.md` + `docs/compact/contents.compact.md`.
+
 ---
 
 ## Design system
@@ -82,3 +86,39 @@ Chaque fichier est chargé uniquement quand la tâche le nécessite. Ne pas tout
 ## Tracking
 
 - URLs dans `src/libs/constants.ts` : propres, sans paramètres. UTM et paramètres de tracking → dans les composants à l'usage.
+- Tout lien vers le site dans un contenu externe → ajouter UTMs. Convention :
+  - LinkedIn post : `utm_source=linkedin` · `utm_medium=post` · `utm_campaign=<thème>`
+  - Email : `utm_source=email` · `utm_medium=newsletter` · `utm_campaign=<thème>`
+  - CTA site : `utm_source=site` · `utm_medium=bottom_cta|header` · `utm_campaign=<thème>`
+
+---
+
+## Créer des posts LinkedIn
+
+Frontmatter :
+
+```yaml
+title: "Hook du post"
+date: "YYYY-MM-DD"
+type: "post"
+platform: "linkedin"
+status: "planned" | "published"
+angle: "description de l'angle en une ligne"
+case: "opinion" | "Cas A" | "Cas B" | "technique" | "positionnement" | "mission" | "perso"
+mission: "" | "slug-mission"
+url: ""
+```
+
+Signature obligatoire en fin de post :
+
+```
+---
+
+Adrien Blandin - CTO freelance • Machine à auditer les équipes techniques.
+```
+
+**Dériver depuis un article :**
+1. Identifier 3-5 angles distincts dans l'article
+2. Proposer structure (nb posts, angles, dates) → attendre validation
+3. Écrire les posts avec UTMs (`utm_source=linkedin&utm_medium=post&utm_campaign=<thème>`)
+4. Mettre à jour `docs/contents.md` + `docs/compact/contents.compact.md`
