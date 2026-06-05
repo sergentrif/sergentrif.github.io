@@ -142,14 +142,6 @@ Ce bilan est le mien - celui d'un individu qui travaille seul sur ses propres pr
 
 ---
 
-Vous vous posez les mêmes questions sur l'IA dans votre équipe - ce qui vaut vraiment le coup, et ce qui ne vaut pas ?
-
-Un échange de 30 minutes suffit souvent à clarifier ce qui coince. Pas de jargon, pas d'engagement.
-
-[Prendre rendez-vous](https://zcal.co/adrienblandin/decouverte-cto?utm_source=site&utm_medium=bottom_cta&utm_campaign=rdv)
-
----
-
 ### Sources
 
 Qualité du code généré par IA :
