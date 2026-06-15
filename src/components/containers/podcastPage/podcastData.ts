@@ -19,6 +19,19 @@ export interface PodcastEpisode {
 
 export const podcastEpisodes: PodcastEpisode[] = [
     {
+        id: 7,
+        title: "Construire une équipe de 30 personnes depuis le début et les leçons de l'hypercroissance",
+        description:
+            "Dans cet épisode du podcast Developer Experience, Adrien Blandin revient sur sept ans chez lePERMISLIBRE : de premier développeur backend à CTO d'une équipe de 30 personnes.",
+        detailedDescription:
+            "Il aborde les défis de l'hypercroissance, du burn-out et de la transition vers le management.",
+        moreDescription:
+            "Un épisode qui revient également sur les premières leçons tirées de sa reconversion en freelance, après avoir vécu de l'intérieur toutes les étapes de la croissance d'une startup tech.",
+        thumbnailUrl: "https://image.ausha.co/zk56tccYH6ZUMDfMISD4QxKZMtlZhDsvNER50Dw3_400x400.jpeg",
+        podcastLinks: podcastLinks.episode7,
+        imagePosition: "left",
+    },
+    {
         id: 1,
         title: "La dette technique est un choix volontaire",
         description:
@@ -90,16 +103,5 @@ export const podcastEpisodes: PodcastEpisode[] = [
             "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ee/ae/99/eeae9913-4d29-03ad-950c-c2d8dc82b22d/mza_11049797362884423349.jpg/600x600bb.webp",
         podcastLinks: podcastLinks.episode6,
         imagePosition: "left",
-    },
-    {
-        id: 7,
-        title: "Construire une équipe de 30 personnes depuis le début et les leçons de l'hypercroissance",
-        description:
-            "Dans cet épisode du podcast Developer Experience, Adrien Blandin revient sur son parcours de premier développeur backend à CTO d'une équipe de 30 personnes chez lePERMISLIBRE en sept ans.",
-        detailedDescription:
-            "Il aborde les défis de l'hypercroissance, du burn-out, de la transition vers le management et les premières leçons de sa reconversion en freelance.",
-        thumbnailUrl: "https://image.ausha.co/zk56tccYH6ZUMDfMISD4QxKZMtlZhDsvNER50Dw3_400x400.jpeg",
-        podcastLinks: podcastLinks.episode7,
-        imagePosition: "right",
     },
 ];
