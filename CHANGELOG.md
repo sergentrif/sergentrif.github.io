@@ -1,14 +1,12 @@
 # [1.3.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.2.0...v1.3.0) (2026-06-15)
 
-
 ### Bug Fixes
 
-* remove CTA from last article ([6965a56](https://github.com/sergentrif/sergentrif.github.io/commit/6965a56a75a72a0ddf4fa655f04a859db19f420c))
-
+- remove CTA from last article ([6965a56](https://github.com/sergentrif/sergentrif.github.io/commit/6965a56a75a72a0ddf4fa655f04a859db19f420c))
 
 ### Features
 
-* add new podcast (developer experience) ([37fe23a](https://github.com/sergentrif/sergentrif.github.io/commit/37fe23a1ac1397a3b49ab87ab8ac9d3d1c3e5545))
+- add new podcast (developer experience) ([37fe23a](https://github.com/sergentrif/sergentrif.github.io/commit/37fe23a1ac1397a3b49ab87ab8ac9d3d1c3e5545))
 
 # [1.2.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.1.2...v1.2.0) (2026-06-05)
 
