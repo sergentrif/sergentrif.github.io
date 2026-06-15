@@ -113,4 +113,8 @@ export const podcastLinks = {
     episode6: {
         apple: "https://podcasts.apple.com/fr/podcast/204-exe-par-adrien-blandin-dev-bas-niveau-voyage-au/id1471506605?i=1000627151343",
     },
+    episode7: {
+        apple: "https://podcasts.apple.com/us/podcast/adrien-construire-une-%C3%A9quipe-de-30-personnes-depuis/id1707208598?i=1000772329832&uo=4",
+        spotify: "https://open.spotify.com/episode/54pqc2GOeMzHjxVExiyplg",
+    },
 };

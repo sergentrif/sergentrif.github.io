@@ -91,4 +91,15 @@ export const podcastEpisodes: PodcastEpisode[] = [
         podcastLinks: podcastLinks.episode6,
         imagePosition: "left",
     },
+    {
+        id: 7,
+        title: "Construire une équipe de 30 personnes depuis le début et les leçons de l'hypercroissance",
+        description:
+            "Dans cet épisode du podcast Developer Experience, Adrien Blandin revient sur son parcours de premier développeur backend à CTO d'une équipe de 30 personnes chez lePERMISLIBRE en sept ans.",
+        detailedDescription:
+            "Il aborde les défis de l'hypercroissance, du burn-out, de la transition vers le management et les premières leçons de sa reconversion en freelance.",
+        thumbnailUrl: "https://image.ausha.co/zk56tccYH6ZUMDfMISD4QxKZMtlZhDsvNER50Dw3_400x400.jpeg",
+        podcastLinks: podcastLinks.episode7,
+        imagePosition: "right",
+    },
 ];
