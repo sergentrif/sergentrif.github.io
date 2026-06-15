@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/sergentrif/sergentrif.github.io/compare/v1.3.0...v1.3.1) (2026-06-15)
+
+
+### Bug Fixes
+
+* last podcast ([dae6338](https://github.com/sergentrif/sergentrif.github.io/commit/dae6338c9e421c428b0fa518c85fb3109cd66b8c))
+
 # [1.3.0](https://github.com/sergentrif/sergentrif.github.io/compare/v1.2.0...v1.3.0) (2026-06-15)
 
 ### Bug Fixes
